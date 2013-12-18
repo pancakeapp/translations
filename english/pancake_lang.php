@@ -1011,13 +1011,19 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'email_templates:ticket_status_updated' => 'Ticket Status Update Notification',
     'email_templates:assigned_to_task' => "Task Assignment Notification",
     'email_templates:assigned_to_milestone' => "Milestone Assignment Notification",
-    'email_templates:new_comment' => "New Comment Notification"
+    'email_templates:new_comment' => "New Comment Notification",
     
     
     /** Dashboard **/
 
 
 	/** END Dashboard **/
+    
+    # v4.0.5
+    
+    'invoices:lastreoccurrence' => 'Last Reoccurrence: :1'
+    
+    
 );
 
 /** End of file: pancake_lang.php **/

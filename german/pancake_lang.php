@@ -17,10 +17,6 @@
 // ------------------------------------------------------------------------
 
 $lang = array(
-    /*
-     * estimate = Kostenvoranschlag
-     * proposal = Angebot, Vorschlag
-     * */
     /** Global Words **/
     'global:overview'               => 'Übersicht',
     'global:error'                  => 'Fehler',
@@ -1020,6 +1016,12 @@ $lang = array(
 
 
     /** END Dashboard **/
+
+    # v4.0.5
+
+    'invoices:lastreoccurrence' => 'Letztes Auftreten: :1'
+
+
 
 );
 

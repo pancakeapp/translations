@@ -3,7 +3,7 @@
 * Name:  Ion Auth Lang - English
 * 
 * Author: Ben Edmunds
-*         ben.edmunds@gmail.com
+* 		  ben.edmunds@gmail.com
 *         @benedmunds
 * 
 * Location: http://github.com/benedmunds/ion_auth/
