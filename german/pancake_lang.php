@@ -187,6 +187,7 @@ $lang = array(
     "global:all_settings"           => "Alle Einstellungen",
     'global:viewable'               => 'Im Kundenbereich sichtbar',
     'global:not_viewable'           => 'Nicht im Kundenbereich sichtbar',
+    'global:milestones'             => "Meilensteine",
 
     /** Dashboard **/
     'dashboard:collected'           =>    'Kassiert',
@@ -339,8 +340,8 @@ $lang = array(
     'invoices:editinvoice'          => 'Rechnung # :1 bearbeiten',
     'invoices:messageupdated'       => 'Die Rechnung wurde aktualisiert!',
     'invoices:resend'               => 'Rechnung erneut versenden',
-    'invoices:client_viewed'        => ':1 hat die Rechnung # :2 am :3 gesehen',
-    'invoices:client_paid'          => ':1 hat die Rechnung # :2 am :3 bezahlt',
+    'invoices:client_viewed'        => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 gesehen',
+    'invoices:client_paid'          => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 bezahlt',
     'invoice:paid_amount'           => 'Bezahlter Betrag',
     /** End Invoices **/
 
@@ -374,7 +375,9 @@ $lang = array(
     'estimates:preview'                     => 'Vorschau des Kostenvoranschlag',
     'estimates:editestimate'                => 'Kostenvoranschlag # :1 bearbeiten',
     'estimates:messageupdated'              => 'Der Kostenvoranschlag wurde aktualisiert!',
-    'estimates:client_viewed'               => ':1 hat Kostenvoranschlag # :2 am :3 gesehen',
+    'estimates:client_viewed'               => ':1 hat <a href=":2">Kostenvoranschlag # :3</a> am :4 gesehen',
+    'estimates:client_accepted'             => ':1 hat <a href=":2">Kostenvoranschlag #:3</a> am :4 angenommen',
+    'estimates:client_rejected'             => ':1 hat <a href=":2">Kostenvoranschlag #:3</a> am :4 abgewiesen',
     'estimates:resend'                      => 'Kostenvoranschlag erneut versenden',
     'estimates:estimatedate'                => 'Kostenvoranschlagsdatum',
     /** End Estimates **/
@@ -417,6 +420,7 @@ $lang = array(
     'projects:noarchivedprojecttext'        => 'Du kannst ein Projekt auf der Projektseite archivieren ',
     'projects:allarchivedtitle'             => 'Alle archivierten Projekte',
     'projects:templatize'                   => 'Als Vorlage speichern',
+    'projects:milestone_identifier'         => "[Meilenstein: :1]",
     /** End Projects **/
 
 
@@ -536,6 +540,9 @@ $lang = array(
     'proposals:all'                             => 'Alle Angebote',
     'proposals:noproposaltitle'                 => 'Hier sind keine Angebote!',
     'proposals:noproposalbody'                  => 'Du solltest jetzt auf jeden Fall ein Angebot erstellen.',
+    'proposals:client_viewed'                   => ':1 hat <a href=":2">Angebot #:3</a> am :4 gesehen',
+    'proposals:client_accepted'                 => ':1 hat <a href=":2">Angebot #:3</a> am :4 gesehen',
+    'proposals:client_rejected'                 => ':1 hat <a href=":2">Angebot #:3</a> am :4 abgewiesen',
     'proposals:rejected'                        => 'Abgelehnt am :1',
     'proposals:accepted'                        => 'Angenommen am :1',
     'proposals:lastviewed'                      => 'Zuletzt am :1 um :2 vom Kunden gesehen', /*?*/
@@ -598,7 +605,7 @@ $lang = array(
     'tasks:not_related_to_a_task'               => '-- Ohne Bezug zu einer Aufgabe --',
     'tasks:select_parent_default'               => '-- Keine Elternaufgabe --',
     'tasks:timers_running'                      => 'Timer laufen',
-    'tasks:task_completed_by'                   => ':1 hat die Aufgabe :2 am :3 fertiggestellt',
+    'tasks:task_completed_by'                   => ':1 hat die <a href=":2">Aufgabe :3</a> am :4 fertiggestellt',
     'tasks:discussion'                          => 'Diskussion: ',
     'tasks:billed_hours'                        => 'Berechnete Stunden',
     'tasks:unbilled_hours'                      => 'Unberechnete Stunden',
@@ -1011,6 +1018,7 @@ $lang = array(
     'email_templates:assigned_to_milestone'     => "Milestone zugewiesen",
     'email_templates:new_comment'               => "Neuer Kommentar",
 
+    'global:timer_app'                          => "Pancake Timer App",
 
     /** Dashboard **/
 
@@ -1019,9 +1027,12 @@ $lang = array(
 
     # v4.0.5
 
-    'invoices:lastreoccurrence' => 'Letztes Auftreten: :1'
+    'invoices:lastreoccurrence' => 'Letztes Auftreten: :1',
 
-
+    # Begin v4.1.2 changes
+    'invoices:converted_to_estimate' => "Rechnung # :1 in einen Kostenvoranschlag umgewandelt.",
+    'global:converttoestimate' => 'In Kostenvoranschlag umwandeln',
+    # End v4.1.2 changes
 
 );
 

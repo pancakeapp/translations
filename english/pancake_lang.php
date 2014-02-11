@@ -186,6 +186,7 @@ $lang = array(
         "global:all_settings" => "All Settings",
         'global:viewable' => 'Viewable in client area',
         'global:not_viewable' => 'Not viewable in client area',
+        'global:milestones' => "Milestones",
     
 	/** End Greetings **/
 
@@ -340,8 +341,8 @@ $lang = array(
 	'invoices:editinvoice'			=>	'Edit invoice #:1',
 	'invoices:messageupdated'		=>	'The invoice has been updated!',
 	'invoices:resend'				=>	'Resend Invoice',
-	'invoices:client_viewed'		=>	':1 viewed invoice #:2 on :3',
-	'invoices:client_paid'			=>	':1 paid invoice #:2 on :3',
+	'invoices:client_viewed'		=>	':1 viewed <a href=":2">invoice #:3</a> on :4',
+	'invoices:client_paid'			=>	':1 paid <a href=":2">invoice #:3</a> on :4',
 	'invoice:paid_amount'			=>	'Amount Paid',
 	/** End Invoices **/
 
@@ -375,7 +376,9 @@ $lang = array(
 	'estimates:preview'				=>	'Preview Estimate',
 	'estimates:editestimate'		=>	'Edit estimate #:1',
 	'estimates:messageupdated'		=>	'The estimate has been updated!',
-    'estimates:client_viewed'		=>	':1 viewed estimate #:2 on :3',
+    'estimates:client_viewed'		=>	':1 viewed <a href=":2">estimate #:3</a> on :4',
+    'estimates:client_accepted'		=>	':1 accepted <a href=":2">estimate #:3</a> on :4',
+    'estimates:client_rejected'		=>	':1 rejected <a href=":2">estimate #:3</a> on :4',
 	'estimates:resend'				=>	'Resend Estimate',
     'estimates:estimatedate'			=> 'Estimate Date',
 	/** End Estimates **/
@@ -418,6 +421,7 @@ $lang = array(
 	'projects:noarchivedprojecttext'		=> 'You can archive a project from your project page ',
 	'projects:allarchivedtitle'		=>	'All Archived Projects',
 	'projects:templatize'			=>	'Save as template',
+    'projects:milestone_identifier' => "[Milestone: :1]",
 	/** End Projects **/
 
 
@@ -535,6 +539,9 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'proposals:all'						=> 'All Proposals',
     'proposals:noproposaltitle'			=> "There are no proposals!",
     'proposals:noproposalbody'			=> "You should create a proposal now. Definitely.",
+    'proposals:client_viewed'		=>	':1 viewed <a href=":2">proposal #:3</a> on :4',
+    'proposals:client_accepted'		=>	':1 accepted <a href=":2">proposal #:3</a> on :4',
+    'proposals:client_rejected'		=>	':1 rejected <a href=":2">proposal #:3</a> on :4',
     'proposals:rejected'				=> 'Rejected on :1',
     'proposals:accepted'				=> 'Accepted on :1',
     'proposals:lastviewed'				=> 'Last viewed by the client on :1, at :2.',
@@ -596,7 +603,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'tasks:not_related_to_a_task'		=> "-- Not related to a task --",
     'tasks:select_parent_default'		=> '-- No parent task --',
 	'tasks:timers_running'				=>	'Timers Running',
-	'tasks:task_completed_by'			=>	':1 completed task :2 at :3',
+	'tasks:task_completed_by'			=>	':1 completed <a href=":2">task :3</a> at :4',
 	'tasks:discussion'					=>	'Discussion: ',
 'tasks:billed_hours' => "Billed Hours",
     'tasks:unbilled_hours' => "Unbilled Hours",
@@ -1013,6 +1020,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'email_templates:assigned_to_milestone' => "Milestone Assignment Notification",
     'email_templates:new_comment' => "New Comment Notification",
     
+    'global:timer_app' => "Pancake Timer App",
     
     /** Dashboard **/
 
@@ -1021,8 +1029,12 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     
     # v4.0.5
     
-    'invoices:lastreoccurrence' => 'Last Reoccurrence: :1'
+    'invoices:lastreoccurrence' => 'Last Reoccurrence: :1',
     
+    # Begin v4.1.2 changes
+    'invoices:converted_to_estimate' => "Converted invoice #:1 to an estimate.",
+    'global:converttoestimate' => 'Convert to Estimate',
+    # End v4.1.2 changes
     
 );
 
