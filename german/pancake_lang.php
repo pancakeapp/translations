@@ -1034,6 +1034,13 @@ $lang = array(
     'global:converttoestimate' => 'In Kostenvoranschlag umwandeln',
     # End v4.1.2 changes
 
+  # Begin v4.1.3 changes
+  'tickets:view_archived' => "Archivierte Tickets ansehen",
+  'tickets:view_unarchived' => "Aktive Tickets ansehen",
+  'tickets:archiving_ticket' => "Ticket archivieren",
+  'tickets:unarchiving_ticket' => "Ticket aus dem Archiv holen", /*?*/
+  "tickets:unknown_error_ticket_not_altered" => "Ein unbekannter Fehler ist aufgetreten. Das Ticket wurde nicht verändert.",
+  # End v4.1.3 changes
 );
 
 /** End of file: pancake_lang.php **/
