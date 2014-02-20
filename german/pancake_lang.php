@@ -151,7 +151,7 @@ $lang = array(
     'global:viewpdf'                => 'PDF betrachten',
     'global:duplicate'              => 'Duplizieren',
     'global:urltosend'              => 'Diese URL versenden:',
-    'global:copytoclipboard'        => 'In die Zwischenablage kopieren',
+    'global:copytoclipboard'        => 'kopieren',
     'global:you_need_pancake_cron_job'  => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
     'global:if_you_dont_know_how_to_set_it_up'  => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">hier klicken</a>.',
     'global:quick_links'            => 'Schnelle Links',
@@ -1041,6 +1041,22 @@ $lang = array(
   'tickets:unarchiving_ticket' => "Ticket aus dem Archiv holen", /*?*/
   "tickets:unknown_error_ticket_not_altered" => "Ein unbekannter Fehler ist aufgetreten. Das Ticket wurde nicht verändert.",
   # End v4.1.3 changes
+
+  # Begin v4.1.4 changes
+  "tasks:starting_timer" => "Timer starten",
+  "tasks:stopping_timer" => "Timer stoppen",
+  "global:all_comments" => "Alle Kommentare",
+  "dashboard:view_all_comments" => "Alle Kommentare ansehen",
+  "dashboard:latest_comments" => "Letzte Kommentare",
+  "dashboard:written_by" => "Geschrieben von :1 am :2",
+  "dashboard:client_activity" => "Kunden-Aktivität",
+  "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten sehen",
+  "dashboard:team_activity" => "Team-Aktivität",
+  "dashboard:view_all_team_activity" => "Alle Team-Aktivitäten sehen",
+  "dashboard:my_tasks" => "Meine Aufgaben",
+  "dashboard:view_all_my_tasks" => "Alle meine Aufgaben ansehen",
+  "dashboard:what_the_team_is_working_on" => "Woran das Team gerade arbeitet.",
+  # End v4.1.4 changes
 );
 
 /** End of file: pancake_lang.php **/
