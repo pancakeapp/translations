@@ -1042,6 +1042,23 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'tickets:archiving_ticket' => "Archiving ticket",
     'tickets:unarchiving_ticket' => "Unarchiving ticket",
     "tickets:unknown_error_ticket_not_altered" => "An unknown error occurred. Your ticket was not altered.",
+    # End v4.1.3 changes
+    
+    # Begin v4.1.4 changes
+    "tasks:starting_timer" => "Starting timer",
+    "tasks:stopping_timer" => "Stopping timer",
+    "global:all_comments" => "All Comments",
+    "dashboard:view_all_comments" => "View All Comments",
+    "dashboard:latest_comments" => "Latest Comments",
+    "dashboard:written_by" => "Written by :1 on :2",
+    "dashboard:client_activity" => "Client Activity",
+    "dashboard:view_all_client_activity" => "View All Client Activity",
+    "dashboard:team_activity" => "Team Activity",
+    "dashboard:view_all_team_activity" => "View All Team Activity",
+    "dashboard:my_tasks" => "My Tasks",
+    "dashboard:view_all_my_tasks" => "View All My Tasks",
+    "dashboard:what_the_team_is_working_on" => "What the team is working on.",
+    # End v4.1.4 changes
 );
 
 /** End of file: pancake_lang.php **/
