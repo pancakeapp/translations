@@ -153,7 +153,7 @@ $lang = array(
     'global:urltosend'              => 'Diese URL versenden:',
     'global:copytoclipboard'        => 'kopieren',
     'global:you_need_pancake_cron_job'  => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
-    'global:if_you_dont_know_how_to_set_it_up'  => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">hier klicken</a>.',
+    'global:if_you_dont_know_how_to_set_it_up'  => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://pancakeapp.com/documentation/cron">hier klicken</a>.',
     'global:quick_links'            => 'Schnelle Links',
     'global:view_all'               => 'Alle ansehen',
     'global:deleted'                => 'Gelöscht',
@@ -1057,6 +1057,14 @@ $lang = array(
   "dashboard:view_all_my_tasks" => "Alle meine Aufgaben ansehen",
   "dashboard:what_the_team_is_working_on" => "Woran das Team gerade arbeitet.",
   # End v4.1.4 changes
+
+  # Begin v4.1.6 changes
+  "global:save_milestone" => "Meilenstein speichern",
+  "global:save_task" => "Aufgabe speichern",
+  "global:private_comment" => "Dieser Kommentar ist privat, der Kunde kann ihn nicht sehen.",
+  "global:clients_cant_see_private" => "Kunden können keine privaten Kommentare sehen.",
+  "global:is_private" => "Privat?",
+  # End v4.1.6 changes
 );
 
 /** End of file: pancake_lang.php **/

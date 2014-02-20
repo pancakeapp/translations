@@ -152,7 +152,7 @@ $lang = array(
 	'global:urltosend'				=>	'Here is the url to send:',
 	'global:copytoclipboard'		=>	'Copy to clipboard',
 	'global:you_need_pancake_cron_job'		=> 'To use recurring invoices, you must be running the Pancake cron job.',
-    'global:if_you_dont_know_how_to_set_it_up'		=> 'If you don\'t know how to set it up, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">click here</a>.',
+    'global:if_you_dont_know_how_to_set_it_up'		=> 'If you don\'t know how to set it up, <a href="http://pancakeapp.com/documentation/cron">click here</a>.',
 	'global:quick_links'			=> 'Quick Links',
 	'global:view_all'				=> 'View All',
 	'global:deleted'				=>	'Deleted',
@@ -1059,6 +1059,15 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "dashboard:view_all_my_tasks" => "View All My Tasks",
     "dashboard:what_the_team_is_working_on" => "What the team is working on.",
     # End v4.1.4 changes
+    
+    # Begin v4.1.6 changes
+    "global:save_milestone" => "Save Milestone",
+    "global:save_task" => "Save Task",
+    "global:private_comment" => "This comment is private. Your client won't see it.",
+    "global:clients_cant_see_private" => "Clients can't see private comments.",
+    "global:is_private" => "Private?",
+    # End v4.1.6 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
