@@ -1067,7 +1067,10 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "global:clients_cant_see_private" => "Clients can't see private comments.",
     "global:is_private" => "Private?",
     # End v4.1.6 changes
-    
+
+  # Begin v4.1.7 changes
+  "tickets:disable_client" => "-- Disable Support Tickets --",
+  # End v4.1.7 changes
 );
 
 /** End of file: pancake_lang.php **/

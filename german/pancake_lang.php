@@ -1065,6 +1065,10 @@ $lang = array(
   "global:clients_cant_see_private" => "Kunden können keine privaten Kommentare sehen.",
   "global:is_private" => "Privat?",
   # End v4.1.6 changes
+
+  # Begin v4.1.7 changes
+  "tickets:disable_client" => "-- Support Tickets abschalten --",
+  # End v4.1.7 changes
 );
 
 /** End of file: pancake_lang.php **/
