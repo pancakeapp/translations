@@ -251,7 +251,7 @@ $lang = array(
 
 
     /** Contact Log **/
-    'contact:title'             => 'Aktueller Kontakverlauf', /*?*/
+    'contact:title'             => 'Aktueller Kontaktverlauf', /*?*/
     'contact:method'            => 'Kontaktart',
     'contact:contact'           => 'Kontakt',
     'contact:subject'           => 'Betreff',
@@ -1069,6 +1069,15 @@ $lang = array(
   # Begin v4.1.7 changes
   "tickets:disable_client" => "-- Support Tickets abschalten --",
   # End v4.1.7 changes
+
+  # Begin v4.1.8 changes
+  "global:css" => "Eigenes CSS",
+  "global:js" => "Eigenes JavaScript",
+  "global:js_explanation" => "Du kannst jQuery benutzen. Der Code wird direkt vor &lt;/body&gt; eingefügt.",
+  "settings:frontend_js" => "Eigenes Javascript für das Frontend",
+  "settings:backend_js" => "Eigenes Javascript für das Backend",
+  # End v4.1.8 changes
+
 );
 
 /** End of file: pancake_lang.php **/
