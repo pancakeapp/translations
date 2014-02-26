@@ -534,7 +534,6 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'proposals:deletepremadesection'	=> 'Delete Section Template',
     'proposals:nopremadesections'		=> 'You have no saved section templates.',
     'proposals:newproposal'				=> 'New Proposal',
-    'proposals:estimatexfory'			=> 'Estimate #:1 - :2',
     'proposals:number'					=> 'Proposal #',
     'proposals:all'						=> 'All Proposals',
     'proposals:noproposaltitle'			=> "There are no proposals!",
@@ -1067,19 +1066,23 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "global:clients_cant_see_private" => "Clients can't see private comments.",
     "global:is_private" => "Private?",
     # End v4.1.6 changes
-
-  # Begin v4.1.7 changes
-  "tickets:disable_client" => "-- Disable Support Tickets --",
-  # End v4.1.7 changes
-
-  # Begin v4.1.8 changes
-  "global:css" => "Custom CSS",
-  "global:js" => "Custom JavaScript",
-  "global:js_explanation" => "You can use jQuery at will. Your code will be added just before &lt;/body&gt;.",
-  "settings:frontend_js" => "Frontend Custom JavaScript",
-  "settings:backend_js" => "Backend Custom JavaScript",
-  # End v4.1.8 changes
-
+    
+    # Begin v4.1.7 changes
+    "tickets:disable_client" => "-- Disable Support Tickets --",
+    # End v4.1.7 changes
+    
+    # Begin v4.1.8 changes
+    "global:css" => "Custom CSS",
+    "global:js" => "Custom JavaScript",
+    "global:js_explanation" => "You can use jQuery at will. Your code will be added just before &lt;/body&gt;.",
+    "settings:frontend_js" => "Frontend Custom JavaScript",
+    "settings:backend_js" => "Backend Custom JavaScript",
+    # End v4.1.8 changes
+    
+    # Begin v4.1.9 changes
+    "proposals:estimate_number_and_amount" => "Estimate #:1 (:2)"
+    # End v4.1.9 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
