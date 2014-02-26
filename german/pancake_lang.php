@@ -535,7 +535,6 @@ $lang = array(
     'proposals:deletepremadesection'            => 'Bereichssvorlage löschen',
     'proposals:nopremadesections'               => 'Du hast keine gespeicherten Bereichsvorlagen.',
     'proposals:newproposal'                     => 'Neues Angebot',
-    'proposals:estimatexfory'                   => 'Kostenvoranschlag # :1 - :2',
     'proposals:number'                          => 'Angebot #',
     'proposals:all'                             => 'Alle Angebote',
     'proposals:noproposaltitle'                 => 'Hier sind keine Angebote!',
@@ -1077,6 +1076,10 @@ $lang = array(
   "settings:frontend_js" => "Eigenes Javascript für das Frontend",
   "settings:backend_js" => "Eigenes Javascript für das Backend",
   # End v4.1.8 changes
+
+  # Begin v4.1.9 changes
+  "proposals:estimate_number_and_amount" => "Kostenvoranschlag #:1 (:2)"
+  # End v4.1.9 changes
 
 );
 
