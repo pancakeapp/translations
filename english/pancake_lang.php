@@ -1080,8 +1080,12 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     # End v4.1.8 changes
     
     # Begin v4.1.9 changes
-    "proposals:estimate_number_and_amount" => "Estimate #:1 (:2)"
+    "proposals:estimate_number_and_amount" => "Estimate #:1 (:2)",
     # End v4.1.9 changes
+    
+    # Begin v4.1.10 changes
+    "clients:delete" => "Delete Client",
+    # End v4.1.10 changes
     
 );
 
