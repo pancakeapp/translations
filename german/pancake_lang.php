@@ -1078,8 +1078,12 @@ $lang = array(
   # End v4.1.8 changes
 
   # Begin v4.1.9 changes
-  "proposals:estimate_number_and_amount" => "Kostenvoranschlag #:1 (:2)"
+  "proposals:estimate_number_and_amount" => "Kostenvoranschlag #:1 (:2)",
   # End v4.1.9 changes
+
+  # Begin v4.1.10 changes
+  "clients:delete" => "Kunden löschen",
+  # End v4.1.10 changes
 
 );
 
