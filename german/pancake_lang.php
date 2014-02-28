@@ -1085,6 +1085,13 @@ $lang = array(
   "clients:delete" => "Kunden löschen",
   # End v4.1.10 changes
 
+  # Begin v4.1.11 changes
+  "global:nolongerexists" => "[EXISTIERT NICHT MEHR]",
+  "global:billed_amount" => "Berechneter Betrag",
+  "global:unbilled_amount" => "Unberechneter Betrag",
+  "global:is_billed" => "Berechnet?"
+  # End v4.1.11 changes
+
 );
 
 /** End of file: pancake_lang.php **/

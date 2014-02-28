@@ -169,7 +169,7 @@ $lang = array(
 
 	/** Greetings **/
 	'global:greetings'	=>	array('Ahoy!', 'Hello,', 'Hey,', 'Sup,'),
-    
+
         'global:mark_as_unanswered' => 'Mark as unanswered',
         'global:mark_as_accepted' => 'Mark as accepted',
         'global:mark_as_rejected' => 'Mark as rejected',
@@ -187,7 +187,7 @@ $lang = array(
         'global:viewable' => 'Viewable in client area',
         'global:not_viewable' => 'Not viewable in client area',
         'global:milestones' => "Milestones",
-    
+
 	/** End Greetings **/
 
 	/** Dashboard **/
@@ -400,10 +400,10 @@ $lang = array(
 	'projects:edit'					=> 'Edit Project',
 	'projects:delete'				=> 'Delete Project',
 	'projects:project'				=> 'Project',
-    
+
         'projects:new_project_from_estimate_without_number' => "New Project from Estimate",
         'projects:new_project_from_estimate_with_number' => "New Project from Estimate #:1",
-    
+
 	'projects:due_date'				=> 'Due Date',
 	'projects:is_completed'			=> 'Completed?',
 	'projects:manage_project'		=> 'Manage Project',
@@ -494,7 +494,7 @@ $lang = array(
 
     'reports:view'			=> 'View Report',
     'reports:show_all'		=> 'Show Reports',
-    
+
     'reports:paid_and_unpaid' => "Paid and Unpaid",
     'reports:paid_vs_unpaid_over_time' => "Paid vs. Unpaid over time",
     'reports:per_client' => 'per client',
@@ -507,11 +507,11 @@ $lang = array(
     'reports:unpaid_amount' => "Unpaid Amount",
     'reports:client_name' => "Client Name",
     'reports:filters' => 'Filters',
-    'reports:selection_explanation' => 'Unpaid invoices are shown based on their due date. 
+    'reports:selection_explanation' => 'Unpaid invoices are shown based on their due date.
 Paid invoices are shown based on their payment date.
 Invoices with more than one payment part are shown based on the payment date of the first part.
 Unpaid invoices with no due date are shown based on the date they were created.',
-    
+
     'reports:nodata'		=> 'No :1.',
     /** End Reports **/
 
@@ -606,8 +606,8 @@ Unpaid invoices with no due date are shown based on the date they were created.'
 	'tasks:discussion'					=>	'Discussion: ',
 'tasks:billed_hours' => "Billed Hours",
     'tasks:unbilled_hours' => "Unbilled Hours",
-    
-    
+
+
 	/** Users **/
 	'users:create_user'					=> 'Create User',
         'users:confirm_delete_emphasised' => "There is no going back!",
@@ -808,9 +808,9 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "" => "",
     "" => "",
     "" => "",
-    
-    
-    
+
+
+
     'settings:site_name'			=> 'Site name',
     'settings:language'				=> 'Language',
     'settings:timezone'				=> 'Timezone',
@@ -980,7 +980,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'kitchen:passphrase'    			=>  'Passphrase',
     'kitchen:description'   			=>  'This is the url to send to your client to allow them to access the client access area where they can view items, such as projects and invoices, that you have made viewable.',
 	'kitchen:people_in_discussion'		=>  'People chatting',
-    
+
     'kitchen:latest_invoice' => 'Latest Invoice',
     'kitchen:unpaid_balance' => 'Unpaid Balance: :1',
     'kitchen:total_paid_to_date' => 'Total Paid To Date: :1',
@@ -1005,7 +1005,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'store:error1001' => "You have already purchased this store item!",
     'store:error1002' => "A problem occurred while trying to charge your credit card. Try again later.",
     'store:error1003' => "You have made an invalid request.",
-    
+
     'email_templates:new_invoice' => 'New Invoice',
     'email_templates:new_estimate' => 'New Estimate',
     'email_templates:new_proposal' => 'New Proposal',
@@ -1018,23 +1018,23 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'email_templates:assigned_to_task' => "Task Assignment Notification",
     'email_templates:assigned_to_milestone' => "Milestone Assignment Notification",
     'email_templates:new_comment' => "New Comment Notification",
-    
+
     'global:timer_app' => "Pancake Timer App",
-    
+
     /** Dashboard **/
 
 
 	/** END Dashboard **/
-    
+
     # v4.0.5
-    
+
     'invoices:lastreoccurrence' => 'Last Reoccurrence: :1',
-    
+
     # Begin v4.1.2 changes
     'invoices:converted_to_estimate' => "Converted invoice #:1 to an estimate.",
     'global:converttoestimate' => 'Convert to Estimate',
     # End v4.1.2 changes
-    
+
     # Begin v4.1.3 changes
     'tickets:view_archived' => "View Archived Tickets",
     'tickets:view_unarchived' => "View Active Tickets",
@@ -1042,7 +1042,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'tickets:unarchiving_ticket' => "Unarchiving ticket",
     "tickets:unknown_error_ticket_not_altered" => "An unknown error occurred. Your ticket was not altered.",
     # End v4.1.3 changes
-    
+  
     # Begin v4.1.4 changes
     "tasks:starting_timer" => "Starting timer",
     "tasks:stopping_timer" => "Stopping timer",
@@ -1058,7 +1058,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "dashboard:view_all_my_tasks" => "View All My Tasks",
     "dashboard:what_the_team_is_working_on" => "What the team is working on.",
     # End v4.1.4 changes
-    
+
     # Begin v4.1.6 changes
     "global:save_milestone" => "Save Milestone",
     "global:save_task" => "Save Task",
@@ -1066,11 +1066,11 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "global:clients_cant_see_private" => "Clients can't see private comments.",
     "global:is_private" => "Private?",
     # End v4.1.6 changes
-    
+
     # Begin v4.1.7 changes
     "tickets:disable_client" => "-- Disable Support Tickets --",
     # End v4.1.7 changes
-    
+
     # Begin v4.1.8 changes
     "global:css" => "Custom CSS",
     "global:js" => "Custom JavaScript",
@@ -1078,15 +1078,22 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "settings:frontend_js" => "Frontend Custom JavaScript",
     "settings:backend_js" => "Backend Custom JavaScript",
     # End v4.1.8 changes
-    
+
     # Begin v4.1.9 changes
     "proposals:estimate_number_and_amount" => "Estimate #:1 (:2)",
     # End v4.1.9 changes
-    
+
     # Begin v4.1.10 changes
     "clients:delete" => "Delete Client",
     # End v4.1.10 changes
-    
+
+    # Begin v4.1.11 changes
+    "global:nolongerexists" => "[NO LONGER EXISTS]",
+    "global:billed_amount" => "Billed Amount",
+    "global:unbilled_amount" => "Unbilled Amount",
+    "global:is_billed" => "Billed?"
+    # End v4.1.11 changes
+
 );
 
 /** End of file: pancake_lang.php **/
