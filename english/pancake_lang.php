@@ -1042,7 +1042,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     'tickets:unarchiving_ticket' => "Unarchiving ticket",
     "tickets:unknown_error_ticket_not_altered" => "An unknown error occurred. Your ticket was not altered.",
     # End v4.1.3 changes
-  
+
     # Begin v4.1.4 changes
     "tasks:starting_timer" => "Starting timer",
     "tasks:stopping_timer" => "Stopping timer",
@@ -1091,8 +1091,13 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "global:nolongerexists" => "[NO LONGER EXISTS]",
     "global:billed_amount" => "Billed Amount",
     "global:unbilled_amount" => "Unbilled Amount",
-    "global:is_billed" => "Billed?"
+    "global:is_billed" => "Billed?",
     # End v4.1.11 changes
+
+    # Begin v4.1.14 changes
+    "settings:year_start" => "Fiscal Year Start Date",
+    "dashboard:since_explanation" => "Since :1",
+    # End v4.1.14 changes
 
 );
 

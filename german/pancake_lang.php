@@ -1089,9 +1089,14 @@ $lang = array(
   "global:nolongerexists" => "[EXISTIERT NICHT MEHR]",
   "global:billed_amount" => "Berechneter Betrag",
   "global:unbilled_amount" => "Unberechneter Betrag",
-  "global:is_billed" => "Berechnet?"
+  "global:is_billed" => "Berechnet?",
   # End v4.1.11 changes
 
+  # Begin v4.1.14 changes
+  "settings:year_start" => "Beginn des Geschäftsjahres",
+  "dashboard:since_explanation" => "Seit :1",
+  # End v4.1.14 changes
+  
 );
 
 /** End of file: pancake_lang.php **/
