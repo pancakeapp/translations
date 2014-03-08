@@ -1099,6 +1099,10 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "dashboard:since_explanation" => "Since :1",
     # End v4.1.14 changes
 
+    # Begin v4.1.15 changes
+    "export:invoices_csv" => "Invoices (CSV)",
+    # End v4.1.15 changes
+
 );
 
 /** End of file: pancake_lang.php **/

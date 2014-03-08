@@ -805,7 +805,7 @@ $lang = array(
     "settings:use_utf8_font"                    => "UTF-8 fonts in PDFs",
     "settings:use_utf8_font_explanation"        => "Bei Zeichensatzfehlern in PDFs.",
     "settings:pdf_attachments"                  => "PDF Anhänge",
-    "settings:pdf_attachments_explanation"      => "Pancake wird die entsprechenden PDFs and Rechnungs-, Kostenvoranschlags- und Angebots-Mails anhängen.",
+    "settings:pdf_attachments_explanation"      => "Pancake wird die entsprechenden PDFs an Rechnungs-, Kostenvoranschlags- und Angebots-Mails anhängen.",
     ""                                          => "",
 
     'settings:site_name'                        => 'Seitenname',
@@ -815,7 +815,7 @@ $lang = array(
     'settings:currency'                         => 'Währung',
     'settings:theme'                            => 'Frontend Theme',
     'settings:admin_theme'                      => 'Admin Theme',
-    'settings:admin_name'                       => 'Admin name',
+    'settings:admin_name'                       => 'Admin Name',
     'settings:date_format'                      => 'Datumsformat',
     'settings:time_format'                      => "Zeitformat",
     'settings:task_time_interval'               => 'Zeitrundung (leer lassen für keine Rundung)',
@@ -1096,7 +1096,11 @@ $lang = array(
   "settings:year_start" => "Beginn des Geschäftsjahres",
   "dashboard:since_explanation" => "Seit :1",
   # End v4.1.14 changes
-  
+
+  # Begin v4.1.15 changes
+  "export:invoices_csv" => "Rechnungen (CSV)",
+  # End v4.1.15 changes
+
 );
 
 /** End of file: pancake_lang.php **/
