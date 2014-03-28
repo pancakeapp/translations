@@ -1099,6 +1099,18 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Begin v4.1.15 changes
     "export:invoices_csv" => "Factures (CSV)",
     # End v4.1.15 changes
+    
+    # Begin v4.1.17 changes
+    "projects:createdtemplate" => "Modèle de projet créé. Vous pouvez créer des projets basé sur ce modèle.",
+    "projects:delete_template" => "Supprimer le modèle",
+    "projects:deleted_template" => "Modèle supprimé avec succès.",
+    # End v4.1.17 changes
+    
+    # Begin v4.1.19 changes
+    "export:expenses_csv" => "Dépenses (CSV)",
+    "export:clients_csv" => "Clients (CSV)",
+    "projects:expense_date" => "Date de dépenses",
+    # End v4.1.19 changes
 
 );
 
