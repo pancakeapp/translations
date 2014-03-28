@@ -34,7 +34,7 @@ $lang = array(
     'global:upload_failed' => 'Il y a eu un problème pour télécharger votre fichier. Veuillez réessayer. Si le problème persiste , s\'il vous plaît contacter support@pancakeapp.com.',
     'global:upload_not_allowed' => 'Le type de fichier du ficher que vous tentez de télécharger n\'est pas autorisé. Si vous avez besoin de télécharger un fichier de ce type , s\'il vous plaît compressez-le dans une archive .zip ou tout autre format archive que vous trouverez approprié.',
     'global:copied' => 'Copié!',
-    'global:sentbutunpaid' => 'Exceptionnelle (Envoyé mais non payé)',
+    'global:sentbutunpaid' => 'Envoyé mais non payé',
     'global:task' => 'Tâche',
     'global:clients' => 'Clients',
     'global:access_denied' => "Accès refusé",
@@ -402,7 +402,7 @@ $lang = array(
     'projects:new_project_from_estimate_with_number' => "Nouveau projet basé sur le devis #:1",
 
     'projects:due_date' => 'Date d\'échéance',
-    'projects:is_completed' => 'Complété?',
+    'projects:is_completed' => 'Complet',
     'projects:manage_project' => 'Gérer le projet',
     'projects:areyousuredeletetask' => 'Êtes-vous certain de vouloir supprimer cette tâche?',
     'projects:add_time' => 'Saisir du temps',
@@ -494,8 +494,8 @@ $lang = array(
     'reports:paid_and_unpaid' => "Payé et impayé",
     'reports:paid_vs_unpaid_over_time' => "Payé vs. Impayé dans les temps",
     'reports:per_client' => 'par client',
-    'reports:total_with_tax' => "Total (w/ tax)",
-    'reports:total_without_tax' => "Total (no tax)",
+    'reports:total_with_tax' => "Total avec taxes",
+    'reports:total_without_tax' => "Total sans taxes",
     'reports:total_collected' => 'Total recueillis',
     'reports:fees_paid' => 'Frais payés',
     'reports:total_amount' => 'Montant total',
@@ -559,7 +559,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'proposals:save' => 'Sauvegarder la proposition',
     'proposals:savepremade' => 'Sauvegarder comme modèle de section',
     'proposals:addestimate' => 'Ajouter un devis',
-    'proposals:saved' => 'Sauvegardé!',
+    'proposals:saved' => 'Sauvegardé',
     'proposals:createandedit' => 'Suivant : Modifier le contenu de la proposition',
     'proposals:delete_message' => 'Êtes-vous certain de vouloir supprimer cette proposition?',
     'proposals:createpremadesection' => 'Ajouter à partir du modèle de section',
@@ -571,7 +571,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'proposals:estimate' => 'Devis',
     'proposals:na' => 'ND',
     'proposals:no_proposals' => 'Il n\'y a aucune proposition',
-    'proposals:proposal_title' => 'Proposal Title',
+    'proposals:proposal_title' => 'Titre du devis',
     'proposals:kitchennotice' => 'Note : Les propositions apparaîtront dans le :1 une fois que le client aura visionné le lien de la proposition. Autrement dit, vous pouvez modifier tout ce que vous voulez et le client ne verra ces modifications que lorsque vous le voudrez.',
     /** End Proposals **/
 
@@ -592,10 +592,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:task_parent' => "Tâche parente",
     'tasks:edit' => "Modifier la tâche",
     'tasks:create_succeeded' => "La tâche a été créée",
-    'tasks:no_task_title' => 'Hmm... il n\'y a pas encore de tâche...',
+    'tasks:no_task_title' => 'Il n\'y a pas encore de tâche',
     'tasks:no_task' => "Pas de tâche",
-    'tasks:no_task_message' => 'Vous devriez en créer une!',
-    'tasks:is_viewable' => 'Visible dans l\'espace client?',
+    'tasks:no_task_message' => 'Vous devriez en créer une tâche',
+    'tasks:is_viewable' => 'Visible dans l\'espace client',
     'tasks:no_milestones' => 'Tâches sans étape.',
     'tasks:not_related_to_a_task' => "-- Non associé à une tâche --",
     'tasks:select_parent_default' => '-- Aucune tâche parente --',
@@ -659,7 +659,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     /** Transactions **/
     'transactions:paymentcancelled'				=> 'Paiement annulé',
     'transactions:extrapaymentcancelled'		=> 'Votre paiement a été annulé',
-    'transactions:paymentreceived'				=> 'Paiement reçu!',
+    'transactions:paymentreceived'				=> 'Paiement reçu',
     'transactions:fee_applied'					=> 'Comme :1 impose ses propres frais de transaction, nous avons ajouté :2% au montant.',
     'transactions:orderbeingprocessed'			=> 'Veuillez patienter, votre commande est en cours de traitement et vous serez redigiré vers le site :1 sous peu.',
     'transactions:ifyouarenotredirected'		=> 'Si vous n\'êtes pas redirigé automatiquement vers :1 dans 5 secondes...',
@@ -714,7 +714,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     /** End Support Tickets **/
 
     /** Frontend **/
-    'frontend:hithere'						=> 'Bonjour!',
+    'frontend:hithere'						=> 'Bonjour !',
     'frontend:followthemaillinkdude'		=> 'Pour voir votre facture, vous devez cliquer sur le lien entier dans le courriel que vous avez reçu. Le lien ressemble à ceci : :1.',
     'frontend:contactadminforassistance'	=> 'Pour toute assistance, veuillez contacter :1 @ :2',
     /** End Frontend **/
@@ -795,10 +795,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:feeds'								=> 'Flux',
     'settings:api_keys'								=> 'Clés d\'API',
 
-    'settings:time_entry_times' => "Time Entry Times",
-    "settings:include_dates_and_times_in_line_items" => 'Include dates and times in "Time Entry" line item descriptions.',
+    'settings:time_entry_times' => "Entrés de temps",
+    "settings:include_dates_and_times_in_line_items" => 'Inclure les dates et les heures dans l\'item Entrés de temps.',
     "settings:when_generating_invoice" => "Lors de la génération des factures , utiliser une ligne par",
-    "settings:use_utf8_font" => "Utilisez des polices UTF-8 dans vos PDFs",
+    "settings:use_utf8_font" => "Utilisez des polices UTF-8 dans les fichiers PDF",
     "settings:use_utf8_font_explanation" => "Utilisez cette option si les caractères sont brisés dans vos fichiers PDF .",
     "settings:pdf_attachments" => "Pièces jointes PDF",
     "settings:pdf_attachments_explanation" => "Si elle est cochée , Pancake va fixer le PDF correspondant à la facture , devis ou proposition par emails.",
@@ -829,10 +829,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:new_proposal'				=> 'Nouveau devis',
     'settings:paid_notification'		=> 'Notification de paiement',
     'settings:payment_receipt'			=> 'Reçu de paiement',
-    'settings:new_ticket'				=> 'Nouveau ticket',
-    'settings:ticket_invoice'			=> "Nouvelle facture de ticket",
-    'settings:ticket_updated'			=> 'Ticket mis à jour',
-    'settings:ticket_status_updated'	=> 'Status du ticket mis à jour',
+    'settings:new_ticket'				=> 'Nouveau billet',
+    'settings:ticket_invoice'			=> "Nouvelle facture de billet",
+    'settings:ticket_updated'			=> 'Billet mis à jour',
+    'settings:ticket_status_updated'	=> 'Status du billet mis à jour',
 
     'settings:logo'					=> 'Votre logo',
     'settings:frontend_css'			=> 'CSS personnalisé du frontend',
@@ -846,7 +846,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:bcc'					=> 'BCC',
     'settings:automaticallybccclientemail'		=> 'Envoyer une copie de chaque courriel envoyé aux clients à l\'adresse courriel de notification (définie ci-haut)',
     'settings:api_note'				=> 'Nom / note',
-    'settings:api_key'				=> 'Clé',
+    'settings:api_key'				=> 'Clé API',
 
     'settings:tax_name'				=> 'Nom de taxe',
     'settings:tax_value'			=> 'Valeur',
@@ -862,7 +862,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:ifyourenotsurecontactus'		=> "Si vous n'êtes pas certain de ce que vous faites, veuillez <a href='http://pancakeapp.com/forums/newtopic/2/'>commencer un nouveau ticket de support dans le forum</a>.",
     'update:youmodified'					=> 'Vous avez modifié',
     'update:youdeleted'						=> 'Vous avez supprimé',
-    'update:loadingpleasewait'				=> 'Chargement... veuillez patienter.',
+    'update:loadingpleasewait'				=> 'Chargement, veuillez patienter.',
     'update:errordownloading'				=> 'Une mise à jour de Pancake est disponible, mais des problèmes sont survenus lors du téléchargement.',
     'update:herearestepstofix'				=> 'Voici quelques étapes que vous pouvez essayer afin de corriger le problème : ',
     'update:makesureuploadsiswritable'		=> 'Assurez-vous que votre dossier de téléversement est inscriptible (CHMOD 0777).',
@@ -993,11 +993,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'store:installed_successfully' => "Vous avez installé le :1 :2 avec succès.",
     'store:plugin' => "Plugin",
     'store:payment_gateway' => "Passerelle de paiement",
-    'store:frontend_theme' => "Frontend Theme",
-    'store:backend_theme' => "Backend Theme",
+    'store:frontend_theme' => "Thème accès client",
+    'store:backend_theme' => "Thème d'administration",
     'store:unknown' => "Inconnu",
     'store:updatestoreitems' => "Mise à jour des articles du magasin",
-    'store:download_free' => "Télécharger (FREE)",
+    'store:download_free' => "Télécharger gratuitement",
     'store:error1000' => "Votre jeton d'autorisation n'est plus valide. Vous devrez entrer vos informations de paiement dans pancakeapp.com une fois de plus.",
     'store:error1001' => "Vous avez déjà acheté cet article de magasin!",
     'store:error1002' => "Un problème est survenu lors de la tentative de débiter votre carte de crédit. Réessayez plus tard.",
@@ -1006,17 +1006,17 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'email_templates:new_invoice' => 'Nouvelle facture',
     'email_templates:new_estimate' => 'Nouveau devis',
     'email_templates:new_proposal' => 'Nouvelle proposition',
-    'email_templates:invoice_payment_notification_for_admin' => 'Avis de paiement ( envoyé à l\'admin )',
+    'email_templates:invoice_payment_notification_for_admin' => 'Avis de paiement (envoyé à l\'admin)',
     'email_templates:invoice_payment_notification_for_client' => 'Notification de réception de paiement (envoyé au client)',
     'email_templates:new_ticket' => 'Nouveau Ticket',
     'email_templates:new_ticket_invoice' => 'Nouveau ticket facture',
-    'email_templates:ticket_updated' => 'Notification de mise à jour d\'un ticket',
-    'email_templates:ticket_status_updated' => 'Notification de mise à jour du status d\'un ticket',
+    'email_templates:ticket_updated' => 'Notification de mise à jour d\'un billet',
+    'email_templates:ticket_status_updated' => 'Notification de mise à jour du status d\'un billet',
     'email_templates:assigned_to_task' => "Notification d'affectation des tâches",
     'email_templates:assigned_to_milestone' => "Notification d'affectation d'une étape",
     'email_templates:new_comment' => "Notification de nouveau commentaire",
 
-    'global:timer_app' => "Pancake Timer App",
+    'global:timer_app' => "Minuteur Pancake",
 
     /** Dashboard **/
 
@@ -1065,7 +1065,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # End v4.1.6 changes
 
     # Begin v4.1.7 changes
-    "tickets:disable_client" => "-- Désactiver les tickets de support --",
+    "tickets:disable_client" => "-- Désactiver les billets de support --",
     # End v4.1.7 changes
 
     # Begin v4.1.8 changes
@@ -1088,7 +1088,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:nolongerexists" => "[N'EXISTE PLUS]",
     "global:billed_amount" => "Montant facturé",
     "global:unbilled_amount" => "Montant non facturés",
-    "global:is_billed" => "Facturé?",
+    "global:is_billed" => "Facturé",
     # End v4.1.11 changes
 
     # Begin v4.1.14 changes
