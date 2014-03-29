@@ -3,7 +3,7 @@
  * Pancake
  *
  * A simple, fast, self-hosted invoicing application
- *
+ *c
  * @package     Pancake
  * @author      Pancake Dev Team
  * @copyright   Copyright (c) 2010, Pancake Payments
@@ -275,12 +275,12 @@ $lang = array(
     'invoices:paid' => 'Factures payées',
     'invoices:recurringinvoices' => 'Factures récurrentes',
     'invoices:unsentinvoices' => 'Factures non envoyées',
-    'invoices:unpaid' => 'Factures payées',
+    'invoices:unpaid' => 'Factures non payées',
     'invoices:thisinvoicewaspaidon' => 'Cette facture a été payée le :1. Merci!',
     'invoices:senton' => 'Envoyé le :1',
     'invoices:lastsenton' => 'Dernier envoi le :1 à :2',
     'invoices:paidon' => 'Payée le :1',
-    'invoices:paidonsingle' => 'Payée le',
+    'invoices:paidonsingle' => 'Payé le',
     'invoices:thisinvoiceisunpaid' => 'Cette facture n\'a pas encore été payée',
     'invoices:noinvoicetitle' => 'Vous n\'avez aucune facture pour l\'instant',
     'invoices:noinvoicesforthefilteredclient' => "Vous n'avez pas de factures pour :1.",
@@ -386,7 +386,7 @@ $lang = array(
     'projects:projected_hours' => 'Heures prévues',
     'projects:navigationitem' => 'Projets',
     'projects:hours_worked' => 'Nombres d\'heures travaillées',
-    'projects:hours_worked_short' => 'Heures travaillées',
+    'projects:hours_worked_short' => 'Heures de travail',
     'projects:alltitle' => 'Tous les projets',
     'projects:totalprojects' => 'Total de projets',
     'projects:noprojecttitle' => 'Il n\'y a pas encore de projet!',
@@ -599,7 +599,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:no_milestones' => 'Tâches sans étape.',
     'tasks:not_related_to_a_task' => "-- Non associé à une tâche --",
     'tasks:select_parent_default' => '-- Aucune tâche parente --',
-    'tasks:timers_running' => 'Chronomètres en fonction',
+    'tasks:timers_running' => 'Chronomètres',
     'tasks:task_completed_by' => ':1 a complété la tâche :2 à :3',
     'tasks:discussion' => 'Discussion : ',
     'tasks:billed_hours' => "Heures facturées",
