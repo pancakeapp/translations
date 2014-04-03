@@ -1,16 +1,15 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* Name:  Ion Auth Lang - French
+* Name:  Ion Auth Lang - Français
 * 
-* Author: Anas Ait Ali
-* 		  aitali.anas@gmail.com
-*         @anas10
+* Author: Marc-André Vaillancourt
+*         divplus@gmail.com
 * 
-* Location: https://github.com/anas10/pancake-translations
+* Location: https://github.com/ahouin/pancake-translations
 *          
-* Created:  03.16.2014
+* Dernière modifications : 03-04-2014
 * 
-* Description:  French language file for Ion Auth messages and errors
+* Description:  Fichier pour les messages et les erreurs Ion Auth en français.
 * 
 */
 
@@ -24,11 +23,12 @@ $lang['account_creation_duplicate_username'] 	 = 'Nom d\'utilisateur déjà util
 // Password
 $lang['password_change_successful'] 	 	 = 'Mot de passe changé avec succès';
 $lang['password_change_unsuccessful'] 	  	 = 'Impossible de modifier le mot de passe';
-$lang['forgot_password_successful'] 	 	 = 'Mot de passe réinitialisé et email envoyé';
+$lang['forgot_password_successful'] 	 	 = 'Votre mot de passe a été réinitialisé. Un courriel vous a été envoyé.';
 $lang['forgot_password_unsuccessful'] 	 	 = 'Impossible de réinitialiser mot de passe';
+$lang['cant_send_email']                  = "Un problème est survenu lors de l'envoi du courriel.";
 
 // Activation
-$lang['activate_successful'] 		  	 = 'Compte Activé';
+$lang['activate_successful'] 		  	 = 'Compte activé';
 $lang['activate_unsuccessful'] 		 	 = 'Impossible d\'activer le compte';
 $lang['deactivate_successful'] 		  	 = 'Compte désactivé';
 $lang['deactivate_unsuccessful'] 	  	 = 'Impossible de désactiver le compte';

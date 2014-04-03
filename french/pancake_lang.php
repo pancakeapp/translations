@@ -3,7 +3,7 @@
  * Pancake
  *
  * A simple, fast, self-hosted invoicing application
- *c
+ *
  * @package     Pancake
  * @author      Pancake Dev Team
  * @copyright   Copyright (c) 2010, Pancake Payments
@@ -1111,6 +1111,14 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "export:clients_csv" => "Clients (CSV)",
     "projects:expense_date" => "Date de dépenses",
     # End v4.1.19 changes
+    
+    # Begin v4.1.20 changes
+    "clients:can_create_support_tickets" => "Permettre au client de créer un billet de support",
+    "tickets:submit_new" => "Soumettre un billet",
+    "global:cancel" => "Annuler",
+    "global:timers" => "Minuteurs",
+    "global:more" => "Plus",
+    # End v4.1.20 changes
 
 );
 
