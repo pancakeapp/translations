@@ -1114,6 +1114,14 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "projects:expense_date" => "Expense Date",
     # End v4.1.19 changes
     
+    # Begin v4.1.20 changes
+    "clients:can_create_support_tickets" => "Allow client to create support tickets?",
+    "tickets:submit_new" => "Submit a Ticket",
+    "global:cancel" => "Cancel",
+    "global:timers" => "Timers",
+    "global:more" => "More",
+    # End v4.1.20 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
