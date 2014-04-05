@@ -506,11 +506,6 @@ $lang = array(
     'reports:paid_amount' => "Paid Amount",
     'reports:unpaid_amount' => "Unpaid Amount",
     'reports:client_name' => "Client Name",
-    'reports:filters' => 'Filters',
-    'reports:selection_explanation' => 'Unpaid invoices are shown based on their due date. 
-Paid invoices are shown based on their payment date.
-Invoices with more than one payment part are shown based on the payment date of the first part.
-Unpaid invoices with no due date are shown based on the date they were created.',
     
     'reports:nodata'		=> 'No :1.',
     /** End Reports **/
@@ -718,7 +713,7 @@ Unpaid invoices with no due date are shown based on the date they were created.'
 	/** Frontend **/
 	'frontend:hithere'						=> 'Hi There!',
 	'frontend:followthemaillinkdude'		=> 'In order to view your invoice you must click the entire link sent in the email you received. Eg :1.',
-	'frontend:contactadminforassistance'	=> 'Please do so or contact :1 @ :2 for assistance',
+	'frontend:contactadminforassistance'	=> 'Please do so or contact :1 at :2 for assistance',
 	/** End Frontend **/
 
 	/** Settings **/
@@ -1121,6 +1116,26 @@ Unpaid invoices with no due date are shown based on the date they were created.'
     "global:timers" => "Timers",
     "global:more" => "More",
     # End v4.1.20 changes
+    
+    # Begin v4.1.23 changes
+    "global:search" => "Search",
+    "authorize:api_login_id" => "API Login ID",
+    "authorize:api_login_id_description" => "You can find this in Authorize.net, under Account > API Login ID and Transaction Key.",
+    "authorize:md5_hash" => "MD5-Hash",
+    "authorize:md5_hash_description" => "By default, this is your API Login ID. You can change this in Authorize.net, under Account > MD5-Hash. If you see 'Hash Value Set: No', leave this empty.",
+    "transactions:paymentfailed" => "Payment Failed",
+    "transactions:extrapaymentfailed" => "An unknown problem occurred while trying to process your payment. Please contact :1 at :2 for assistance.",
+    # End v4.1.23 changes
+    
+    # Begin v4.1.24 changes
+    "projects:tracked" => "Tracked",
+    "settings:accounting_type" => "Reporting Method",
+    "settings:accrual" => "Show invoices based on when they were created",
+    "settings:cash" => "Show invoices based on when they were paid",
+    "reports:selection_explanation_accrual" => "Invoices are shown based on when they were created.",
+    "reports:selection_explanation_cash" => "Paid invoices are shown based on the date of their payment.\n\nUnpaid or partially-paid invoices are shown based on when they were created.",
+    "invoices:partially_paid" => "Partially",
+    # End v4.1.24 changes
     
 );
 
