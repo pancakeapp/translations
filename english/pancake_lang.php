@@ -1137,6 +1137,15 @@ $lang = array(
     "invoices:partially_paid" => "Partially",
     # End v4.1.24 changes
     
+    # Begin v4.1.27 changes
+    "global:projects_ommitted" => ":1 projects not shown",
+    "global:tasks_ommitted" => ":1 tasks not shown",
+    # End v4.1.27 changes
+    
+    # Begin v4.1.28 changes
+    "login:username_email" => "Username / Email",
+    # End v4.1.28 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
