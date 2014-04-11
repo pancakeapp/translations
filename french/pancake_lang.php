@@ -1,32 +1,15 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
- * Pancake
+ * Fichier de langue française pour Pancake App
  *
- * A simple, fast, self-hosted invoicing application
- *
- * @package     Pancake
- * @author      Pancake Dev Team
- * @copyright   Copyright (c) 2010, Pancake Payments
- * @license     http://pancakeapp.com/license
- * @link        http://pancakeapp.com
- * @since       Version 1.0
- * @translation: Anas AIT ALI, http://www.anas10.fr
+ * @author Anas AIT ALI (http://www.anas10.fr)
+ * @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
+ * @link https://github.com/ahouin/pancake-translations
+ * @copyright Copyright (c) 2010-2014, Pancake Payments
+ * @license http://pancakeapp.com/license
+ * @since 1.0
+ * @version 2014-04-10
  */
- 
-/**
-* Nom: Pancale_lang.php - Version française
-* 
-* Auteur: Marc-André Vaillancourt
-*         divplus@gmail.com
-*		  www.webmarksolutions.ca
-* 
-* Location: https://github.com/ahouin/pancake-translations
-*          
-* Dernière modifications : 10-04-2014
-* 
-* Description: Fichier de langue française pour Pancake App
-* 
-*/
 
 // ------------------------------------------------------------------------
 
