@@ -1,23 +1,21 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
- * Pancake
+ * Fichier de langue française pour Pancake App
  *
- * A simple, fast, self-hosted invoicing application
- *
- * @package     Pancake
- * @author      Pancake Dev Team
- * @copyright   Copyright (c) 2010, Pancake Payments
- * @license     http://pancakeapp.com/license
- * @link        http://pancakeapp.com
- * @since       Version 1.0
- * @translation: Anas AIT ALI, http://www.anas10.fr
+ * @author Anas AIT ALI (http://www.anas10.fr)
+ * @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
+ * @link https://github.com/ahouin/pancake-translations
+ * @copyright Copyright (c) 2010-2014, Pancake Payments
+ * @license http://pancakeapp.com/license
+ * @since 1.0
+ * @version 2014-04-10
  */
 
 // ------------------------------------------------------------------------
 
 $lang = array(
 
-    /** Global Words **/
+    /** Mots globaux **/
     'global:overview' => 'Vue d\'ensemble',
     'global:error' => 'Erreur',
     'global:pancakeby7am' => 'Pancake :1',
@@ -154,20 +152,17 @@ $lang = array(
     'global:quick_links' => 'Liens rapides',
     'global:view_all' => 'Voir tous',
     'global:deleted' => 'Supprimé',
-
     'global:add_more' => "Ajouter plus",
     'global:upload_files' => "Télécharger des fichiers",
     'global:optional_increment' => '<strong>Optionnel</strong> - sera auto-incrémenté',
-
     'login:ahoy' => 'Ahoy!',
     'login:readytodothis' => 'Prêt ?',
     'login:sup' => 'Quoi de neuf ?',
     'global:actions' => 'Actions',
     'global:select' => "--- Sélectionner ---",
 
-    /** Greetings **/
+    /** Début des salutations **/
     'global:greetings' => array('Aloha!', 'Allô,', 'Salut,', 'Quoi de neuf,', 'Whalup !'),
-
     'global:mark_as_unanswered' => 'Marquer comme sans réponse',
     'global:mark_as_accepted' => 'Marquer comme acceptée',
     'global:mark_as_rejected' => 'Marquer comme rejeté',
@@ -185,20 +180,18 @@ $lang = array(
     'global:viewable' => 'Visible dans l\'espace client',
     'global:not_viewable' => 'Non visible dans l\'espace client',
     'global:milestones' => "Etapes",
+    /** Fin des salutations **/
 
-    /** End Greetings **/
-
-    /** Dashboard **/
+    /** Début du tableau de bord **/
     'dashboard:collected' => 'Collecté',
     'dashboard:outstanding' => 'Impayé',
     'dashboard:latest_activity' => 'Activité récente',
     'dashboard:these_are_your_upcoming_tasks' => "Ce sont vos tâches à venir, :1.",
     'dashboard:upcoming_tasks' => 'Tâche à venir',
-    /** End Dashboard **/
+    /** Fin du tableau de bord **/
 
 
-    /** Users **/
-
+    /** Début des utilisateurs **/
     // ==============================
     // = LOGIN PAGE COMPLETED - Lee =
     // ==============================
@@ -214,13 +207,14 @@ $lang = array(
     'login:remember' => 'Se souvenir de moi',
     'login:forgot' => 'Mot de passe oublié?',
     'login:cancel' => '&lsaquo; Annuler',
-    /** End Users **/
+    /** Fin des utilisateurs **/
 
-    /** User Groups **/
+    /** Début des groupes d'utilisateurs **/
     'groups:edit_title' => 'Modifier le groupe %s',
     'groups:add_title' => 'Ajouter un groupe d\'utilisateurs',
+    /** Fin des groupes d'utilisateurs **/
 
-    /** Clients **/
+    /** Début des clients **/
     'clients:title' => 'Tous les clients',
     'clients:filter' => 'Filtre de client',
     'clients:add' => 'Ajouter un client',
@@ -246,10 +240,10 @@ $lang = array(
     'clients:support' => 'Support',
     'clients:support_rates' => 'Tarifs de support',
     'clients:edit_support_rates' => 'Appliquer les tarifs',
-    /** End Clients **/
+    /** Fin des clients **/
 
 
-    /** Contact Log **/
+    /** Début des registres de contacts **/
     'contact:title' => 'Historique de contacts récents',
     'contact:method' => 'Méthode de contact',
     'contact:contact' => 'Contact',
@@ -257,9 +251,9 @@ $lang = array(
     'contact:content' => 'Contenu',
     'contact:calling_title' => 'Appel du client ":1"',
     // 'contact:view_all'		=>	'View All',
-    /** End Contact Log **/
+    /** Fin des registres de contacts **/
 
-    /** Invoices **/
+    /** Début des factures **/
     'invoices:markassent' => 'Marquer comme envoyé',
     'invoices:invoicedate' => 'Date de facturation',
     'invoices:file_name' => "Nom du fichier",
@@ -341,9 +335,9 @@ $lang = array(
     'invoices:client_viewed' => ':1 a vu la facture #:2 le :3',
     'invoices:client_paid' => ':1 a payé la facture #:2 le :3',
     'invoice:paid_amount' => 'Payé',
-    /** End Invoices **/
+    /** Fin des factures **/
 
-    /** Estimates **/
+    /** Début des devis **/
     'estimates:attachedtoproposal' => 'Attaché à la proposition #:1',
     'estimates:duplicated' => 'Devis dupliquée #:1. Le numéro du nouveau devis est #:2.',
     'estimates:alltitle' => 'Tous les devis',
@@ -378,9 +372,9 @@ $lang = array(
     'estimates:client_rejected' => ':1 a refusé <a href=":2">le devis #:3</a> le :4',
     'estimates:resend' => 'Renvoyer le devis',
     'estimates:estimatedate' => 'Date du devis',
-    /** End Estimates **/
+    /** Fin des devis **/
 
-    /** Projects **/
+    /** Début des projets **/
     'projects:status_id' => 'Status de la tâche',
     'projects:projected' => 'Prévu',
     'projects:projected_hours' => 'Heures prévues',
@@ -397,10 +391,8 @@ $lang = array(
     'projects:edit' => 'Modifier le projet',
     'projects:delete' => 'Supprimer le projet',
     'projects:project' => 'Projet',
-
     'projects:new_project_from_estimate_without_number' => "Nouveau projet basé sur le devis",
     'projects:new_project_from_estimate_with_number' => "Nouveau projet basé sur le devis #:1",
-
     'projects:due_date' => 'Date d\'échéance',
     'projects:is_completed' => 'Complet',
     'projects:manage_project' => 'Gérer le projet',
@@ -419,10 +411,9 @@ $lang = array(
     'projects:allarchivedtitle' => 'Tous les projets archivés',
     'projects:templatize' => 'Sauvegarder comme modèle',
     'projects:milestone_identifier' => "[Etape: :1]",
-    /** End Projects **/
+    /** Fin des projets **/
 
-
-    /** Milestones **/
+    /** Début des étapes **/
     'milestones:add' => 'Ajouter une étape',
     'milestones:edit' => 'Modifier une étape',
     'milestones:delete' => 'Supprimer l\'étape',
@@ -439,16 +430,9 @@ $lang = array(
     'milestones:delete_success' => 'L\'étape ":1" a été supprimée avec succès!',
     'milestones:does_not_exist' => 'Cette étape n\'existe pas',
     'milestones:select_assignee_default' => 'N\'assigner personne',
-    /** End Milestones **/
+    /** Fin des étapes **/
 
-    /** Proposals **/
-    'proposal:outline' => 'Plan de proposition',
-
-
-    /** End Proposals **/
-
-    /** Reminders **/
-
+    /** Début des rappels **/
     'reminders:reminders' => 'Rappels',
     'reminders:send' => 'Envoyer les rappels',
     'reminders:success' => 'Ces rappels ont été envoyés!',
@@ -457,11 +441,9 @@ $lang = array(
     'reminders:due' => 'Jours',
     'reminders:details' => 'Détails',
     'reminders:log' => 'Historique',
+    /** Fin des rappels **/
 
-    /** End Reminders **/
-
-
-    /** Email Templates **/
+    /** Début des modèles de courriels **/
     'emailtemplates:email_templates' => 'Modèle de courriel',
     'emailtemplates:create_template' => 'Créer un nouveau modèle',
     'emailtemplates:add' => 'Créer un nouveau modèle de courriel',
@@ -477,11 +459,9 @@ $lang = array(
     'emailtemplates:deleted' => 'Le modèle de courriel a été bien été supprimé.',
     'emailtemplates:delete_title' => 'Supprimer le modèle de courriel.',
     'emailtemplates:delete_message' => 'Êtes-vous certain de vouloir supprimer ce modèle de courriel?',
+    /** Fin des modèles de courriels **/
 
-
-    /** End Email Templates **/
-
-    /** Reports **/
+    /** Début des rapports **/
     'reports:perclient' => 'par client',
     'reports:datefrom' => 'De',
     'reports:allclients' => 'Tous les clients',
@@ -507,11 +487,10 @@ $lang = array(
 Les factures payées sont présentés en fonction de leur date de paiement.
 Factures avec plus d\'une partie de paiement sont indiquées sur la base de la date de paiement de la première partie.
 Les factures impayées sans date d\'échéance sont présentés en fonction de la date à laquelle ils ont été créés.',
-
     'reports:nodata' => 'No :1.',
-    /** End Reports **/
+    /** Fin des rapports **/
 
-    /** Currencies **/
+    /** Début des devises **/
     'currencies:default' => '[Défaut] :1',
     'currencies:cad' => 'Dollar canadien',
     'currencies:eur' => 'Euro',
@@ -520,9 +499,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'currencies:hkd' => 'Dollar de Hong Kong',
     'currencies:php' => 'Perso Philippin',
     'currencies:zar' => 'Rand (Afrique du Sud)',
-    /** End Currencies **/
+    /** Fin des devises **/
 
-    /** Proposals **/
+    /** Début des propositions **/
     'proposals:duplicated' => 'Proposition dupliquée #:1. Le numéro de la nouvelle proposition est #:2.',
     'proposals:usesectiontemplate' => 'Utiliser ce modèle de section',
     'proposals:showcontents' => 'Voir le contenu',
@@ -573,9 +552,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'proposals:no_proposals' => 'Il n\'y a aucune proposition',
     'proposals:proposal_title' => 'Titre du devis',
     'proposals:kitchennotice' => 'Note : Les propositions apparaîtront dans le :1 une fois que le client aura visionné le lien de la proposition. Autrement dit, vous pouvez modifier tout ce que vous voulez et le client ne verra ces modifications que lorsque vous le voudrez.',
-    /** End Proposals **/
+    'proposal:outline' => 'Plan de proposition',
+    /** Fin des propositions **/
 
-    /** Tasks **/
+    /** Début des tâches **/
     'tasks:task' => 'Tâche',
     'tasks:edit_succeeded' => 'Tâche modifiée avec succès',
     'tasks:hours' => 'Heures',
@@ -604,13 +584,14 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:discussion' => 'Discussion : ',
     'tasks:billed_hours' => "Heures facturées",
     'tasks:unbilled_hours' => "Heures non-facturées",
+    /** Fin des tâches **/
 
-
-    /** Users **/
+    /** Début des utilisateurs **/
     'users:create_user' => 'Créer un utilisateur',
     'users:confirm_delete_emphasised' => "Cette action est définitive!",
+    /** Fin des utilisateurs **/
 
-    /** Items **/
+    /** Début des items **/
     'items:name'						=> 'Nom de l\'élément',
     'items:description'					=> 'Description de l\'élément',
     'items:qty_hrs'						=> 'Qté / Hres',
@@ -630,9 +611,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'items:select_expense'				=> 'Dépense',
     'items:add_expense_to_project'		=> 'Ajouter une dépense',
     'items:expenses'					=> 'Dépenses',
-    /** END Items **/
+    /** Fin des items **/
 
-    /** Expenses **/
+    /** Début des dépenses **/
     'expenses:expenses'					=>	'Dépenses',
     'expenses:add'						=>	'Ajouter une dépense',
     'expenses:edit_expense'				=>	'Modifier la dépense',
@@ -652,11 +633,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:filter'					=>	'Filtrer les dépenses',
     'expenses:start_date'				=>	'Date de début',
     'expenses:end_date'					=>	'Date de fin',
+    /** Fin des dépenses **/
 
-
-    /** END Expenses **/
-
-    /** Transactions **/
+    /** Début des transactions **/
     'transactions:paymentcancelled'				=> 'Paiement annulé',
     'transactions:extrapaymentcancelled'		=> 'Votre paiement a été annulé',
     'transactions:paymentreceived'				=> 'Paiement reçu',
@@ -666,9 +645,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'transactions:thankyouforyourpayment'		=> 'Merci pour votre paiement. Vous devriez recevoir le reçu par courriel sous peu.',
     'transactions:ifyouhavefilesyouwillgetanemail'		=> 'Si vous attendez la livraison de fichiers, vous recevrez un courriel contenant un lien pour les télécharger sous peu.',
     'transactions:ifyoudonotreceiveemail'		=> 'Si vous ne recevez pas de courriel d\'ici une heure, veuillez contacter :1',
-    /** End Transactions **/
+    /** Fin des transactions **/
 
-    /** Timesheets **/
+    /** Début feuilles de temps **/
     'timesheet:taskname'			=> 'Nom de la tâche',
     'timesheet:starttime'			=> 'Départ',
     'timesheet:endtime'				=> 'Fin',
@@ -683,10 +662,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'timesheet:user'			    => 'Utilisateur',
     'timesheet:entries'			    => 'Saisies',
     'timesheet:no_entries'                  => "Il n'y a aucune saisie de temps",
-    /** End Timesheets **/
+    /** Fin des feuilles de temps **/
 
 
-    /** Support Tickets **/
+    /** Début billets de support **/
 
     'tickets:all_tickets'			=>	'Tickets du support',
     'tickets:support_tickets' => "Tickets du support",
@@ -711,13 +690,13 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tickets:no_status' => '-- Aucun statut --',
     'tickets:no_posts' => "Aucun message.",
 
-    /** End Support Tickets **/
+    /** Fin des billets de support **/
 
     /** Frontend **/
     'frontend:hithere'						=> 'Bonjour !',
     'frontend:followthemaillinkdude'		=> 'Pour voir votre facture, vous devez cliquer sur le lien entier dans le courriel que vous avez reçu. Le lien ressemble à ceci : :1.',
     'frontend:contactadminforassistance'	=> 'Pour toute assistance, veuillez contacter :1 @ :2',
-    /** End Frontend **/
+    /** Fin Frontend **/
 
     /** Settings **/
 
@@ -857,7 +836,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:currency_code'		=> 'Code de la devise',
     'settings:exchange_rate'		=> 'Taux de change',
     'settings:add_currency'			=> 'Ajouter une autre devise',
-    /** End Settings **/
+    /** Fin Settings **/
 
     'update:ifyourenotsurecontactus'		=> "Si vous n'êtes pas certain de ce que vous faites, veuillez <a href='http://pancakeapp.com/forums/newtopic/2/'>commencer un nouveau ticket de support dans le forum</a>.",
     'update:youmodified'					=> 'Vous avez modifié',
@@ -883,11 +862,8 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:maybefirewall'					=> "Il semblerait que votre serveur empêche Pancake d'accéder à Internet. Il pourrait s'agir d'un problème de pare-feu de la part de votre serveur. Veuillez contacter votre hébergeur et demandez-lui de permettre PHP d'accéder à :1.",
     'update:nointernetaccess'				=> 'Aucun accès Internet',
     'update:pancakeupdated'					=> 'Pancake a été mis à jour de :1 à :2',
-    /** Action Logger  **/
 
-    /** End Action Logger **/
-
-    /** Partial Payments **/
+    /** Début paiements partiaux **/
     'partial:partialpayments'			=> 'Plan de paiement',
     'partial:totalamounttobepaid'		=> "Montant total devant être payé par le client",
     'partial:amountlefttobeadded'		=> "Montant restant devant être ajouté au plan de paiement",
@@ -915,9 +891,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'partial:transactionid'				=> 'ID de transaction',
     'partial:markaspaid'				=> 'Marquer comme payé',
     'partial:transactionfee'			=> 'Frais de transaction',
-    /** End Partial Payments **/
+    /** Fin paiements partiaux **/
 
-    /** Payment Gateways **/
+    /** Début méthodes de paiement **/
     'paypal:clickhere'					=> 'Cliquez ici pour procéder',
     'authorize:transaction_key'			=> 'Clé de transaction',
     'paypal:email'   					=> 'Courriel PayPal',
@@ -949,7 +925,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'gateways:api_signature'			=> 'Signature de l\'API',
     'gateways:api_password'				=> 'Mot de passe de l\'API',
     'gateways:api_username'				=> 'Nom d\'utilisateur de l\'API',
-    /** End Payment Gateways **/
+    /** Fin méthodes de paiement **/
 
     /** Kitchen Area **/
     'kitchen:edit_comment'				=> 'Modifier le commentaire',
@@ -982,7 +958,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'kitchen:unpaid_balance' => 'Solde impayé: :1',
     'kitchen:total_paid_to_date' => 'Total payé à ce jour: :1',
 
-    /** END Kitchen Area **/
+    /** Fin Kitchen Area **/
 
     'store:store' => 'Magasin',
     'store:buy' => "Acheter ($:1)",
@@ -1015,32 +991,25 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'email_templates:assigned_to_task' => "Notification d'affectation des tâches",
     'email_templates:assigned_to_milestone' => "Notification d'affectation d'une étape",
     'email_templates:new_comment' => "Notification de nouveau commentaire",
-
     'global:timer_app' => "Minuteur Pancake",
 
-    /** Dashboard **/
-
-
-    /** END Dashboard **/
-
     # v4.0.5
+    'invoices:lastreoccurrence' => 'Dernière réapparition: :1',
 
-    'invoices:lastreoccurrence' => 'Dernière réapparition: :1', // not sure about this translation : Last Reoccurrence
-
-    # Begin v4.1.2 changes
+    # Début des changements pour la v4.1.2
     'invoices:converted_to_estimate' => "Facture #:1 converti en devis.",
     'global:converttoestimate' => 'Convertir en devis',
-    # End v4.1.2 changes
+    # Fin v4.1.2
 
-    # Begin v4.1.3 changes
+    # Début des changements pour la v4.1.3
     'tickets:view_archived' => "Voir les tickets archivés",
     'tickets:view_unarchived' => "Voir les tickets actifs",
     'tickets:archiving_ticket' => "Archiver le ticket",
     'tickets:unarchiving_ticket' => "Désarchiver le ticket",
     "tickets:unknown_error_ticket_not_altered" => "Une erreur inconnue s'est produite. Votre ticket n'a pas été modifiée.",
-    # End v4.1.3 changes
+    # Fin v4.1.3
 
-    # Begin v4.1.4 changes
+    # Début des changements pour la v4.1.4
     "tasks:starting_timer" => "Lancer le minuteur",
     "tasks:stopping_timer" => "Arrêter le minuteur",
     "global:all_comments" => "Tous les commentaires",
@@ -1054,72 +1023,105 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "dashboard:my_tasks" => "Mes tâches",
     "dashboard:view_all_my_tasks" => "Voir tous mes tâches",
     "dashboard:what_the_team_is_working_on" => "Sur quoi travaille l'équipe.",
-    # End v4.1.4 changes
+    # Fin v4.1.4
 
-    # Begin v4.1.6 changes
+    # Début des changements pour la v4.1.6
     "global:save_milestone" => "Enregistrer l'étape",
     "global:save_task" => "Enregistrer la tâche",
     "global:private_comment" => "Ce commentaire est privé. Votre client ne le verra pas.",
     "global:clients_cant_see_private" => "Les clients ne peuvent pas voir les commentaires privés.",
     "global:is_private" => "Privé?",
-    # End v4.1.6 changes
+    # Fin v4.1.6
 
-    # Begin v4.1.7 changes
+    # Début des changements pour la v4.1.7
     "tickets:disable_client" => "-- Désactiver les billets de support --",
-    # End v4.1.7 changes
+    # Fin v4.1.7
 
-    # Begin v4.1.8 changes
+    # Début des changements pour la v4.1.8
     "global:css" => "CSS personnalisé",
     "global:js" => "JavaScript personnalisé",
     "global:js_explanation" => "Vous pouvez utiliser jQuery à volonté. Votre code sera ajouté juste avant &lt;/body&gt;.",
     "settings:frontend_js" => "Frontend Custom JavaScript",
     "settings:backend_js" => "Backend Custom JavaScript",
-    # End v4.1.8 changes
+    # Fin v4.1.8
 
-    # Begin v4.1.9 changes
+    # Début des changements pour la v4.1.9
     "proposals:estimate_number_and_amount" => "Devis #:1 (:2)",
-    # End v4.1.9 changes
+    # Fin v4.1.9
 
-    # Begin v4.1.10 changes
+    # Début des changements pour la v4.1.10
     "clients:delete" => "Supprimer le client",
-    # End v4.1.10 changes
+    # Fin v4.1.10
 
-    # Begin v4.1.11 changes
+    # Début des changements pour la v4.1.11
     "global:nolongerexists" => "[N'EXISTE PLUS]",
     "global:billed_amount" => "Montant facturé",
     "global:unbilled_amount" => "Montant non facturés",
     "global:is_billed" => "Facturé",
-    # End v4.1.11 changes
+    # Fin v4.1.11
 
-    # Begin v4.1.14 changes
+    # Début des changements pour la v4.1.14
     "settings:year_start" => "Date de début de l'année fiscale",
     "dashboard:since_explanation" => "Depuis :1",
-    # End v4.1.14 changes
+    # Fin v4.1.14
 
-    # Begin v4.1.15 changes
+    # Début des changements pour la v4.1.15
     "export:invoices_csv" => "Factures (CSV)",
-    # End v4.1.15 changes
+    # Fin v4.1.15
     
-    # Begin v4.1.17 changes
+    # Début des changements pour la v4.1.17
     "projects:createdtemplate" => "Modèle de projet créé. Vous pouvez créer des projets basé sur ce modèle.",
     "projects:delete_template" => "Supprimer le modèle",
     "projects:deleted_template" => "Modèle supprimé avec succès.",
-    # End v4.1.17 changes
+    # Fin v4.1.17
     
-    # Begin v4.1.19 changes
+    # Début des changements pour la v4.1.19
     "export:expenses_csv" => "Dépenses (CSV)",
     "export:clients_csv" => "Clients (CSV)",
     "projects:expense_date" => "Date de dépenses",
-    # End v4.1.19 changes
+    # Fin v4.1.19
     
-    # Begin v4.1.20 changes
+    # Début des changements pour la v4.1.20
     "clients:can_create_support_tickets" => "Permettre au client de créer un billet de support",
     "tickets:submit_new" => "Soumettre un billet",
     "global:cancel" => "Annuler",
     "global:timers" => "Minuteurs",
     "global:more" => "Plus",
-    # End v4.1.20 changes
+    # Fin v4.1.20
+    
+    # Début des changements pour la v4.1.23
+    "global:search" => "Rechercher",
+    "authorize:api_login_id" => "Identifiants pour l'API",
+    "authorize:api_login_id_description" => "Vous trouverez ceci dans Authorize.net sous Compte > Identifiants API et clé de transaction.",
+    "authorize:md5_hash" => "MD5-Hash",
+    "authorize:md5_hash_description" => "Voici votre identifiant pour l'API par défaut. Vous pouvez le changer dans Authorize.net, sous Compte > MD5-Hash. Si vous voyez 'Hash Value Set: No', laissez le vide.",
+    "transactions:paymentfailed" => "Erreur lors du paiement",
+    "transactions:extrapaymentfailed" => "Un problème est survenu lors du traitement de votre paiement. Veuillez contacter :1 at :2 pour obtenir de l'aide.",
+    # Fin v4.1.23
+    
+    # Début des changements pour la v4.1.24
+    "projects:tracked" => "Suivi",
+    "settings:accounting_type" => "Méthode de présentation",
+    "settings:accrual" => "Afficher les factures selon la date de création",
+    "settings:cash" => "Afficher les factures selon la date de paiement",
+    "reports:selection_explanation_accrual" => "Les factures sont affichées selon leur date de création.",
+    "reports:selection_explanation_cash" => "Les factures sont affichées selon leur date de paiement.\n\nLes facture non payées ou partiellement payées sont affichées selon leur date de création.",
+    "invoices:partially_paid" => "Partiellement",
+    # Fin v4.1.24
+    
+    # Début des changements pour la v4.1.27
+    "global:projects_ommitted" => ":1 projets non représentés",
+    "global:tasks_ommitted" => ":1 tâches non représentés",
+    # Fin v4.1.27
+    
+    # Début des changements pour la v4.1.28
+    "login:username_email" => "Nom d'utilisateur / Courriel",
+    # Fin v4.1.28
+    
+    # Début des changements de la v4.1.29
+    "global:updates_available" => "Mise à jour disponible"
+    #Fin v4.1.29
 
 );
 
-/** End of file: pancake_lang.php **/
+/** Fin du fichier: pancake_lang.php **/
