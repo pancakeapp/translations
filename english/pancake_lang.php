@@ -767,7 +767,7 @@ $lang = array(
     'settings:noopenssl'							=> 'Your PHP server does not have OpenSSL configured, which means you can\'t use Gmail or Google Apps for sending email. Please contact your host and let them know you need OpenSSL.',
     'settings:logoremoved'							=> 'Logo removed successfully!',
     'settings:save'									=> 'Save Settings',
-    'settings:logodimensions'						=> 'The logo should be 240 pixels wide and 106 pixels tall.',
+    'settings:logodimensions'						=> 'The logo can be uploaded in any size, and will be resized automatically.',
     'settings:logoformatsallowed'					=> 'BMP, PNG, JPG (JPEG) and GIF are allowed.',
     'settings:ftp_user'								=> 'FTP User',
     'settings:ftp_pass'								=> 'FTP Password',
@@ -1145,6 +1145,24 @@ $lang = array(
     # Begin v4.1.28 changes
     "login:username_email" => "Username / Email",
     # End v4.1.28 changes
+    
+    # Begin v4.1.31 changes
+    "settings:when_new_updates_are_available" => "When new updates are available",
+    "settings:dont_install_just_notify_me" => "Don't install, just notify me",
+    "settings:install_automatically" => "Install automatically",
+    "settings:loading_update_details" => "Loading update details... This may take a minute or two. Feel free to refresh at any time.",
+    "settings:updating_please_wait" => "Updating, please wait. This page will refresh once the update has finished.",
+    "settings:will_have_to_overwrite_single_file" => "Pancake will have to overwrite 1 file that you have modified manually!",
+    "settings:will_have_to_overwrite_multiple_files" => "Pancake will have to overwrite :1 files that you have modified manually!",
+    "settings:checking_for_updates" => "Checking for updates, please wait. This page will refresh automatically.",
+    "settings:updating_please_wait" => "Updating, please wait. This page will refresh once the update has finished.",
+    "settings:description" => "Save your updated settings before changing tab or leaving the page.",
+    "settings:business_identities" => "Business Identities",
+    "settings:business_name" => "Business Name",
+    "settings:new_business" => "New Business",
+    "settings:business_identity" => "Business Identity",
+    "settings:business_identity_explanation" => "Your client will see the above business identity on all of their emails, PDFs and pages.",
+    # End v4.1.31 changes
     
 );
 
