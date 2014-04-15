@@ -1119,7 +1119,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.1.28
     
     # Début des changements de la v4.1.29
-    "global:update_available" => "Mise à jour disponible"
+    "global:update_available" => "Mise à jour disponible",
     #Fin v4.1.29
     
     # Début des changements de la v4.1.31
