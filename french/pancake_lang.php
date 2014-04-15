@@ -1119,8 +1119,26 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.1.28
     
     # Début des changements de la v4.1.29
-    "global:updates_available" => "Mise à jour disponible"
+    "global:update_available" => "Mise à jour disponible"
     #Fin v4.1.29
+    
+    # Début des changements de la v4.1.31
+    "settings:when_new_updates_are_available" => "Lorsque les mises à jour sont disponibles",
+    "settings:dont_install_just_notify_me" => "Informez-moi des mises à jour",
+    "settings:install_automatically" => "Installer les mises à jour automatiquement",
+    "settings:loading_update_details" => "Téléchargement des informations de mises à jour...",
+    "settings:updating_please_wait" => "Mise à jour en cours, veuillez patienter. Cette page sera actualisé.",
+    "settings:will_have_to_overwrite_single_file" => "Pancake devra écraser 1 fichier que vous avez modifié manuellement.",
+    "settings:will_have_to_overwrite_multiple_files" => "Pancake devra écraser :1 fichier que vous avez modifié manuellement.",
+    "settings:checking_for_updates" => "Recherche des mises à jour, veuillez patienter.. Cette page sera actualisé.",
+    "settings:updating_please_wait" => "Mise à jour en cours, veuillez patienter. Cette page sera actualisée une fois la mise à jour terminée.",
+    "settings:description" => "Enregistrez vos nouveaux paramètres avant de changer de champ ou de page.",
+    "settings:business_identities" => "Identités d'affaires",
+    "settings:business_name" => "Nom d'entreprise",
+    "settings:new_business" => "Nouvelle entreprise",
+    "settings:business_identity" => "Identité d'affaire",
+    "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
+    # Fin v4.1.31
 
 );
 
