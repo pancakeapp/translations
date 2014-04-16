@@ -130,7 +130,7 @@ $lang = array(
     'global:stop_timer' => 'Arrêter le chronomètre',
     'global:created' => 'Créé',
     'global:updated' => 'Mis à jour',
-    'global:update' => 'Mettre à jour',
+    'global:update' => 'Mise à jour',
     'global:downloadpdf' => 'Télécharger le PDF',
     'global:yesdelete' => 'Oui, supprimer!',
     'global:confirm_emphisised' => 'Il n\'y a aucun retour en arrière possible!',
@@ -841,7 +841,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:ifyourenotsurecontactus'		=> "Si vous n'êtes pas certain de ce que vous faites, veuillez <a href='http://pancakeapp.com/forums/newtopic/2/'>commencer un nouveau ticket de support dans le forum</a>.",
     'update:youmodified'					=> 'Vous avez modifié',
     'update:youdeleted'						=> 'Vous avez supprimé',
-    'update:loadingpleasewait'				=> 'Chargement, veuillez patienter.',
+    'update:loadingpleasewait'				=> 'Sauvegarde en cours...',
     'update:errordownloading'				=> 'Une mise à jour de Pancake est disponible, mais des problèmes sont survenus lors du téléchargement.',
     'update:herearestepstofix'				=> 'Voici quelques étapes que vous pouvez essayer afin de corriger le problème : ',
     'update:makesureuploadsiswritable'		=> 'Assurez-vous que votre dossier de téléversement est inscriptible (CHMOD 0777).',
@@ -1119,7 +1119,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.1.28
     
     # Début des changements de la v4.1.29
-    "global:update_available" => "Mise à jour disponible"
+    "global:update_available" => "Mise à jour disponible",
     #Fin v4.1.29
     
     # Début des changements de la v4.1.31
