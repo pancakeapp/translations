@@ -182,7 +182,7 @@ $lang	= array(
 	'global:proposal_rejected'						=> 'Proposta recusada',
 	'global:proposal_accepted'						=> 'Propsota aceita',
 	'global:client_area'							=> 'Área do cliente',
-	'global:admin'									=> 'Administração', // conferir
+	'global:admin'									=> 'Administração',
 	'global:all_settings'							=> 'Todas as configurações',
 	'global:viewable'								=> 'Visível na área doe cliente',
 	'global:not_viewable'							=> 'Não visível na área do cliente',
@@ -401,8 +401,8 @@ $lang	= array(
 	'projects:delete'											=> 'Apagar projeto',
 	'projects:project'											=> 'Projeto',
 
-	'projects:new_project_from_estimate_without_number'			=> 'Novo projeto do orçamento',// conferir
-	'projects:new_project_from_estimate_with_number'			=> 'Novo projeto do orçamento #:1', //conferir
+	'projects:new_project_from_estimate_without_number'			=> 'Novo projeto do orçamento',
+	'projects:new_project_from_estimate_with_number'			=> 'Novo projeto do orçamento #:1',
 
 	'projects:due_date'											=> 'Prazo',
 	'projects:is_completed'										=> 'Completo?',
@@ -584,8 +584,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'tasks:due_date'								=> 'Vencimento',
 	'tasks:is_completed'							=> 'Completa?',
 	'tasks:timer'									=> 'Cronômetro',
-	'tasks:rate'									=> 'Unitário',				//conferir
-	'tasks:default_rate'							=> 'Taxa padrão',		//conferir
+	'tasks:rate'									=> 'Unitário',
+	'tasks:default_rate'							=> 'Taxa padrão',
 	'tasks:entries'									=> 'Horários',
 	'tasks:view_entries'							=> 'Ver horários',
 	'tasks:edit_entry'								=> 'Editar horário',
@@ -617,7 +617,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'items:description'								=> 'Descrição',
 	'items:qty_hrs'									=> 'Qtd / Hrs',
 	'items:quantity'								=> 'Quantia',
-	'items:rate'									=> 'Unitário',				//conferir
+	'items:rate'									=> 'Unitário',
 	'items:tax_rate'								=> 'Tributação',
 	'items:cost'									=> 'Custo',
 	'items:line_items'								=> 'Itens',
@@ -716,7 +716,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	/** End Support Tickets **/
 
 	/** Frontend **/
-	'frontend:hithere'								=> 'E aí!', //conferir
+	'frontend:hithere'								=> 'E aí!',
 	'frontend:followthemaillinkdude'				=> 'Para ver sua fatura, você precisa clicar no link do email enviado. Ex: :1.',
 	'frontend:contactadminforassistance'			=> 'Por favor, faça isso ou peça ajuda para :1 @ :2',
 	/** End Frontend **/
@@ -742,7 +742,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:testemailsettings'					=> 'Testar configurações de email',
 	'settings:kitchen_route'						=> 'Prefixo do link de acesso para clientes',
 	'settings:kitchen_route_explain'				=> '(ex. :1)',
-	'settings:include_remittance_slip'				=> 'Canhotos',// conferir
+	'settings:include_remittance_slip'				=> 'Canhotos',
 	'settings:include_remittance_slip_explain'		=> 'Se marcado, os PDFs das faturas incluirão um canhoto.',
 	'settings:items_per_page'						=> 'Itens por página',
 	'settings:items_per_page_explain'				=> 'Número de itens (faturas/orçamentos/propostas/projetos/tarefas) exibidios por página.',
@@ -795,10 +795,10 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:feeds'								=> 'Feeds',
 	'settings:api_keys'								=> 'API Keys',
 
-    'settings:time_entry_times'						=> 'Horários', // conferir
+    'settings:time_entry_times'						=> 'Horários',
     'settings:include_dates_and_times_in_line_items' => 'Incluir datas e horas nas descrições dos horários de trabalho.',
     'settings:when_generating_invoice'				=> 'Usar uma linha por item na geração de faturas',
-    'settings:use_utf8_font'						=> 'Usar fontes UTF-8 em PDFs',// conferir
+    'settings:use_utf8_font'						=> 'Usar fontes UTF-8 em PDFs',
     'settings:use_utf8_font_explanation'			=> 'Use se caracteres estranhos aparecem em seus PDFs.',
     'settings:pdf_attachments'						=> 'PDF anexos',
     'settings:pdf_attachments_explanation'			=> 'Se habilitado, Pancake anexará o PDF correspondente aos emails de fatura, orçamento ou proposta.',
@@ -910,7 +910,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'partial:proceedtopayment'						=> 'Proceder ao pagamento',
 	'partial:topaynowgoto'							=> 'Para pagar agora, por favor, vá para :1',
     'partial:pay_part_x_now'						=> 'Pagar agora a parcela #:1 de sua fatura',
-	'partial:dueondate'								=> 'devido sobre :1',	//conferir
+	'partial:dueondate'								=> 'devido sobre :1',
 	'partial:paymentmethod'							=> 'Método de pagamento',
 	'partial:paymentdate'							=> 'Data de pagamento',
 	'partial:paymentstatus'							=> 'Situação do pagamento',
@@ -921,10 +921,10 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 
 	/** Payment Gateways **/
 	'paypal:clickhere'								=> 'Clique aqui para proceder',
-	'authorize:transaction_key'						=> 'Transaction Key',	//conferir
-	'paypal:email'									=> 'Email do PayPal',		//conferir
-	'paypal:fee'									=> 'Tarifa do PayPal (%)',		//conferir
-	'paypalpro:paypalpro'							=> 'PayPal Payments Pro (BETA)',	//conferir
+	'authorize:transaction_key'						=> 'Transaction Key',
+	'paypal:email'									=> 'Email do PayPal',
+	'paypal:fee'									=> 'Tarifa do PayPal (%)',
+	'paypalpro:paypalpro'							=> 'PayPal Payments Pro (BETA)',
 	'paypalpro:viacreditcard'						=> 'Pagar via cartão de crédito',
 	'cash:cash'										=> 'Dinheiro',
 	'check:check'									=> 'Cheque',
@@ -938,19 +938,19 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'gateways:completed'							=> 'Completo',
 	'gateways:refunded'								=> 'Reembolsado',
 	'gateways:unpaid'								=> 'Não pago',
-	'gateways:paymentrejected'						=> ':1 pagamento rejeitado',		//conferir
+	'gateways:paymentrejected'						=> ':1 pagamento rejeitado',
 	'gateways:rejectedemail'						=> 'Pancake foi avisado sobre um :1 pagamento que um de seus clientes (:2) fez, mas :1 o rejeitou.',
 	'gateways:pending'								=> 'Pendente',
 	'gateways:returntowebsite'						=> 'Voltar para :1',
-	'gateways:cc_type'								=> 'Tipo de cartão de crédito',	//conferir - não deveria ser bandeira?
+	'gateways:cc_type'								=> 'Tipo de cartão de crédito',
 	'gateways:cc_number'							=> 'Número do cartão de crédito',
 	'gateways:cc_exp'								=> 'Válido até',
 	'gateways:cc_cardholder'						=> 'Nome no cartão',
 	'gateways:cc_code'								=> 'Código CVV',
 	'gateways:payment_details'						=> 'Detalhes de pagamento',
-	'gateways:api_signature'						=> 'API Signature',	//conferir
-	'gateways:api_password'							=> 'API Password',	//conferir
-	'gateways:api_username'							=> 'API Username',	//conferir
+	'gateways:api_signature'						=> 'API Signature',
+	'gateways:api_password'							=> 'API Password',
+	'gateways:api_username'							=> 'API Username',
 	/** End Payment Gateways **/
 
 	/** Kitchen Area **/
@@ -961,7 +961,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'kitchen:nocomments'							=> 'Não há comentários ainda.',
 	'kitchen:comment'								=> 'Comentário',
 	'kitchen:comments'								=> 'Commentários',
-    'kitchen:comments_x'                            => 'Comentários (:1)',// conferir
+    'kitchen:comments_x'                            => 'Comentários (:1)',
 	'kitchen:file'									=> 'Arquivo',
 	'kitchen:submitcomment'							=> 'Comentar',
 	'kitchen:attachment'							=> 'Anexo',
@@ -981,7 +981,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'kitchen:people_in_discussion'					=> 'Pessoas conversando',
 
     'kitchen:latest_invoice'						=> 'Última fatura',
-    'kitchen:unpaid_balance'						=> 'Balanço devido: :1',//conferir
+    'kitchen:unpaid_balance'						=> 'Balanço devido: :1',
     'kitchen:total_paid_to_date'					=> 'Total pago até: :1',
 
 	/** END Kitchen Area **/
@@ -1011,11 +1011,11 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'email_templates:invoice_payment_notification_for_admin' 	=> 'Aviso de pagamento efetuado (enviado ao admin)',
     'email_templates:invoice_payment_notification_for_client' 	=> 'Aviso de pagamento recebido (enviado ao cliente)',
     'email_templates:new_ticket'					=> 'Novo tíquete',
-    'email_templates:new_ticket_invoice'			=> 'Nova fatura sobre tíquete',//conferir
+    'email_templates:new_ticket_invoice'			=> 'Nova fatura sobre tíquete',
     'email_templates:ticket_updated'				=> 'Aviso de atualização de tíquete',
     'email_templates:ticket_status_updated'			=> 'Aviso de atualização de situação em tíquete',
     'email_templates:assigned_to_task'				=> 'Aviso de atribuição de tarefa',
-    'email_templates:assigned_to_milestone'			=> 'Aviso de atribuição de milhagem',//conferir
+    'email_templates:assigned_to_milestone'			=> 'Aviso de atribuição de milhagem',
     'email_templates:new_comment'					=> 'Aviso de novo comentário',
     
     'global:timer_app'								=> 'Cronômetro do Pancake',
@@ -1111,12 +1111,12 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     # Begin v4.1.19 changes
     "export:expenses_csv" => "Despesas (CSV)",
     "export:clients_csv" => "Clientes (CSV)",
-    "projects:expense_date" => "Data da despesa", // conferir
+    "projects:expense_date" => "Data da despesa",
     # End v4.1.19 changes
     
     # Begin v4.1.20 changes
     "clients:can_create_support_tickets" => "Permitir criação de tíquetes de suporte pelo cliente?",
-    "tickets:submit_new" => "Enviar um tíquete",// conferir
+    "tickets:submit_new" => "Enviar um tíquete",
     "global:cancel" => "Cancelar",
     "global:timers" => "Cronômetros",
     "global:more" => "Mais",
