@@ -1164,7 +1164,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     "settings:business_identities" => "Múltiplas empresas",
     "settings:business_name" => "Nome da empresa",
     "settings:new_business" => "Nova empresa",
-    "settings:business_identity" => "Identidade da empresa",
+    "settings:business_identity" => "Empresa prestadora",
     "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas."
     # End v4.1.31 changes
 
