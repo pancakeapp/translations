@@ -750,7 +750,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:noopenssl'							=> 'Votre serveur PHP n\'a pas de configuration OpenSSL active ce qui veut dire que vous ne pouvez pas utiliser Gmail ou d\'autres applications Google pour envoyer des courriels',
     'settings:logoremoved'							=> 'Logo retiré avec succès!',
     'settings:save'									=> 'Sauvegarder',
-    'settings:logodimensions'						=> 'Le logo devrait être d\'au moins 240 pixels de large et 106 pixels de haut',
+    'settings:logodimensions'						=> 'Le logo sera redimensionné automatiquement.',
     'settings:logoformatsallowed'					=> 'Seulement les fichiers de type BMP, PNG, JPG (JPEG) et GIF sont autorisés',
     'settings:ftp_user'								=> 'Utilisateur FTP',
     'settings:ftp_pass'								=> 'Mot de passe FTP',
