@@ -841,7 +841,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:ifyourenotsurecontactus'		=> "Si vous n'êtes pas certain de ce que vous faites, veuillez <a href='http://pancakeapp.com/forums/newtopic/2/'>commencer un nouveau ticket de support dans le forum</a>.",
     'update:youmodified'					=> 'Vous avez modifié',
     'update:youdeleted'						=> 'Vous avez supprimé',
-    'update:loadingpleasewait'				=> 'Chargement, veuillez patienter.',
+    'update:loadingpleasewait'				=> 'Sauvegarde en cours...',
     'update:errordownloading'				=> 'Une mise à jour de Pancake est disponible, mais des problèmes sont survenus lors du téléchargement.',
     'update:herearestepstofix'				=> 'Voici quelques étapes que vous pouvez essayer afin de corriger le problème : ',
     'update:makesureuploadsiswritable'		=> 'Assurez-vous que votre dossier de téléversement est inscriptible (CHMOD 0777).',
