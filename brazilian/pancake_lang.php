@@ -1017,7 +1017,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'email_templates:assigned_to_task'				=> 'Aviso de atribuição de tarefa',
     'email_templates:assigned_to_milestone'			=> 'Aviso de atribuição de milhagem',
     'email_templates:new_comment'					=> 'Aviso de novo comentário',
-    
+
     'global:timer_app'								=> 'Cronômetro do Pancake',
 
 	/** Dashboard **/
@@ -1028,12 +1028,12 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     # v4.0.5
 
     'invoices:lastreoccurrence'						=> 'Última recorrência: :1',
-    
+
     # Begin v4.1.2 changes
     'invoices:converted_to_estimate'				=> "Fatura #:1 convertida em orçamento.",
     'global:converttoestimate'						=> 'Converter em orçamento',
     # End v4.1.2 changes
-  
+
     # Begin v4.1.3 changes
     'tickets:view_archived'							=> 'Tíquetes arquivados',
     'tickets:view_unarchived'						=> 'Tíquetes ativos',
@@ -1041,7 +1041,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'tickets:unarchiving_ticket'					=> 'Desarquivando tíquete',
     'tickets:unknown_error_ticket_not_altered'		=> 'Aconteceu um erro desconhecido. Seu tíquete não foi alterado.',
     # End v4.1.3 changes
-    
+
     # Begin v4.1.4 changes
     'tasks:starting_timer'							=> 'Iniciando cronômetro',
     'tasks:stopping_timer'							=> 'Parando cronômetro',
@@ -1057,7 +1057,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'dashboard:view_all_my_tasks'					=> 'Ver todas as minhas tarefas',
     'dashboard:what_the_team_is_working_on'			=> 'Em que a equipe está trabalhando.',
     # End v4.1.4 changes
-    
+
     # Begin v4.1.6 changes
     'global:save_milestone'							=> 'Salvar milhagem',
     'global:save_task'								=> 'Salvar tarefa',
@@ -1065,11 +1065,11 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'global:clients_cant_see_private'				=> 'Clientes não vêem comentários privados.',
     'global:is_private'								=> 'Privado?',
     # End v4.1.6 changes
-    
+
     # Begin v4.1.7 changes
     'tickets:disable_client'						=> '-- Desativar tíquetes de suporte --',
     # End v4.1.7 changes
-    
+
     # Begin v4.1.8 changes
     'global:css'									=> 'CSS personalizado',
     'global:js'										=> 'JavaScript personalizado',
@@ -1077,43 +1077,43 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'settings:frontend_js'							=> 'JavaScript personalizado para área externa',
     'settings:backend_js'							=> 'JavaScript personalizado para área interna',
     # End v4.1.8 changes
-    
+
     # Begin v4.1.9 changes
     'proposals:estimate_number_and_amount'			=> 'Orçamento #:1 (:2)',
     # End v4.1.9 changes
-    
+
     # Begin v4.1.10 changes
     'clients:delete'								=> 'Apagar cliente',
     # End v4.1.10 changes
-    
+
     # Begin v4.1.11 changes
     'global:nolongerexists'							=> '[NÃO EXISTE MAIS]',
     'global:billed_amount'							=> 'Total faturado',
     'global:unbilled_amount'						=> 'Total não fatarado',
     'global:is_billed'								=> 'Faturado?',
     # End v4.1.11 changes
-  
+
     # Begin v4.1.14 changes
     "settings:year_start"							=> "Início do ano fiscal",
     "dashboard:since_explanation"					=> "Desde :1",
     # End v4.1.14 changes
-    
+
     # Begin v4.1.15 changes
     "export:invoices_csv"							=> "Faturas (CSV)",
     # End v4.1.15 changes
-    
+
     # Begin v4.1.17 changes
     "projects:createdtemplate"						=> "Modelo de projeto criado. Agora você pode criar projetos a partir desse modelo.",
     "projects:delete_template"						=> "Apagar modelo",
     "projects:deleted_template"						=> "Modelo apagado.",
     # End v4.1.17 changes
-    
+
     # Begin v4.1.19 changes
     "export:expenses_csv" => "Despesas (CSV)",
     "export:clients_csv" => "Clientes (CSV)",
     "projects:expense_date" => "Data da despesa",
     # End v4.1.19 changes
-    
+
     # Begin v4.1.20 changes
     "clients:can_create_support_tickets" => "Permitir criação de tíquetes de suporte pelo cliente?",
     "tickets:submit_new" => "Enviar um tíquete",
@@ -1121,8 +1121,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     "global:timers" => "Cronômetros",
     "global:more" => "Mais",
     # End v4.1.20 changes
-    
-    # Begin v4.1.22 changes
+
+    # Begin v4.1.23 changes
     "global:search" => "Busca",
     "authorize:api_login_id" => "API Login ID",
     "authorize:api_login_id_description" => "Você pode encontrar isso em Authorize.net, em Account > API Login ID e Transaction Key.",
@@ -1130,8 +1130,44 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     "authorize:md5_hash_description" => "Por padrão, esse é o seu API Login ID. Você pode mudar isso em Authorize.net, em Account > MD5-Hash. Se você ver, 'Hash Value Set: No', deixe vazio.",
     "transactions:paymentfailed" => "O pagamento falhou",
     "transactions:extrapaymentfailed" => "Um problema desconhecido aconteceu durante a tentatica de processar seu pagamento. Por favor, contacte :1 em :2 e peça por auxílio.",
-    # End v4.1.22 changes
-    
+    # End v4.1.23 changes
+
+    # Begin v4.1.24 changes
+    "projects:tracked" => "Horas acumuladas",
+    "settings:accounting_type" => "Ordenar faturas",
+    "settings:accrual" => "baseadas em sua data de emissão",
+    "settings:cash" => "baseadas na data de pagamento",
+    "reports:selection_explanation_accrual" => "Faturas são exibidas baseadas em sua data de emissão.",
+    "reports:selection_explanation_cash" => "Faturas pagas são exibidas baseadas em sua data de pagamento.\n\nFaturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de emissão.",
+    "invoices:partially_paid" => "Parcialmente",
+    # End v4.1.24 changes
+
+    # Begin v4.1.27 changes
+    "global:projects_ommitted" => ":1 projetos não exibidos",
+    "global:tasks_ommitted" => ":1 tarefas não exibidas",
+    # End v4.1.27 changes
+
+    # Begin v4.1.28 changes
+    "login:username_email" => "Nome de usuário / Email",
+    # End v4.1.28 changes
+
+    # Begin v4.1.31 changes
+    "settings:when_new_updates_are_available" => "Quando atualizações estiverem disponíveis",
+    "settings:dont_install_just_notify_me" => "Não instalar. Apenas avisar",
+    "settings:install_automatically" => "Instalar automaticamente",
+    "settings:loading_update_details" => "Carregando detalhes sobre a atualização... Isso pode tomar um minuto ou dois. Sinta-se livre para recarregar a página.",
+    "settings:updating_please_wait" => "Atualizando. Por favor, aguarde. Essa página recarregará ao final da atualização.",
+    "settings:will_have_to_overwrite_single_file" => "O Pancake sobrescreverá 1 arquivo editado manualmente!",
+    "settings:will_have_to_overwrite_multiple_files" => "O Pancake precisará sobrescrever :1 arquivos modificados manualmente!",
+    "settings:checking_for_updates" => "Procurando por atualizações. Essa página recarregará automaticamente.",
+    "settings:description" => "Salve suas novas configurações antes de mudar de aba ou de página.",
+    "settings:business_identities" => "Múltiplas empresas",
+    "settings:business_name" => "Nome da empresa",
+    "settings:new_business" => "Nova empresa",
+    "settings:business_identity" => "Identidade da empresa",
+    "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas."
+    # End v4.1.31 changes
+
 );
 
 /** End of file: pancake_lang.php **/
