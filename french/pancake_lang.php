@@ -409,7 +409,7 @@ $lang = array(
     'projects:noarchivedprojecttitle' => 'Vous n\'avez aucun projet archivé',
     'projects:noarchivedprojecttext' => 'Vous pouvez archiver un projet à partir de la page du projet concerné.',
     'projects:allarchivedtitle' => 'Tous les projets archivés',
-    'projects:templatize' => 'Sauvegarder comme modèle',
+    'projects:templatize' => 'Sauvegarder le modèle',
     'projects:milestone_identifier' => "[Etape: :1]",
     /** Fin des projets **/
 
