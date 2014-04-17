@@ -821,7 +821,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:date_format'							=> 'Formato de data',
 	'settings:time_format' 							=> 'Formato de horário',
 	'settings:task_time_interval'					=> 'Arredondamento de horário',
-	'settings:task_time_interval_description'		=> '(ex. 00:30 or 0.5 - todos os horários são arredondados em meia hora nas faturas)',
+	'settings:task_time_interval_description'		=> '(ex. 00:30 ou 0.5 - todos os horários são arredondados em meia hora nas faturas)',
 	'settings:mailing_address'						=> 'Endereço do mailing',
 
 	'settings:default_subject'						=> 'Assunto padrão',
