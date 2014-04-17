@@ -1055,7 +1055,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'dashboard:view_all_team_activity'				=> 'Ver todas as atividades da equipe',
     'dashboard:my_tasks'							=> 'Minhas tarefas',
     'dashboard:view_all_my_tasks'					=> 'Ver todas as minhas tarefas',
-    'dashboard:what_the_team_is_working_on'			=> 'Em que a equipe está trabalhando.',
+    'dashboard:what_the_team_is_working_on'			=> 'Em que a equipe está trabalhando:',
     # End v4.1.4 changes
 
     # Begin v4.1.6 changes
