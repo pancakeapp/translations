@@ -1135,8 +1135,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     # Begin v4.1.24 changes
     "projects:tracked" => "Horas acumuladas",
     "settings:accounting_type" => "Ordenar faturas",
-    "settings:accrual" => "baseadas em sua data de emissão",
-    "settings:cash" => "baseadas na data de pagamento",
+    "settings:accrual" => "pela data de emissão",
+    "settings:cash" => "pela data de pagamento",
     "reports:selection_explanation_accrual" => "Faturas são exibidas baseadas em sua data de emissão.",
     "reports:selection_explanation_cash" => "Faturas pagas são exibidas baseadas em sua data de pagamento.\n\nFaturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de emissão.",
     "invoices:partially_paid" => "Parcialmente",
