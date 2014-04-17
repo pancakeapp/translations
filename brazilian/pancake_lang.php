@@ -847,12 +847,12 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:your_link'							=> 'Seu link',
 	'settings:bcc'									=> 'CCO',
 	'settings:automaticallybccclientemail'			=> 'Automaticamente envie para o email do pancake (definido acima) uma cópia de todos os emails para clientes',
-	'settings:api_note'								=> 'Nome / Nota',
+	'settings:api_note'								=> 'Nome&nbsp;/&nbsp;Nota',
 	'settings:api_key'								=> 'Chave',
 
 	'settings:tax_name'								=> 'Tributo',
 	'settings:tax_value'							=> 'Valor',
-	'settings:tax_reg'								=> 'Registro / Código',
+	'settings:tax_reg'								=> 'Registro&nbsp;/&nbsp;Código',
 	'settings:add_tax'								=> 'Adicionar outro tributo',
 
 	'settings:currency_name'						=> 'Moeda',
