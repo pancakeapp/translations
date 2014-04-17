@@ -723,8 +723,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 
 	/** Settings **/
 
-	'settings:task_statuses'						=> 'Situação de tarefas',
-	'settings:ticket_statuses'						=> 'Situação de suporte',
+	'settings:task_statuses'						=> 'Situações de tarefas',
+	'settings:ticket_statuses'						=> 'Situações de suporte',
 	'settings:ticket_priorities'					=> 'Prioridades de suporte',
 	'settings:background_color'						=> 'Cor de fundo',
 	'settings:text_color'							=> 'Cor de texto',
