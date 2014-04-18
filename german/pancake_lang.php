@@ -1101,6 +1101,72 @@ $lang = array(
   "export:invoices_csv" => "Rechnungen (CSV)",
   # End v4.1.15 changes
 
+  # Begin v4.1.17 changes
+  "projects:createdtemplate" => "Projektvorlage erstellt. Du kannst nun Projekte auf dieser Vorlage erstellen.",
+  "projects:delete_template" => "Vorlage löschen.",
+  "projects:deleted_template" => "Erfolg! Vorlage gelöscht.",
+  # End v4.1.17 changes
+
+  # Begin v4.1.19 changes
+  "export:expenses_csv" => "Ausgaben (CSV)",
+  "export:clients_csv" => "Kunden (CSV)",
+  "projects:expense_date" => "Datum der Ausgabe",
+  # End v4.1.19 changes
+
+  # Begin v4.1.20 changes
+  "clients:can_create_support_tickets" => "Dem Kunden erlauben Support-Tickets zu erstellen?",
+  "tickets:submit_new" => "Ticket hinzufügen",
+  "global:cancel" => "Abbrechen",
+  "global:timers" => "Timers",
+  "global:more" => "Mehr",
+  # End v4.1.20 changes
+
+  # Begin v4.1.23 changes
+  "global:search" => "Suche",
+  "authorize:api_login_id" => "API Login ID",
+  "authorize:api_login_id_description" => "Du kannst das bei Authorize.net unter Account > API Login ID and Transaction Key finden.",
+  "authorize:md5_hash" => "MD5-Hash",
+  "authorize:md5_hash_description" => "Standardmäßig ist das deine API Login ID. Du kannst sie bei Authorize.net unter Account > MD5-Hash ändern. Wenn dort 'Hash Value Set: No' steht, lasse das leer.",
+  "transactions:paymentfailed" => "Zahlung fehlgeschlagen",
+  "transactions:extrapaymentfailed" => "Bei dem Versuch die Zahlung zu verarbeiten ist ein unbekanntes Problem aufgetreten. Bitte kontaktiere :1 bei :2 für Hilfestellung.",
+  # End v4.1.23 changes
+
+  # Begin v4.1.24 changes
+  "projects:tracked" => "Tracked",
+  "settings:accounting_type" => "Reporting Method",
+  "settings:accrual" => "Zeige Rechnungen nach ihrem Erstellungsdatum",
+  "settings:cash" => "Zeige Rechnungen nach ihrem Bezahldatum",
+  "reports:selection_explanation_accrual" => "Rechnungen werden nach dem Datum, an dem sie erstellt wurden, angezeigt.",
+  "reports:selection_explanation_cash" => "Bezahlte Rechnungen werden nach dem Datum, an dem sie bezahlt wurden, angezeigt.\n\nUnbezahlte oder teilgezahlte Rechnungen werden nach Erstellungsdatum angezeigt.",
+  "invoices:partially_paid" => "Teilweise",
+  # End v4.1.24 changes
+
+  # Begin v4.1.27 changes
+  "global:projects_ommitted" => ":1 Projekte nicht angezeigt",
+  "global:tasks_ommitted" => ":1 Aufgaben nicht angezeigt",
+  # End v4.1.27 changes
+
+  # Begin v4.1.28 changes
+  "login:username_email" => "Benutzername / E-Mail",
+  # End v4.1.28 changes
+
+  # Begin v4.1.31 changes
+  "settings:when_new_updates_are_available" => "Wenn neue Aktualisierungen verfügbar sind",
+  "settings:dont_install_just_notify_me" => "Nicht installieren, nur benachrichtigen",
+  "settings:install_automatically" => "Automatisch installieren",
+  "settings:loading_update_details" => "Lade Aktualisierungs-Details... Dies kann ein oder zwei Minuten dauern. Du kannst jederzeit neu laden.",
+  "settings:updating_please_wait" => "Aktualisierung. Bitte warten.\nDie Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.",
+  "settings:will_have_to_overwrite_single_file" => "Pancake wird eine Datei überschreiben, die du manuell geändert hast.",
+  "settings:will_have_to_overwrite_multiple_files" => "Pancake wird :1 Dateien überschreiben, die du manuell geändert hast.",
+  "settings:checking_for_updates" => "Suche nach Aktualisierungen, bitte warten. Diese Seite wird automatisch neu geladen.",
+  "settings:description" => "Speichere deine geänderten Einstellungen bevor du den Tab wechselt oder die Seite verlässt.",
+  "settings:business_identities" => "Geschäftsidentitäten",
+  "settings:business_name" => "Name des Geschäfts",
+  "settings:new_business" => "Neues Geschäft",
+  "settings:business_identity" => "Geschäftsidentität",
+  "settings:business_identity_explanation" => "Der Kunde wird die obenstehende Geschäftsidentität auf allen E-Mails, PDFs und Seiten sehen.",
+  # End v4.1.31 changes
+
 );
 
 /** End of file: pancake_lang.php **/

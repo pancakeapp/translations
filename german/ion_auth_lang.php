@@ -12,6 +12,7 @@
  * Location:     http://github.com/benedmunds/CodeIgniter-Ion-Auth/tree/2/language/german/
  *
  * Created:  04.02.2010
+ * Last-Edit: 18.04.2014
  *
  * Description:      German language file for Ion Auth messages and errors
  * Beschreibung:     Deutsche Sprach-Datei für Ion Auth System- und Fehlermeldungen
@@ -30,6 +31,7 @@ $lang['password_change_successful'] 	 	 = 'Das Passwort wurde erfolgreich geänd
 $lang['password_change_unsuccessful'] 	  	 = 'Das Passwort konnte nicht geändert werden';
 $lang['forgot_password_successful'] 	 	 = 'Es wurde eine E-Mail zum Zurücksetzen des Passwortes versandt';
 $lang['forgot_password_unsuccessful'] 	 	 = 'Das Passwort konnte nicht zurückgesetzt werden';
+$lang['cant_send_email'] = "Während dem versenden einer E-Mail ist ein Problem aufgetreten.";
 
 // Activation
 $lang['activate_successful'] 		  	     = 'Das Benutzerkonto wurde aktiviert';
