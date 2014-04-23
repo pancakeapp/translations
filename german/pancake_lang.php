@@ -501,11 +501,6 @@ $lang = array(
     'reports:paid_amount' => "Bezahlter Betrag",
     'reports:unpaid_amount' => "Unbezahlter Betrag",
     'reports:client_name' => "Kundenname",
-    'reports:filters' => 'Filter',
-    'reports:selection_explanation' => 'Unbezahlte Rechnungen werden nach ihrem Fälligkeitsdatum angezeigt.
-    Bezahlte Rechnungen nach dem Bezahldatum.
-    Rechnungen mit mehr als einer Teilzahlung werden zum Datum der ersten Zahlung angezeigt.
-    Unbezahlte Rechnungen ohne Fälligkeitsdatum werden nach ihrem Erstellungsdatum angezeigt.',
 
     'reports:nodata'        => 'No :1.', /*?*/
     /** End Reports **/
@@ -720,7 +715,7 @@ $lang = array(
     /** Frontend **/
     'frontend:hithere'                          => 'Hallo auch!',
     'frontend:followthemaillinkdude'            => 'Um ihre Rechnung zu betrachten müssen sie den gesamten Link in der E-Mail klicken. Z.B. :1.',
-    'frontend:contactadminforassistance'        => 'Bitte tun sie das oder wenden sie sich für Unterstützung an :1 @ :2',
+    'frontend:contactadminforassistance'        => 'Bitte tun sie das oder wenden sie sich für Unterstützung an :1 bei :2',
     /** End Frontend **/
 
     /** Settings **/
@@ -738,7 +733,7 @@ $lang = array(
     'settings:pdf_page_size'                    => 'PDF Seitengröße',
     'settings:default_invoice_notes'            => 'Standardrechnungsnotiz',
     'settings:default_invoice_title'            => 'Standardrechnungstitel',
-    'settings:default_invoice_due_date'         => 'Standardfälligkeit',
+    'settings:default_invoice_due_date'         => 'Standardfälligkeit für Rechnungen',
     'settings:autosave_proposals'               => 'Angebote automatisch speichern',
     'settings:default_invoice_due_date_explain' => 'tage nachdem die Rechnung erstellt wurde. Wenn du kein Standarddatum willst einfach das Feld leer lassen.',
     'settings:testemailsettings'                => 'E-Mail-Einstellungen testen',
@@ -751,13 +746,12 @@ $lang = array(
     'settings:send_x_days_before'               => 'Standardwert für "Tage vorher versenden"',
     'settings:send_x_days_before_explain'       => 'Standardwert wie viele Tage vor Fälligkeit eine wiederkehrende Rechnung an den Kunden versand wird.',
     'settings:file_to_import'                   => 'Datei zum Importieren',
-    'settings:export_types'                     => 'Pancake exportiert alles im JSON-Format.',
     'settings:file_should_be_csv'               => 'Pancake versucht deine Datei automatisch zu verarbeiten und alles darin zu importieren. Falls Pancake deine Datei nicht verarbeiten kann sagt es dir bescheid und bietet dir die Option uns einige Informationen zuzusenden, so dass wir dafür sorgen können, dass Pancake auch mit deiner Datei arbeitet.',
     'settings:importnow'                        => 'Jetzt importieren!',
     'settings:whatimporting'                    => 'Was willst du importieren?',
     'settings:whatexporting'                    => 'Was willst du exportieren?',
     'settings:nouploadedimportfile'             => 'Du hast keine Datei für den Import hochgeladen.',
-    'settings:import'                           => 'Import (BETA)',
+    'settings:import'                           => 'Import',
     'settings:importedclients'                  => ':1 Kunden wurden erfolgreich importiert.',
     'settings:importedprojects'                 => ":1 Projekte wurden erfolgreich importiert.",
     'settings:importedusers'                    => ":1 Benutzer wurden erfolgreich importiert.",
@@ -819,7 +813,7 @@ $lang = array(
     'settings:date_format'                      => 'Datumsformat',
     'settings:time_format'                      => "Zeitformat",
     'settings:task_time_interval'               => 'Zeitrundung (leer lassen für keine Rundung)',
-    'settings:task_time_interval_description'   => '(z.B.. 00:30 oder 0.5 - alle Zeit-Einträge werden bei er Berechnung für eine Rechnung auf die nächste halbe Stunde aufgerundetd.)',
+    'settings:task_time_interval_description'   => '(z.B.. 00:30 oder 0.5 - alle Zeit-Einträge werden bei der Berechnung für eine Rechnung auf die nächste halbe Stunde aufgerundet.)',
     'settings:mailing_address'                  => 'Postadresse',
 
     'settings:default_subject'                  => 'Standardbetreff',
@@ -1167,6 +1161,26 @@ $lang = array(
   "settings:business_identity_explanation" => "Der Kunde wird die obenstehende Geschäftsidentität auf allen E-Mails, PDFs und Seiten sehen.",
   # End v4.1.31 changes
 
+  # Begin v4.1.33 changes
+  "settings:have_been_updated" => 'Die Einstellungen wurden aktualisiert.',
+  "tasks:all" => "Alle Aufgaben",
+  "projects:progress" => "Fortschritt",
+  "expenses:name" => "Name der Ausgabe",
+  "tasks:add_hours_to" => "Füge Stunden zu :1 hinzu",
+  "global:today" => "Heute",
+  "global:yesterday" => "Gestern",
+  "global:other" => "Andere",
+  "global:now" => "Jetzt",
+  "timesheet:view_for_clients" => "Zeiterfassungsbogen ansehen (für Kunden)",
+  "global:not_billed_yet" => "Noch nicht berechnet.",
+  "tasks:total_logged_time" => "Gesamte getrackte Zeit",
+  "global:biweekly" => "Zweiwöchentlich",
+  # End v4.1.33 changes
+
+  # Begin v4.2 changes
+  'settings:default_task_due_date' => 'Standardfälligkeitsdatum für Aufgaben',
+  'settings:default_task_due_date_explain' => "Tage nachdem eine Aufgabe erstellt wurde. Wenn du kein Standarddatum verwenden willst lasse das Feld einfach leer.",
+  # End v4.2 changes
 );
 
 /** End of file: pancake_lang.php **/
