@@ -40,7 +40,7 @@ $lang	= array(
 	'global:users'									=> 'Usuários',
 	'global:send_to_client'							=> 'Enviar ao cliente',
 	'global:couldnotsendemail'						=> 'O email não pode ser enviado.  Por favor, veja suas configurações.',
-	'global:emailsent'								=> 'Email foi enviado!',
+	'global:emailsent'								=> 'Email enviado!',
 	'global:yes'									=> 'Sim',
 	'global:no'										=> 'Não',
 	'global:notyetsent'								=> 'Não enviado ao cliente',
@@ -137,7 +137,7 @@ $lang	= array(
     'global:updates_available'						=> ':1 atualizações disponíveis',
 	'global:downloadpdf'							=> 'Baixar PDF',
 	'global:yesdelete'								=> 'Sim, apague!',
-	'global:confirm_emphisised'						=> 'Não há retorno!',
+	'global:confirm_emphisised'						=> 'Não tem volta!',
 	'global:color'									=> 'Cor',
 	'global:save'									=> 'Salvar',
 	'global:unknown'								=> 'Desconhecido',
@@ -723,8 +723,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 
 	/** Settings **/
 
-	'settings:task_statuses'						=> 'Situação de tarefas',
-	'settings:ticket_statuses'						=> 'Situação de suporte',
+	'settings:task_statuses'						=> 'Situações de tarefas',
+	'settings:ticket_statuses'						=> 'Situações de suporte',
 	'settings:ticket_priorities'					=> 'Prioridades de suporte',
 	'settings:background_color'						=> 'Cor de fundo',
 	'settings:text_color'							=> 'Cor de texto',
@@ -821,8 +821,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:date_format'							=> 'Formato de data',
 	'settings:time_format' 							=> 'Formato de horário',
 	'settings:task_time_interval'					=> 'Arredondamento de horário',
-	'settings:task_time_interval_description'		=> '(ex. 00:30 or 0.5 - todos os horários são arredondados em meia hora nas faturas)',
-	'settings:mailing_address'						=> 'Endereço do mailing',
+	'settings:task_time_interval_description'		=> '(ex. 00:30 ou 0.5 faz com que todos os horários sejam arredondados em meia hora nas faturas)',
+	'settings:mailing_address'						=> 'Endereço para correspondência',
 
 	'settings:default_subject'						=> 'Assunto padrão',
 	'settings:default_contents'						=> 'Mensagem padrão',
@@ -847,12 +847,12 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'settings:your_link'							=> 'Seu link',
 	'settings:bcc'									=> 'CCO',
 	'settings:automaticallybccclientemail'			=> 'Automaticamente envie para o email do pancake (definido acima) uma cópia de todos os emails para clientes',
-	'settings:api_note'								=> 'Nome / Nota',
+	'settings:api_note'								=> 'Nome&nbsp;/&nbsp;Nota',
 	'settings:api_key'								=> 'Chave',
 
 	'settings:tax_name'								=> 'Tributo',
 	'settings:tax_value'							=> 'Valor',
-	'settings:tax_reg'								=> 'Registro / Código',
+	'settings:tax_reg'								=> 'Registro&nbsp;/&nbsp;Código',
 	'settings:add_tax'								=> 'Adicionar outro tributo',
 
 	'settings:currency_name'						=> 'Moeda',
@@ -1055,7 +1055,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'dashboard:view_all_team_activity'				=> 'Ver todas as atividades da equipe',
     'dashboard:my_tasks'							=> 'Minhas tarefas',
     'dashboard:view_all_my_tasks'					=> 'Ver todas as minhas tarefas',
-    'dashboard:what_the_team_is_working_on'			=> 'Em que a equipe está trabalhando.',
+    'dashboard:what_the_team_is_working_on'			=> 'Em que a equipe está trabalhando:',
     # End v4.1.4 changes
 
     # Begin v4.1.6 changes
@@ -1135,8 +1135,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     # Begin v4.1.24 changes
     "projects:tracked" => "Horas acumuladas",
     "settings:accounting_type" => "Ordenar faturas",
-    "settings:accrual" => "baseadas em sua data de emissão",
-    "settings:cash" => "baseadas na data de pagamento",
+    "settings:accrual" => "pela data de emissão",
+    "settings:cash" => "pela data de pagamento",
     "reports:selection_explanation_accrual" => "Faturas são exibidas baseadas em sua data de emissão.",
     "reports:selection_explanation_cash" => "Faturas pagas são exibidas baseadas em sua data de pagamento.\n\nFaturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de emissão.",
     "invoices:partially_paid" => "Parcialmente",
@@ -1164,9 +1164,30 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     "settings:business_identities" => "Múltiplas empresas",
     "settings:business_name" => "Nome da empresa",
     "settings:new_business" => "Nova empresa",
-    "settings:business_identity" => "Identidade da empresa",
-    "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas."
+    "settings:business_identity" => "Empresa prestadora",
+    "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas.",
     # End v4.1.31 changes
+
+    # Begin v4.1.33 changes
+    "settings:have_been_updated" => 'As configurações foram atualizadas.',
+    "tasks:all" => "Todas as tarefas",
+    "projects:progress" => "Progresso",
+    "expenses:name" => "Nome da despesa",
+    "tasks:add_hours_to" => "Adicionar horas em :1",
+    "global:today" => "Hoje",
+    "global:yesterday" => "Ontem",
+    "global:other" => "Outro",
+    "global:now" => "Agora",
+    "timesheet:view_for_clients" => "Ver quadro de horários (para clientes)",
+    "global:not_billed_yet" => "Ainda não faturado.",
+    "tasks:total_logged_time" => "Tempo total registrado",
+    "global:biweekly" => "Quinzenal",
+    # End v4.1.33 changes
+
+    # Begin v4.2 changes
+    'settings:default_task_due_date' => 'Prazo padrão para tarefas',
+    'settings:default_task_due_date_explain' => "dias após a criação da tarefa. Se você não quer um padrão, deixe esse campo vazio.",
+    # End v4.2 changes
 
 );
 
