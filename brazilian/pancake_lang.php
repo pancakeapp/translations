@@ -1165,8 +1165,29 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     "settings:business_name" => "Nome da empresa",
     "settings:new_business" => "Nova empresa",
     "settings:business_identity" => "Empresa prestadora",
-    "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas."
+    "settings:business_identity_explanation" => "Seu cliente verá a empresa acima em todos os seus emails, PDFs e páginas.",
     # End v4.1.31 changes
+
+    # Begin v4.1.33 changes
+    "settings:have_been_updated" => 'As configurações foram atualizadas.',
+    "tasks:all" => "Todas as tarefas",
+    "projects:progress" => "Progresso",
+    "expenses:name" => "Nome da despesa",
+    "tasks:add_hours_to" => "Adicionar horas em :1",
+    "global:today" => "Hoje",
+    "global:yesterday" => "Ontem",
+    "global:other" => "Outro",
+    "global:now" => "Agora",
+    "timesheet:view_for_clients" => "Ver quadro de horários (para clientes)",
+    "global:not_billed_yet" => "Ainda não faturado.",
+    "tasks:total_logged_time" => "Tempo total registrado",
+    "global:biweekly" => "Quinzenal",
+    # End v4.1.33 changes
+
+    # Begin v4.2 changes
+    'settings:default_task_due_date' => 'Prazo padrão para tarefas',
+    'settings:default_task_due_date_explain' => "dias após a criação da tarefa. Se você não quer um padrão, deixe esse campo vazio.",
+    # End v4.2 changes
 
 );
 
