@@ -1140,11 +1140,27 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
     # Fin v4.1.31
     
+    # Début des changements de la v4.1.33
+    "settings:have_been_updated" => 'Les paramètres ont été mis à jour.',
+    "tasks:all" => "Toutes les tâches",
+    "projects:progress" => "Progrès",
+    "expenses:name" => "Nom de la dépense",
+    "tasks:add_hours_to" => "Ajouter les heures à :1",
+    "global:today" => "Aujourd'hui",
+    "global:yesterday" => "Hier",
+    "global:other" => "Autre",
+    "global:now" => "Maintenant",
+    "timesheet:view_for_clients" => "Voir la feuille de temps (pour les clients)",
+    "global:not_billed_yet" => "Non facturé",
+    "tasks:total_logged_time" => "Temps total enregistré",
+    "global:biweekly" => "Bi-hebdomadaire",
+    # Fin v4.1.33
     
-    # Begin v4.2 changes
-    'settings:default_task_due_date' => 'Default Task Due Date',
-    'settings:default_task_due_date_explain' => "days after task is created. If you don't want a default date, leave this empty.",
-    # End v4.2 changes
+    
+    # Début des changements de la v4.2
+    'settings:default_task_due_date' => 'Tâches dues par défaut',
+    'settings:default_task_due_date_explain' => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
+    # Fin v4.2
 
 );
 
