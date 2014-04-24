@@ -1139,6 +1139,12 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:business_identity" => "Identité d'affaire",
     "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
     # Fin v4.1.31
+    
+    
+    # Begin v4.2 changes
+    'settings:default_task_due_date' => 'Default Task Due Date',
+    'settings:default_task_due_date_explain' => "days after task is created. If you don't want a default date, leave this empty.",
+    # End v4.2 changes
 
 );
 
