@@ -409,7 +409,7 @@ $lang = array(
     'projects:noarchivedprojecttitle' => 'Vous n\'avez aucun projet archivé',
     'projects:noarchivedprojecttext' => 'Vous pouvez archiver un projet à partir de la page du projet concerné.',
     'projects:allarchivedtitle' => 'Tous les projets archivés',
-    'projects:templatize' => 'Sauvegarder comme modèle',
+    'projects:templatize' => 'Sauvegarder le modèle',
     'projects:milestone_identifier' => "[Etape: :1]",
     /** Fin des projets **/
 
@@ -627,7 +627,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:categories'				=>	'Catégories',
     'expenses:add_supplier'				=>	'Ajouter un fournisseur',
     'expenses:edit_supplier'			=>	'Modifier le fournisseur',
-    'expenses:add_category'				=>	'Ajouter une catégorie',
+    'expenses:add_category'				=>	'Ajouter',
     'expenses:edit_category'			=>	'Modifier la catégorie',
     'expenses:parent_category'			=>	'Catégorie parente',
     'expenses:filter'					=>	'Filtrer les dépenses',
@@ -750,7 +750,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:noopenssl'							=> 'Votre serveur PHP n\'a pas de configuration OpenSSL active ce qui veut dire que vous ne pouvez pas utiliser Gmail ou d\'autres applications Google pour envoyer des courriels',
     'settings:logoremoved'							=> 'Logo retiré avec succès!',
     'settings:save'									=> 'Sauvegarder',
-    'settings:logodimensions'						=> 'Le logo devrait être d\'au moins 240 pixels de large et 106 pixels de haut',
+    'settings:logodimensions'						=> 'Le logo sera redimensionné automatiquement.',
     'settings:logoformatsallowed'					=> 'Seulement les fichiers de type BMP, PNG, JPG (JPEG) et GIF sont autorisés',
     'settings:ftp_user'								=> 'Utilisateur FTP',
     'settings:ftp_pass'								=> 'Mot de passe FTP',
@@ -1139,6 +1139,28 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:business_identity" => "Identité d'affaire",
     "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
     # Fin v4.1.31
+    
+    # Début des changements de la v4.1.33
+    "settings:have_been_updated" => 'Les paramètres ont été mis à jour.',
+    "tasks:all" => "Toutes les tâches",
+    "projects:progress" => "Progrès",
+    "expenses:name" => "Nom de la dépense",
+    "tasks:add_hours_to" => "Ajouter les heures à :1",
+    "global:today" => "Aujourd'hui",
+    "global:yesterday" => "Hier",
+    "global:other" => "Autre",
+    "global:now" => "Maintenant",
+    "timesheet:view_for_clients" => "Voir la feuille de temps (pour les clients)",
+    "global:not_billed_yet" => "Non facturé",
+    "tasks:total_logged_time" => "Temps total enregistré",
+    "global:biweekly" => "Bi-hebdomadaire",
+    # Fin v4.1.33
+    
+    
+    # Début des changements de la v4.2
+    'settings:default_task_due_date' => 'Tâches dues par défaut',
+    'settings:default_task_due_date_explain' => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
+    # Fin v4.2
 
 );
 
