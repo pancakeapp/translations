@@ -529,7 +529,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	/** Proposals **/
 	'proposals:duplicated'							=> 'Proposta #:1 duplicada. O número da nova proposta é #:2.',
 	'proposals:usesectiontemplate'					=> 'Use esse modelo de seção',
-	'proposals:showcontents'						=> 'Mostrar conteúdo',
+	'proposals:showcontents'						=> 'Exibir conteúdo',
 	'proposals:hidecontents'						=> 'Ocultar conteúdo',
 	'proposals:deletepremadesection'				=> 'Apagar template de seção',
 	'proposals:nopremadesections'					=> 'Você não tem modelos de seção salvos.',
