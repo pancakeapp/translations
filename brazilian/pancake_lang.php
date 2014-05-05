@@ -934,7 +934,7 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
 	'gateways:errorupdating'						=> 'Houve um erro enquanto o método de pagamento era atualizado. Por favor, contacte o pessoal de suporte.',
 	'gateways:paymentmethods'						=> 'Métodos de pagamento',
 	'gateways:selectpaymentmethod'					=> 'Selecione o método de pagamento',
-	'gateways:nogatewayused'						=> 'Nenhum método usado: parcela não foi paga',
+	'gateways:nogatewayused'						=> 'Nenhum método usado: parcela não paga',
 	'gateways:completed'							=> 'Completo',
 	'gateways:refunded'								=> 'Reembolsado',
 	'gateways:unpaid'								=> 'Não pago',
