@@ -198,6 +198,14 @@ $lang	= array(
 	'dashboard:upcoming_tasks'						=> 'Próximas tarefas',
 	/** End Dashboard **/
 
+	/** Timesheets **/
+	'global:timesheets'			=>	'Quadros de horários',
+	'timesheets:todays'			=>  'Hoje',
+	'timesheets:all_users'		=>	'Todos os usuários',
+    'timesheets:rounded_time' => 'Arrendondado para a próxima :1',
+    'timesheets:there_are_no_time_entries' => "Não há entradas de horários para exibir nesse intervalo.",
+	/** END Timesheets **/
+
 
 	/** Users **/
 
@@ -506,11 +514,6 @@ $lang	= array(
     'reports:paid_amount' 							=> 'Total pago',
     'reports:unpaid_amount' 						=> 'Total devido',
     'reports:client_name' 							=> 'Cliente',
-    'reports:filters' 								=> 'Filtros',
-    'reports:selection_explanation'					=> 'Faturas devidas são mostradas com base em sua data de vencimento.
-Faturas pagas são mostradas com base em sua data de pagamento.
-Faturas com mais de uma parcela paga são mostradas baseadas na data do primeiro pagamento.
-Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.',
 
 	'reports:nodata'								=> 'Sem :1.',
 	/** End Reports **/
@@ -1019,6 +1022,8 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'email_templates:new_comment'					=> 'Aviso de novo comentário',
 
     'global:timer_app'								=> 'Cronômetro do Pancake',
+    'global:there_is_no_activity'					=> "Não há atividades da equipe para exibir.",
+    'global:there_are_no_tasks_assigned_to_you'		=> "Não há tarefas atribuídas a você.",
 
 	/** Dashboard **/
 
@@ -1188,6 +1193,18 @@ Faturas devidas sem vencimento são exibidas baseadas na sua data de criação.'
     'settings:default_task_due_date' => 'Prazo padrão para tarefas',
     'settings:default_task_due_date_explain' => "dias após a criação da tarefa. Se você não quer um padrão, deixe esse campo vazio.",
     # End v4.2 changes
+
+    # Note: 4.2.x brought changes to the language file that weren't appended to the end of the file.
+    # If you're updating your translation, make sure to check out a diff of the language file, instead of relying on just checking the bottom of the file.
+
+    # Begin v4.2.4 changes
+    "expenses:sort_or_filter" => "Ordenar/Filtrar despesas",
+    "expenses:show" => "Exibir despesas",
+    "global:sort_by" => "Ordenar por",
+    "global:sort_order" => "Ordem",
+    "global:asc" => "Crescente (A-Z)",
+    "global:desc" => "Decrescente (Z-A)",
+    # End v4.2.4 changes
 
 );
 
