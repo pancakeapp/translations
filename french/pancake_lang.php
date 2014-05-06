@@ -189,6 +189,14 @@ $lang = array(
     'dashboard:these_are_your_upcoming_tasks' => "Ce sont vos tâches à venir, :1.",
     'dashboard:upcoming_tasks' => 'Tâche à venir',
     /** Fin du tableau de bord **/
+    
+    /** Début des feuilles de temps **/
+ 	'global:timesheets'			=>	'Feuilles de temps',
+ 	'timesheets:todays'			=>  'Aujourd\'hui',
+ 	'timesheets:all_users'		=>	'Tout les utilisateurs',
+    'timesheets:rounded_time' => 'Arrondir au plus près :1',
+    'timesheets:there_are_no_time_entries' => "Il n'y a pas d'entrée de temps à afficher pour cette période de temps.",
+ 	/** Fin des feuilles de temps **/
 
 
     /** Début des utilisateurs **/
@@ -602,10 +610,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'items:line_items'					=> 'Élément',
     'items:add'							=> 'Ajouter un élément',
     'items:edit'						=> 'Modifier l\'élément',
-    'items:noitemtitle'					=>	'Vous n\'avez pas encore d\'élément!',
-    'items:noitembody'					=>	'Vous devriez ajouter des éléments maintennat, ça rend la création de facture vraiment facile!',
-    'items:delete_title'				=>	'Supprimer cet élément?',
-    'items:delete_message'				=>	'Êtes-vous certain de vouloir supprimer l\'élément ":1"?',
+    'items:noitemtitle'					=> 'Vous n\'avez pas encore d\'élément!',
+    'items:noitembody'					=> 'Vous devriez ajouter des éléments maintennat, ça rend la création de facture vraiment facile!',
+    'items:delete_title'				=> 'Supprimer cet élément?',
+    'items:delete_message'				=> 'Êtes-vous certain de vouloir supprimer l\'élément ":1"?',
     'items:type'						=> 'Type',
     'items:select_standard'				=> 'Standard',
     'items:select_expense'				=> 'Dépense',
@@ -992,6 +1000,8 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'email_templates:assigned_to_milestone' => "Notification d'affectation d'une étape",
     'email_templates:new_comment' => "Notification de nouveau commentaire",
     'global:timer_app' => "Minuteur Pancake",
+    'global:there_is_no_activity' => "Il n'y a pas d'activité d'équipe à afficher.",
+    'global:there_are_no_tasks_assigned_to_you' => "Vous n'avez pas de tâches assignées.",
 
     # v4.0.5
     'invoices:lastreoccurrence' => 'Dernière réapparition: :1',
