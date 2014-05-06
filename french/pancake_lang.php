@@ -151,7 +151,7 @@ $lang = array(
     'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">cliquez ici</a>.',
     'global:quick_links' => 'Liens rapides',
     'global:view_all' => 'Voir tous',
-    'global:deleted' => 'Supprimé',
+    'global:deleted' => 'Supprimer',
     'global:add_more' => "Ajouter plus",
     'global:upload_files' => "Télécharger des fichiers",
     'global:optional_increment' => '<strong>Optionnel</strong> - sera auto-incrémenté',
@@ -189,6 +189,14 @@ $lang = array(
     'dashboard:these_are_your_upcoming_tasks' => "Ce sont vos tâches à venir, :1.",
     'dashboard:upcoming_tasks' => 'Tâche à venir',
     /** Fin du tableau de bord **/
+    
+    /** Début des feuilles de temps **/
+ 	'global:timesheets'			=>	'Feuilles de temps',
+ 	'timesheets:todays'			=>  'Aujourd\'hui',
+ 	'timesheets:all_users'		=>	'Tout les utilisateurs',
+    'timesheets:rounded_time' => 'Arrondir au plus près :1',
+    'timesheets:there_are_no_time_entries' => "Il n'y a pas d'entrée de temps à afficher pour cette période de temps.",
+ 	/** Fin des feuilles de temps **/
 
 
     /** Début des utilisateurs **/
@@ -602,10 +610,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'items:line_items'					=> 'Élément',
     'items:add'							=> 'Ajouter un élément',
     'items:edit'						=> 'Modifier l\'élément',
-    'items:noitemtitle'					=>	'Vous n\'avez pas encore d\'élément!',
-    'items:noitembody'					=>	'Vous devriez ajouter des éléments maintennat, ça rend la création de facture vraiment facile!',
-    'items:delete_title'				=>	'Supprimer cet élément?',
-    'items:delete_message'				=>	'Êtes-vous certain de vouloir supprimer l\'élément ":1"?',
+    'items:noitemtitle'					=> 'Vous n\'avez pas encore d\'élément!',
+    'items:noitembody'					=> 'Vous devriez ajouter des éléments maintennat, ça rend la création de facture vraiment facile!',
+    'items:delete_title'				=> 'Supprimer cet élément?',
+    'items:delete_message'				=> 'Êtes-vous certain de vouloir supprimer l\'élément ":1"?',
     'items:type'						=> 'Type',
     'items:select_standard'				=> 'Standard',
     'items:select_expense'				=> 'Dépense',
@@ -628,7 +636,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:add_supplier'				=>	'Ajouter un fournisseur',
     'expenses:edit_supplier'			=>	'Modifier le fournisseur',
     'expenses:add_category'				=>	'Ajouter',
-    'expenses:edit_category'			=>	'Modifier la catégorie',
+    'expenses:edit_category'			=>	'Modifier',
     'expenses:parent_category'			=>	'Catégorie parente',
     'expenses:filter'					=>	'Filtrer les dépenses',
     'expenses:start_date'				=>	'Date de début',
@@ -992,6 +1000,8 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'email_templates:assigned_to_milestone' => "Notification d'affectation d'une étape",
     'email_templates:new_comment' => "Notification de nouveau commentaire",
     'global:timer_app' => "Minuteur Pancake",
+    'global:there_is_no_activity' => "Il n'y a pas d'activité d'équipe à afficher.",
+    'global:there_are_no_tasks_assigned_to_you' => "Vous n'avez pas de tâches assignées.",
 
     # v4.0.5
     'invoices:lastreoccurrence' => 'Dernière réapparition: :1',
@@ -1161,6 +1171,18 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:default_task_due_date' => 'Tâches dues par défaut',
     'settings:default_task_due_date_explain' => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
     # Fin v4.2
+    
+    # Note: 4.2.x a apporté des changements au fichier de langage qui ne seont pas ajouté à la fin de ce fichier.
+    # Si vous mettez à jour votre traduction, assurez vous de vérifier les différences du fichier de langage au lieu de se fier seulement aux changements apportés au bas de ce document.
+    
+    # Début des changements de la v4.2.4
+    "expenses:sort_or_filter" => "Classer/Filtrer les dépenses",
+    "expenses:show" => "Montrer les dépenses",
+    "global:sort_by" => "Classer par",
+    "global:sort_order" => "Classer les commandes",
+    "global:asc" => "Ascendant (A-Z)",
+    "global:desc" => "Descendant (Z-A)",
+    # Fin v4.2.4
 
 );
 
