@@ -1161,6 +1161,18 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:default_task_due_date' => 'Tâches dues par défaut',
     'settings:default_task_due_date_explain' => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
     # Fin v4.2
+    
+    # Note: 4.2.x a apporté des changements au fichier de langage qui ne seont pas ajouté à la fin de ce fichier.
+    # Si vous mettez à jour votre traduction, assurez vous de vérifier les différences du fichier de langage au lieu de se fier seulement aux changements apportés au bas de ce document.
+    
+    # Début des changements de la v4.2.4
+    "expenses:sort_or_filter" => "Classer/Filtrer les dépenses",
+    "expenses:show" => "Montrer les dépenses",
+    "global:sort_by" => "Classer par",
+    "global:sort_order" => "Classer les commandes",
+    "global:asc" => "Ascendant (A-Z)",
+    "global:desc" => "Descendant (Z-A)",
+    # Fin v4.2.4
 
 );
 
