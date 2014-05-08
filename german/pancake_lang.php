@@ -1181,6 +1181,19 @@ $lang = array(
   'settings:default_task_due_date' => 'Standardf&auml;lligkeitsdatum f&uuml;r Aufgaben',
   'settings:default_task_due_date_explain' => "Tage nachdem eine Aufgabe erstellt wurde. Wenn du kein Standarddatum verwenden willst lasse das Feld einfach leer.",
   # End v4.2 changes
+
+  # Note: 4.2.x brought changes to the language file that weren't appended to the end of the file.
+  # If you're updating your translation, make sure to check out a diff of the language file, instead of relying on just checking the bottom of the file.
+    
+    # Begin v4.2.4 changes
+    "expenses:sort_or_filter" => "Sort/Filter Ausgaben",
+    "expenses:show" => "Ausgaben anzeigen",
+    "global:sort_by" => "Sortieren nach",
+    "global:sort_order" => "Anordnung",
+    "global:asc" => "Aufsteigend (A-Z)",
+    "global:desc" => "Absteigend (Z-A)",
+    # End v4.2.4 changes
+
 );
 
 /** End of file: pancake_lang.php **/
