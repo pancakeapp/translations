@@ -197,6 +197,13 @@ $lang = array(
     'dashboard:upcoming_tasks'      =>    'Anstehende Aufgaben',
     /** End Dashboard **/
 
+    /** Timesheets **/
+    'global:timesheets'       =>  'Zeiterfassungsbögen',
+    'timesheets:todays'       =>  'Heutige',
+    'timesheets:all_users'    =>  'Alle Benutzer',
+    'timesheets:rounded_time' => 'Gerundet auf die nächste :1',
+    'timesheets:there_are_no_time_entries' => "Es gibt für diesen Datumbereich keine Zeiteinträge.",
+    /** END Timesheets **/
 
     /** Users **/
 
@@ -204,7 +211,7 @@ $lang = array(
     // = LOGIN PAGE COMPLETED - Lee =
     // ==============================
     'login:forgotinstructions'      =>    'Bitte gib deine E-Mail-Adresse ein damit wir dir einen E-Mail zum zurücksetzen deines Passworts schicken können.',
-    'login:reset'                   =>    'Zurücksetzen &raquo;',
+//    'login:reset'                   =>    'Zurücksetzen &raquo;',
     'login:reset'                   =>    'Passwort zurücksetzen',
     'login:username'                =>    'Benutzername',
     'login:password'                =>    'Passwort',
@@ -256,7 +263,7 @@ $lang = array(
     'contact:contact'           => 'Kontakt',
     'contact:subject'           => 'Betreff',
     'contact:content'           => 'Inhalt',
-//    'contact:method'            => 'Contact Method',
+    // 'contact:method'         => 'Contact Method',
     'contact:calling_title'     => 'Kunden arufen ":1"', /*??*/
     // 'contact:view_all'       =>    'Alle ansehen',
     /** End Contact Log **/
@@ -1012,6 +1019,8 @@ $lang = array(
     'email_templates:new_comment'               => "Neuer Kommentar",
 
     'global:timer_app'                          => "Pancake Timer App",
+    'global:there_is_no_activity'               => "Es gibt hier keine Teamaktivitäten anzuzeigen.",
+    'global:there_are_no_tasks_assigned_to_you' => "Es sind Dir keine Aufgaben zugewiesen.",
 
     /** Dashboard **/
 
@@ -1181,6 +1190,18 @@ $lang = array(
   'settings:default_task_due_date' => 'Standardfälligkeitsdatum für Aufgaben',
   'settings:default_task_due_date_explain' => "Tage nachdem eine Aufgabe erstellt wurde. Wenn du kein Standarddatum verwenden willst lasse das Feld einfach leer.",
   # End v4.2 changes
+
+  # Note: 4.2.x brought changes to the language file that weren't appended to the end of the file.
+  # If you're updating your translation, make sure to check out a diff of the language file, instead of relying on just checking the bottom of the file.
+
+  # Begin v4.2.4 changes
+  "expenses:sort_or_filter" => "Ausgaben sortieren/filtern",
+  "expenses:show"           => "Ausgaben anzeigen",
+  "global:sort_by"          => "Sortieren nach",
+  "global:sort_order"       => "Sortierreihenfolge",
+  "global:asc"              => "Aufsteigend (A-Z)",
+  "global:desc"             => "Absteigend (Z-A)",
+  # End v4.2.4 changes
 );
 
 /** End of file: pancake_lang.php **/
