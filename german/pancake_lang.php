@@ -1020,7 +1020,8 @@ $lang = array(
     'email_templates:new_comment'               => "Neuer Kommentar",
 
     'global:timer_app'                          => "Pancake Timer App",
-
+    'global:there_is_no_activity' => "Keine Team-Aktivitäten vorhanden.",
+    'global:there_are_no_tasks_assigned_to_you' => "Keine Aufgaben für dich vorhanden.",
     /** Dashboard **/
 
 
