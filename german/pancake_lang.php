@@ -197,6 +197,14 @@ $lang = array(
     'dashboard:upcoming_tasks'      =>    'Anstehende Aufgaben',
     /** End Dashboard **/
 
+	/** Timesheets **/
+    'global:timesheets'	=>	'Timesheets',
+    'timesheets:todays'	=> 'Heute\'s',
+    'timesheets:all_users'	=>	'Alle Benutzer',
+    'timesheets:rounded_time' => 'Aufgerundet zum n&auml;chsten :1',
+    'timesheets:there_are_no_time_entries' => "Keine Eintr&auml;ge f&uuml;r diesen Zeitraum vorhanden.",
+/** END Timesheets **/
+
 
     /** Users **/
 
