@@ -199,6 +199,13 @@ $lang = array(
     'dashboard:upcoming_tasks' => 'Aankomende taken',
 	/** End Dashboard **/
 
+	/** Timesheets **/
+	'global:timesheets'			=>	'Roosters',
+	'timesheets:todays'			=>  'Vandaag',
+	'timesheets:all_users'		=>	'Alle gebruikers',
+    'timesheets:rounded_time' => 'Afgerond op het dichtstbijzijnde :1',
+    'timesheets:there_are_no_time_entries' => "Er zijn geen tijden geschreven binnen deze datum range.",
+	/** END Timesheets **/
 
 	/** Users **/
 
@@ -505,8 +512,7 @@ $lang = array(
     'reports:paid_amount' => "Betaald Bedrag",
     'reports:unpaid_amount' => "Onbetaald Bedrag",
     'reports:client_name' => "Klantennaam",
-    'reports:filters' => 'Filters',
-	'reports:selection_explanation' => 'Onbetaalde facturen worden getoond op basis van de uiterste betaaldatum.<br />Betaalde facturen worden getoond op basis van de betaaldatum.<br />Facturen met meerdere betaaldelen worden getoond op basis van de betaaldatum van het eerste deel.<br />Onbetaalde facturen zonder uiterste betaaldatum worden getoond op basis van de datum waarop ze zijn gemaakt.',
+
     'reports:nodata' => 'Nr :1.',
     /** End Reports **/
  
@@ -743,8 +749,7 @@ $lang = array(
     'settings:items_per_page_explain' => 'Aantal items (facturen/voorstellen/offertes/projecten/taken) om per pagina te tonen.',
     'settings:send_x_days_before' => 'Standaard "verzend dagen van te voren"',
     'settings:send_x_days_before_explain' => "Standaard aantal dagen voordat een periodieke factuur vervalt verzenden naar de klant.",
-    'settings:file_to_import' => 'Bestand om te importeren',
-    'settings:export_types' => 'Pancake exporteert alles in JSON formaat.',
+    'settings:file_to_import' => 'Bestand om te importeren',    
     'settings:file_should_be_csv' => 'Alleen CSV en XML bestanden worden ondersteund.',
     'settings:importnow' => 'Importeer nu!',
     'settings:whatimporting' => 'Wat bent u aan het importeren?',
@@ -1008,6 +1013,8 @@ $lang = array(
     'email_templates:new_comment' => "Nieuwe Reactie Notificatie",
     
     'global:timer_app' => "Pancake Timer App",
+	'global:there_is_no_activity' => "Er is geen teamactiviteit om weer te geven.",
+    'global:there_are_no_tasks_assigned_to_you' => "Er zijn geen taken aan jou toegewezen.",
     
     /** Dashboard **/
 
@@ -1138,6 +1145,57 @@ $lang = array(
     # Begin v4.1.28 changes
     "login:username_email" => "Gebruikersnaam / Email",
     # End v4.1.28 changes
+
+    # Begin v4.1.31 changes
+    "settings:when_new_updates_are_available" => "Wanneer er nieuwe updates beschikbaar zijn",
+    "settings:dont_install_just_notify_me" => "Installeer niet, maar laat het me alleen weten",
+    "settings:install_automatically" => "Installeer automatisch",
+    "settings:loading_update_details" => "Laden update details... Dit kan een minuutje duren. Je kan op ieder moment de pagina herladen.",
+    "settings:updating_please_wait" => "Bijwerken, even wachten aub. Deze pagina zal automatisch herladen als de update is voltooid.",
+    "settings:will_have_to_overwrite_single_file" => "Pancake moet 1 bestand overschrijven welke handmatig is aangepast!",
+    "settings:will_have_to_overwrite_multiple_files" => "Pancake moet :1 bestanden overschrijven welke handmatig zijn aangepast!",
+    "settings:checking_for_updates" => "Controleren op updates, even wachten aub. Deze pagina zal automatisch herladen als de update is voltooid.",    
+    "settings:description" => "Bewaar de bijgewerkte instellingen voordat je de pagina verlaat of wisselt van tab.",
+    "settings:business_identities" => "Bedrijfsidentiteiten",
+    "settings:business_name" => "Bedrijfsnaam",
+    "settings:new_business" => "Nieuw bedrijf",
+    "settings:business_identity" => "Bedrijfsidentiteit",
+    "settings:business_identity_explanation" => "De klant zal de bovenstaande bedrijfsidentiteit zien op al zijn emails, pdfs en pagina's.",
+    # End v4.1.31 changes
+    
+    # Begin v4.1.33 changes
+    "settings:have_been_updated" => 'De isntellingen zijn bijgewerkt.',
+    "tasks:all" => "Alle taken",
+    "projects:progress" => "Voortgang",
+    "expenses:name" => "Uitgave naam",
+    "tasks:add_hours_to" => "Toevoegen uren aan :1",
+    "global:today" => "Vandaag",
+    "global:yesterday" => "Gister",
+    "global:other" => "Anders",
+    "global:now" => "Nu",
+    "timesheet:view_for_clients" => "Bekijk rooster (voor klanten)",
+    "global:not_billed_yet" => "Nog niet gefactureerd.",
+    "tasks:total_logged_time" => "Totaal geschreven tijd",
+    "global:biweekly" => "Tweewekelijks",
+    # End v4.1.33 changes
+    
+    # Begin v4.2 changes
+    'settings:default_task_due_date' => 'Standaard einddatum taak',
+    'settings:default_task_due_date_explain' => "dagen nadat de taak is aangemaakt. Als je geen standaard einddatum wilt laat je dit veld leeg.",
+    # End v4.2 changes
+    
+    # Note: 4.2.x brought changes to the language file that weren't appended to the end of the file.
+    # If you're updating your translation, make sure to check out a diff of the language file, instead of relying on just checking the bottom of the file.
+    
+    # Begin v4.2.4 changes
+    "expenses:sort_or_filter" => "Sorteer/Filter Uitgaven",
+    "expenses:show" => "Toon uitgaven",
+    "global:sort_by" => "Sorteer op",
+    "global:sort_order" => "Sorteervolgorde",
+    "global:asc" => "Oplopend (A-Z)",
+    "global:desc" => "Aflopend (Z-A)",
+    # End v4.2.4 changes
+    
     
 );
 
