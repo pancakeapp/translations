@@ -1125,11 +1125,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.1.27
     
     # Début des changements pour la v4.1.28
-    "login:username_email" => "Nom d'utilisateur / Courriel",
+    "login:username_email" => "Utilisateur / Courriel",
     # Fin v4.1.28
     
     # Début des changements de la v4.1.29
-    "global:update_available" => "Mise à jour disponible",
+    "global:updates_available" => "Mise à jour disponible",
     #Fin v4.1.29
     
     # Début des changements de la v4.1.31
@@ -1149,6 +1149,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:business_identity" => "Identité d'affaire",
     "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
     # Fin v4.1.31
+    # Début des changements de la v4.3.2
+    "settings:tax_compound" => "Taxe combiné",
+    # Fin v4.3.2
     
     # Début des changements de la v4.1.33
     "settings:have_been_updated" => 'Les paramètres ont été mis à jour.',
