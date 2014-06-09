@@ -1125,7 +1125,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.1.27
     
     # Début des changements pour la v4.1.28
-    "login:username_email" => "Nom d'utilisateur / Courriel",
+    "login:username_email" => "Utilisateur / Courriel",
     # Fin v4.1.28
     
     # Début des changements de la v4.1.29
@@ -1183,6 +1183,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:asc" => "Ascendant (A-Z)",
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
+    
+    # Début des changements de la v4.3.2
+    "settings:tax_compound" => "Taxe combiné",
+    "settings:no_tax" => "Aucune taxe",
+    # Fin v4.3.2
 
 );
 
