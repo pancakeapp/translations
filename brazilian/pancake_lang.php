@@ -1206,6 +1206,18 @@ $lang	= array(
     "global:desc" => "Decrescente (Z-A)",
     # End v4.2.4 changes
 
+    # Begin v4.3.0 changes
+    "settings:tax_compound" => "Composta?",
+    "settings:no_tax" => "Sem tributos",
+    "settings:default_taxes" => "Tributos padrão",
+    "global:and" => "e",
+    "global:tax" => "Tributo",
+    # End v4.3.0 changes
+
+    # Begin v4.3.6 changes
+    "global:youarenotallowed" => "Você não tem permissão para acessar essa página.",
+    # End v4.3.6 changes
+
 );
 
 /** End of file: pancake_lang.php **/
