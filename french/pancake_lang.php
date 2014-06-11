@@ -1131,10 +1131,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Début des changements de la v4.1.29
     "global:update_available" => "Mise à jour disponible",
     #Fin v4.1.29
-
-    # Début des changements de la v4.3.6
-    "global:updates_available" => "Mise à jour disponible",
-    #Fin v4.1.29
     
     # Début des changements de la v4.1.31
     "settings:when_new_updates_are_available" => "Lorsque les mises à jour sont disponibles",
@@ -1153,9 +1149,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:business_identity" => "Identité d'affaire",
     "settings:business_identity_explanation" => "L'identité d'affaire de votre client sera affiché sur chacun des courriels, PDF et des pages.",
     # Fin v4.1.31
-    # Début des changements de la v4.3.2
-    "settings:tax_compound" => "Taxe combiné",
-    # Fin v4.3.2
     
     # Début des changements de la v4.1.33
     "settings:have_been_updated" => 'Les paramètres ont été mis à jour.',
@@ -1195,6 +1188,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:tax_compound" => "Taxe combiné",
     "settings:no_tax" => "Aucune taxe",
     # Fin v4.3.2
+
+    # Début des changements de la v4.3.6
+    # idem as global:update_available somewhere it change in the versions. see 4.1.29 changes
+    "global:updates_available" => "Mise à jour disponible",
+    #Fin v4.3.6
 
 );
 
