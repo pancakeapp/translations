@@ -1187,7 +1187,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Début des changements de la v4.3.2
     "settings:tax_compound"                     => "Taxe combiné?",
     "settings:no_tax"                           => "Aucune taxe",
-    "settings:default_taxes"                    => "Taxes",
+    "settings:default_taxes"                    => "Taxes par défaut",
     "global:and"                                => "and", 
     "global:tax"                                => "Tax",
     # Fin v4.3.2
@@ -1196,7 +1196,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # idem as global:update_available somewhere it change in the versions. see 4.1.29 changes
     "global:updates_available"                  => "Mise à jour disponible",
     "global:tax"                                => "Taxe(s)",
-    "global:youarenotallowed"                   => "Vous n'avez pas accès à cette page.",
+    "global:youarenotallowed"                   => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
     #Fin v4.3.6
 
     # Début des changements de la v4.3.7
