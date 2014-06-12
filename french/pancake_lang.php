@@ -773,7 +773,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:checkforupdates' => "Vérifier les mises à jour",
     'settings:youneedtoconfigurefirst'				=> 'Votre Pancake n\'est pas configuré pour se mettre à jour. Veuillez entrer vos informations de connexion FTP ci-dessous et cliquez sur "Sauvegarder les configurations".<br>Pancake vous laissera ensuite le mettre à jour',
     'settings:general'								=> 'Général',
-    'settings:emails' => 'Emails',
+    'settings:emails'                               => 'Courriels',
     'settings:email_templates'						=> 'Courriels',
     'settings:taxes'								=> 'Taxes',
     'settings:currencies'							=> 'Devises',
@@ -1168,8 +1168,8 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     
     
     # Début des changements de la v4.2
-    'settings:default_task_due_date' => 'Tâches dues par défaut',
-    'settings:default_task_due_date_explain' => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
+    "settings:default_task_due_date" => "Tâches dues par défaut",
+    "settings:default_task_due_date_explain" => "jours après que la tâche est créé. Si vous ne voulez pas une date par défaut, laissez vide.",
     # Fin v4.2
     
     # Note: 4.2.x a apporté des changements au fichier de langage qui ne seont pas ajouté à la fin de ce fichier.
@@ -1183,17 +1183,41 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:asc" => "Ascendant (A-Z)",
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
-    
+
     # Début des changements de la v4.3.2
-    "settings:tax_compound" => "Taxe combiné",
-    "settings:no_tax" => "Aucune taxe",
+    "settings:tax_compound"                     => "Taxe combiné?",
+    "settings:no_tax"                           => "Aucune taxe",
+    "settings:default_taxes"                    => "Taxes",
+    "global:and"                                => "and", 
+    "global:tax"                                => "Tax",
     # Fin v4.3.2
 
     # Début des changements de la v4.3.6
     # idem as global:update_available somewhere it change in the versions. see 4.1.29 changes
-    "global:updates_available" => "Mise à jour disponible",
+    "global:updates_available"                  => "Mise à jour disponible",
+    "global:tax"                                => "Taxe(s)",
+    "global:youarenotallowed"                   => "Vous n'avez pas accès à cette page.",
     #Fin v4.3.6
 
+    # Début des changements de la v4.3.7
+    "dashboard:today"                           => "Aujourd'hui",
+    "dashboard:your_projects"                   => "Vos projets",
+    "dashboard:snapshot"                        => "Aperçu",
+    'dashboard:team_activity'                   => 'Updates',
+    "settings:brand_name"                       => "Nom de votre marque",
+    "settings:brand_name_explanation"           => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
+    "settings:business_name_explanation"        => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
+    "settings:admin_name_explanation"           => "Par défaut, ce nom sera utilisé à la fin des courriels",
+    "settings:billing_email"                    => "Courriel de facturation",
+    "settings:billing_email_explanation"        => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
+    "settings:notify_email_explanation"         => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
+    "settings:show_name_along_with_logo"        => "Affichez le nom de votre marque à côté de votre logo?",
+    'invoices:frequency'                        => "Fréquence",
+    'invoices:auto_send'                        => "Envoyez automatiquement?",
+    'invoices:send'                             => "Envoyez",
+    'invoices:days_before_invoice_is_due'       => "Nombre de jour avant que la facture soit due.",
+    'invoices:cannot_change_recurrences'        => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
+    # fin v4.3.7
 );
 
 /** Fin du fichier: pancake_lang.php **/

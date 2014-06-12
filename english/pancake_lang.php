@@ -89,7 +89,6 @@ $lang = array(
 	'global:invoices'				=> 'Invoices',
 	'global:invoice'				=>	'Invoice',
         'global:tasks' => 'Tasks',
-	'global:estimate' 				=> 'Estimate',
 	'global:dashboard'				=> 'Dashboard',
 	'global:settings'				=> 'Settings',
 	'global:plugins'				=> 'Plugins',
@@ -816,11 +815,9 @@ $lang = array(
     'settings:site_name'			=> 'Site name',
     'settings:language'				=> 'Language',
     'settings:timezone'				=> 'Timezone',
-    'settings:notify_email'			=> 'Notify email',
     'settings:currency'				=> 'Currency',
     'settings:theme'				=> 'Frontend Theme',
     'settings:admin_theme'			=> 'Admin Theme',
-    'settings:admin_name'			=> 'Admin name',
     'settings:date_format'			=> 'Date Format',
     'settings:time_format' => "Time Format",
     'settings:task_time_interval'	=> 'Time Entry Rounding (Leave empty for no rounding)',
@@ -1206,6 +1203,40 @@ $lang = array(
     "global:asc" => "Ascending (A-Z)",
     "global:desc" => "Descending (Z-A)",
     # End v4.2.4 changes
+    
+    # Begin v4.3.0 changes
+    "settings:tax_compound" => "Compound?",
+    "settings:no_tax" => "No Tax",
+    "settings:default_taxes" => "Default Taxes",
+    "global:and" => "and", 
+    "global:tax" => "Tax",
+    # End v4.3.0 changes
+    
+    # Begin v4.3.6 changes
+    "global:youarenotallowed" => "You are not allowed to access this page.",
+    # End v4.3.6 changes
+    
+    # Begin v4.3.7 changes
+    'settings:notify_email' => 'Support Email',
+    'settings:billing_email' => 'Billing Email',
+    'settings:brand_name' => 'Brand Name',
+    'settings:admin_name' => 'Admin Name',
+    'settings:brand_name_explanation' => 'This is the name you want your clients to see. It will be displayed everywhere except invoices.',
+    'settings:business_name_explanation' => 'This is your legal business name. It will be displayed on your invoices.',
+    'settings:admin_name_explanation' => 'By default, this appears at the bottom of your emails to clients.',
+    'settings:billing_email_explanation' => 'This is the "From" address used for Invoice, Estimate and Proposal emails.',
+    'settings:notify_email_explanation' => 'This is the "From" address used for comment, notifications and support tickets.',
+    'settings:show_name_along_with_logo' => 'Show your brand name alongside your logo?',
+    'dashboard:your_projects' => 'Your Projects',
+    'dashboard:today' => 'Today',
+    'dashboard:team_activity' => 'Updates',
+    'dashboard:snapshot' => 'Snapshot',
+    'invoices:frequency' => 'Frequency',
+    'invoices:auto_send' => 'Auto Send?',
+    'invoices:send' => 'Send',
+    'invoices:days_before_invoice_is_due' => 'days before invoice is due',
+    'invoices:cannot_change_recurrences' => 'You cannot change the recurrence settings of an invoice that is a recurrence of another invoice.',
+    # End v4.3.7 changes
     
 );
 
