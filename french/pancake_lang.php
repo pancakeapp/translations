@@ -1187,10 +1187,19 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
     
-    # Début des changements de la v4.3.2
-    "settings:tax_compound" => "Taxe combiné",
+    
+    #  Début des changements de la v4.3.2
+    "settings:tax_compound" => "Taxe combinée",
     "settings:no_tax" => "Aucune taxe",
+    "settings:default_taxes" => "Taxes par défaut",
+    "global:and" => "et",
+    "global:tax" => "Taxe",
     # Fin v4.3.2
+
+    
+    # Début des changements de la v4.3.6
+    "global:youarenotallowed" => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
+    # Fin v4.3.6
 
 );
 
