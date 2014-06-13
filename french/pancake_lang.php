@@ -1183,7 +1183,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:asc" => "Ascendant (A-Z)",
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
-<<<<<<< Updated upstream
+#<<<<<<< Updated upstream
     
     
     #  Début des changements de la v4.3.2
