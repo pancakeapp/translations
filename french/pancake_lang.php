@@ -1199,7 +1199,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:youarenotallowed" => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
     # Fin v4.3.6
 
-=======
+#=======
 
     # Début des changements de la v4.3.2
     "settings:tax_compound"                     => "Taxe combiné?",
@@ -1235,7 +1235,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'invoices:days_before_invoice_is_due'       => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences'        => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
     # fin v4.3.7
->>>>>>> Stashed changes
+#>>>>>>> Stashed changes
 );
 
 /** Fin du fichier: pancake_lang.php **/
