@@ -91,8 +91,7 @@ $lang = array(
     'global:time_entries' => 'Tijdingaves',
     'global:invoices' => 'Facturen',
     'global:invoice' => 'Factuur',
-    'global:tasks' => 'Taken',
-    'global:estimate' => 'Offerte',
+    'global:tasks' => 'Taken',    
     'global:dashboard' => 'Dashboard',
     'global:settings' => 'Instellingen',
     'global:plugins' => 'Plugins',
@@ -172,7 +171,8 @@ $lang = array(
 
     /** Greetings * */
     'global:greetings' => array('Hoi!', 'Hallo,', 'Hey daar,', 'Sup,'),
-    'global:mark_as_unanswered' => 'Markeer als onbeantwoord',
+    
+	'global:mark_as_unanswered' => 'Markeer als onbeantwoord',
     'global:mark_as_accepted' => 'Markeer als geaccepteerd',
     'global:mark_as_rejected' => 'Markeer als afgewezen',
     'global:reject_estimate' => 'Offerte afwijzen',
@@ -408,9 +408,11 @@ $lang = array(
     'projects:edit' => 'Bewerk project',
     'projects:delete' => 'Verwijder project',
     'projects:project' => 'Project',
-    'projects:new_project_from_estimate_without_number' => "Nieuw Project van Offerte",
+    
+	'projects:new_project_from_estimate_without_number' => "Nieuw Project van Offerte",
     'projects:new_project_from_estimate_with_number' => "Nieuw Project van Offerte #:1",
-    'projects:due_date' => 'Vervaldatum',
+    
+	'projects:due_date' => 'Vervaldatum',
     'projects:is_completed' => 'Voltooid?',
     'projects:manage_project' => 'Beheer Project',
     'projects:areyousuredeletetask' => 'Weet je zeker dat je deze taak wilt verwijderen?',
@@ -807,11 +809,9 @@ $lang = array(
     'settings:site_name' => 'Site naam',
     'settings:language' => 'Taal',
     'settings:timezone' => 'Tijdzone',
-    'settings:notify_email' => 'Kennisgeving e-mail',
     'settings:currency' => 'Valuta',
     'settings:theme' => 'Frontend thema',
     'settings:admin_theme' => 'Admin thema',
-    'settings:admin_name' => 'Admin naam',
     'settings:date_format' => 'Datum notatie',
     'settings:time_format' => "Tijd notatie",
     'settings:task_time_interval' => 'Taak tijd afronding (Laat leeg voor geen afronding)',
@@ -1093,7 +1093,8 @@ $lang = array(
     "settings:year_start" => "Startdatum van het fiscale jaar",
     "dashboard:since_explanation" => "Sinds :1",
     # End v4.1.14 changes
- 	# Begin v4.1.15 changes
+ 	
+	# Begin v4.1.15 changes
     "export:invoices_csv" => "Facturen (CSV)",
     # End v4.1.15 changes
     
@@ -1155,7 +1156,8 @@ $lang = array(
     "settings:will_have_to_overwrite_single_file" => "Pancake moet 1 bestand overschrijven welke handmatig is aangepast!",
     "settings:will_have_to_overwrite_multiple_files" => "Pancake moet :1 bestanden overschrijven welke handmatig zijn aangepast!",
     "settings:checking_for_updates" => "Controleren op updates, even wachten aub. Deze pagina zal automatisch herladen als de update is voltooid.",    
-    "settings:description" => "Bewaar de bijgewerkte instellingen voordat je de pagina verlaat of wisselt van tab.",
+	"settings:updating_please_wait" => "Bijwerken... even wachten aub. Deze pagina zal automatisch herladen als de update is voltooid.",    
+	"settings:description" => "Bewaar de bijgewerkte instellingen voordat je de pagina verlaat of wisselt van tab.",
     "settings:business_identities" => "Bedrijfsidentiteiten",
     "settings:business_name" => "Bedrijfsnaam",
     "settings:new_business" => "Nieuw bedrijf",
@@ -1196,6 +1198,39 @@ $lang = array(
     "global:desc" => "Aflopend (Z-A)",
     # End v4.2.4 changes
     
+    # Begin v4.3.0 changes
+    "settings:tax_compound" => "Samengesteld?",
+    "settings:no_tax" => "Geen BTW",
+    "settings:default_taxes" => "Standaard BTW",
+    "global:and" => "en", 
+    "global:tax" => "BTW",
+    # End v4.3.0 changes
+    
+    # Begin v4.3.6 changes
+    "global:youarenotallowed" => "U heeft geen toegang tot deze pagina.",
+    # End v4.3.6 changes
+    
+    # Begin v4.3.7 changes
+    'settings:notify_email' => 'Support Email',
+    'settings:billing_email' => 'Facturatie Email',
+    'settings:brand_name' => 'Merknaam',
+    'settings:admin_name' => 'Admin naam',
+    'settings:brand_name_explanation' => 'Dit is de naam welke u wilt gebruiken in de communicatie naar uw klanten. Deze zal overal worden getoond behalve op uw facturen.',
+    'settings:business_name_explanation' => 'Dit is uw bedrijfsnaam. Deze zal worden getoond op uw facturen.',
+    'settings:admin_name_explanation' => 'Standaard zal dit onder uw emails naar klanten worden getoond.',
+    'settings:billing_email_explanation' => 'Dit is het "From" adres gebruikt voor Facturen, Offertes en Voorstellen emails.',
+    'settings:notify_email_explanation' => 'Dit is het "From" adres gebruikt voor reactie notificaties en support tickets',
+    'settings:show_name_along_with_logo' => 'Merknaam tonen naast uw logo?',
+    'dashboard:your_projects' => 'Uw projecten',
+    'dashboard:today' => 'Vandaag',
+    'dashboard:team_activity' => 'Updates',
+    'dashboard:snapshot' => 'Snapshot',
+    'invoices:frequency' => 'Frequentie',
+    'invoices:auto_send' => 'Automatisch versturen?',
+    'invoices:send' => 'Verzenden',
+    'invoices:days_before_invoice_is_due' => 'dagen voor de uiterste betaaldatum',
+    'invoices:cannot_change_recurrences' => 'U kunt de herhalingsinstellingen van een factuur niet wijzigen wanneer deze een herhaling is van een andere factuur.',
+    # End v4.3.7 changes
     
 );
 

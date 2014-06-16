@@ -1026,7 +1026,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "dashboard:view_all_comments" => "Voir tous les commentaires",
     "dashboard:latest_comments" => "Derniers Commentaires",
     "dashboard:written_by" => "Ecrit par :1 le :2",
-    "dashboard:client_activity" => "Activité du client",
+    "dashboard:client_activity" => "Activités des clients",
     "dashboard:view_all_client_activity" => "Voir toutes les activités du client",
     "dashboard:team_activity" => "Activité de l'équipe",
     "dashboard:view_all_team_activity" => "Voir toutes les activités de l'équipe",
@@ -1190,6 +1190,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:default_taxes"                    => "Taxes par défaut",
     "global:and"                                => "and", 
     "global:tax"                                => "Tax",
+    "settings:default_taxes" => "Taxes par défaut",
+    "global:and" => "et",
+    "global:tax" => "Taxe",
     # Fin v4.3.2
 
     # Début des changements de la v4.3.6
