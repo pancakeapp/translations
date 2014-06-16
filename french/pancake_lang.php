@@ -1221,6 +1221,16 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'invoices:days_before_invoice_is_due'       => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences'        => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
     # fin v4.3.7
+
+    # Begin v4.3.8 changes
+    'email_templates:client_area_details'       => "Détails de l'espace client",
+    'settings:always_https'                     => 'Obliger HTTPS?',
+    'settings:always_https_explanation'         => "Cette option activera le protocole HTTPS en tout temps, pour tous vos utilisateurs. Utilisez cette option seulement si vous avez un certificat SSL d'installé et accessible par Pancake",
+    'settings:remittance_slip'                  => 'Bordereau de paiement',
+    'invoices:mail_to'                          => 'Destinataire',
+    'clients:send_client_area_email'            => 'Envoyez au client ses informations pour se connecter à son espace',
+    'clients:you_cannot_send'                   => "Vous ne pouvez pas envoyer les informations de ce client par courriel, il n'a pas d'adresse courriel d'ajouté à sa fiche.",
+    # End v4.3.8 changes
 );
 
 /** Fin du fichier: pancake_lang.php **/
