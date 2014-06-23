@@ -1238,6 +1238,16 @@ $lang = array(
   'invoices:cannot_change_recurrences' => 'You cannot change the recurrence settings of an invoice that is a recurrence of another invoice.',
   # End v4.3.7 changes
 
+  # Begin v4.3.8 changes
+  'email_templates:client_area_details' => 'Client Area Details',
+  'settings:always_https' => 'Force HTTPS?',
+  'settings:always_https_explanation' => 'This will make Pancake always load via HTTPS. Use this only if you have an SSL certificate installed and can access Pancake via HTTPS.',
+  'settings:remittance_slip' => 'Remittance Slip',
+  'invoices:mail_to' => 'Mail To',
+  'clients:send_client_area_email' => 'Send Client Area Details',
+  'clients:you_cannot_send' => 'You cannot send this client his or her client area details by email because this client does not have an email address.',
+  # End v4.3.8 changes
+
 );
 
 /** End of file: pancake_lang.php **/
