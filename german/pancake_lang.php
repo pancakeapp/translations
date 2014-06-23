@@ -745,8 +745,8 @@ $lang = array(
   'settings:testemailsettings'                => 'E-Mail-Einstellungen testen',
   'settings:kitchen_route'                    => 'Prefix für Kundenzugangslink',
   'settings:kitchen_route_explain'            => "(Vorschau: :1)",
-  'settings:include_remittance_slip'          => 'Überweisungsbeleg',
-  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Überweisungsbeleg einschließen.",
+  'settings:include_remittance_slip'          => 'Zahlschein',
+  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Zahlschein einschließen.",
   'settings:items_per_page'                   => 'Elemente pro Seite',
   'settings:items_per_page_explain'           => 'Anzahl von Elementen (Rechnungen/Kostenvoranschläge/Angebote/Projekte/Aufgaben) die pro Seite gezeigt werden.',
   'settings:send_x_days_before'               => 'Standardwert für "Tage vorher versenden"',
@@ -1117,7 +1117,7 @@ $lang = array(
   "clients:can_create_support_tickets" => "Dem Kunden erlauben Support-Tickets zu erstellen?",
   "tickets:submit_new" => "Ticket hinzufügen",
   "global:cancel" => "Abbrechen",
-  "global:timers" => "Timers",
+  "global:timers" => "Timer",
   "global:more" => "Mehr",
   # End v4.1.20 changes
 
@@ -1233,6 +1233,16 @@ $lang = array(
   'invoices:days_before_invoice_is_due' => 'tage bevor die Rechnung fällig ist',
   'invoices:cannot_change_recurrences'  => 'Die Wiederholungseinstellungen können noch bei einer Rechnung geändert werden, die eine Wiederholung einer anderen Rechnung ist.',
   # End v4.3.7 changes
+
+  # Begin v4.3.8 changes
+  'email_templates:client_area_details' => 'Details für den Kundenbereich',
+  'settings:always_https' => 'HTTPS erzwingen?',
+  'settings:always_https_explanation' => 'Dadurch wird Pancake immer über HTTPS geladen. Nur zu empfehlen, wenn ein SSL-Zertifikat installiert ist und Pancake über HTTPS erreicht werden kann.',
+  'settings:remittance_slip' => 'Zahlschein',
+  'invoices:mail_to' => 'Senden an',
+  'clients:send_client_area_email' => 'Details für den Kundenbereich senden',
+  'clients:you_cannot_send' => 'Die Kundenbereichsdetails können nicht an den Kunden versendet werden, da er/sie keine E-Mail-Adresse hat.',
+  # End v4.3.8 changes
 
 );
 
