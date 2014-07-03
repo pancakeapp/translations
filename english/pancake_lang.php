@@ -343,7 +343,6 @@ $lang = array(
   'invoices:no_invoices'			=> 'There are no invoices.',
   'invoices:addedsuccess'			=>	'You have added an invoice for',
   'invoices:invoice'				=>	'invoice',
-  'invoices:addedconf'			=>	'You have added invoice # <strong>:1</strong>, totalling <strong>:2</strong> for :3:4.',
   'invoices:preview'				=>	'Preview Invoice',
   'invoices:editinvoice'			=>	'Edit invoice #:1',
   'invoices:messageupdated'		=>	'The invoice has been updated!',
@@ -1247,6 +1246,52 @@ $lang = array(
   'clients:send_client_area_email' => 'Send Client Area Details',
   'clients:you_cannot_send' => 'You cannot send this client his or her client area details by email because this client does not have an email address.',
   # End v4.3.8 changes
+
+  # Begin v4.4.0 changes
+  'invoices:discount' => 'Discount',
+  'invoices:discount_explain' => 'Add % for percentages.',
+  'invoices:addedconf' => 'You have added invoice # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
+  'estimates:addedconf' => 'You have added estimate # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
+  'credit_notes:edit_credit_note' => 'Edit Credit Note #:1',
+  'credit_notes:create_credit_note' => 'Create Credit Note',
+  'global:credit_notes' => 'Credit Notes',
+  'global:credit_note' => 'Credit Note',
+  'credit_notes:alltitle' => 'All Credit Notes',
+  'credit_notes:nocredit_notesforthefilteredclient' => 'You have no credit notes for :1.',
+  'credit_notes:no_credit_notes' => 'You have no credit notes.',
+  'credit_notes:create' => 'Create Credit Note',
+  'credit_notes:no_credit_notes_body' => 'You should get on that! Would you like to create one now?',
+  'credit_notes:edit' => 'Edit Credit Note',
+  'credit_notes:credit_note_number' => 'Credit Note #:1',
+  'credit_notes:credit_note_date' => 'Credit Note Date',
+  'credit_notes:delete_title' => 'Delete this credit note?',
+  'credit_notes:delete_message' => 'Are you sure you want to delete this credit note?',
+  'credit_notes:addedconf' => 'You have added credit note # <strong>:1</strong>, totalling <strong>:2</strong> (:3 with tax) for :4:5.',
+  'credit_notes:send_now_title' => 'Send credit note now?',
+  'credit_notes:send_now_body' => "Fill out the form below and we'll deliver this credit note for you.",
+  'email_templates:new_credit_note' => 'New Credit Note',
+  'credit_notes:send_now' => 'Send Credit Note',
+  'credit_notes:preview' => 'Preview Credit Note',
+  'credit_notes:duplicated' => "Duplicated credit note #:1. The new credit note's number is #:2.",
+  'credit_notes:client_viewed' => ":1 viewed <a href=':2'>credit note #:3</a> on :4",
+  'invoices:make_bulk_payment' => 'Make Bulk Payment',
+  'global:success' => 'Success!',
+  'clients:view' => 'View Client',
+  'invoices:store_bulk_payment' => 'Store Bulk Payment',
+  'invoices:x_invoices' => ':1 invoices',
+  'invoices:amount_to_pay' => 'Amount to mark as paid',
+  'invoices:bulk_payment_added' => "The bulk payment was added successfully.",
+  'clients:credit_balance_currently' => "Credit Balance (currently :1)",
+  'clients:has_no_unpaid_invoices' => ":1 has no unpaid invoices.",
+  'invoices:send_payment_notification' => "Send a payment notification email to the client?",
+  'invoices:send_bulk_payment_notification' => "Send payment notification emails to the client?",
+  'invoices:specify_bulk_payment_details' => "Specify the details of your client's payment, and select to which invoices the payment applies.",
+  'global:credit_balance' => "Credit Balance",
+  # End v4.4.0 changes
+
+  # Begin v4.4.1 changes
+  'credit_notes:view' => 'View Credit Note',
+  # End v4.4.1 changes
 
 );
 

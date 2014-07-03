@@ -341,7 +341,6 @@ $lang = array(
   'invoices:no_invoices'          => 'Es gibt keine Rechnungen.',
   'invoices:addedsuccess'         => 'Du hast eine Rechnung hinzugefügt für', /*?! ... für XXX hinzugefügt. @ TODO: where is that? Placeholder possible? */
   'invoices:invoice'              => 'berechnen', /*?*/
-  'invoices:addedconf'            => 'Du hast die Rechnung # <strong>:1</strong> mit einem Gesamtbetrag von <strong>:2</strong> für :3:4 hinzugefügt.',
   'invoices:preview'              => 'Rechnungsvorschau',
   'invoices:editinvoice'          => 'Rechnung # :1 bearbeiten',
   'invoices:messageupdated'       => 'Die Rechnung wurde aktualisiert!',
@@ -373,7 +372,6 @@ $lang = array(
   'estimates:addedsuccess'                => 'Du hast einen Kostenvoranschlag hinzugefügt für', /*?! ... für XXX hinzugefügt. @ TODO: where is that? Placeholder possible? */
   'estimates:estimate'                    => 'voranschlagen',
   'estimates:added'                       => 'Der Kostenvoranschlag wurde hinzugefügt.',
-  'estimates:addedconf'                   => 'Du hast Kostenvoranschlag # <strong>:1</strong>, mit einem Gesamtbetrag von <strong>:2</strong> für :3:4 hinzugefügt.',
   'estimates:send_now_title'              => 'Kostenvoranschlag jetzt versenden?',
   'estimates:send_now_body'               => 'Fülle das Formular unten aus und wir werden diesen Kostenvoranschlag für dich zustellen.',
   'estimates:send_now'                    => 'Kostenvoranschlag versenden',
@@ -1244,6 +1242,51 @@ $lang = array(
   'clients:you_cannot_send' => 'Die Kundenbereichsdetails können nicht an den Kunden versendet werden, da er/sie keine E-Mail-Adresse hat.',
   # End v4.3.8 changes
 
+  # Begin v4.4.0 changes
+  'invoices:discount' => 'Rabatt',
+  'invoices:discount_explain' => 'Für Prozentsätze ein % anfügen.',
+  'invoices:addedconf' => 'Du hast die Rechnung # <strong>:1</strong> mit einem Gesamtbetrag von <strong>:2</strong> (:3 inkl. Steuern) für :4:5 hinzugefügt.',
+  'estimates:addedconf' => 'Du hast Kostenvoranschlag # <strong>:1</strong>, mit einem Gesamtbetrag von <strong>:2</strong> (:3 inkl. Steuern) für :4:5 hinzugefügt.',
+  'credit_notes:edit_credit_note' => 'Bearbeite Gutschrift #:1',
+  'credit_notes:create_credit_note' => 'Gutschrift erstellen',
+  'global:credit_notes' => 'Gutschriften',
+  'global:credit_note' => 'Gutschrift',
+  'credit_notes:alltitle' => 'Alle Gutschriften',
+  'credit_notes:nocredit_notesforthefilteredclient' => 'Es gibt keine Gutschriften für :1.',
+  'credit_notes:no_credit_notes' => 'Es gibt keine Gutschriften.',
+  'credit_notes:create' => 'Gutschrift erstellen',
+  'credit_notes:no_credit_notes_body' => 'Das solltest Du ändern. Willst du jetzt eine erstellen?',
+  'credit_notes:edit' => 'Gutschrift bearbeiten',
+  'credit_notes:credit_note_number' => 'Gutschrift #:1',
+  'credit_notes:credit_note_date' => 'Datum der Gutschrift',
+  'credit_notes:delete_title' => 'Diese Gutschrift löschen?',
+  'credit_notes:delete_message' => 'Bist Du sicher, dass du diese Gutschrift löschen willst?',
+  'credit_notes:addedconf' => 'Du hast Gutschrift #<strong>:1</strong>, mit einem Gesamtbetrag von <strong>:2</strong> (:3 inkl. Steuern) für :4:5 hinzugefügt.',
+  'credit_notes:send_now_title' => 'Gutschrift jetzt senden?',
+  'credit_notes:send_now_body' => "Fülle das Formular unten aus und wir werden diese Gutschrift für Dich zustellen.",
+  'email_templates:new_credit_note' => 'Neue Gutschrift',
+  'credit_notes:send_now' => 'Gutschrift senden',
+  'credit_notes:preview' => 'Gutschrift Vorschau',
+  'credit_notes:duplicated' => "Gutschrift #:1 dupliziert. Die neue Gutschrift hat die Nummer #:2.",
+  'credit_notes:client_viewed' => ":1 hat <a href=':2'>Gutschrift #:3</a> am :4 gesehen",
+  'invoices:make_bulk_payment' => 'Massenzahlung vornehmen',
+  'global:success' => 'Erfolg!',
+  'clients:view' => 'Kunde anstehen',
+  'invoices:store_bulk_payment' => 'Massenzahlung speichern', /* ? "speichern" ist hier vielleicht nicht unbedingt das richtige Wort. */
+  'invoices:x_invoices' => ':1 Rechnungen',
+  'invoices:amount_to_pay' => 'Betrag, der als bezahlt markiert werden soll',
+  'invoices:bulk_payment_added' => "Die Massenzahlung wurde erfolgreich hinzugefügt.",
+  'clients:credit_balance_currently' => "Guthaben (momentan :1)",
+  'clients:has_no_unpaid_invoices' => ":1 hat keine unbezahlten Rechnungen.",
+  'invoices:send_payment_notification' => "Eine Zahlungsbestätigung per E-Mail an den Kunden senden?",
+  'invoices:send_bulk_payment_notification' => "Zahlungsbestätigungen an den Kunden senden?",
+  'invoices:specify_bulk_payment_details' => "Lege die Details der Zahlung fest und wähle aus auf welche Rechnungen sich die Zahlung bezieht.",
+  'global:credit_balance' => "Guthaben",
+  # End v4.4.0 changes
+
+  # Begin v4.4.1 changes
+  'credit_notes:view' => 'Gutschrift ansehen',
+  # End v4.4.1 changes
 );
 
 /** End of file: pancake_lang.php **/
