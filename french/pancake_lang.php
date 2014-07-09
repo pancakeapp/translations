@@ -1230,7 +1230,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
   'global:credit_note' => 'Note de crédit',
   'credit_notes:alltitle' => 'Toutes les notes de crédits',
   'credit_notes:nocredit_notesforthefilteredclient' => 'Vous n\'avez pas de notes de crédits pour :1.',
-  'credit_notes:no_credit_notes' => 'VOus n\'avez pas de notes de crédit.',
+  'credit_notes:no_credit_notes' => 'Vous n\'avez pas de notes de crédit.',
   'credit_notes:create' => 'Créer une note de crédit',
   'credit_notes:no_credit_notes_body' => 'Vous n\'avez pas de note de crédit',
   'credit_notes:edit' => 'Modifier la note de crédit',
@@ -1259,11 +1259,18 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
   'invoices:send_bulk_payment_notification' => "Soumettre les notifications de paiement par courriel au client ?",
   'invoices:specify_bulk_payment_details' => "Spécifier les détails de paiement de votre client et sélectionner sur quelles factures le paiement s'applique.",
   'global:credit_balance' => "Balance de crédit",
-  # End v4.4.0 changes
+  # Fin v4.4.0
 
-  # Begin v4.4.1 changes
+  # Début des changements pour la v4.4.1
   'credit_notes:view' => 'Voir la note de crédit',
-  # End v4.4.1 changes
+  # Fin v4.4.1
+  
+  # Début des changements pour la v4.4.3
+  'tickets:ticket_number' => "Billet #:1",
+  'settings:ticket_status_for_sending_invoice' => "Statut du billet pour la facture à envoyer",
+  'settings:ticket_status_for_sending_invoice_description' => "Si il y a un billet à payer, une facture sera généré et automatique envoyé au client.",
+  'settings:never_send_ticket_invoices_automatically' => "-- Ne jamais envoyer les billets de factures automatiquement --",
+  # Fin v4.4.3 changes
 
 #=======
 
