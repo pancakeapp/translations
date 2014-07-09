@@ -1287,6 +1287,14 @@ $lang = array(
   # Begin v4.4.1 changes
   'credit_notes:view' => 'Gutschrift ansehen',
   # End v4.4.1 changes
+
+  # Begin v4.4.3 changes
+  'tickets:ticket_number' => "Ticket #:1",
+  'settings:ticket_status_for_sending_invoice' => "Ticket Status für Rechungsstellung",
+  'settings:ticket_status_for_sending_invoice_description' => "Wenn ein zu zahlendes Ticket auf diesen Status gestellt wird, wird automatisch eine Rechnung generiert und an den Kunden geschickt.",
+  'settings:never_send_ticket_invoices_automatically' => "-- Ticket Rechnungen niemals automatisch senden --",
+
+  # End v4.4.3 changes
 );
 
 /** End of file: pancake_lang.php **/
