@@ -633,7 +633,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:suppliers'	=>	'Fournisseurs',
     'expenses:category'	=>	'Catégorie',
     'expenses:categories'	=>	'Catégories',
-    'expenses:add_supplier'	=>	'Ajouter un fournisseur',
+    'expenses:add_supplier'	=>	'Ajouter',
     'expenses:edit_supplier'	=>	'Modifier le fournisseur',
     'expenses:add_category'	=>	'Ajouter',
     'expenses:edit_category'	=>	'Modifier',
