@@ -624,7 +624,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     /** Début des dépenses **/
     'expenses:expenses'	=>	'Dépenses',
     'expenses:add'	=>	'Ajouter une dépense',
-    'expenses:edit_expense'	=>	'Modifier la dépense',
+    'expenses:edit_expense'	=>	'Modifier',
     'expenses:delete'	=>	'Supprimer la dépense',
     'expenses:deleted'	=>	'Dépense supprimée',
     'expenses:all'	=>	'Toutes les dépenses',
