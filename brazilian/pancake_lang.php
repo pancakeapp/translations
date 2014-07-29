@@ -1218,6 +1218,38 @@ $lang	= array(
     "global:youarenotallowed" => "Você não tem permissão para acessar essa página.",
     # End v4.3.6 changes
 
+    # Begin v4.3.7 changes
+    'settings:notify_email' => 'Email para suporte',
+    'settings:billing_email' => 'Email para cobranças',
+    'settings:brand_name' => 'Nome da marca',
+    'settings:admin_name' => 'Nome do administrador',
+    'settings:brand_name_explanation' => 'Esse é o nome fantasia que você quer que seus clientes vejam. Será mostrado em todo lugar, exceto faturas.',
+    'settings:business_name_explanation' => 'Esse é o nome legal a ser usado nas faturas.',
+    'settings:admin_name_explanation' => 'Por padrão, aparece na parte de baixo de seus e-mails para clientes.',
+    'settings:billing_email_explanation' => 'Esse é o endereço de e-mail usado no envio de Faturas, Orçamentos e Propostas.',
+    'settings:notify_email_explanation' => 'Esse é o endereço de e-mail usado para notificações de comentários e tíquetes de suporte.',
+    'settings:show_name_along_with_logo' => 'Exibir o nome da marca junto ao logotipo?',
+    'dashboard:your_projects' => 'Seus projetos',
+    'dashboard:today' => 'Hoje',
+    'dashboard:team_activity' => 'Atualizações',
+    'dashboard:snapshot' => 'Resumo',
+    'invoices:frequency' => 'Frequência',
+    'invoices:auto_send' => 'Enviar automaticamente?',
+    'invoices:send' => 'Enviar',
+    'invoices:days_before_invoice_is_due' => 'dias antes do vencimento da fatura',
+    'invoices:cannot_change_recurrences' => 'Você não pode mudar a recorrência de uma fatura que já é uma recorrência de outra.',
+    # End v4.3.7 changes
+
+    # Begin v4.3.8 changes
+    'email_templates:client_area_details' => 'Dados da área para clientes',
+    'settings:always_https' => 'Forçar HTTPS?',
+    'settings:always_https_explanation' => 'Isso fará o Pancake sempre carregar via HTTPS. Só habilite se você tiver um certificado SSL instalado em seu servidor e puder usar HTTPS.',
+    'settings:remittance_slip' => 'Guia de remessa',
+    'invoices:mail_to' => 'Enviar para',
+    'clients:send_client_area_email' => 'Enviar dados sobre a área para clientes',
+    'clients:you_cannot_send' => 'Você não pode enviar a esse cliente seus dados de acesso porque ele não tem um endereço de e-mail',
+    # End v4.3.8 changes
+
 );
 
 /** End of file: pancake_lang.php **/

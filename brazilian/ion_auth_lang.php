@@ -26,6 +26,7 @@ $lang['password_change_successful'] 	 	 = 'Senha modificada';
 $lang['password_change_unsuccessful'] 	  	 = 'Incapaz de mudar senha';
 $lang['forgot_password_successful'] 	 	 = 'Email para recriar senha enviado';
 $lang['forgot_password_unsuccessful'] 	 	 = 'Incapaz de recriar senha';
+$lang['cant_send_email'] = "Houve um problema no envio de um email.";
 
 // Activation
 $lang['activate_successful'] 		  	 = 'Conta ativada';
