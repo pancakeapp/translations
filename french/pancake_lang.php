@@ -1183,8 +1183,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:asc" => "Ascendant (A-Z)",
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
-#<<<<<<< Updated upstream
-    
     
     #  Début des changements de la v4.3.2
     "settings:tax_compound" => "Taxe combinée",
@@ -1270,9 +1268,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
   'settings:ticket_status_for_sending_invoice' => "Statut du billet pour la facture à envoyer",
   'settings:ticket_status_for_sending_invoice_description' => "Si il y a un billet à payer, une facture sera généré et automatique envoyé au client.",
   'settings:never_send_ticket_invoices_automatically' => "-- Ne jamais envoyer les billets de factures automatiquement --",
-  # Fin v4.4.3 changes
-
-#=======
+  # Fin v4.4.3
 
     # Début des changements de la v4.3.2
     "settings:tax_compound"                     => "Taxe combiné?",
@@ -1283,7 +1279,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.3.2
 
     # Début des changements de la v4.3.6
-    # idem as global:update_available somewhere it change in the versions. see 4.1.29 changes
+    # idem as global:update_available somewhere it change in the versions. see 4.1.29
     "global:updates_available"                  => "Mise à jour disponible",
     "global:tax"                                => "Taxe(s)",
     "global:youarenotallowed"                   => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
@@ -1308,7 +1304,73 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'invoices:days_before_invoice_is_due'       => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences'        => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
     # fin v4.3.7
-#>>>>>>> Stashed changes
+
+    # Début des changements de la  v4.3.8
+    'email_templates:client_area_details' => 'Détails de l\'espace client',
+    'settings:always_https' => 'Obliger HTTPS?',
+    'settings:always_https_explanation' => 'Cette option activera le protocole HTTPS en tout temps, pour tous vos utilisateurs. Utilisez cette option seulement si vous avez un certificat SSL d\'installé et accessible par Pancake',
+    'settings:remittance_slip' => 'Bordereaux de paiement',
+    'invoices:mail_to' => 'Envoyer à',
+    'clients:send_client_area_email' => '',
+    'clients:you_cannot_send' => 'You cannot send this client his or her client area details by email because this client does not have an email address.',
+    # End v4.3.8
+
+    # Début des changements de la  v4.4.0
+    'invoices:discount' => 'Rabais',
+    'invoices:discount_explain' => 'Ajoute un pourcentage.',
+    'invoices:addedconf' => 'Vous avez ajouté une facture # <strong>:1</strong>, pour un total de <strong>:2</strong> (:3 avec taxe(s)) sur :4:5.',
+    'estimates:addedconf' => 'Vous avez ajouté un Devis # <strong>:1</strong>, pour un total de <strong>:2</strong> (:3 avec taxe(s)) sur :4:5.',
+    'credit_notes:edit_credit_note' => 'Éditer une note de crédit #:1',
+    'credit_notes:create_credit_note' => 'Créer une note de crédit',
+    'global:credit_notes' => 'Notes de crédit',
+    'global:credit_note' => 'Note de crédit',
+    'credit_notes:alltitle' => 'Toutes les notes de crédits',
+    'credit_notes:nocredit_notesforthefilteredclient' => 'Vous n\'avez pas de note de crédit pour :1.',
+    'credit_notes:no_credit_notes' => 'Vous n\'avez pas de note de crédit.',
+    'credit_notes:create' => 'Créer une note de crédit',
+    'credit_notes:no_credit_notes_body' => 'Vous devriez le faire! Voulez-vous en créer un maintenant?',
+    'credit_notes:edit' => 'Éditer une note de crédit',
+    'credit_notes:credit_note_number' => 'Note de crédit:1',
+    'credit_notes:credit_note_date' => 'Date de la note de crédit',
+    'credit_notes:delete_title' => 'Supprimez cette note de crédit?',
+    'credit_notes:delete_message' => 'Voulez-vous vraiment supprimer cette note de crédit?',
+    'credit_notes:addedconf' => 'Vous avez ajouté une note de crédit # <strong>:1</strong>, pour un total de <strong>:2</strong> (:3 avec taxe(s)) sur :4:5.',
+    'credit_notes:send_now_title' => 'Envoyer la note de crédit maintenant?',
+    'credit_notes:send_now_body' => "Remplissez le formulaire ci-dessous et nous enverrons la note de crédit pour vous.",
+    'email_templates:new_credit_note' => 'Nouvelle note de crédit',
+    'credit_notes:send_now' => 'Envoyer la note de crédit',
+    'credit_notes:preview' => 'Prévisualiser la note de',
+    'credit_notes:duplicated' => "Dupliquer la note de crédit #:1. Son nouveau numéro est le #:2.",
+    'credit_notes:client_viewed' => ":1 a été vue <a href=':2'>note de crédit #:3</a> le :4",
+    'invoices:make_bulk_payment' => 'Tout payer maintenant?',
+    'global:success' => 'Réussi!',
+    'clients:view' => 'Voir le client',
+    'invoices:store_bulk_payment' => 'Store Bulk Payment',
+    'invoices:x_invoices' => ':1 factures',
+    'invoices:amount_to_pay' => 'montant à marquer comme payé.',
+    'invoices:bulk_payment_added' => "The bulk payment was added successfully.",
+    'clients:credit_balance_currently' => "Credit Balance (currently :1)",
+    'clients:has_no_unpaid_invoices' => ":1 has no unpaid invoices.",
+    'invoices:send_payment_notification' => "Send a payment notification email to the client?",
+    'invoices:send_bulk_payment_notification' => "Send payment notification emails to the client?",
+    'invoices:specify_bulk_payment_details' => "Specify the details of your client's payment, and select to which invoices the payment applies.",
+    'global:credit_balance' => "Credit Balance",
+    # End v4.4.0
+
+    # Début des changements de la  v4.4.1
+    'credit_notes:view' => 'View Credit Note',
+    # End v4.4.1
+
+    # Début des changements de la  v4.4.3
+    'tickets:ticket_number' => "Ticket #:1",
+    'settings:ticket_status_for_sending_invoice' => "Ticket Status for Invoicing",
+    'settings:ticket_status_for_sending_invoice_description' => "When a paid ticket is updated to this status, an invoice will automatically be generated and sent to the client.",
+    'settings:never_send_ticket_invoices_automatically' => "-- Never send ticket invoices automatically --",
+    # End v4.4.3
+
+    # Début des changements de la  v4.4.6
+    'expenses:added' => "The expense was added successfully.",
+    # End v4.4.6
 );
 
 /** Fin du fichier: pancake_lang.php **/
