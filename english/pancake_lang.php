@@ -860,7 +860,7 @@ $lang = array(
     'settings:add_currency'			=> 'Add Another Currency',
     /** End Settings **/
 
-    'update:ifyourenotsurecontactus'		=> "If you're not sure what to do, please <a href='http://pancakeapp.com/forums/newtopic/2/'>start a new tech support topic in the forums</a>.",
+    'update:ifyourenotsurecontactus'		=> "If you're not sure what to do, please <a href='https://pancakeapp.com/account/support/ticket/new'>open a <strong>free</strong> support ticket</a>.",
     'update:youmodified'					=> 'You modified',
     'update:youdeleted'						=> 'You deleted',
     'update:loadingpleasewait'				=> 'Loading, please wait...',
@@ -1298,9 +1298,17 @@ $lang = array(
     'settings:ticket_status_for_sending_invoice' => "Ticket Status for Invoicing",
     'settings:ticket_status_for_sending_invoice_description' => "When a paid ticket is updated to this status, an invoice will automatically be generated and sent to the client.",
     'settings:never_send_ticket_invoices_automatically' => "-- Never send ticket invoices automatically --",
-    
     # End v4.4.3 changes
-    
+
+    # Begin v4.4.6 changes
+    'expenses:added' => "The expense was added successfully.",
+    # End v4.4.6 changes
+
+    # Begin v4.4.9 changes
+    'global:error_submitting_ajax' => "An unknown error occurred while trying to submit this form. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
+    'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
+    # End v4.4.9 changes
+
 );
 
 /** End of file: pancake_lang.php **/
