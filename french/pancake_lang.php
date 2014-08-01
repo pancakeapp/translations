@@ -1183,8 +1183,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "global:asc" => "Ascendant (A-Z)",
     "global:desc" => "Descendant (Z-A)",
     # Fin v4.2.4
-#<<<<<<< Updated upstream
-    
     
     # Début des changements de la v4.3.2
     "settings:tax_compound" => "Taxe combinée",
@@ -1196,119 +1194,103 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
 
     
     # Début des changements de la v4.3.6
-    "global:youarenotallowed" => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
-    # Fin v4.3.6
-    
-    # Début des changements de la v4.3.7
-    "dashboard:today" => "Aujourd'hui",
-    "dashboard:your_projects" => "Vos projets",
-    "dashboard:snapshot" => "Aperçu",
-    'dashboard:team_activity' => 'Nouveautés',
-    "settings:brand_name" => "Nom de votre marque",
-    "settings:brand_name_explanation" => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
-    "settings:business_name_explanation" => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
-    "settings:admin_name_explanation" => "Par défaut, ce nom sera utilisé à la fin des courriels",
-    "settings:billing_email" => "Courriel de facturation",
-    "settings:billing_email_explanation" => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
-    "settings:notify_email_explanation" => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
-    "settings:show_name_along_with_logo" => "Affichez le nom de votre marque à côté de votre logo?",
-    'invoices:frequency' => "Fréquence",
-    'invoices:auto_send' => "Envoyez automatiquement?",
-    'invoices:send' => "Envoyez",
-    'invoices:days_before_invoice_is_due' => "Nombre de jour avant que la facture soit due.",
-    'invoices:cannot_change_recurrences' => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
-    # fin v4.3.7
-    
-    # Début des changement de la v4.4.0
-  'invoices:discount' => 'Réduction',
-  'invoices:discount_explain' => 'Ajouter % pour les pourcentages.',
-  'invoices:addedconf' => 'Vous avez créé la facture # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) pour :4:5.',
-  'estimates:addedconf' => 'Vous avez créé la soumission # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) for :4:5.',
-  'credit_notes:edit_credit_note' => 'Modifier la note de crédit #:1',
-  'credit_notes:create_credit_note' => 'Créer une note de crédit',
-  'global:credit_notes' => 'Notes de crédits',
-  'global:credit_note' => 'Note de crédit',
-  'credit_notes:alltitle' => 'Toutes les notes de crédits',
-  'credit_notes:nocredit_notesforthefilteredclient' => 'Vous n\'avez pas de notes de crédits pour :1.',
-  'credit_notes:no_credit_notes' => 'Vous n\'avez pas de notes de crédit.',
-  'credit_notes:create' => 'Créer une note de crédit',
-  'credit_notes:no_credit_notes_body' => 'Vous n\'avez pas de note de crédit',
-  'credit_notes:edit' => 'Modifier la note de crédit',
-  'credit_notes:credit_note_number' => 'Note de crédit #:1',
-  'credit_notes:credit_note_date' => 'Date de la note de crédit',
-  'credit_notes:delete_title' => 'Supprimer cette note de crédit ?',
-  'credit_notes:delete_message' => 'Êtes vous certain de supprimer cette note de crédit ?',
-  'credit_notes:addedconf' => 'Vous avez ajouté une note de crédit # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) pour :4:5.',
-  'credit_notes:send_now_title' => 'Envoyer la note de crédit maintenant ?',
-  'credit_notes:send_now_body' => "Remplissez les champs ci-dessous pour envoyer une note de crédit.",
-  'email_templates:new_credit_note' => 'Nouvelle note de crédit',
-  'credit_notes:send_now' => 'Envoyer la note de crédit',
-  'credit_notes:preview' => 'Prévisualiser la note de crédit',
-  'credit_notes:duplicated' => "Dupliquer la note de crédit #:1. Le numéro de la nouvelle cote de crédit est #:2.",
-  'credit_notes:client_viewed' => ":1 à visualisé <a href=':2'>la note de crédit #:3</a> sur :4",
-  'invoices:make_bulk_payment' => 'Faire un paiement en lot',
-  'global:success' => 'C\'est réussi ! ',
-  'clients:view' => 'Voir le client',
-  'invoices:store_bulk_payment' => 'Enregistrer le paiement en lot',
-  'invoices:x_invoices' => ':1 factures',
-  'invoices:amount_to_pay' => 'Montant à afficher comme étant payé',
-  'invoices:bulk_payment_added' => "Le paiement en lot a été ajouté avec succès.",
-  'clients:credit_balance_currently' => "Balance de crédit (actuellement :1)",
-  'clients:has_no_unpaid_invoices' => ":1 n'a aucune facture en suspend.",
-  'invoices:send_payment_notification' => "Soumettre une notification de paiement par courriel au client ?",
-  'invoices:send_bulk_payment_notification' => "Soumettre les notifications de paiement par courriel au client ?",
-  'invoices:specify_bulk_payment_details' => "Spécifier les détails de paiement de votre client et sélectionner sur quelles factures le paiement s'applique.",
-  'global:credit_balance' => "Balance de crédit",
-  # Fin v4.4.0
-
-  # Début des changements pour la v4.4.1
-  'credit_notes:view' => 'Voir la note de crédit',
-  # Fin v4.4.1
-  
-  # Début des changements pour la v4.4.3
-  'tickets:ticket_number' => "Billet #:1",
-  'settings:ticket_status_for_sending_invoice' => "Statut du billet pour la facture à envoyer",
-  'settings:ticket_status_for_sending_invoice_description' => "Si il y a un billet à payer, une facture sera généré et automatique envoyé au client.",
-  'settings:never_send_ticket_invoices_automatically' => "-- Ne jamais envoyer les billets de factures automatiquement --",
-  # Fin v4.4.3 changes
-
-#=======
-
-    # Début des changements de la v4.3.2
-    "settings:tax_compound" => "Taxe combiné?",
-    "settings:no_tax" => "Aucune taxe",
-    "settings:default_taxes" => "Taxes par défaut",
-    "global:and" => "and",
-    "global:tax" => "Tax",
-    # Fin v4.3.2
-
-    # Début des changements de la v4.3.6
-    # idem as global:update_available somewhere it change in the versions. see 4.1.29 changes
     "global:updates_available" => "Mise à jour disponible",
     "global:tax" => "Taxe(s)",
     "global:youarenotallowed" => "Vous n'avez pas les droit nécessaire pour accéder à cette page.",
     #Fin v4.3.6
-
+    
     # Début des changements de la v4.3.7
-    "dashboard:today" => "Aujourd'hui",
-    "dashboard:your_projects" => "Vos projets",
-    "dashboard:snapshot" => "Aperçu",
-    'dashboard:team_activity' => 'Nouveautés',
-    "settings:brand_name" => "Nom de votre marque",
-    "settings:brand_name_explanation" => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
-    "settings:business_name_explanation" => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
-    "settings:admin_name_explanation" => "Par défaut, ce nom sera utilisé à la fin des courriels",
-    "settings:billing_email" => "Courriel de facturation",
-    "settings:billing_email_explanation" => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
-    "settings:notify_email_explanation" => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
-    "settings:show_name_along_with_logo" => "Affichez le nom de votre marque à côté de votre logo?",
+    'dashboard:today' => "Aujourd'hui",
+    'dashboard:your_projects' => "Vos projets",
+    'dashboard:snapshot' => "Aperçu",
+    'dashboard:team_activity' => "Nouveautés",
+    'settings:brand_name' => "Nom de votre marque",
+    'settings:brand_name_explanation' => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
+    'settings:business_name_explanation' => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
+    'settings:admin_name_explanation' => "Par défaut, ce nom sera utilisé à la fin des courriels",
+    'settings:billing_email' => "Courriel de facturation",
+    'settings:billing_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
+    'settings:notify_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
+    'settings:show_name_along_with_logo' => "Affichez le nom de votre marque à côté de votre logo?",
     'invoices:frequency' => "Fréquence",
     'invoices:auto_send' => "Envoyez automatiquement?",
     'invoices:send' => "Envoyez",
     'invoices:days_before_invoice_is_due' => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences' => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
-    # fin v4.3.7
-#>>>>>>> Stashed changes
+    # Fin v4.3.7
+    
+    # Début des changements pour la v4.3.8
+    'email_templates:client_area_details' => "Détails de l'espace client",
+    'settings:always_https' => "Connexion en mode HTTPS ?",
+    'settings:always_https_explanation' => 'Pancake sera toujours chargé via HTTPS. Utilisez ceci seulement si vous avez un certificat SSL installé et que vous pouvez accéder à Pancake par HTTPS.',
+    'settings:remittance_slip' => "Bordereau de paiement",
+    'invoices:mail_to' => "Envoyer à",
+    'clients:send_client_area_email' => "Envoyer les détails de l'espace client",
+    'clients:you_cannot_send' => "Vous ne pouvez pas soummettre par courriel les détails de l'espace client car ce dernier n'a pas d'adresse de courriel de configuré.",
+    # Fin v4.3.8
+    
+    # Début des changement de la v4.4.0
+   'invoices:discount' => 'Réduction',
+   'invoices:discount_explain' => 'Ajouter % pour les pourcentages.',
+   'invoices:addedconf' => 'Vous avez créé la facture # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) pour :4:5.',
+   'estimates:addedconf' => 'Vous avez créé la soumission # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) for :4:5.',
+   'credit_notes:edit_credit_note' => 'Modifier la note de crédit #:1',
+   'credit_notes:create_credit_note' => 'Créer une note de crédit',
+   'global:credit_notes' => 'Notes de crédits',
+   'global:credit_note' => 'Note de crédit',
+   'credit_notes:alltitle' => 'Toutes les notes de crédits',
+   'credit_notes:nocredit_notesforthefilteredclient' => 'Vous n\'avez pas de notes de crédits pour :1.',
+   'credit_notes:no_credit_notes' => 'Vous n\'avez pas de notes de crédit.',
+   'credit_notes:create' => 'Créer une note de crédit',
+   'credit_notes:no_credit_notes_body' => 'Vous n\'avez pas de note de crédit',
+   'credit_notes:edit' => 'Modifier la note de crédit',
+   'credit_notes:credit_note_number' => 'Note de crédit #:1',
+   'credit_notes:credit_note_date' => 'Date de la note de crédit',
+   'credit_notes:delete_title' => 'Supprimer cette note de crédit ?',
+   'credit_notes:delete_message' => 'Êtes vous certain de supprimer cette note de crédit ?',
+   'credit_notes:addedconf' => 'Vous avez ajouté une note de crédit # <strong>:1</strong>, d\'un montant total de <strong>:2</strong> (:3 avec taxes) pour :4:5.',
+   'credit_notes:send_now_title' => 'Envoyer la note de crédit maintenant ?',
+   'credit_notes:send_now_body' => "Remplissez les champs ci-dessous pour envoyer une note de crédit.",
+   'email_templates:new_credit_note' => 'Nouvelle note de crédit',
+   'credit_notes:send_now' => 'Envoyer la note de crédit',
+   'credit_notes:preview' => 'Prévisualiser la note de crédit',
+   'credit_notes:duplicated' => "Dupliquer la note de crédit #:1. Le numéro de la nouvelle cote de crédit est #:2.",
+   'credit_notes:client_viewed' => ":1 à visualisé <a href=':2'>la note de crédit #:3</a> sur :4",
+   'invoices:make_bulk_payment' => 'Faire un paiement en lot',
+   'global:success' => 'C\'est réussi ! ',
+   'clients:view' => 'Voir le client',
+   'invoices:store_bulk_payment' => 'Enregistrer le paiement en lot',
+   'invoices:x_invoices' => ':1 factures',
+   'invoices:amount_to_pay' => 'Montant à afficher comme étant payé',
+   'invoices:bulk_payment_added' => "Le paiement en lot a été ajouté avec succès.",
+   'clients:credit_balance_currently' => "Balance de crédit (actuellement :1)",
+   'clients:has_no_unpaid_invoices' => ":1 n'a aucune facture en suspend.",
+   'invoices:send_payment_notification' => "Soumettre une notification de paiement par courriel au client ?",
+   'invoices:send_bulk_payment_notification' => "Soumettre les notifications de paiement par courriel au client ?",
+   'invoices:specify_bulk_payment_details' => "Spécifier les détails de paiement de votre client et sélectionner sur quelles factures le paiement s'applique.",
+   'global:credit_balance' => "Balance de crédit",
+   # Fin v4.4.0
+
+   # Début des changements pour la v4.4.1
+   'credit_notes:view' => 'Voir la note de crédit',
+   # Fin v4.4.1
+  
+    # Début des changements pour la v4.4.3
+    'tickets:ticket_number' => "Billet #:1",
+    'settings:ticket_status_for_sending_invoice' => "Statut du billet pour la facture à envoyer",
+    'settings:ticket_status_for_sending_invoice_description' => "Si il y a un billet à payer, une facture sera généré et automatique envoyé au client.",
+    'settings:never_send_ticket_invoices_automatically' => "-- Ne jamais envoyer les billets de factures automatiquement --",
+     # Fin v4.4.3
+
+
+    # Début des changements de la v4.4.6
+    'expenses:added' => "La dépense a été ajoutée avec succès.",
+    # Fin v4.4.6
+
+    # Début des changements de la v4.4.9
+    'global:error_submitting_ajax' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
+    'store:error1004' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
+    # Fin v4.4.9
 );
 
 /** Fin du fichier: pancake_lang.php **/
