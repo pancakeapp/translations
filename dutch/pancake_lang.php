@@ -12,7 +12,7 @@
  * @since       Version 1.0
  * @translated Peter Ruiter - http://peterruiter.com - Twitter: @pajruiter
  * @translated Koen Rijpstra - Twitter: @KoenRijpstra
- * @translated: Martin Kapma, http://www.albruna.nl
+ * @translated Martin Kapma, http://www.albruna.nl
  */
  
 // ------------------------------------------------------------------------
@@ -344,7 +344,6 @@ $lang = array(
     'invoices:no_invoices' => 'Er zijn geen facturen.',
     'invoices:addedsuccess' => 'U heeft een factuur toegevoegd voor',
     'invoices:invoice' => 'factuur',
-    'invoices:addedconf' => 'U heeft factuur # <strong>:1</strong> toegevoegd, totaal <strong>:2</strong> voor :3:4.',
     'invoices:preview' => 'Voorvertoning factuur',
     'invoices:editinvoice' => 'Bewerk factuur #:1',
     'invoices:messageupdated' => 'De factuur is bijgewerkt!',
@@ -1232,72 +1231,79 @@ $lang = array(
     'invoices:cannot_change_recurrences' => 'U kunt de herhalingsinstellingen van een factuur niet wijzigen wanneer deze een herhaling is van een andere factuur.',
     # End v4.3.7 changes
     
-        # Begin v4.3.8 changes
-    'email_templates:client_area_details' => 'Klant omgeving details',
+ # Begin v4.3.8 changes
+    'email_templates:client_area_details' => 'Klantgedeelte gegevens',
     'settings:always_https' => 'Forceer HTTPS?',
-    'settings:always_https_explanation' => 'Dit zorgt ervoor dat het systeem altijd via HTTPS geladen wordt. Je kan dit enkel gebruiken als je server is voorzien van een ssl certificaat',
-    'settings:remittance_slip' => 'Remittance Slip',
+    'settings:always_https_explanation' => 'Dit zorgt ervoor dat Pancake altijd wordt geladen via HTTPS. Gebruik dit alleen als u een SSL certificaat heeft geinstalleerd.',
+    'settings:remittance_slip' => 'Overschrijvingscoupon',
     'invoices:mail_to' => 'Mail naar',
-    'clients:send_client_area_email' => 'Stuur klantomgeving details',
-    'clients:you_cannot_send' => 'You cannot send this client his or her client area details by email because this client does not have an email address.',
+    'clients:send_client_area_email' => 'Verstuur klantgedeelte gegevens',
+    'clients:you_cannot_send' => 'Je kan niets aan deze klant sturen omdat bij deze klant nog geen email adres is opgenomen.',
     # End v4.3.8 changes
-    
+
     # Begin v4.4.0 changes
     'invoices:discount' => 'Korting',
     'invoices:discount_explain' => 'Voeg % toe voor percentages.',
-    'invoices:addedconf' => 'Je hebt factuur # <strong>:1</strong> toegevoegd, totaal <strong>:2</strong> (:3 incl btw) voor :4:5.',
-    'estimates:addedconf' => 'Je hebt een begroting toegevoegd van # <strong>:1</strong>, totaal <strong>:2</strong> (:3 incl btw) voor :4:5.',
-    'credit_notes:edit_credit_note' => 'Wijzig creditnota #:1',
-    'credit_notes:create_credit_note' => 'Maak een creditnota',
-    'global:credit_notes' => 'Creditnota',
+    'invoices:addedconf' => 'U heeft factuur # <strong>:1</strong> toegevoegd, totaal <strong>:2</strong> (:3 incl BTW) voor :4:5.',
+    'estimates:addedconf' => 'U heeft offerte # <strong>:1</strong> toegevoegd, totaal <strong>:2</strong> (:3 incl BTW) voor :4:5.',
+    'credit_notes:edit_credit_note' => 'Bewerk creditnota #:1',
+    'credit_notes:create_credit_note' => 'Maak creditnota',
+    'global:credit_notes' => 'Creditnota\'s',
     'global:credit_note' => 'Creditnota',
-    'credit_notes:alltitle' => 'Alle creditnotas',
-    'credit_notes:nocredit_notesforthefilteredclient' => 'Je hebt geen creditnotas voor :1.',
-    'credit_notes:no_credit_notes' => 'Je hebt geen creditnotas',
-    'credit_notes:create' => 'Maak nieuwe creditnota',
-    'credit_notes:no_credit_notes_body' => 'Wil je een creditnota maken?',
-    'credit_notes:edit' => 'Wijzig creditnota',
+    'credit_notes:alltitle' => 'Alle creditnota\'s',
+    'credit_notes:nocredit_notesforthefilteredclient' => 'U heeft geen creditnota\'s voor :1.',
+    'credit_notes:no_credit_notes' => 'U heeft geen creditnota\'s.',
+    'credit_notes:create' => 'Maak creditnota',
+    'credit_notes:no_credit_notes_body' => 'U zou er een moeten maken. Wilt u dit nu doen?',
+    'credit_notes:edit' => 'Bewerk creditnota',
     'credit_notes:credit_note_number' => 'Creditnota #:1',
-    'credit_notes:credit_note_date' => 'Creditnota Datum',
-    'credit_notes:delete_title' => 'Verwijder de creditnota?',
-    'credit_notes:delete_message' => 'Ben je er zeker van dat je deze creditnota wil verwijderen?',
-    'credit_notes:addedconf' => 'Toegevoegd creditnota # <strong>:1</strong>, totaal <strong>:2</strong> (:3 incl btw) voor :4:5.',
+    'credit_notes:credit_note_date' => 'Creditnota datum',
+    'credit_notes:delete_title' => 'Verwijder deze creditnota?',
+    'credit_notes:delete_message' => 'Weet u zeker dat u deze creditnota wilt verwijderen?',
+    'credit_notes:addedconf' => 'U heeft creditnota # <strong>:1</strong> toegevoegd, totaal <strong>:2</strong> (:3 incl BTW) voor :4:5.',
     'credit_notes:send_now_title' => 'Verstuur creditnota nu?',
-    'credit_notes:send_now_body' => "Vul het formulier hieronder in en we verzenden de creditnota.",
+    'credit_notes:send_now_body' => "Vul onderstaand formulier in en we versturen de creditnota voor u.",
     'email_templates:new_credit_note' => 'Nieuwe creditnota',
-    'credit_notes:send_now' => 'Verzend creditnota',
-    'credit_notes:preview' => 'Bekijk creditnota',
-    'credit_notes:duplicated' => "Dubbele creditnota #:1. Het nieuwe nummer is #:2.",
-    'credit_notes:client_viewed' => ":1 bekekn  <a href=':2'>creditnota #:3</a> op :4",
-    'invoices:make_bulk_payment' => 'Betaal meer te gelijk',
+    'credit_notes:send_now' => 'Verstuur creditnota',
+    'credit_notes:preview' => 'Voorvertoning creditnota',
+    'credit_notes:duplicated' => "Creditnota #:1 gedupliceerd. Het nieuwe creditnota nummer is #:2.",
+    'credit_notes:client_viewed' => ":1 bekeek <a href=':2'>creditnota #:3</a> on :4",
+    'invoices:make_bulk_payment' => 'Doe een batchbetaling',
     'global:success' => 'Gelukt!',
-    'clients:view' => 'Bekijk Klant',
-    'invoices:store_bulk_payment' => 'Betaal meer tegelijk',
+    'clients:view' => 'Bekijk klant',
+    'invoices:store_bulk_payment' => 'Opslaan batchbetaling',
     'invoices:x_invoices' => ':1 facturen',
-    'invoices:amount_to_pay' => 'Markeer bedrag als betaling',
-    'invoices:bulk_payment_added' => "De betaling was succesvol.",
-    'clients:credit_balance_currently' => "Credit Balans (momenteel :1)",
+    'invoices:amount_to_pay' => 'Bedrag om als betaald te markeren',
+    'invoices:bulk_payment_added' => "De batchbetaling is toegevoegd.",
+    'clients:credit_balance_currently' => "Creditbalans (momenteel :1)",
     'clients:has_no_unpaid_invoices' => ":1 heeft geen onbetaalde facturen.",
-    'invoices:send_payment_notification' => "Een betalingnotificatie via e-mail versturen?",
-    'invoices:send_bulk_payment_notification' => "Betalingnotificaties via e-mail verzenden aan de klant?",
-    'invoices:specify_bulk_payment_details' => "Specifier de details van de betaling, en selecteer voor welke facturen dit invloed heeft.",
-    'global:credit_balance' => "Credit Balans",
+    'invoices:send_payment_notification' => "Verstuur een betalingsnotificatie email naar de klant?",
+    'invoices:send_bulk_payment_notification' => "Verstuur betalingsnotificatie emails naar de klant?",
+    'invoices:specify_bulk_payment_details' => "Specificeer de details van de betaling en geef aan op welke facturen de betaling van toepassing is.",
+    'global:credit_balance' => "Creditbalans",
     # End v4.4.0 changes
-    
+
     # Begin v4.4.1 changes
     'credit_notes:view' => 'Bekijk creditnota',
     # End v4.4.1 changes
-    
+
     # Begin v4.4.3 changes
     'tickets:ticket_number' => "Ticket #:1",
-    'settings:ticket_status_for_sending_invoice' => "Ticket Status voor Facturatie",
-    'settings:ticket_status_for_sending_invoice_description' => "Wanneer een betaalde ticket is omgezet naar deze status, zal er automatisch een factuur aangemaakt worden en verzonden worden naar de klant.",
-    'settings:never_send_ticket_invoices_automatically' => "-- Stuur nooit automatisch ticket facturen --",
+    'settings:ticket_status_for_sending_invoice' => "Ticket status voor facturatie",
+    'settings:ticket_status_for_sending_invoice_description' => "Wanneer een betaalde ticket wordt bijgewerkt naar deze status wordt er een factuur opgemaakt en verzonden naar de klant.",
+    'settings:never_send_ticket_invoices_automatically' => "-- Verstuur ticketfacturen nooit automatisch --",
     # End v4.4.3 changes
-    
+
     # Begin v4.4.6 changes
     'expenses:added' => "De uitgave is succesvol toegevoegd.",
     # End v4.4.6 changes
+
+    # Begin v4.4.9 changes
+    'global:error_submitting_ajax' => "Er is een onbekende fout opgetreden bij het versturen van dit formulier. Probeer het later opnieuw. Als de fout blijft bestaan open dan een support ticket op pancakeapp.com.",
+    'store:error1004' => "Er is een onbekende fout opgetreden bij het aankopen van dit product. Probeer het later opnieuw. Als de fout blijft bestaan open dan een support ticket op pancakeapp.com.",
+    # End v4.4.9 changes
+
+
 );
 
 /** End of file: pancake_lang.php **/
