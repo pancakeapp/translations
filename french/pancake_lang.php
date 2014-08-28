@@ -340,8 +340,8 @@ $lang = array(
     'invoices:editinvoice' => 'Modifier la facture #:1',
     'invoices:messageupdated' => 'La facture a été mise à jour!',
     'invoices:resend' => 'Renvoyer la facture',
-    'invoices:client_viewed' => ':1 a vu la facture #:2 le :3',
-    'invoices:client_paid' => ':1 a payé la facture #:2 le :3',
+    'invoices:client_viewed' => ':1 a vu la facture #:2 le :4',
+    'invoices:client_paid' => ':1 a payé la facture #:2 le :4',
     'invoice:paid_amount' => 'Payé',
     /** Fin des factures **/
 
@@ -479,12 +479,12 @@ $lang = array(
     'reports:view' => 'Voir le rapport',
     'reports:show_all' => 'Afficher les rapports',
 
-    'reports:paid_and_unpaid' => "Payé et impayé",
-    'reports:paid_vs_unpaid_over_time' => "Payé vs. Impayé dans les temps",
+    'reports:paid_and_unpaid' => "payées et impayées",
+    'reports:paid_vs_unpaid_over_time' => "payées vs. impayées selon la date",
     'reports:per_client' => 'par client',
-    'reports:total_with_tax' => "Total avec taxes",
-    'reports:total_without_tax' => "Total sans taxes",
-    'reports:total_collected' => 'Total recueillis',
+    'reports:total_with_tax' => "total avec taxes",
+    'reports:total_without_tax' => "total sans taxes",
+    'reports:total_collected' => 'total recueillis',
     'reports:fees_paid' => 'Frais payés',
     'reports:total_amount' => 'Montant total',
     'reports:paid_amount' => "Montant payé",
@@ -708,9 +708,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
 
     /** Settings **/
 
-    'settings:task_statuses'	=> "Status des tâches",
-    'settings:ticket_statuses'	=> "Status des tickets",
-    'settings:ticket_priorities'	=> "Priorités des tickets",
+    'settings:task_statuses'	=> "Statuts des tâches",
+    'settings:ticket_statuses'	=> "Statuts des billets",
+    'settings:ticket_priorities'	=> "Priorités des billets",
     'settings:background_color'	=> "Couleur de fond",
     'settings:text_color'	=> "Couleur du texte",
     'settings:text_shadow'	=> "Ombre du texte",
@@ -840,7 +840,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:tax_reg'	=> 'Numéro d\'enregistrement aux taxes',
     'settings:add_tax'	=> 'Ajouter une autre taxe',
 
-    'settings:currency_name'	=> 'Nom de la device',
+    'settings:currency_name'	=> 'Nom de la devise',
     'settings:currency_code'	=> 'Code de la devise',
     'settings:exchange_rate'	=> 'Taux de change',
     'settings:add_currency'	=> 'Ajouter une autre devise',
@@ -1027,7 +1027,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "dashboard:latest_comments" => "Derniers Commentaires",
     "dashboard:written_by" => "Ecrit par :1 le :2",
     "dashboard:client_activity" => "Activités des clients",
-    "dashboard:view_all_client_activity" => "Voir toutes les activités du client",
+    "dashboard:view_all_client_activity" => "Voir toutes les activités des clients",
     "dashboard:team_activity" => "Activité de l'équipe",
     "dashboard:view_all_team_activity" => "Voir toutes les activités de l'équipe",
     "dashboard:my_tasks" => "Mes tâches",
