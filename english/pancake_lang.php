@@ -1309,6 +1309,10 @@ $lang = array(
     'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
     # End v4.4.9 changes
 
+  # Begin v4.5.0 changes
+  'invoices:pancake_will_automatically_change_is_viewable' => "This will automatically be changed to 'Yes' when you email the invoice to the client.",
+  "global:incorrect_login" => "The username/password combination you have entered is invalid.",
+  # End v4.5.0 changes
 );
 
 /** End of file: pancake_lang.php **/

@@ -1303,6 +1303,11 @@ $lang = array(
   'global:error_submitting_ajax' => "An unknown error occurred while trying to submit this form. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
   'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
   # End v4.4.9 changes
+
+  # Begin v4.5.0 changes
+  'invoices:pancake_will_automatically_change_is_viewable' => "Dies wird automatisch auf 'Ja' gestellt, wenn die Rechnung an den Kunden gemailt wurde.",
+  "global:incorrect_login" => "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.",
+  # End v4.5.0 changes
 );
 
 /** End of file: pancake_lang.php **/
