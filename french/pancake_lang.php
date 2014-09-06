@@ -1291,6 +1291,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'global:error_submitting_ajax' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
     'store:error1004' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
     # Fin v4.4.9
+    
+    # Début des changements de la v4.5.0
+    'invoices:pancake_will_automatically_change_is_viewable' => "Ceci changera automatiquement à 'Oui' quand la facture sera envoyée au client.",
+    "global:incorrect_login" => "La combinaison du nom d'utilisteur et du mot de passe que vous avez entré est invalide.",
+    # Fin v4.5.0
 );
 
 /** Fin du fichier: pancake_lang.php **/
