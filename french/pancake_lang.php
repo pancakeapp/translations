@@ -780,21 +780,15 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:branding'	=> 'Branding',
     'settings:payment_methods'	=> 'Paiements',
     'settings:feeds'	=> 'Flux',
-    'settings:api_keys'	=> 'Clés d\'API',
+    'settings:api_keys'	=> 'Clés API',
 
-    'settings:time_entry_times' => "Entrés de temps",
-    "settings:include_dates_and_times_in_line_items" => 'Inclure les dates et les heures dans l\'item Entrés de temps.',
+    'settings:time_entry_times' => "Entrées de temps",
+    "settings:include_dates_and_times_in_line_items" => 'Inclure les dates et les heures dans l\'item entrées de temps.',
     "settings:when_generating_invoice" => "Lors de la génération des factures , utiliser une ligne par",
     "settings:use_utf8_font" => "Utilisez des polices UTF-8 dans les fichiers PDF",
     "settings:use_utf8_font_explanation" => "Utilisez cette option si les caractères sont brisés dans vos fichiers PDF .",
     "settings:pdf_attachments" => "Pièces jointes PDF",
     "settings:pdf_attachments_explanation" => "Si elle est cochée , Pancake va fixer le PDF correspondant à la facture , devis ou proposition par emails.",
-    "" => "",
-    "" => "",
-    "" => "",
-    "" => "",
-    "" => "",
-
     'settings:site_name'	=> 'Nom du site',
     'settings:language'	=> 'Langue',
     'settings:timezone'	=> 'Fuseau horaire',
@@ -1291,6 +1285,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'global:error_submitting_ajax' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
     'store:error1004' => "Une erreur inconnue est survenue lors de l'envoie des données des champs. Veuillez réessayer plus tard. Si l'erreur persiste, veuillez ouvrir un billet de support à pancakeapp.com.",
     # Fin v4.4.9
+    
+    # Début des changements de la v4.5.0
+    'invoices:pancake_will_automatically_change_is_viewable' => "Ceci changera automatiquement à 'Oui' quand la facture sera envoyée au client.",
+    "global:incorrect_login" => "La combinaison du nom d'utilisteur et du mot de passe que vous avez entré est invalide.",
+    # Fin v4.5.0
 );
 
 /** Fin du fichier: pancake_lang.php **/
