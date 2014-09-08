@@ -588,7 +588,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:not_related_to_a_task' => "-- Non associé à une tâche --",
     'tasks:select_parent_default' => '-- Aucune tâche parente --',
     'tasks:timers_running' => 'Chronomètres',
-    'tasks:task_completed_by' => ':1 a complété la tâche :2 à :3',
+    'tasks:task_completed_by' => ':1 a complété la tâche :3 à :2',
     'tasks:discussion' => 'Discussion : ',
     'tasks:billed_hours' => "Heures facturées",
     'tasks:unbilled_hours' => "Heures non-facturées",
