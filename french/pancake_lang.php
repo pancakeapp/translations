@@ -4,7 +4,7 @@
 *
 * @author Anas AIT ALI (http://www.anas10.fr)
 * @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
-* @link https://github.com/ahouin/pancake-translations
+* @link https://github.com/ahouin/pancake-traductions
 * @copyright Copyright (c) 2010-2014, Pancake Payments
 * @license http://pancakeapp.com/license
 * @since 1.0
