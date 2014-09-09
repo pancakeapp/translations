@@ -340,8 +340,8 @@ $lang = array(
     'invoices:editinvoice' => 'Modifier la facture #:1',
     'invoices:messageupdated' => 'La facture a été mise à jour!',
     'invoices:resend' => 'Renvoyer la facture',
-    'invoices:client_viewed' => ':1 a vu la facture #:2 le :4',
-    'invoices:client_paid' => ':1 a payé la facture #:2 le :4',
+    'invoices:client_viewed' => ':1 a vu la facture #:3 le :4',
+    'invoices:client_paid' => ':1 a payé la facture #:3 le :4',
     'invoice:paid_amount' => 'Payé',
     /** Fin des factures **/
 
