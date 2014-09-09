@@ -168,7 +168,7 @@ $lang = array(
 
 	/** Greetings **/
 	'global:greetings'	=>	array('Ahoy!', 'Hello,', 'Hey,', 'Sup,'),
-    
+
         'global:mark_as_unanswered' => 'Mark as unanswered',
         'global:mark_as_accepted' => 'Mark as accepted',
         'global:mark_as_rejected' => 'Mark as rejected',
@@ -186,7 +186,7 @@ $lang = array(
         'global:viewable' => 'Viewable in client area',
         'global:not_viewable' => 'Not viewable in client area',
         'global:milestones' => "Milestones",
-    
+
 	/** End Greetings **/
 
 	/** Dashboard **/
@@ -259,7 +259,6 @@ $lang = array(
 
 
 	/** Contact Log **/
-	'contact:title'				=>	'Recent Contact History',
 	'contact:method'			=>	'Contact Method',
 	'contact:contact'			=>	'Contact',
 	'contact:subject'			=>	'Subject',
@@ -406,10 +405,10 @@ $lang = array(
 	'projects:edit'					=> 'Edit Project',
 	'projects:delete'				=> 'Delete Project',
 	'projects:project'				=> 'Project',
-    
+
         'projects:new_project_from_estimate_without_number' => "New Project from Estimate",
         'projects:new_project_from_estimate_with_number' => "New Project from Estimate #:1",
-    
+
 	'projects:due_date'				=> 'Due Date',
 	'projects:is_completed'			=> 'Completed?',
 	'projects:manage_project'		=> 'Manage Project',
@@ -500,7 +499,7 @@ $lang = array(
 
     'reports:view'			=> 'View Report',
     'reports:show_all'		=> 'Show Reports',
-    
+
     'reports:paid_and_unpaid' => "Paid and Unpaid",
     'reports:paid_vs_unpaid_over_time' => "Paid vs. Unpaid over time",
     'reports:per_client' => 'per client',
@@ -512,7 +511,7 @@ $lang = array(
     'reports:paid_amount' => "Paid Amount",
     'reports:unpaid_amount' => "Unpaid Amount",
     'reports:client_name' => "Client Name",
-    
+
     'reports:nodata'		=> 'No :1.',
     /** End Reports **/
 
@@ -607,8 +606,8 @@ $lang = array(
 	'tasks:discussion'					=>	'Discussion: ',
 'tasks:billed_hours' => "Billed Hours",
     'tasks:unbilled_hours' => "Unbilled Hours",
-    
-    
+
+
 	/** Users **/
 	'users:create_user'					=> 'Create User',
         'users:confirm_delete_emphasised' => "There is no going back!",
@@ -808,9 +807,9 @@ $lang = array(
     "" => "",
     "" => "",
     "" => "",
-    
-    
-    
+
+
+
     'settings:site_name'			=> 'Site name',
     'settings:language'				=> 'Language',
     'settings:timezone'				=> 'Timezone',
@@ -978,7 +977,7 @@ $lang = array(
     'kitchen:passphrase'    			=>  'Passphrase',
     'kitchen:description'   			=>  'This is the url to send to your client to allow them to access the client access area where they can view items, such as projects and invoices, that you have made viewable.',
 	'kitchen:people_in_discussion'		=>  'People chatting',
-    
+
     'kitchen:latest_invoice' => 'Latest Invoice',
     'kitchen:unpaid_balance' => 'Unpaid Balance: :1',
     'kitchen:total_paid_to_date' => 'Total Paid To Date: :1',
@@ -1003,7 +1002,7 @@ $lang = array(
     'store:error1001' => "You have already purchased this store item!",
     'store:error1002' => "A problem occurred while trying to charge your credit card. Try again later.",
     'store:error1003' => "You have made an invalid request.",
-    
+
     'email_templates:new_invoice' => 'New Invoice',
     'email_templates:new_estimate' => 'New Estimate',
     'email_templates:new_proposal' => 'New Proposal',
@@ -1016,25 +1015,25 @@ $lang = array(
     'email_templates:assigned_to_task' => "Task Assignment Notification",
     'email_templates:assigned_to_milestone' => "Milestone Assignment Notification",
     'email_templates:new_comment' => "New Comment Notification",
-    
+
     'global:timer_app' => "Pancake Timer App",
     'global:there_is_no_activity' => "There is no team activity to display.",
     'global:there_are_no_tasks_assigned_to_you' => "There are no tasks assigned to you.",
-    
+
     /** Dashboard **/
 
 
 	/** END Dashboard **/
-    
+
     # v4.0.5
-    
+
     'invoices:lastreoccurrence' => 'Last Reoccurrence: :1',
-    
+
     # Begin v4.1.2 changes
     'invoices:converted_to_estimate' => "Converted invoice #:1 to an estimate.",
     'global:converttoestimate' => 'Convert to Estimate',
     # End v4.1.2 changes
-    
+
     # Begin v4.1.3 changes
     'tickets:view_archived' => "View Archived Tickets",
     'tickets:view_unarchived' => "View Active Tickets",
@@ -1042,7 +1041,7 @@ $lang = array(
     'tickets:unarchiving_ticket' => "Unarchiving ticket",
     "tickets:unknown_error_ticket_not_altered" => "An unknown error occurred. Your ticket was not altered.",
     # End v4.1.3 changes
-    
+
     # Begin v4.1.4 changes
     "tasks:starting_timer" => "Starting timer",
     "tasks:stopping_timer" => "Stopping timer",
@@ -1058,7 +1057,7 @@ $lang = array(
     "dashboard:view_all_my_tasks" => "View All My Tasks",
     "dashboard:what_the_team_is_working_on" => "What the team is working on.",
     # End v4.1.4 changes
-    
+
     # Begin v4.1.6 changes
     "global:save_milestone" => "Save Milestone",
     "global:save_task" => "Save Task",
@@ -1066,11 +1065,11 @@ $lang = array(
     "global:clients_cant_see_private" => "Clients can't see private comments.",
     "global:is_private" => "Private?",
     # End v4.1.6 changes
-    
+
     # Begin v4.1.7 changes
     "tickets:disable_client" => "-- Disable Support Tickets --",
     # End v4.1.7 changes
-    
+
     # Begin v4.1.8 changes
     "global:css" => "Custom CSS",
     "global:js" => "Custom JavaScript",
@@ -1078,43 +1077,43 @@ $lang = array(
     "settings:frontend_js" => "Frontend Custom JavaScript",
     "settings:backend_js" => "Backend Custom JavaScript",
     # End v4.1.8 changes
-    
+
     # Begin v4.1.9 changes
     "proposals:estimate_number_and_amount" => "Estimate #:1 (:2)",
     # End v4.1.9 changes
-    
+
     # Begin v4.1.10 changes
     "clients:delete" => "Delete Client",
     # End v4.1.10 changes
-    
+
     # Begin v4.1.11 changes
     "global:nolongerexists" => "[NO LONGER EXISTS]",
     "global:billed_amount" => "Billed Amount",
     "global:unbilled_amount" => "Unbilled Amount",
     "global:is_billed" => "Billed?",
     # End v4.1.11 changes
-    
+
     # Begin v4.1.14 changes
     "settings:year_start" => "Fiscal Year Start Date",
     "dashboard:since_explanation" => "Since :1",
     # End v4.1.14 changes
-    
+
     # Begin v4.1.15 changes
     "export:invoices_csv" => "Invoices (CSV)",
     # End v4.1.15 changes
-    
+
     # Begin v4.1.17 changes
     "projects:createdtemplate" => "Project template created. You can now create projects based on this template.",
     "projects:delete_template" => "Delete Template",
     "projects:deleted_template" => "Success! Template deleted.",
     # End v4.1.17 changes
-    
+
     # Begin v4.1.19 changes
     "export:expenses_csv" => "Expenses (CSV)",
     "export:clients_csv" => "Clients (CSV)",
     "projects:expense_date" => "Expense Date",
     # End v4.1.19 changes
-    
+
     # Begin v4.1.20 changes
     "clients:can_create_support_tickets" => "Allow client to create support tickets?",
     "tickets:submit_new" => "Submit a Ticket",
@@ -1122,7 +1121,7 @@ $lang = array(
     "global:timers" => "Timers",
     "global:more" => "More",
     # End v4.1.20 changes
-    
+
     # Begin v4.1.23 changes
     "global:search" => "Search",
     "authorize:api_login_id" => "API Login ID",
@@ -1132,7 +1131,7 @@ $lang = array(
     "transactions:paymentfailed" => "Payment Failed",
     "transactions:extrapaymentfailed" => "An unknown problem occurred while trying to process your payment. Please contact :1 at :2 for assistance.",
     # End v4.1.23 changes
-    
+
     # Begin v4.1.24 changes
     "projects:tracked" => "Tracked",
     "settings:accounting_type" => "Reporting Method",
@@ -1142,16 +1141,16 @@ $lang = array(
     "reports:selection_explanation_cash" => "Paid invoices are shown based on the date of their payment.\n\nUnpaid or partially-paid invoices are shown based on when they were created.",
     "invoices:partially_paid" => "Partially",
     # End v4.1.24 changes
-    
+
     # Begin v4.1.27 changes
     "global:projects_ommitted" => ":1 projects not shown",
     "global:tasks_ommitted" => ":1 tasks not shown",
     # End v4.1.27 changes
-    
+
     # Begin v4.1.28 changes
     "login:username_email" => "Username / Email",
     # End v4.1.28 changes
-    
+
     # Begin v4.1.31 changes
     "settings:when_new_updates_are_available" => "When new updates are available",
     "settings:dont_install_just_notify_me" => "Don't install, just notify me",
@@ -1169,7 +1168,7 @@ $lang = array(
     "settings:business_identity" => "Business Identity",
     "settings:business_identity_explanation" => "Your client will see the above business identity on all of their emails, PDFs and pages.",
     # End v4.1.31 changes
-    
+
     # Begin v4.1.33 changes
     "settings:have_been_updated" => 'The settings have been updated.',
     "tasks:all" => "All Tasks",
@@ -1185,15 +1184,15 @@ $lang = array(
     "tasks:total_logged_time" => "Total logged time",
     "global:biweekly" => "Biweekly",
     # End v4.1.33 changes
-    
+
     # Begin v4.2 changes
     'settings:default_task_due_date' => 'Default Task Due Date',
     'settings:default_task_due_date_explain' => "days after task is created. If you don't want a default date, leave this empty.",
     # End v4.2 changes
-    
+
     # Note: 4.2.x brought changes to the language file that weren't appended to the end of the file.
     # If you're updating your translation, make sure to check out a diff of the language file, instead of relying on just checking the bottom of the file.
-    
+
     # Begin v4.2.4 changes
     "expenses:sort_or_filter" => "Sort/Filter Expenses",
     "expenses:show" => "Show Expenses",
@@ -1202,19 +1201,19 @@ $lang = array(
     "global:asc" => "Ascending (A-Z)",
     "global:desc" => "Descending (Z-A)",
     # End v4.2.4 changes
-    
+
     # Begin v4.3.0 changes
     "settings:tax_compound" => "Compound?",
     "settings:no_tax" => "No Tax",
     "settings:default_taxes" => "Default Taxes",
-    "global:and" => "and", 
+    "global:and" => "and",
     "global:tax" => "Tax",
     # End v4.3.0 changes
-    
+
     # Begin v4.3.6 changes
     "global:youarenotallowed" => "You are not allowed to access this page.",
     # End v4.3.6 changes
-    
+
     # Begin v4.3.7 changes
     'settings:notify_email' => 'Support Email',
     'settings:billing_email' => 'Billing Email',
@@ -1236,7 +1235,7 @@ $lang = array(
     'invoices:days_before_invoice_is_due' => 'days before invoice is due',
     'invoices:cannot_change_recurrences' => 'You cannot change the recurrence settings of an invoice that is a recurrence of another invoice.',
     # End v4.3.7 changes
-    
+
     # Begin v4.3.8 changes
     'email_templates:client_area_details' => 'Client Area Details',
     'settings:always_https' => 'Force HTTPS?',
@@ -1246,7 +1245,7 @@ $lang = array(
     'clients:send_client_area_email' => 'Send Client Area Details',
     'clients:you_cannot_send' => 'You cannot send this client his or her client area details by email because this client does not have an email address.',
     # End v4.3.8 changes
-    
+
     # Begin v4.4.0 changes
     'invoices:discount' => 'Discount',
     'invoices:discount_explain' => 'Add % for percentages.',
@@ -1288,11 +1287,11 @@ $lang = array(
     'invoices:specify_bulk_payment_details' => "Specify the details of your client's payment, and select to which invoices the payment applies.",
     'global:credit_balance' => "Credit Balance",
     # End v4.4.0 changes
-    
+
     # Begin v4.4.1 changes
     'credit_notes:view' => 'View Credit Note',
     # End v4.4.1 changes
-    
+
     # Begin v4.4.3 changes
     'tickets:ticket_number' => "Ticket #:1",
     'settings:ticket_status_for_sending_invoice' => "Ticket Status for Invoicing",
@@ -1309,10 +1308,15 @@ $lang = array(
     'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
     # End v4.4.9 changes
 
-  # Begin v4.5.0 changes
-  'invoices:pancake_will_automatically_change_is_viewable' => "This will automatically be changed to 'Yes' when you email the invoice to the client.",
-  "global:incorrect_login" => "The username/password combination you have entered is invalid.",
-  # End v4.5.0 changes
+    # Begin v4.5.0 changes
+    'invoices:pancake_will_automatically_change_is_viewable' => "This will automatically be changed to 'Yes' when you email the invoice to the client.",
+    "global:incorrect_login" => "The username/password combination you have entered is invalid.",
+    # End v4.5.0 changes
+
+    # Begin v4.5.3 changes
+    'contact:title' => 'Contact History',
+    # End v4.5.3 changes
+
 );
 
 /** End of file: pancake_lang.php **/
