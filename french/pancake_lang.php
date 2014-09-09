@@ -1290,6 +1290,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'invoices:pancake_will_automatically_change_is_viewable' => "Ceci changera automatiquement à 'Oui' quand la facture sera envoyée au client.",
     "global:incorrect_login" => "La combinaison du nom d'utilisteur et du mot de passe que vous avez entré est invalide.",
     # Fin v4.5.0
+    
+    # Début des changements de la v4.5.3
+    'contact:title' => 'Historique de contact',
+    # Fin v4.5.3
 );
 
 /** Fin du fichier: pancake_lang.php **/
