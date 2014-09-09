@@ -4,7 +4,7 @@
 *
 * @author Anas AIT ALI (http://www.anas10.fr)
 * @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
-* @link https://github.com/ahouin/pancake-translations
+* @link https://github.com/ahouin/pancake-traductions
 * @copyright Copyright (c) 2010-2014, Pancake Payments
 * @license http://pancakeapp.com/license
 * @since 1.0
@@ -340,8 +340,8 @@ $lang = array(
     'invoices:editinvoice' => 'Modifier la facture #:1',
     'invoices:messageupdated' => 'La facture a été mise à jour!',
     'invoices:resend' => 'Renvoyer la facture',
-    'invoices:client_viewed' => ':1 a vu la facture #:2 le :4',
-    'invoices:client_paid' => ':1 a payé la facture #:2 le :4',
+    'invoices:client_viewed' => ':1 a vu la facture #:3 le :4',
+    'invoices:client_paid' => ':1 a payé la facture #:3 le :4',
     'invoice:paid_amount' => 'Payé',
     /** Fin des factures **/
 
@@ -588,7 +588,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:not_related_to_a_task' => "-- Non associé à une tâche --",
     'tasks:select_parent_default' => '-- Aucune tâche parente --',
     'tasks:timers_running' => 'Chronomètres',
-    'tasks:task_completed_by' => ':1 a complété la tâche :2 à :3',
+    'tasks:task_completed_by' => ':1 a complété la tâche :3 à :2',
     'tasks:discussion' => 'Discussion : ',
     'tasks:billed_hours' => "Heures facturées",
     'tasks:unbilled_hours' => "Heures non-facturées",
@@ -1290,6 +1290,10 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'invoices:pancake_will_automatically_change_is_viewable' => "Ceci changera automatiquement à 'Oui' quand la facture sera envoyée au client.",
     "global:incorrect_login" => "La combinaison du nom d'utilisteur et du mot de passe que vous avez entré est invalide.",
     # Fin v4.5.0
+    
+    # Début des changements de la v4.5.3
+    'contact:title' => 'Historique de contact',
+    # Fin v4.5.3
 );
 
 /** Fin du fichier: pancake_lang.php **/
