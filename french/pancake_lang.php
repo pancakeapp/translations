@@ -146,7 +146,7 @@ $lang = array(
     'global:viewpdf' => 'Voir le PDF',
     'global:duplicate' => 'Dupliquer',
     'global:urltosend' => 'Voici l\'URL à envoyer : ',
-    'global:copytoclipboard' => 'Copier dans le presse-papier',
+    'global:copytoclipboard' => 'Copier le lien',
     'global:you_need_pancake_cron_job' => 'Pour utiliser les factures récurrentes, vous devez exécuter la tâche cron de Pancake.',
     'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">cliquez ici</a>.',
     'global:quick_links' => 'Liens rapides',
