@@ -57,8 +57,8 @@ $lang = array(
     'global:first_name' => 'Prénom',
     'global:last_name' => 'Nom',
     'global:company' => 'Entreprise',
-    'global:for' => 'Pour',
-    'global:from' => 'De',
+    'global:for' => 'pour',
+    'global:from' => 'de',
     'global:phone' => 'Téléphone',
     'global:email' => 'Email',
     'global:contacts' => 'Contacts',
@@ -146,7 +146,7 @@ $lang = array(
     'global:viewpdf' => 'Voir le PDF',
     'global:duplicate' => 'Dupliquer',
     'global:urltosend' => 'Voici l\'URL à envoyer : ',
-    'global:copytoclipboard' => 'Copier dans le presse-papier',
+    'global:copytoclipboard' => 'Copier le lien',
     'global:you_need_pancake_cron_job' => 'Pour utiliser les factures récurrentes, vous devez exécuter la tâche cron de Pancake.',
     'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">cliquez ici</a>.',
     'global:quick_links' => 'Liens rapides',
@@ -588,7 +588,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'tasks:not_related_to_a_task' => "-- Non associé à une tâche --",
     'tasks:select_parent_default' => '-- Aucune tâche parente --',
     'tasks:timers_running' => 'Chronomètres',
-    'tasks:task_completed_by' => ':1 a complété la tâche :3 à :2',
+    'tasks:task_completed_by' => ':1 a complété la tâche :3 le :2',
     'tasks:discussion' => 'Discussion : ',
     'tasks:billed_hours' => "Heures facturées",
     'tasks:unbilled_hours' => "Heures non-facturées",
@@ -1294,6 +1294,61 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Début des changements de la v4.5.3
     'contact:title' => 'Historique de contact',
     # Fin v4.5.3
+    
+     # Début des changements de la v4.5.5
+    'settings:hide_tax_column' => "Cacher la colonne des taxes",
+    'settings:hide_tax_column_explanation' => "Ceci cachera la colonne des taxes sur les factures.",
+    'tickets:not_yet_generated' => "Cette facture n'est pas encore générée",
+    'tickets:invoice_will_be_generated' => "Une :1 facture pour ce billet sera générée lorsque le statut du billet changera pour \":2\".",
+    'global:accepted' => "Accepté",
+    'global:rejected' => "Rejeté",
+    'global:unanswered' => "Sans réponse",
+    'estimates:accepted' => "Soumissions acceptées",
+    'estimates:rejected' => "Soumissions rejetées",
+    'estimates:unanswered' => "Soumissions sans réponse",
+    'emailtemplates:content' => "Contenu du courriel",
+    'global:every_six_months' => 'Biannuel',
+    'global:biyearly' => 'Tous les deux ans',
+    'global:triennially' => "Tous les trois ans",
+    # Fin v4.5.5
+    
+    # Début des changements de la v4.5.6
+    'settings:automaticallybccclientemail' => 'Envoyer une copie de tout les courriels de vos clients à votre adresse principale.',
+    # Fin v4.5.6
+    
+    # Début des changements de la v4.5.7
+    'invoices:send_to_client' => "Envoyer la facture au client",
+    'estimates:send_to_client' => "Envoyer la soumission au client",
+    'global:beforeunload' => "Vous êtes sur le point de quitter cette page. Si vous avez entré des données, ceux-ci seront perdus.",
+    # Fin v4.5.7
+    
+    # Début des changements de la v4.5.8
+    'global:appendtoproject' => 'Convertir en tâches pour ":1"',
+    'estimates:appended' => 'Convertir la soumission #:1 en tâches pour ":2".',
+    # Fin v4.5.8
+    
+    # Début des changements de la v4.6.0
+    'items:percentage_discount' => "Rabais (%)",
+    'items:fixed_discount' => "Rabais (:1)",
+    'invoices:discount_percentage' => "Rabais (:1%)",
+    'invoices:sub_total_after_discounts' => "Sous-total après les tabais",
+    'settings:tax_reg' => 'Numéros de taxes',
+    'clients:tax_registration_number' => ':1 numéro',
+    'clients:add_custom_field' => "Ajouter un nouveau champ personnalisé",
+    'clients:tax_numbers' => 'Numéros de taxes du client',
+    'clients:custom_fields' => "Champ personnalisé",
+    'expenses:category_added' => "La catégorie de dépense a été créé avec succès.",
+    'clients:update_balance' => "Mettre à jour la balance de crédit",
+    'clients:balance_updated' => "La balance de crédit a été mise à jour avec succès.",
+    'clients:what_do_you_want_to_do' => "Qu'est-ce que voulez faire ?",
+    'clients:save_balance_alteration' => "Enregistrer le changement de balance",
+    'clients:no_amount_specified' => "Vous n'avez pas spécifié de montant.",
+    'expenses:attach_receipt' => "Inclure le reçu (Taille maximale: :1)",
+    'expenses:no_project_business_expense' => "Dépense de l'entreprise",
+    'expenses:expense_date' => "Date",
+    'expenses:receipt' => "Reçu",
+    'expenses:no_receipt' => "Aucun reçu",
+    # Fin v4.6.0
 );
 
 /** Fin du fichier: pancake_lang.php **/
