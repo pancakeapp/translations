@@ -12,6 +12,7 @@
  * @since       Version 1.0
  *
  * @translation: Philip Kuban, http://philipkuban.de
+ *               Thomas Heinrichsdobler, http://demicloud.com
  */
 
 // ------------------------------------------------------------------------
@@ -153,7 +154,7 @@ $lang = array(
   'global:copytoclipboard'        => 'kopieren',
   'global:you_need_pancake_cron_job'  => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
   'global:if_you_dont_know_how_to_set_it_up'  => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://pancakeapp.com/documentation/cron">hier klicken</a>.',
-  'global:quick_links'            => 'Schnelle Links',
+  'global:quick_links'            => 'Quicklinks',
   'global:view_all'               => 'Alle ansehen',
   'global:deleted'                => 'Gelöscht',
   'global:add_more'               => 'Mehr hinzufügen',
@@ -218,7 +219,7 @@ $lang = array(
   'login:email'                   =>    'E-Mail-Adress',
   'login:login'                   =>    'Login',
   'login:logout'                  =>    'Logout',
-  'login:remember'                =>    'Erinnere dich an mich',
+  'login:remember'                =>    'Eingeloggt bleiben',
   'login:forgot'                  =>    'Passwort vergessen?',
   'login:cancel'                  =>   '&laquo; Abbrechen',
   /** End Users **/
@@ -229,7 +230,7 @@ $lang = array(
 
   /** Clients **/
   'clients:title'                 => 'Alle Kunden',
-  'clients:filter'                => 'Kunden Filter',
+  'clients:filter'                => 'Kunden filtern',
   'clients:add'                   => 'Kunde hinzufügen',
   'clients:removefilter'          => 'Filter entfernen',
   'clients:edit'                  => 'Kunde bearbeiten',
@@ -249,7 +250,7 @@ $lang = array(
   'clients:clientaction'          => '&nbsp;',
   'clients:passphrase'            => 'Passwort',
   'clients:bad_passphrase'        => 'Das Passwort ist falsch.',
-  'clients:total_clients'         => 'Gesamte Kunden', /*?*/
+  'clients:total_clients'         => 'Kunden gesamt', /*?*/
   'clients:support'               => 'Support',
   'clients:support_rates'         => 'Supportsätze',
   'clients:edit_support_rates'    => 'Sätze festlegen',
@@ -345,8 +346,8 @@ $lang = array(
   'invoices:editinvoice'          => 'Rechnung # :1 bearbeiten',
   'invoices:messageupdated'       => 'Die Rechnung wurde aktualisiert!',
   'invoices:resend'               => 'Rechnung erneut versenden',
-  'invoices:client_viewed'        => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 gesehen',
-  'invoices:client_paid'          => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 bezahlt',
+  'invoices:client_viewed'        => ':1 hat <a href=":2">Rechnung # :3</a> gesehen: :4',
+  'invoices:client_paid'          => ':1 hat <a href=":2">Rechnung # :3</a> bezahlt: :4',
   'invoice:paid_amount'           => 'Bezahlter Betrag',
   /** End Invoices **/
 
@@ -394,7 +395,7 @@ $lang = array(
   'projects:hours_worked'                 => 'Anzahl an Arbeitsstunden',
   'projects:hours_worked_short'           => 'Arbeitsstunden',
   'projects:alltitle'                     => 'Alle Projekte',
-  'projects:totalprojects'                => 'Gesamt Projekte',
+  'projects:totalprojects'                => 'Projekte gesamt',
   'projects:noprojecttitle'               => 'Es gibt bisher keine Projekte!',
   'projects:noprojecttext'                => 'Möchtest du jetzt eins erstellen? ',
   'projects:add'                          => 'Projekt erstellen',
@@ -724,9 +725,9 @@ $lang = array(
 
   /** Settings **/
 
-  'settings:task_statuses'                    => 'Aufgaben Statuses',
-  'settings:ticket_statuses'                  => 'Ticket Statuses',
-  'settings:ticket_priorities'                => 'Ticket Prioritäten',
+  'settings:task_statuses'                    => 'Aufgaben-Status',
+  'settings:ticket_statuses'                  => 'Ticket-Status',
+  'settings:ticket_priorities'                => 'Ticket-Prioritäten',
   'settings:background_color'                 => 'Hintergrundfarbe',
   'settings:text_color'                       => 'Textfarbe',
   'settings:text_shadow'                      => 'Textschatten',
@@ -739,16 +740,16 @@ $lang = array(
   'settings:default_invoice_title'            => 'Standardrechnungstitel',
   'settings:default_invoice_due_date'         => 'Standardfälligkeit für Rechnungen',
   'settings:autosave_proposals'               => 'Angebote automatisch speichern',
-  'settings:default_invoice_due_date_explain' => 'tage nachdem die Rechnung erstellt wurde. Wenn du kein Standarddatum willst einfach das Feld leer lassen.',
+  'settings:default_invoice_due_date_explain' => 'Tage nachdem die Rechnung erstellt wurde. Wenn du kein Standarddatum willst einfach das Feld leer lassen.',
   'settings:testemailsettings'                => 'E-Mail-Einstellungen testen',
   'settings:kitchen_route'                    => 'Prefix für Kundenzugangslink',
   'settings:kitchen_route_explain'            => "(Vorschau: :1)",
   'settings:include_remittance_slip'          => 'Zahlschein',
-  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Zahlschein einschließen.",
+  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Zahlschein beinhalten.",
   'settings:items_per_page'                   => 'Elemente pro Seite',
   'settings:items_per_page_explain'           => 'Anzahl von Elementen (Rechnungen/Kostenvoranschläge/Angebote/Projekte/Aufgaben) die pro Seite gezeigt werden.',
   'settings:send_x_days_before'               => 'Standardwert für "Tage vorher versenden"',
-  'settings:send_x_days_before_explain'       => 'Standardwert wie viele Tage vor Fälligkeit eine wiederkehrende Rechnung an den Kunden versand wird.',
+  'settings:send_x_days_before_explain'       => 'Standardwert wie viele Tage vor Fälligkeit eine wiederkehrende Rechnung an den Kunden versandt wird.',
   'settings:file_to_import'                   => 'Datei zum Importieren',
   'settings:file_should_be_csv'               => 'Pancake versucht deine Datei automatisch zu verarbeiten und alles darin zu importieren. Falls Pancake deine Datei nicht verarbeiten kann sagt es dir bescheid und bietet dir die Option uns einige Informationen zuzusenden, so dass wir dafür sorgen können, dass Pancake auch mit deiner Datei arbeitet.',
   'settings:importnow'                        => 'Jetzt importieren!',
@@ -798,9 +799,9 @@ $lang = array(
   'settings:api_keys'                         => 'API Keys',
 
   'settings:time_entry_times'                 => "Zeiteintrag Zeiten",
-  "settings:include_dates_and_times_in_line_items" => 'Daten und Zeiten in der Beschreibung zu "Zeiteintrag" Posten.',
+  "settings:include_dates_and_times_in_line_items" => 'Daten und Zeiten in der Beschreibung von Zeiteinträgen ausgeben.',
   "settings:when_generating_invoice"          => "Bei der Erstellung von Rechnungen einen Posten pro",
-  "settings:use_utf8_font"                    => "UTF-8 fonts in PDFs",
+  "settings:use_utf8_font"                    => "UTF8-Schriften in PDFs",
   "settings:use_utf8_font_explanation"        => "Bei Zeichensatzfehlern in PDFs.",
   "settings:pdf_attachments"                  => "PDF Anhänge",
   "settings:pdf_attachments_explanation"      => "Pancake wird die entsprechenden PDFs an Rechnungs-, Kostenvoranschlags- und Angebots-Mails anhängen.",
@@ -921,8 +922,8 @@ $lang = array(
   'paypalpro:paypalpro'                       => 'PayPal Payments Pro (BETA)',
   'paypalpro:viacreditcard'                   => 'Mit Kreditkarte bezahlen',
   'cash:cash'                                 => 'Bar',
-  'check:check'                               => 'Check',
-  'moneyorder:moneyorder'                     => 'Money Order',
+  'check:check'                               => 'Scheck',
+  'moneyorder:moneyorder'                     => 'Zahlungsanweisung',
   'creditcard:creditcard'                     => 'Kreditkarte',
   'banktransfer:banktransfer'                 => 'Überweisung',
   'gateways:errorupdating'                    => 'Beim Aktualisieren der Einstellungen zu den Bezahlmethoden ist ein Fehler aufgetreten. Bitte wende dich an den Support.',
@@ -1145,7 +1146,7 @@ $lang = array(
   # End v4.1.27 changes
 
   # Begin v4.1.28 changes
-  "login:username_email" => "Benutzername / E-Mail",
+  "login:username_email" => "E-Mail",
   # End v4.1.28 changes
 
   # Begin v4.1.31 changes
