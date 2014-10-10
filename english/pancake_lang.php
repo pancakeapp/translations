@@ -1368,6 +1368,11 @@ $lang = array(
     'expenses:no_receipt' => "No Receipt",
     # End v4.6.0 changes
 
+    # Begin v4.6.3 changes
+    'expenses:edited' => "Success! The expense was edited successfully.",
+    'expenses:expense_receipts' => "Expense Receipts",
+    # End v4.6.3
+
 );
 
 /** End of file: pancake_lang.php **/
