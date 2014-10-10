@@ -243,14 +243,14 @@ $lang = array(
   'clients:edited'                => 'Der Kunde wurde aktualisiert!',
   'clients:deleted'               => 'Der Kunde wurde gelöscht!',
   'clients:does_not_exist'        => 'Der Kunde existiert nicht!',
-  'clients:health_check'          => 'Health Check', /*?*/
+  'clients:health_check'          => 'Kontostatus',
   'clients:all'                   => 'Alle',
   'clients:delete_title'          => 'Diesen Kunden löschen?!?!',
   'clients:delete_message'        => 'Bist du sicher, dass du diesen Kunden löschen willst?<br>Damit werden auch alle Rechnung, Projekte und Angebote für diesen Kunden gelöscht.',
   'clients:clientaction'          => '&nbsp;',
   'clients:passphrase'            => 'Passwort',
   'clients:bad_passphrase'        => 'Das Passwort ist falsch.',
-  'clients:total_clients'         => 'Kunden gesamt', /*?*/
+  'clients:total_clients'         => 'Kunden gesamt',
   'clients:support'               => 'Support',
   'clients:support_rates'         => 'Supportsätze',
   'clients:edit_support_rates'    => 'Sätze festlegen',
@@ -258,7 +258,7 @@ $lang = array(
 
 
   /** Contact Log **/
-  'contact:title'             => 'Aktueller Kontaktverlauf', /*?*/
+  'contact:title'             => 'Aktueller Kontaktverlauf',
   'contact:method'            => 'Kontaktart',
   'contact:contact'           => 'Kontakt',
   'contact:subject'           => 'Betreff',
@@ -377,7 +377,7 @@ $lang = array(
   'estimates:send_now_body'               => 'Fülle das Formular unten aus und wir werden diesen Kostenvoranschlag für dich zustellen.',
   'estimates:send_now'                    => 'Kostenvoranschlag versenden',
   'estimates:edit'                        => 'Kostenvoranschlag bearbeiten',
-  'estimates:preview'                     => 'Vorschau des Kostenvoranschlag',
+  'estimates:preview'                     => 'Vorschau des Kostenvoranschlags',
   'estimates:editestimate'                => 'Kostenvoranschlag # :1 bearbeiten',
   'estimates:messageupdated'              => 'Der Kostenvoranschlag wurde aktualisiert!',
   'estimates:client_viewed'               => ':1 hat <a href=":2">Kostenvoranschlag # :3</a> am :4 gesehen',
@@ -471,9 +471,9 @@ $lang = array(
   'emailtemplates:add'                =>    'Neue E-Mail-Vorlage erstellen',
   'emailtemplates:edit'               =>    'E-Mail-Vorlage bearbeiten',
   'emailtemplates:manage'             =>    'Vorlagen verwalten',
-  'emailtemplates:name'               =>    'E-Mail Name',
-  'emailtemplates:subject'            =>    'E-Mail Betreff',
-  'emailtemplates:days'               =>    'Day Range', /*?*/
+  'emailtemplates:name'               =>    'Bezeichnung',
+  'emailtemplates:subject'            =>    'Betreff',
+  'emailtemplates:days'               =>    'Tage nach Fälligkeit',
   'emailtemplates:type'               =>    'Vorlagenart',
   'emailtemplates:success'            =>    'E-Mail-Vorlage erfolgreich erstellt',
   'emailtemplates:edited'             =>    'E-Mail-Vorlage erfolgreich bearbeitet',
@@ -603,7 +603,7 @@ $lang = array(
   'tasks:no_milestones'                       => 'Aufgaben ohne Milestones',
   'tasks:not_related_to_a_task'               => '-- Ohne Bezug zu einer Aufgabe --',
   'tasks:select_parent_default'               => '-- Keine Elternaufgabe --',
-  'tasks:timers_running'                      => 'Timer laufen',
+  'tasks:timers_running'                      => 'Laufende Timer',
   'tasks:task_completed_by'                   => ':1 hat die <a href=":2">Aufgabe :3</a> am :4 fertiggestellt',
   'tasks:discussion'                          => 'Diskussion: ',
   'tasks:billed_hours'                        => 'Berechnete Stunden',
@@ -694,8 +694,8 @@ $lang = array(
 
   /** Support Tickets **/
 
-  'tickets:all_tickets'                       => 'Support Tickets',
-  'tickets:support_tickets'                   => "Support Tickets",
+  'tickets:all_tickets'                       => 'Support-Tickets',
+  'tickets:support_tickets'                   => "Support-Tickets",
   'tickets:pending'                           => 'Ausstehend',
   'tickets:open'                              => 'Offen',
   'tickets:resolved'                          => 'Gelöst',
@@ -703,16 +703,16 @@ $lang = array(
   'tickets:respond'                           => 'Auf Ticket antworten',
   'tickets:ticket_options'                    => 'Ticket Options',
   'tickets:attachment'                        => 'Anhang',
-  'tickets:updated_status'                    => ':1 hat den ticket status zu :2 geändert',
+  'tickets:updated_status'                    => ':1 hat den Ticket-Status zu :2 geändert',
   'tickets:add_a_new_ticket'                  => 'Ein neues Ticket hinzufügen',
   'tickets:create_a_new_ticket'               => 'Ein neues Ticket erstellen',
   'tickets:add_ticket'                        => 'Ticket hinzufügen',
   'tickets:assign_to_user'                    => 'Benutzer zuweisen',
-  'tickets:select_client'                     => 'Kunden auswählen',
-  'tickets:ticket_subject'                    => 'Ticket Betreff',
-  'tickets:ticket_message'                    => 'Ticket Nachricht',
-  'tickets:ticket_priority'                   => 'Ticket Priorität',
-  'tickets:ticket_status'                     => 'Ticket Status',
+  'tickets:select_client'                     => 'Kunde auswählen',
+  'tickets:ticket_subject'                    => 'Betreff',
+  'tickets:ticket_message'                    => 'Text',
+  'tickets:ticket_priority'                   => 'Priorität',
+  'tickets:ticket_status'                     => 'Status',
   'tickets:no_priority'                       => '-- keine Priorität --',
   'tickets:no_status'                         => '-- kein Status --',
   'tickets:no_posts'                          => 'Keine Nachricht.',
@@ -974,7 +974,7 @@ $lang = array(
   'kitchen:nopassphrase'                      => 'Momentan ist kein Kundenpasswort gesetzt. Das heißt, jeder der die URL kennt kann auf den Kundenbereich zugreifen. Wenn du dies mit einem einfach Passwort sichern willst bearbeite die Kundeneinstellungen und lege dort eins fest.',
   'kitchen:passphraseset'                     => 'Dieser Kunde hat ein Passwort gesetzt',
   'kitchen:passphrase'                        => 'Passwort',
-  'kitchen:description'                       => 'Diese URL kannst du deinem Kunden schicken damit er auf den Kundenbereich zugreifen kann, wo er Dinge wie Projekte und Rechnungen, die du sichtbar gemacht hast, einsehen kann.',
+  'kitchen:description'                       => 'Diese URL kannst du deinem Kunden schicken, damit er auf seinen Kundenbereich zugreifen kann, wo er Dinge wie Projekte und Rechnungen, die du sichtbar gemacht hast, einsehen kann.',
   'kitchen:people_in_discussion'              => 'Leute reden',
 
   'kitchen:latest_invoice'                    => 'aktuellste Rechnung',
@@ -1050,7 +1050,7 @@ $lang = array(
   "dashboard:latest_comments" => "Letzte Kommentare",
   "dashboard:written_by" => "Geschrieben von :1 am :2",
   "dashboard:client_activity" => "Kunden-Aktivität",
-  "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten sehen",
+  "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten",
   "dashboard:team_activity" => "Team-Aktivität",
   "dashboard:view_all_team_activity" => "Alle Team-Aktivitäten sehen",
   "dashboard:my_tasks" => "Meine Aufgaben",
@@ -1133,8 +1133,8 @@ $lang = array(
   # End v4.1.23 changes
 
   # Begin v4.1.24 changes
-  "projects:tracked" => "Tracked",
-  "settings:accounting_type" => "Reporting Method",
+  "projects:tracked" => "Erfasst",
+  "settings:accounting_type" => "Sortierung für Berichte",
   "settings:accrual" => "Zeige Rechnungen nach ihrem Erstellungsdatum",
   "settings:cash" => "Zeige Rechnungen nach ihrem Bezahldatum",
   "reports:selection_explanation_accrual" => "Rechnungen werden nach dem Datum, an dem sie erstellt wurden, angezeigt.",
@@ -1156,7 +1156,7 @@ $lang = array(
   "settings:dont_install_just_notify_me" => "Nicht installieren, nur benachrichtigen",
   "settings:install_automatically" => "Automatisch installieren",
   "settings:loading_update_details" => "Lade Aktualisierungs-Details... Dies kann ein oder zwei Minuten dauern. Du kannst jederzeit neu laden.",
-  "settings:updating_please_wait" => "Aktualisierung. Bitte warten.\nDie Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.",
+  "settings:updating_please_wait" => "Aktualisierung läuft. Bitte warten.\nDie Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.",
   "settings:will_have_to_overwrite_single_file" => "Pancake wird eine Datei überschreiben, die du manuell geändert hast.",
   "settings:will_have_to_overwrite_multiple_files" => "Pancake wird :1 Dateien überschreiben, die du manuell geändert hast.",
   "settings:checking_for_updates" => "Suche nach Aktualisierungen, bitte warten. Diese Seite wird automatisch neu geladen.",
@@ -1231,7 +1231,7 @@ $lang = array(
   'invoices:frequency' => 'Frequenz',
   'invoices:auto_send' => 'Automatisch senden?',
   'invoices:send'      => 'Senden',
-  'invoices:days_before_invoice_is_due' => 'tage bevor die Rechnung fällig ist',
+  'invoices:days_before_invoice_is_due' => 'Tage bevor die Rechnung fällig ist',
   'invoices:cannot_change_recurrences'  => 'Die Wiederholungseinstellungen können noch bei einer Rechnung geändert werden, die eine Wiederholung einer anderen Rechnung ist.',
   # End v4.3.7 changes
 
@@ -1293,9 +1293,9 @@ $lang = array(
 
   # Begin v4.4.3 changes
   'tickets:ticket_number' => "Ticket #:1",
-  'settings:ticket_status_for_sending_invoice' => "Ticket Status für Rechungsstellung",
-  'settings:ticket_status_for_sending_invoice_description' => "Wenn ein zu zahlendes Ticket auf diesen Status gestellt wird, wird automatisch eine Rechnung generiert und an den Kunden geschickt.",
-  'settings:never_send_ticket_invoices_automatically' => "-- Ticket Rechnungen niemals automatisch senden --",
+  'settings:ticket_status_for_sending_invoice' => "Ticket-Status für Rechungsstellung",
+  'settings:ticket_status_for_sending_invoice_description' => "Wenn ein zu zahlendes Ticket auf diesen Status gestellt wird, wird automatisch eine Rechnung generiert und an den Kunden gesendet.",
+  'settings:never_send_ticket_invoices_automatically' => "-- Ticket-Rechnungen niemals automatisch senden --",
   # End v4.4.3 changes
 
   # Begin v4.4.6 changes
