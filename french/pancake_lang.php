@@ -1349,6 +1349,11 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:receipt' => "Reçu",
     'expenses:no_receipt' => "Aucun reçu",
     # Fin v4.6.0
+    
+    # Début des changements de la v4.6.3
+    'expenses:edited' => "La dépense a été ajouté avec succès.",
+    'expenses:expense_receipts' => "Reçus des dépenses",
+    # Fin v4.6.3
 );
 
 /** Fin du fichier: pancake_lang.php **/
