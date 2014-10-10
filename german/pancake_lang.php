@@ -469,6 +469,7 @@ $lang = array(
   'emailtemplates:email_templates'    => 'E-Mail-Vorlagen',
   'emailtemplates:create_template'    => 'Neue Vorlage erstellen',
   'emailtemplates:add'                =>    'Neue E-Mail-Vorlage erstellen',
+  'emailtemplates:added'              =>    'E-Mail-Vorlage erstellt',
   'emailtemplates:edit'               =>    'E-Mail-Vorlage bearbeiten',
   'emailtemplates:manage'             =>    'Vorlagen verwalten',
   'emailtemplates:name'               =>    'Bezeichnung',
