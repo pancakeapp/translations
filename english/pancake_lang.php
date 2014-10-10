@@ -66,9 +66,7 @@ $lang = array(
     'global:week'					=> 'Weekly',
     'global:na'						=> 'N/A',
     'global:quarterly'				=> 'Quarterly',
-    'global:every_six_months'		=> 'Every 6 months',
     'global:statistics' => "Statistics",
-    'global:biyearly'				=> 'Every 2 years',
 	'global:month'					=> 'Monthly',
 	'global:year'					=> 'Yearly',
 	'global:fax'					=>	'Fax',
@@ -844,13 +842,11 @@ $lang = array(
     'settings:feed_generator'		=> 'Feed Generator',
     'settings:your_link'			=> 'Your Link',
     'settings:bcc'					=> 'BCC',
-    'settings:automaticallybccclientemail'		=> 'Automatically send a copy of all client emails to the notify email (defined above)',
     'settings:api_note'				=> 'Name / Note',
     'settings:api_key'				=> 'Key',
 
     'settings:tax_name'				=> 'Tax Name',
     'settings:tax_value'			=> 'Value',
-    'settings:tax_reg'				=> 'Registration / Code',
     'settings:add_tax'				=> 'Add Another Tax',
 
     'settings:currency_name'		=> 'Currency Name',
@@ -1316,6 +1312,66 @@ $lang = array(
     # Begin v4.5.3 changes
     'contact:title' => 'Contact History',
     # End v4.5.3 changes
+
+    # Begin v4.5.5 changes
+    'settings:hide_tax_column' => "Hide Tax Column?",
+    'settings:hide_tax_column_explanation' => "This will hide the tax column in invoices that have no tax information.",
+    'tickets:not_yet_generated' => "Invoice not yet generated",
+    'tickets:invoice_will_be_generated' => "A :1 invoice for this ticket will be generated when the ticket's status is changed to \":2\".",
+    'global:accepted' => "Accepted",
+    'global:rejected' => "Rejected",
+    'global:unanswered' => "Unanswered",
+    'estimates:accepted' => "Accepted Estimates",
+    'estimates:rejected' => "Rejected Estimates",
+    'estimates:unanswered' => "Unanswered Estimates",
+    'emailtemplates:content' => "Email Content",
+    'global:every_six_months' => 'Biannually (twice a year)',
+    'global:biyearly' => 'Biennially (every 2 years)',
+    'global:triennially' => "Triennially",
+    # End v4.5.5 changes
+
+    # Begin v4.5.6 changes
+    'settings:automaticallybccclientemail' => 'Automatically send a copy of all client emails to your main business identity\'s support email address.',
+    # End v4.5.6 changes
+
+    # Begin v4.5.7 changes
+    'invoices:send_to_client' => "Email Invoice To Client",
+    'estimates:send_to_client' => "Email Estimate To Client",
+    'global:beforeunload' => "You are about to leave this page. If you do so, all the data you have entered so far will be lost. Are you sure that you wish to leave this page?",
+    # End v4.5.7 changes
+
+    # Begin v4.5.8 changes
+    'global:appendtoproject' => 'Convert into tasks for ":1"',
+    'estimates:appended' => 'Converted estimate #:1 into tasks for ":2".',
+    # End v4.5.8 changes
+
+    # Begin v4.6.0 changes
+    'items:percentage_discount' => "Discount (%)",
+    'items:fixed_discount' => "Discount (:1)",
+    'invoices:discount_percentage' => "Discount (:1%)",
+    'invoices:sub_total_after_discounts' => "Subtotal (after discounts)",
+    'settings:tax_reg' => 'Tax Numbers / IDs',
+    'clients:tax_registration_number' => ':1 Number / ID',
+    'clients:add_custom_field' => "Add another custom field",
+    'clients:tax_numbers' => 'Client Tax Numbers / IDs',
+    'clients:custom_fields' => "Custom Fields",
+    'expenses:category_added' => "Success! The expense category was created successfully.",
+    'clients:update_balance' => "Update Credit Balance",
+    'clients:balance_updated' => "Success! The client's credit balance was updated successfully.",
+    'clients:what_do_you_want_to_do' => "What do you want to do",
+    'clients:save_balance_alteration' => "Save balance alteration",
+    'clients:no_amount_specified' => "You didn't specify an amount.",
+    'expenses:attach_receipt' => "Attach Receipt (Maximum Size: :1)",
+    'expenses:no_project_business_expense' => "Business Expense (No Project)",
+    'expenses:expense_date' => "Date",
+    'expenses:receipt' => "Receipt",
+    'expenses:no_receipt' => "No Receipt",
+    # End v4.6.0 changes
+
+    # Begin v4.6.3 changes
+    'expenses:edited' => "Success! The expense was edited successfully.",
+    'expenses:expense_receipts' => "Expense Receipts",
+    # End v4.6.3
 
 );
 
