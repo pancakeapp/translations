@@ -1300,18 +1300,83 @@ $lang = array(
   # End v4.4.3 changes
 
   # Begin v4.4.6 changes
-  'expenses:added' => "The expense was added successfully.",
+  'expenses:added' => "Ausgabe erfolgreich hinzugefügt.",
   # End v4.4.6 changes
 
   # Begin v4.4.9 changes
-  'global:error_submitting_ajax' => "An unknown error occurred while trying to submit this form. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
-  'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
+  'global:error_submitting_ajax' => "Beim Versuch, dieses Formular abzusenden ist ein unbekannter Fehler aufgetreten. Bitte später erneut versuchen. Falls der Fehler weiterhin auftritt, bitte ein kostenloses Support-Ticket auf pancakeapp.com erstellen.",
+  'store:error1004' => "Beim Versuch, dies zu kaufen ist ein unbekannter Fehler aufgetreten. Bitte später erneut versuchen. Falls der Fehler weiterhin auftritt, bitte ein kostenloses Support-Ticket auf pancakeapp.com erstellen.",
   # End v4.4.9 changes
 
   # Begin v4.5.0 changes
   'invoices:pancake_will_automatically_change_is_viewable' => "Dies wird automatisch auf 'Ja' gestellt, wenn die Rechnung an den Kunden gemailt wurde.",
   "global:incorrect_login" => "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.",
   # End v4.5.0 changes
+
+  # Begin v4.5.3 changes
+  'contact:title' => 'Verlauf',
+  # End v4.5.3 changes
+
+  # Begin v4.5.5 changes
+  'settings:hide_tax_column' => "Steuer-Spalte ausblenden?",
+  'settings:hide_tax_column_explanation' => "Dadurch wird die Steuern-Spalte in Rechnungen ohne ausgewiesene Steuer ausgeblendet.",
+  'tickets:not_yet_generated' => "Rechnung noch nicht erstellt",
+  'tickets:invoice_will_be_generated' => "Eine :1 Rechnung für dieses Ticket wird erstellt, sobald der Status des Tickets zu \":2\" geändert wird.",
+  'global:accepted' => "Angenommen",
+  'global:rejected' => "Abgelehnt",
+  'global:unanswered' => "Unbeantwortet",
+  'estimates:accepted' => "Angenommene Kostenvoranschläge",
+  'estimates:rejected' => "Abgelehnte Kostenvoranschläge",
+  'estimates:unanswered' => "Unbeanwortete Kostenvoranschläge",
+  'emailtemplates:content' => "Text",
+  'global:every_six_months' => '2 mal im Jahr',
+  'global:biyearly' => 'Alle 2 Jahre',
+  'global:triennially' => "Alle 3 Jahre",
+  # End v4.5.5 changes
+
+  # Begin v4.5.6 changes
+  'settings:automaticallybccclientemail' => 'Automatisch eine Kopie sämtlicher Emails, die an Kunden gesendet werden, an die Support E-Mail-Adresse der Haupt-Geschäftsidentität senden.',
+  # End v4.5.6 changes
+
+  # Begin v4.5.7 changes
+  'invoices:send_to_client' => "Rechnung per Email an Kunde senden",
+  'estimates:send_to_client' => "Kostenvoranschlag per Email an Kunde senden",
+  'global:beforeunload' => "Du bist dabei, diese Seite zu verlassen. Wenn du das tust, werden sämtliche Eingaben die du auf dieser Seite gemacht hast verloren gehen. Bist du sicher, dass du diese Seite verlassen möchtest?",
+  # End v4.5.7 changes
+
+  # Begin v4.5.8 changes
+  'global:appendtoproject' => 'In Aufgaben für ":1" konvertieren',
+  'estimates:appended' => 'Voranschlag #:1 in Aufgaben für ":2" konvertiert.',
+  # End v4.5.8 changes
+
+  # Begin v4.6.0 changes
+  'items:percentage_discount' => "Rabatt (%)",
+  'items:fixed_discount' => "Rabatt (:1)",
+  'invoices:discount_percentage' => "Rabatt (:1%)",
+  'invoices:sub_total_after_discounts' => "Zwischensumme (nach Rabatt)",
+  'settings:tax_reg' => 'Steuernummern/IDs',
+  'clients:tax_registration_number' => ':1 Nummer/ID',
+  'clients:add_custom_field' => "Weiteres Feld hinzufügen",
+  'clients:tax_numbers' => 'Steuernummer/ID des Kunden',
+  'clients:custom_fields' => "Eigene Felder",
+  'expenses:category_added' => "Die Ausgaben-Kategorie wurde erfolgreich erstellt.",
+  'clients:update_balance' => "Guthaben bearbeiten",
+  'clients:balance_updated' => "Das Guthaben des Kunden wurde erfolgreich geändert.",
+  'clients:what_do_you_want_to_do' => "Was möchtest du tun?",
+  'clients:save_balance_alteration' => "Änderung am Guthaben speichern",
+  'clients:no_amount_specified' => "Du hast keinen Betrag angegeben.",
+  'expenses:attach_receipt' => "Beleg anhängen (maximal :1)",
+  'expenses:no_project_business_expense' => "Geschäftsausgabe (ohne Projekt)",
+  'expenses:expense_date' => "Datum",
+  'expenses:receipt' => "Beleg",
+  'expenses:no_receipt' => "Kein Beleg",
+  # End v4.6.0 changes
+
+  # Begin v4.6.3 changes
+  'expenses:edited' => "Die Ausgabe wurde erfolgreich bearbeitet.",
+  'expenses:expense_receipts' => "Belege für Ausgaben",
+  # End v4.6.3
+
 );
 
 /** End of file: pancake_lang.php **/
