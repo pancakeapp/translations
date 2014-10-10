@@ -12,6 +12,7 @@
  * @since       Version 1.0
  *
  * @translation: Philip Kuban, http://philipkuban.de
+ *               Thomas Heinrichsdobler, http://demicloud.com
  */
 
 // ------------------------------------------------------------------------
@@ -153,7 +154,7 @@ $lang = array(
   'global:copytoclipboard'        => 'kopieren',
   'global:you_need_pancake_cron_job'  => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
   'global:if_you_dont_know_how_to_set_it_up'  => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://pancakeapp.com/documentation/cron">hier klicken</a>.',
-  'global:quick_links'            => 'Schnelle Links',
+  'global:quick_links'            => 'Quicklinks',
   'global:view_all'               => 'Alle ansehen',
   'global:deleted'                => 'Gelöscht',
   'global:add_more'               => 'Mehr hinzufügen',
@@ -218,7 +219,7 @@ $lang = array(
   'login:email'                   =>    'E-Mail-Adress',
   'login:login'                   =>    'Login',
   'login:logout'                  =>    'Logout',
-  'login:remember'                =>    'Erinnere dich an mich',
+  'login:remember'                =>    'Eingeloggt bleiben',
   'login:forgot'                  =>    'Passwort vergessen?',
   'login:cancel'                  =>   '&laquo; Abbrechen',
   /** End Users **/
@@ -229,7 +230,7 @@ $lang = array(
 
   /** Clients **/
   'clients:title'                 => 'Alle Kunden',
-  'clients:filter'                => 'Kunden Filter',
+  'clients:filter'                => 'Kunden filtern',
   'clients:add'                   => 'Kunde hinzufügen',
   'clients:removefilter'          => 'Filter entfernen',
   'clients:edit'                  => 'Kunde bearbeiten',
@@ -242,14 +243,14 @@ $lang = array(
   'clients:edited'                => 'Der Kunde wurde aktualisiert!',
   'clients:deleted'               => 'Der Kunde wurde gelöscht!',
   'clients:does_not_exist'        => 'Der Kunde existiert nicht!',
-  'clients:health_check'          => 'Health Check', /*?*/
+  'clients:health_check'          => 'Kontostatus',
   'clients:all'                   => 'Alle',
   'clients:delete_title'          => 'Diesen Kunden löschen?!?!',
   'clients:delete_message'        => 'Bist du sicher, dass du diesen Kunden löschen willst?<br>Damit werden auch alle Rechnung, Projekte und Angebote für diesen Kunden gelöscht.',
   'clients:clientaction'          => '&nbsp;',
   'clients:passphrase'            => 'Passwort',
   'clients:bad_passphrase'        => 'Das Passwort ist falsch.',
-  'clients:total_clients'         => 'Gesamte Kunden', /*?*/
+  'clients:total_clients'         => 'Kunden gesamt',
   'clients:support'               => 'Support',
   'clients:support_rates'         => 'Supportsätze',
   'clients:edit_support_rates'    => 'Sätze festlegen',
@@ -257,7 +258,7 @@ $lang = array(
 
 
   /** Contact Log **/
-  'contact:title'             => 'Aktueller Kontaktverlauf', /*?*/
+  'contact:title'             => 'Aktueller Kontaktverlauf',
   'contact:method'            => 'Kontaktart',
   'contact:contact'           => 'Kontakt',
   'contact:subject'           => 'Betreff',
@@ -345,8 +346,8 @@ $lang = array(
   'invoices:editinvoice'          => 'Rechnung # :1 bearbeiten',
   'invoices:messageupdated'       => 'Die Rechnung wurde aktualisiert!',
   'invoices:resend'               => 'Rechnung erneut versenden',
-  'invoices:client_viewed'        => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 gesehen',
-  'invoices:client_paid'          => ':1 hat die <a href=":2">Rechnung # :3</a> am :4 bezahlt',
+  'invoices:client_viewed'        => ':1 hat <a href=":2">Rechnung # :3</a> gesehen: :4',
+  'invoices:client_paid'          => ':1 hat <a href=":2">Rechnung # :3</a> bezahlt: :4',
   'invoice:paid_amount'           => 'Bezahlter Betrag',
   /** End Invoices **/
 
@@ -376,7 +377,7 @@ $lang = array(
   'estimates:send_now_body'               => 'Fülle das Formular unten aus und wir werden diesen Kostenvoranschlag für dich zustellen.',
   'estimates:send_now'                    => 'Kostenvoranschlag versenden',
   'estimates:edit'                        => 'Kostenvoranschlag bearbeiten',
-  'estimates:preview'                     => 'Vorschau des Kostenvoranschlag',
+  'estimates:preview'                     => 'Vorschau des Kostenvoranschlags',
   'estimates:editestimate'                => 'Kostenvoranschlag # :1 bearbeiten',
   'estimates:messageupdated'              => 'Der Kostenvoranschlag wurde aktualisiert!',
   'estimates:client_viewed'               => ':1 hat <a href=":2">Kostenvoranschlag # :3</a> am :4 gesehen',
@@ -394,7 +395,7 @@ $lang = array(
   'projects:hours_worked'                 => 'Anzahl an Arbeitsstunden',
   'projects:hours_worked_short'           => 'Arbeitsstunden',
   'projects:alltitle'                     => 'Alle Projekte',
-  'projects:totalprojects'                => 'Gesamt Projekte',
+  'projects:totalprojects'                => 'Projekte gesamt',
   'projects:noprojecttitle'               => 'Es gibt bisher keine Projekte!',
   'projects:noprojecttext'                => 'Möchtest du jetzt eins erstellen? ',
   'projects:add'                          => 'Projekt erstellen',
@@ -468,11 +469,12 @@ $lang = array(
   'emailtemplates:email_templates'    => 'E-Mail-Vorlagen',
   'emailtemplates:create_template'    => 'Neue Vorlage erstellen',
   'emailtemplates:add'                =>    'Neue E-Mail-Vorlage erstellen',
+  'emailtemplates:added'              =>    'E-Mail-Vorlage erstellt',
   'emailtemplates:edit'               =>    'E-Mail-Vorlage bearbeiten',
   'emailtemplates:manage'             =>    'Vorlagen verwalten',
-  'emailtemplates:name'               =>    'E-Mail Name',
-  'emailtemplates:subject'            =>    'E-Mail Betreff',
-  'emailtemplates:days'               =>    'Day Range', /*?*/
+  'emailtemplates:name'               =>    'Bezeichnung',
+  'emailtemplates:subject'            =>    'Betreff',
+  'emailtemplates:days'               =>    'Tage nach Fälligkeit',
   'emailtemplates:type'               =>    'Vorlagenart',
   'emailtemplates:success'            =>    'E-Mail-Vorlage erfolgreich erstellt',
   'emailtemplates:edited'             =>    'E-Mail-Vorlage erfolgreich bearbeitet',
@@ -602,7 +604,7 @@ $lang = array(
   'tasks:no_milestones'                       => 'Aufgaben ohne Milestones',
   'tasks:not_related_to_a_task'               => '-- Ohne Bezug zu einer Aufgabe --',
   'tasks:select_parent_default'               => '-- Keine Elternaufgabe --',
-  'tasks:timers_running'                      => 'Timer laufen',
+  'tasks:timers_running'                      => 'Laufende Timer',
   'tasks:task_completed_by'                   => ':1 hat die <a href=":2">Aufgabe :3</a> am :4 fertiggestellt',
   'tasks:discussion'                          => 'Diskussion: ',
   'tasks:billed_hours'                        => 'Berechnete Stunden',
@@ -623,6 +625,7 @@ $lang = array(
   'items:cost'                                => 'Kosten',
   'items:line_items'                          => 'Posten',
   'items:add'                                 => 'Posten hinzufügen',
+  'items:added'                               => 'Posten hinzugefügt',
   'items:edit'                                => 'Posten bearbeiten',
   'items:noitemtitle'                         => 'Du hast bisher keine Posten!',
   'items:noitembody'                          => 'Du solltest nun einige Posten hinzufügen, es vereinfacht die Rechnungsstellung enorm.!',
@@ -648,6 +651,7 @@ $lang = array(
   'expenses:category'                         =>    'Kategorie',
   'expenses:categories'                       =>    'Kategorien',
   'expenses:add_supplier'                     =>    'Lieferant hinzufügen',
+  'expenses:supplier_added'                   =>    'Lieferant hinzugefügt',
   'expenses:edit_supplier'                    =>    'Lieferant bearbeiten',
   'expenses:add_category'                     =>    'Kategorie hinzufügen',
   'expenses:edit_category'                    =>    'Kategorie bearbeiten',
@@ -691,8 +695,8 @@ $lang = array(
 
   /** Support Tickets **/
 
-  'tickets:all_tickets'                       => 'Support Tickets',
-  'tickets:support_tickets'                   => "Support Tickets",
+  'tickets:all_tickets'                       => 'Support-Tickets',
+  'tickets:support_tickets'                   => "Support-Tickets",
   'tickets:pending'                           => 'Ausstehend',
   'tickets:open'                              => 'Offen',
   'tickets:resolved'                          => 'Gelöst',
@@ -700,16 +704,16 @@ $lang = array(
   'tickets:respond'                           => 'Auf Ticket antworten',
   'tickets:ticket_options'                    => 'Ticket Options',
   'tickets:attachment'                        => 'Anhang',
-  'tickets:updated_status'                    => ':1 hat den ticket status zu :2 geändert',
+  'tickets:updated_status'                    => ':1 hat den Ticket-Status zu :2 geändert',
   'tickets:add_a_new_ticket'                  => 'Ein neues Ticket hinzufügen',
   'tickets:create_a_new_ticket'               => 'Ein neues Ticket erstellen',
   'tickets:add_ticket'                        => 'Ticket hinzufügen',
   'tickets:assign_to_user'                    => 'Benutzer zuweisen',
-  'tickets:select_client'                     => 'Kunden auswählen',
-  'tickets:ticket_subject'                    => 'Ticket Betreff',
-  'tickets:ticket_message'                    => 'Ticket Nachricht',
-  'tickets:ticket_priority'                   => 'Ticket Priorität',
-  'tickets:ticket_status'                     => 'Ticket Status',
+  'tickets:select_client'                     => 'Kunde auswählen',
+  'tickets:ticket_subject'                    => 'Betreff',
+  'tickets:ticket_message'                    => 'Text',
+  'tickets:ticket_priority'                   => 'Priorität',
+  'tickets:ticket_status'                     => 'Status',
   'tickets:no_priority'                       => '-- keine Priorität --',
   'tickets:no_status'                         => '-- kein Status --',
   'tickets:no_posts'                          => 'Keine Nachricht.',
@@ -724,9 +728,9 @@ $lang = array(
 
   /** Settings **/
 
-  'settings:task_statuses'                    => 'Aufgaben Statuses',
-  'settings:ticket_statuses'                  => 'Ticket Statuses',
-  'settings:ticket_priorities'                => 'Ticket Prioritäten',
+  'settings:task_statuses'                    => 'Aufgaben-Status',
+  'settings:ticket_statuses'                  => 'Ticket-Status',
+  'settings:ticket_priorities'                => 'Ticket-Prioritäten',
   'settings:background_color'                 => 'Hintergrundfarbe',
   'settings:text_color'                       => 'Textfarbe',
   'settings:text_shadow'                      => 'Textschatten',
@@ -739,16 +743,16 @@ $lang = array(
   'settings:default_invoice_title'            => 'Standardrechnungstitel',
   'settings:default_invoice_due_date'         => 'Standardfälligkeit für Rechnungen',
   'settings:autosave_proposals'               => 'Angebote automatisch speichern',
-  'settings:default_invoice_due_date_explain' => 'tage nachdem die Rechnung erstellt wurde. Wenn du kein Standarddatum willst einfach das Feld leer lassen.',
+  'settings:default_invoice_due_date_explain' => 'Tage nachdem die Rechnung erstellt wurde. Wenn du kein Standarddatum willst einfach das Feld leer lassen.',
   'settings:testemailsettings'                => 'E-Mail-Einstellungen testen',
   'settings:kitchen_route'                    => 'Prefix für Kundenzugangslink',
   'settings:kitchen_route_explain'            => "(Vorschau: :1)",
   'settings:include_remittance_slip'          => 'Zahlschein',
-  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Zahlschein einschließen.",
+  'settings:include_remittance_slip_explain'  => "Wenn ausgewählt werden Rechnungs-PDFs einen Zahlschein beinhalten.",
   'settings:items_per_page'                   => 'Elemente pro Seite',
   'settings:items_per_page_explain'           => 'Anzahl von Elementen (Rechnungen/Kostenvoranschläge/Angebote/Projekte/Aufgaben) die pro Seite gezeigt werden.',
   'settings:send_x_days_before'               => 'Standardwert für "Tage vorher versenden"',
-  'settings:send_x_days_before_explain'       => 'Standardwert wie viele Tage vor Fälligkeit eine wiederkehrende Rechnung an den Kunden versand wird.',
+  'settings:send_x_days_before_explain'       => 'Standardwert wie viele Tage vor Fälligkeit eine wiederkehrende Rechnung an den Kunden versandt wird.',
   'settings:file_to_import'                   => 'Datei zum Importieren',
   'settings:file_should_be_csv'               => 'Pancake versucht deine Datei automatisch zu verarbeiten und alles darin zu importieren. Falls Pancake deine Datei nicht verarbeiten kann sagt es dir bescheid und bietet dir die Option uns einige Informationen zuzusenden, so dass wir dafür sorgen können, dass Pancake auch mit deiner Datei arbeitet.',
   'settings:importnow'                        => 'Jetzt importieren!',
@@ -798,9 +802,9 @@ $lang = array(
   'settings:api_keys'                         => 'API Keys',
 
   'settings:time_entry_times'                 => "Zeiteintrag Zeiten",
-  "settings:include_dates_and_times_in_line_items" => 'Daten und Zeiten in der Beschreibung zu "Zeiteintrag" Posten.',
+  "settings:include_dates_and_times_in_line_items" => 'Daten und Zeiten in der Beschreibung von Zeiteinträgen ausgeben.',
   "settings:when_generating_invoice"          => "Bei der Erstellung von Rechnungen einen Posten pro",
-  "settings:use_utf8_font"                    => "UTF-8 fonts in PDFs",
+  "settings:use_utf8_font"                    => "UTF8-Schriften in PDFs",
   "settings:use_utf8_font_explanation"        => "Bei Zeichensatzfehlern in PDFs.",
   "settings:pdf_attachments"                  => "PDF Anhänge",
   "settings:pdf_attachments_explanation"      => "Pancake wird die entsprechenden PDFs an Rechnungs-, Kostenvoranschlags- und Angebots-Mails anhängen.",
@@ -921,8 +925,8 @@ $lang = array(
   'paypalpro:paypalpro'                       => 'PayPal Payments Pro (BETA)',
   'paypalpro:viacreditcard'                   => 'Mit Kreditkarte bezahlen',
   'cash:cash'                                 => 'Bar',
-  'check:check'                               => 'Check',
-  'moneyorder:moneyorder'                     => 'Money Order',
+  'check:check'                               => 'Scheck',
+  'moneyorder:moneyorder'                     => 'Zahlungsanweisung',
   'creditcard:creditcard'                     => 'Kreditkarte',
   'banktransfer:banktransfer'                 => 'Überweisung',
   'gateways:errorupdating'                    => 'Beim Aktualisieren der Einstellungen zu den Bezahlmethoden ist ein Fehler aufgetreten. Bitte wende dich an den Support.',
@@ -971,7 +975,7 @@ $lang = array(
   'kitchen:nopassphrase'                      => 'Momentan ist kein Kundenpasswort gesetzt. Das heißt, jeder der die URL kennt kann auf den Kundenbereich zugreifen. Wenn du dies mit einem einfach Passwort sichern willst bearbeite die Kundeneinstellungen und lege dort eins fest.',
   'kitchen:passphraseset'                     => 'Dieser Kunde hat ein Passwort gesetzt',
   'kitchen:passphrase'                        => 'Passwort',
-  'kitchen:description'                       => 'Diese URL kannst du deinem Kunden schicken damit er auf den Kundenbereich zugreifen kann, wo er Dinge wie Projekte und Rechnungen, die du sichtbar gemacht hast, einsehen kann.',
+  'kitchen:description'                       => 'Diese URL kannst du deinem Kunden schicken, damit er auf seinen Kundenbereich zugreifen kann, wo er Dinge wie Projekte und Rechnungen, die du sichtbar gemacht hast, einsehen kann.',
   'kitchen:people_in_discussion'              => 'Leute reden',
 
   'kitchen:latest_invoice'                    => 'aktuellste Rechnung',
@@ -1047,7 +1051,7 @@ $lang = array(
   "dashboard:latest_comments" => "Letzte Kommentare",
   "dashboard:written_by" => "Geschrieben von :1 am :2",
   "dashboard:client_activity" => "Kunden-Aktivität",
-  "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten sehen",
+  "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten",
   "dashboard:team_activity" => "Team-Aktivität",
   "dashboard:view_all_team_activity" => "Alle Team-Aktivitäten sehen",
   "dashboard:my_tasks" => "Meine Aufgaben",
@@ -1130,8 +1134,8 @@ $lang = array(
   # End v4.1.23 changes
 
   # Begin v4.1.24 changes
-  "projects:tracked" => "Tracked",
-  "settings:accounting_type" => "Reporting Method",
+  "projects:tracked" => "Erfasst",
+  "settings:accounting_type" => "Sortierung für Berichte",
   "settings:accrual" => "Zeige Rechnungen nach ihrem Erstellungsdatum",
   "settings:cash" => "Zeige Rechnungen nach ihrem Bezahldatum",
   "reports:selection_explanation_accrual" => "Rechnungen werden nach dem Datum, an dem sie erstellt wurden, angezeigt.",
@@ -1145,7 +1149,7 @@ $lang = array(
   # End v4.1.27 changes
 
   # Begin v4.1.28 changes
-  "login:username_email" => "Benutzername / E-Mail",
+  "login:username_email" => "E-Mail",
   # End v4.1.28 changes
 
   # Begin v4.1.31 changes
@@ -1153,7 +1157,7 @@ $lang = array(
   "settings:dont_install_just_notify_me" => "Nicht installieren, nur benachrichtigen",
   "settings:install_automatically" => "Automatisch installieren",
   "settings:loading_update_details" => "Lade Aktualisierungs-Details... Dies kann ein oder zwei Minuten dauern. Du kannst jederzeit neu laden.",
-  "settings:updating_please_wait" => "Aktualisierung. Bitte warten.\nDie Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.",
+  "settings:updating_please_wait" => "Aktualisierung läuft. Bitte warten.\nDie Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.",
   "settings:will_have_to_overwrite_single_file" => "Pancake wird eine Datei überschreiben, die du manuell geändert hast.",
   "settings:will_have_to_overwrite_multiple_files" => "Pancake wird :1 Dateien überschreiben, die du manuell geändert hast.",
   "settings:checking_for_updates" => "Suche nach Aktualisierungen, bitte warten. Diese Seite wird automatisch neu geladen.",
@@ -1228,7 +1232,7 @@ $lang = array(
   'invoices:frequency' => 'Frequenz',
   'invoices:auto_send' => 'Automatisch senden?',
   'invoices:send'      => 'Senden',
-  'invoices:days_before_invoice_is_due' => 'tage bevor die Rechnung fällig ist',
+  'invoices:days_before_invoice_is_due' => 'Tage bevor die Rechnung fällig ist',
   'invoices:cannot_change_recurrences'  => 'Die Wiederholungseinstellungen können noch bei einer Rechnung geändert werden, die eine Wiederholung einer anderen Rechnung ist.',
   # End v4.3.7 changes
 
@@ -1290,24 +1294,89 @@ $lang = array(
 
   # Begin v4.4.3 changes
   'tickets:ticket_number' => "Ticket #:1",
-  'settings:ticket_status_for_sending_invoice' => "Ticket Status für Rechungsstellung",
-  'settings:ticket_status_for_sending_invoice_description' => "Wenn ein zu zahlendes Ticket auf diesen Status gestellt wird, wird automatisch eine Rechnung generiert und an den Kunden geschickt.",
-  'settings:never_send_ticket_invoices_automatically' => "-- Ticket Rechnungen niemals automatisch senden --",
+  'settings:ticket_status_for_sending_invoice' => "Ticket-Status für Rechungsstellung",
+  'settings:ticket_status_for_sending_invoice_description' => "Wenn ein zu zahlendes Ticket auf diesen Status gestellt wird, wird automatisch eine Rechnung generiert und an den Kunden gesendet.",
+  'settings:never_send_ticket_invoices_automatically' => "-- Ticket-Rechnungen niemals automatisch senden --",
   # End v4.4.3 changes
 
   # Begin v4.4.6 changes
-  'expenses:added' => "The expense was added successfully.",
+  'expenses:added' => "Ausgabe erfolgreich hinzugefügt.",
   # End v4.4.6 changes
 
   # Begin v4.4.9 changes
-  'global:error_submitting_ajax' => "An unknown error occurred while trying to submit this form. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
-  'store:error1004' => "An unknown error occurred while trying to purchase this item. Please try again later. If the error persists, please start a free support ticket at pancakeapp.com.",
+  'global:error_submitting_ajax' => "Beim Versuch, dieses Formular abzusenden ist ein unbekannter Fehler aufgetreten. Bitte später erneut versuchen. Falls der Fehler weiterhin auftritt, bitte ein kostenloses Support-Ticket auf pancakeapp.com erstellen.",
+  'store:error1004' => "Beim Versuch, dies zu kaufen ist ein unbekannter Fehler aufgetreten. Bitte später erneut versuchen. Falls der Fehler weiterhin auftritt, bitte ein kostenloses Support-Ticket auf pancakeapp.com erstellen.",
   # End v4.4.9 changes
 
   # Begin v4.5.0 changes
   'invoices:pancake_will_automatically_change_is_viewable' => "Dies wird automatisch auf 'Ja' gestellt, wenn die Rechnung an den Kunden gemailt wurde.",
   "global:incorrect_login" => "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.",
   # End v4.5.0 changes
+
+  # Begin v4.5.3 changes
+  'contact:title' => 'Verlauf',
+  # End v4.5.3 changes
+
+  # Begin v4.5.5 changes
+  'settings:hide_tax_column' => "Steuer-Spalte ausblenden?",
+  'settings:hide_tax_column_explanation' => "Dadurch wird die Steuern-Spalte in Rechnungen ohne ausgewiesene Steuer ausgeblendet.",
+  'tickets:not_yet_generated' => "Rechnung noch nicht erstellt",
+  'tickets:invoice_will_be_generated' => "Eine :1 Rechnung für dieses Ticket wird erstellt, sobald der Status des Tickets zu \":2\" geändert wird.",
+  'global:accepted' => "Angenommen",
+  'global:rejected' => "Abgelehnt",
+  'global:unanswered' => "Unbeantwortet",
+  'estimates:accepted' => "Angenommene Kostenvoranschläge",
+  'estimates:rejected' => "Abgelehnte Kostenvoranschläge",
+  'estimates:unanswered' => "Unbeanwortete Kostenvoranschläge",
+  'emailtemplates:content' => "Text",
+  'global:every_six_months' => '2 mal im Jahr',
+  'global:biyearly' => 'Alle 2 Jahre',
+  'global:triennially' => "Alle 3 Jahre",
+  # End v4.5.5 changes
+
+  # Begin v4.5.6 changes
+  'settings:automaticallybccclientemail' => 'Automatisch eine Kopie sämtlicher Emails, die an Kunden gesendet werden, an die Support E-Mail-Adresse der Haupt-Geschäftsidentität senden.',
+  # End v4.5.6 changes
+
+  # Begin v4.5.7 changes
+  'invoices:send_to_client' => "Rechnung per Email an Kunde senden",
+  'estimates:send_to_client' => "Kostenvoranschlag per Email an Kunde senden",
+  'global:beforeunload' => "Du bist dabei, diese Seite zu verlassen. Wenn du das tust, werden sämtliche Eingaben die du auf dieser Seite gemacht hast verloren gehen. Bist du sicher, dass du diese Seite verlassen möchtest?",
+  # End v4.5.7 changes
+
+  # Begin v4.5.8 changes
+  'global:appendtoproject' => 'In Aufgaben für ":1" konvertieren',
+  'estimates:appended' => 'Voranschlag #:1 in Aufgaben für ":2" konvertiert.',
+  # End v4.5.8 changes
+
+  # Begin v4.6.0 changes
+  'items:percentage_discount' => "Rabatt (%)",
+  'items:fixed_discount' => "Rabatt (:1)",
+  'invoices:discount_percentage' => "Rabatt (:1%)",
+  'invoices:sub_total_after_discounts' => "Zwischensumme (nach Rabatt)",
+  'settings:tax_reg' => 'Steuernummern/IDs',
+  'clients:tax_registration_number' => ':1 Nummer/ID',
+  'clients:add_custom_field' => "Weiteres Feld hinzufügen",
+  'clients:tax_numbers' => 'Steuernummer/ID des Kunden',
+  'clients:custom_fields' => "Eigene Felder",
+  'expenses:category_added' => "Die Ausgaben-Kategorie wurde erfolgreich erstellt.",
+  'clients:update_balance' => "Guthaben bearbeiten",
+  'clients:balance_updated' => "Das Guthaben des Kunden wurde erfolgreich geändert.",
+  'clients:what_do_you_want_to_do' => "Was möchtest du tun?",
+  'clients:save_balance_alteration' => "Änderung am Guthaben speichern",
+  'clients:no_amount_specified' => "Du hast keinen Betrag angegeben.",
+  'expenses:attach_receipt' => "Beleg anhängen (maximal :1)",
+  'expenses:no_project_business_expense' => "Geschäftsausgabe (ohne Projekt)",
+  'expenses:expense_date' => "Datum",
+  'expenses:receipt' => "Beleg",
+  'expenses:no_receipt' => "Kein Beleg",
+  # End v4.6.0 changes
+
+  # Begin v4.6.3 changes
+  'expenses:edited' => "Die Ausgabe wurde erfolgreich bearbeitet.",
+  'expenses:expense_receipts' => "Belege für Ausgaben",
+  # End v4.6.3
+
 );
 
 /** End of file: pancake_lang.php **/
