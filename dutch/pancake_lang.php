@@ -1303,6 +1303,74 @@ $lang = array(
     'store:error1004' => "Er is een onbekende fout opgetreden bij het aankopen van dit product. Probeer het later opnieuw. Als de fout blijft bestaan open dan een support ticket op pancakeapp.com.",
     # End v4.4.9 changes
 
+    # Begin v4.5.0 changes
+    'invoices:pancake_will_automatically_change_is_viewable' => "Dit zal automatisch veranderennaar 'Ja' wanneer de factuur wordt gemaild naar de klant.",
+    "global:incorrect_login" => "De ingevoerde gebruikersnaam/wachtwoord combinatie is onjuist.",
+    # End v4.5.0 changes
+
+    # Begin v4.5.3 changes
+    'contact:title' => 'Contact Historie',
+    # End v4.5.3 changes
+
+    # Begin v4.5.5 changes
+    'settings:hide_tax_column' => "Verberg BTW kolom?",
+    'settings:hide_tax_column_explanation' => "Dit zal de BTW kolom verbergen bij facturen wanneer deze geen btw informatie bevat.",
+    'tickets:not_yet_generated' => "Factuur is nog niet aangemaakt",
+    'tickets:invoice_will_be_generated' => "Een :1 factuur voor deze ticket zal worden aangemaakt wanneer de status van de ticket veranderd naar \":2\".",
+    'global:accepted' => "Geaccepteerd",
+    'global:rejected' => "Afgewezen",
+    'global:unanswered' => "Onbeantwoord",
+    'estimates:accepted' => "Geaccepteerde Voorstellen",
+    'estimates:rejected' => "Afgewezen Voorstellen",
+    'estimates:unanswered' => "Onbeantwoorde Voorstellen",
+    'emailtemplates:content' => "Email Content",
+    'global:every_six_months' => 'Halfjaarlijks (twee keer per jaar)',
+    'global:biyearly' => 'Tweejaarlijks (elke 2 jaar)',
+    'global:triennially' => "Driejaarlijks",
+    # End v4.5.5 changes
+
+    # Begin v4.5.6 changes
+    'settings:automaticallybccclientemail' => 'Stuur automatisch een kopie van alle verstuurde emails naar klanten ook naar het het hoofd-e-mailadres van uw bedrijf.',
+    # End v4.5.6 changes
+
+    # Begin v4.5.7 changes
+    'invoices:send_to_client' => "Email Factuur Naar Klant",
+    'estimates:send_to_client' => "Email Voorstel Naar Klant",
+    'global:beforeunload' => "U staat op het punt om deze pagina te verlaten. Als u dit doet, gaat alle ingevulde data verloren. Weet u zeker dat u deze pagina wilt verlaten?",
+    # End v4.5.7 changes
+
+    # Begin v4.5.8 changes
+    'global:appendtoproject' => 'Omzetten in taken voor ":1"',
+    'estimates:appended' => 'Voorstel #:1 omgezet in taken voor ":2".',
+    # End v4.5.8 changes
+
+    # Begin v4.6.0 changes
+    'items:percentage_discount' => "Korting (%)",
+    'items:fixed_discount' => "Korting (:1)",
+    'invoices:discount_percentage' => "Korting (:1%)",
+    'invoices:sub_total_after_discounts' => "Subtotaal (na kortingen)",
+    'settings:tax_reg' => 'BTW Nummers / IDs',
+    'clients:tax_registration_number' => ':1 Nummer / ID',
+    'clients:add_custom_field' => "Voeg nog een aangepast veld toe",
+    'clients:tax_numbers' => 'Klant BTW Nummers / IDs',
+    'clients:custom_fields' => "Aangepaste Velden",
+    'expenses:category_added' => "Gelukt! De uitgave categorie is aangemaakt.",
+    'clients:update_balance' => "Credit Balans Bijwerken",
+    'clients:balance_updated' => "Geulkt! De credit balans van de klant is bijgewerkt.",
+    'clients:what_do_you_want_to_do' => "Wat wil je doen",
+    'clients:save_balance_alteration' => "Sla balans bewerking op",
+    'clients:no_amount_specified' => "U heeft geen hoeveelheid gespecificeerd.",
+    'expenses:attach_receipt' => "Voeg Bon Toe (Maximum Grootte: :1)",
+    'expenses:no_project_business_expense' => "Bedrijfsuitgave (Geen Project)",
+    'expenses:expense_date' => "Datum",
+    'expenses:receipt' => "Bon",
+    'expenses:no_receipt' => "Geen Bon",
+    # End v4.6.0 changes
+
+    # Begin v4.6.3 changes
+    'expenses:edited' => "Gelukt! De uitgave is bewerkt.",
+    'expenses:expense_receipts' => "Uitgave Bonnen",
+    # End v4.6.3
 
 );
 
