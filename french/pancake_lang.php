@@ -453,7 +453,7 @@ $lang = array(
 
     /** Début des modèles de courriels **/
     'emailtemplates:email_templates' => 'Modèle de courriel',
-    'emailtemplates:create_template' => 'Créer un nouveau modèle',
+    'emailtemplates:create_template' => 'Créer',
     'emailtemplates:add' => 'Créer un nouveau modèle de courriel',
     'emailtemplates:edit' => 'Modifier le modèle de courriel',
     'emailtemplates:manage' => 'Gérer les modèles',
