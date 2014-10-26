@@ -1096,7 +1096,7 @@ $lang = array(
 
     # Begin v4.1.15 changes
     "export:invoices_csv" => "Invoices (CSV)",
-    # End v4.1.15 changes
+    # End v4.1.15 changesx
 
     # Begin v4.1.17 changes
     "projects:createdtemplate" => "Project template created. You can now create projects based on this template.",
@@ -1130,11 +1130,6 @@ $lang = array(
 
     # Begin v4.1.24 changes
     "projects:tracked" => "Tracked",
-    "settings:accounting_type" => "Reporting Method",
-    "settings:accrual" => "Show invoices based on when they were created",
-    "settings:cash" => "Show invoices based on when they were paid",
-    "reports:selection_explanation_accrual" => "Invoices are shown based on when they were created.",
-    "reports:selection_explanation_cash" => "Paid invoices are shown based on the date of their payment.\n\nUnpaid or partially-paid invoices are shown based on when they were created.",
     "invoices:partially_paid" => "Partially",
     # End v4.1.24 changes
 
@@ -1371,7 +1366,24 @@ $lang = array(
     # Begin v4.6.3 changes
     'expenses:edited' => "Success! The expense was edited successfully.",
     'expenses:expense_receipts' => "Expense Receipts",
-    # End v4.6.3
+    # End v4.6.3 changes
+    
+    # Begin v4.6.7 changes
+    'reports:payments' => "Payments",
+    'reports:verb_created' => "Created",
+    'reports:verb_paid' => "Paid",
+    'reports:verb_from_to' => ":1 from :2 to :3",
+    # Deleted "reports:selection_explanation_accrual"
+    # Deleted "reports:selection_explanation_cash"
+    # Deleted "settings:accounting_type"
+    # Deleted "settings:accrual"
+    # Deleted "settings:cash"
+    # End v4.6.7 changes
+    
+    # Begin v4.6.8 changes
+    'reports:amount_paid' => "Payment Amount",
+    "dashboard:view_all_overdue_invoices" => "View All Overdue Invoices",
+    # End v4.6.8 changes
 
 );
 
