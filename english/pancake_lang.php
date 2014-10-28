@@ -1096,7 +1096,7 @@ $lang = array(
 
     # Begin v4.1.15 changes
     "export:invoices_csv" => "Invoices (CSV)",
-    # End v4.1.15 changesx
+    # End v4.1.15 changes
 
     # Begin v4.1.17 changes
     "projects:createdtemplate" => "Project template created. You can now create projects based on this template.",
@@ -1382,8 +1382,13 @@ $lang = array(
     
     # Begin v4.6.8 changes
     'reports:amount_paid' => "Payment Amount",
-    "dashboard:view_all_overdue_invoices" => "View All Overdue Invoices",
     # End v4.6.8 changes
+    
+    # Begin v4.6.9 changes
+    'dashboard:upcoming_invoices' => 'Upcoming Invoices',
+    'dashboard:there_are_no_upcoming_invoices' => "There are no upcoming invoices to display.",
+    "dashboard:view_all_upcoming_invoices" => "View All Upcoming Invoices",
+    # End v4.6.9 changes
 
 );
 
