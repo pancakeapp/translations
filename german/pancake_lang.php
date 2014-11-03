@@ -1136,11 +1136,6 @@ $lang = array(
   # Begin v4.1.24 changes
   "projects:tracked" => "Erfasst",
   "settings:accounting_type" => "Sortierung für Berichte",
-  "settings:accrual" => "Zeige Rechnungen nach ihrem Erstellungsdatum",
-  "settings:cash" => "Zeige Rechnungen nach ihrem Bezahldatum",
-  "reports:selection_explanation_accrual" => "Rechnungen werden nach dem Datum, an dem sie erstellt wurden, angezeigt.",
-  "reports:selection_explanation_cash" => "Bezahlte Rechnungen werden nach dem Datum, an dem sie bezahlt wurden, angezeigt.\n\nUnbezahlte oder teilgezahlte Rechnungen werden nach Erstellungsdatum angezeigt.",
-  "invoices:partially_paid" => "Teilweise",
   # End v4.1.24 changes
 
   # Begin v4.1.27 changes
@@ -1376,6 +1371,28 @@ $lang = array(
   'expenses:edited' => "Die Ausgabe wurde erfolgreich bearbeitet.",
   'expenses:expense_receipts' => "Belege für Ausgaben",
   # End v4.6.3
+
+  # Begin v4.6.7 changes
+  'reports:payments' => "Zahlungen",
+  'reports:verb_created' => "Erstellt",
+  'reports:verb_paid' => "Bezahlt",
+  'reports:verb_from_to' => ":1 von :2 bis :3",
+  # Deleted "reports:selection_explanation_accrual"
+  # Deleted "reports:selection_explanation_cash"
+  # Deleted "settings:accounting_type"
+  # Deleted "settings:accrual"
+  # Deleted "settings:cash"
+  # End v4.6.7 changes
+
+  # Begin v4.6.8 changes
+  'reports:amount_paid' => "Gezahlter Betrag",
+  # End v4.6.8 changes
+
+  # Begin v4.6.9 changes
+  'dashboard:upcoming_invoices' => 'Anstehende Rechnungen',
+  'dashboard:there_are_no_upcoming_invoices' => "Es gibt anstehende Rechnungen anzuzeigen.",
+  "dashboard:view_all_upcoming_invoices" => "Alle anstehenden Rechnungen ansehen",
+  # End v4.6.9 changes
 
 );
 
