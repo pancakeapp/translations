@@ -68,9 +68,7 @@ $lang = array(
   'global:week'                   => 'Wöchentlich',
   'global:na'                     => 'N/A',
   'global:quarterly'              => 'Quartalsweise',
-  'global:every_six_months'       => 'Alle 6 Monate',
   'global:statistics'             => "Statistiken",
-  'global:biyearly'               => 'Alle 2 Jahre',
   'global:month'                  => 'Monatlich',
   'global:year'                   => 'Jährlich',
   'global:fax'                    => 'Fax',
@@ -258,7 +256,6 @@ $lang = array(
 
 
   /** Contact Log **/
-  'contact:title'             => 'Aktueller Kontaktverlauf',
   'contact:method'            => 'Kontaktart',
   'contact:contact'           => 'Kontakt',
   'contact:subject'           => 'Betreff',
@@ -844,13 +841,11 @@ $lang = array(
   'settings:feed_generator'                   => 'Feed Generator',
   'settings:your_link'                        => 'Dein Link',
   'settings:bcc'                              => 'BCC',
-  'settings:automaticallybccclientemail'      => 'Automatisch eine Kopie aller Kunden-E-Mails an die Benachrichtigungsadresse (oben festgelegt) senden',
   'settings:api_note'                         => 'Name / Notiz',
   'settings:api_key'                          => 'Key',
 
   'settings:tax_name'                         => 'Name der Steuer',
   'settings:tax_value'                        => 'Wert',
-  'settings:tax_reg'                          => 'Registration / Code', /*? USt-ID ??*/
   'settings:add_tax'                          => 'Eine weitere Steuer hinzufügen',
 
   'settings:currency_name'                    => 'Name der Währungs',
@@ -1052,7 +1047,6 @@ $lang = array(
   "dashboard:written_by" => "Geschrieben von :1 am :2",
   "dashboard:client_activity" => "Kunden-Aktivität",
   "dashboard:view_all_client_activity" => "Alle Kunden-Aktivitäten",
-  "dashboard:team_activity" => "Team-Aktivität",
   "dashboard:view_all_team_activity" => "Alle Team-Aktivitäten sehen",
   "dashboard:my_tasks" => "Meine Aufgaben",
   "dashboard:view_all_my_tasks" => "Alle meine Aufgaben ansehen",
