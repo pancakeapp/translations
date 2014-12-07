@@ -2,15 +2,15 @@
 /**
 * Name:  Ion Auth Lang - English
 * 
-* Author: Ben Edmunds
-* 		  ben.edmunds@gmail.com
-*         @benedmunds
+* Author: Francisco Arenas
+* 		  francisco.arenas@dospuntocero.cl
+*         @dospuntocero
 * 
-* Location: http://github.com/benedmunds/ion_auth/
+* Location: https://github.com/dospuntocero/translations/
 *          
 * Created:  03.14.2010 
 * 
-* Description:  English language file for Ion Auth messages and errors
+* Description:  Spanish language file for Ion Auth messages and errors
 * 
 */
 
