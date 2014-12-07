@@ -5,7 +5,7 @@
 * A simple, fast, self-hosted invoicing application
 *
 * @package     Pancake
-* @author      Pancake Dev Team
+* @author      Francisco Arenas - dospuntocero.cl - fa@dospuntocero.cl
 * @copyright   Copyright (c) 2010, Pancake Payments
 * @license     http://pancakeapp.com/license
 * @link        http://pancakeapp.com
