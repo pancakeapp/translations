@@ -2,13 +2,13 @@
 /**
 * Fichier de langue française pour Pancake App
 *
-* @author Anas AIT ALI (http://www.anas10.fr)
-* @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
-* @link https://github.com/ahouin/pancake-traductions
-* @copyright Copyright (c) 2010-2014, Pancake Payments
-* @license http://pancakeapp.com/license
-* @since 1.0
-* @version 2014-04-10
+* @author       Anas AIT ALI (http://www.anas10.fr)
+* @author       Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
+* @link         https://github.com/ahouin/pancake-traductions
+* @copyright    Copyright (c) 2010-2014, Pancake Payments
+* @license      http://pancakeapp.com/license
+* @since        1.0
+* @version      2014-04-10
 */
 
 // ------------------------------------------------------------------------
@@ -148,7 +148,7 @@ $lang = array(
     'global:urltosend' => 'Voici l\'URL à envoyer : ',
     'global:copytoclipboard' => 'Copier le lien',
     'global:you_need_pancake_cron_job' => 'Pour utiliser les factures récurrentes, vous devez exécuter la tâche cron de Pancake.',
-    'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">cliquez ici</a>.',
+    'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="https://www.pancakeapp.com/documentation/cron">cliquez ici</a>.',
     'global:quick_links' => 'Liens rapides',
     'global:view_all' => 'Voir tous',
     'global:deleted' => 'Supprimer',
@@ -296,7 +296,7 @@ $lang = array(
     'invoices:taxable' => 'Taxable',
     'invoices:total' => 'Total',
     'invoices:amount' => 'Montant',
-    'invoices:due' => 'Payable d\'ici le,
+    'invoices:due' => 'Payable d\'ici le',
     'invoices:subtotal' => 'Sous-total',
     'invoices:totaltax' => 'Taxes',
     'invoices:filestodownload' => 'Fichiers à télécharger',
@@ -318,7 +318,6 @@ $lang = array(
     'invoices:amountrequired' => 'Le champ du montant est requis',
     'invoices:currencydoesnotexist' => 'Cette devise n\'existe pas',
     'invoices:unique_id' => 'ID unique',
-    'invoices:willreoccurin' => 'Cette facture aura lieu à nouveau dans :1.',
     'invoices:willbesentautomatically' => 'Le client sera alerté par courriel à propos de cette facture le :1.',
     'invoices:thisisareoccurrence' => 'Cette facture est une récurrence de la facture :1.',
     'invoices:clientlastnotifiedon' => 'Le client a été alerté par courriel à propos de cette facture le :1.',
@@ -410,7 +409,6 @@ $lang = array(
     'projects:generate_invoice' => 'Générer la facture',
     'projects:no_projects' => 'Il n\'y a aucun projet',
     'projects:archive_proj' => 'Archiver le projet',
-    'projects:unarchive_proj' => 'Désarchiver le projet',
     'projects:archive' => 'Voir l\'archive',
     'projects:active' => 'Projets actifs',
     'projects:archived' => 'Projets archivés',
@@ -998,7 +996,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'global:there_are_no_tasks_assigned_to_you' => "Vous n'avez pas de tâches assignées.",
 
     # v4.0.5
-    'invoices:lastreoccurrence' => 'Dernière réapparition: :1',
 
     # Début des changements pour la v4.1.2
     'invoices:converted_to_estimate' => "Facture #:1 converti en devis.",
@@ -1371,6 +1368,123 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'dashboard:there_are_no_upcoming_invoices' => "Il n'y a pas de facture à afficher.",
     "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures dues",
     # Fin v4.6.9
+    
+     # Début des changements la v4.6.3
+    'expenses:edited' => "La dépense a été modifiée avec succès.",
+    'expenses:expense_receipts' => "Reçus des dépenses",
+    # Fin v4.6.3
+    
+    # Début des changements la v4.6.7
+    'reports:payments' => "Paiements",
+    'reports:verb_created' => "Créé",
+    'reports:verb_paid' => "Payé",
+    'reports:verb_from_to' => ":1 de :2 à :3",
+    # Deleted "reports:selection_explanation_accrual"
+    # Deleted "reports:selection_explanation_cash"
+    # Deleted "settings:accounting_type"
+    # Deleted "settings:accrual"
+    # Deleted "settings:cash"
+    # Fin v4.6.7
+    
+    # Début des changements la v4.6.8
+    'reports:amount_paid' => "Montant du paiement",
+    # Fin v4.6.8
+    
+    # Début des changements la v4.6.9
+    'dashboard:upcoming_invoices' => 'Facture à venir',
+    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à venir à afficher.",
+    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à venir",
+    # Fin v4.6.9
+    
+    # Début des changements la v4.7.0
+    "error:cannot_send_error_details" => "Vous ne pouvez pas envoyer le détails des erreurs au support de Pancake parce que vous n'êtes pas connecté.",
+    "error:unknown_error_reporting" => "Une erreur est survenue, veuillez soumettre cette erreur manuellement.",
+    "error:sending_details" => "Envoie des détails en cours...",
+    "error:response_will_be_sent_to_email" => "Vous serez alerté par courriel à {email}.",
+    "settings:errors_and_diagnostics" => "Erreurs et diagnostique",
+    "error:already_reported" => "Cette erreur a déjà été soumis au support de Pancake.",
+    "error:title" => "Erreur inconnue",
+    "error:subtitle" => "Une erreur inconnue est survenue.",
+    "error:not_logged_in_intro" => "Ces erreurs sont enregistrées automatiquement.",
+    "error:not_logged_in_extra" => "Si le problème persiste, veuillez contacter :1.",
+    "error:logged_in_intro" => "Ces erreurs sont enregistrées dans l'admin, sous Paramètres > Erreurs et diagnostiques'.",
+    "error:logged_in_extra" => "Cliquez ici pour soumettre un billet de support avec les détails de l'erreur au support de Pancake.",
+    "error:no_logged_errors" => "Vous n'avez aucune erreur d'enregistrée.",
+    "errors:subject" => "Titre de l'erreur",
+    "errors:report" => "Soumettre l'erreur",
+    "errors:number_of_occurrences" => "# d'occurences",
+    "global:errors" => "Erreurs",
+    "settings:error_reported" => "Erreur reportée",
+    "settings:report_error" => "Soumettre l'erreur",
+    "settings:delete_error" => "Supprimer l'erreur",
+    "global:once" => "Une",
+    "global:twice" => "Deux",
+    "global:x_times" => ":1 fois",
+    "global:occurred_times" => "Survenu :1",
+    "settings:view_error_details" => "Voir les détails de l'erreur",
+    "error:deleting" => "Supression...",
+    "error:reporting" => "Soumission de l'erreur...",
+    "clients:noclientbodyfiltered" => "Aucun nom de vos clients débute par ':1'.",
+    "tickets:archive" => "Archive",
+    "tickets:unarchive" => "Restaurer",
+    'projects:unarchive_proj' => 'Restaurer le projet',
+    'invoices:lastreoccurrence' => 'Dernière récurrence: :1',
+    'invoices:thisisareoccurrence' => 'Cette facture est une récurrence de la facture :1.',
+    ### Ceci a été déplacé du fichier des traductions de projets qui était dans un fichier séparé.
+    'projects:role_view' => 'Voir',
+    'projects:role_create' => 'Créer',
+    'projects:role_edit' => 'Modifier',
+    'projects:role_delete' => 'Supprimer',
+    'projects:role_add_task' => 'Ajouter une tâche',
+    'projects:role_edit_task' => 'Éditer une tâche',
+    'projects:role_delete_task' => 'Supprimer une tâche',
+    'projects:role_add_milestone' => 'Ajouter une étape',
+    'projects:role_edit_milestone' => 'Modifier une étape',
+    'projects:role_delete_milestone' => 'Supprimer une étape',
+    'projects:role_track_time' => 'Gestion de temps',
+    "projects.title" => "Projets",
+    "projects.create.title" => "Créer un projet",
+    "projects.edit.title" => "Modifier projet",
+    "projects.label.name" => "Nom :",
+    "projects.label.client" => "Client:",
+    "projects.label.due_date" => "Date due :",
+    "projects.label.rate" => "Taux horaire :",
+    "projects.label.description" => "Description:",
+    "projects.label.is_viewable" => "Disponible dans l'espace client ?",
+    "projects.button.create" => "Créer le projet &rarr;",
+    "projects.create.succeeded" => "Le projet à été créé !",
+    "projects.button.edit" => "Modifier le projet &rarr;",
+    "projects.button.delete" => "Supprimer le projet &rarr;",
+    "projects.update.succeeded" => "Le projet a été modifié !",
+    "projects.delete.title" => "Voulez vous vraiment supprimer ce projet ?",
+    "times.title" => "Temps",
+    "times.create.title" => "Ajouter du temps",
+    "times.label.start_time" => "Heure de début:",
+    "times.label.end_time" => "Heure de fin:",
+    "times.label.date" => "Date:",
+    "times.label.task_id" => "Tâche:",
+    "times.label.note" => "Note :",
+    "times.label.notes" => "Notes :",
+    "times.button.create" => "Ajouter du temps &rarr;",
+    "times.create.succeeded" => "Le temps a été ajouté !",
+    "times.edit.succeeded" => "Le temps a été modifié avec succès !",
+    # Fin v4.7.0
+    
+    # Début des changements la v4.7.1
+    "global:estimates_unsent" => "Unsent",
+    "invoices:estimates_unsent" => "Unsent Estimates",
+    # Fin v4.7.1
+    
+    # Début des changements la v4.7.3
+    "error:not_enough_disk_space" => "Not Enough Disk Space",
+    "error:cant_send_email" => "Can't Send Email",
+    "error:not_enough_disk_space_explanation" => "Your database server (:1) does not have enough disk space.",
+    "error:you_cannot_report_this_error" => "You cannot report this issue to Pancake Support, because it is an issue with your server. Please contact your server administrator about this issue. When discussing it with them, tell them:",
+    "error:not_enough_disk_space_solutions" => "If you have root access to the database server, try clearing /tmp. If that doesn't work, check your database server's disk space usage, and try freeing some disk space.",
+    "error:cant_send_email_explanation" => "You've specified that you want to use Sendmail (:1) to send email, but it was not possible to do so. Either the path is incorrect, or something else has gone wrong.",
+    "error:email_settings_not_valid" => "Your email settings are not valid.",
+    "error:cant_send_email_solutions" => "If you have root access to the server, make sure you've got sendmail installed and try finding it with <code>which sendmail</code>.",
+    # Fin v4.7.3
 );
 
 /** Fin du fichier: pancake_lang.php **/
