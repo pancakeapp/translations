@@ -154,7 +154,7 @@ $lang = array(
     'global:urltosend' => 'Hier is de URL die u kunt verzenden:',
     'global:copytoclipboard' => 'Kopieer naar plakbord',
     'global:you_need_pancake_cron_job' => 'Om periodiek te factureren dient u de Pancake cronjob te gebruiken.',
-    'global:if_you_dont_know_how_to_set_it_up' => 'Indien u niet weet hoe u dit gebruikt kijkt u, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">hier</a>.',
+    'global:if_you_dont_know_how_to_set_it_up' => 'Indien u niet weet hoe u dit gebruikt kijkt u, <a href="http://www.pancakeapp.com/documentation/cron">hier</a>.',
     'global:quick_links' => 'Snelle Links',
     'global:view_all' => 'Bekijk alles',
     'global:deleted' => 'Verwijderd',
@@ -183,7 +183,7 @@ $lang = array(
     'global:accept_proposal' => 'Voorstel accepteren',
     'global:proposal_rejected' => 'Voorstel afgewezen',
     'global:proposal_accepted' => 'Voorstel geaccepteerd',
-    'global:client_area' => 'Klantengedeelte',
+    'global:client_area' => 'Klantgedeelte',
     'global:admin' => 'Admin',
     'global:all_settings' => 'Alle Instellingen',
     'global:viewable' => 'Zichtbaar in klantgedeelte',
@@ -209,8 +209,6 @@ $lang = array(
 
 	/** Users **/
 
-	// ==============================
-	// = LOGIN PAGE COMPLETED - Lee =
 	// ==============================
     'login:forgotinstructions' => 'Vul a.u.b. je e-mail adres in zodat wij een email kunnen sturen om het wachtwoord te resetten.',
     'login:reset' => 'Reset &raquo;',
@@ -329,7 +327,6 @@ $lang = array(
     'invoices:unique_id' => 'Uniek ID',
     'invoices:willreoccurin' => 'Deze factuur wordt herhaald op :1.',
     'invoices:willbesentautomatically' => 'De klant wordt per e-mail op de hoogte gebracht over deze factuur op :1.',
-    'invoices:thisisareoccurrence' => 'Deze factuur is een herhaling van factuur :1.',
     'invoices:clientlastnotifiedon' => 'De klant is per e-mail geinformeerd over deze factuur op :1.',
     'invoices:simple' => 'Eenvoudig',
     'invoices:simple_help' => 'Een eenvoudige factuur heeft geen extra regels voor producten/diensten. Alleen een totaalbedrag.',
@@ -420,7 +417,6 @@ $lang = array(
     'projects:generate_invoice' => 'Factuur genereren',
     'projects:no_projects' => 'Er zijn geen projecten.',
     'projects:archive_proj' => 'Project archiveren',
-    'projects:unarchive_proj' => 'Project de-archiveren',
     'projects:archive' => 'Bekijk archief',
     'projects:active' => 'Actieve Projecten',
     'projects:archived' => 'Gearchiveerde Projecten',
@@ -854,7 +850,7 @@ $lang = array(
     'settings:add_currency' => 'Andere valuta toevoegen',
     /** End Settings **/
      
-    'update:ifyourenotsurecontactus' => "Als je niet zeker weet wat je moet doen <a href='http://pancakeapp.com/forums/newtopic/2/'>start dan een nieuw support onderwerp in het forum</a>.",
+    'update:ifyourenotsurecontactus' => "Als je niet zeker weet wat je moet doen <a href='https://www.pancakeapp.com/account/support/ticket/new'>start dan een nieuw support onderwerp in het forum</a>.",
     'update:youmodified' => 'Je wijzigde',
     'update:youdeleted' => 'Je verwijderde',
     'update:loadingpleasewait' => 'Laden, een moment geduld...',
@@ -1022,8 +1018,6 @@ $lang = array(
     
     # v4.0.5
     
-    'invoices:lastreoccurrence' => 'Laatste Herhaling: :1',
-    
     # Begin v4.1.2 changes
     'invoices:converted_to_estimate' => "Factuur #:1 omgezet naar een inschatting.",
     'global:converttoestimate' => 'Omzetten naar Offerte',
@@ -1129,11 +1123,6 @@ $lang = array(
     
     # Begin v4.1.24 changes
     "projects:tracked" => "Tracked",
-    "settings:accounting_type" => "Rapportagemethode",
-    "settings:accrual" => "Toon facturen op basis van creatiedatum",
-    "settings:cash" => "Toon facturen in volgorde van betaaldatum",
-    "reports:selection_explanation_accrual" => "Facturen getoond op creatiedatum.",
-    "reports:selection_explanation_cash" => "Betaalde facturen worden getoond op volgorde van betaaldatum.\n\nOnbetaalde of gedeeltelijk betaalde facturen worden getoond op volgorde van creatiedatum.",
     "invoices:partially_paid" => "Gedeeltelijk",
     # End v4.1.24 changes
     
@@ -1370,7 +1359,120 @@ $lang = array(
     # Begin v4.6.3 changes
     'expenses:edited' => "Gelukt! De uitgave is bewerkt.",
     'expenses:expense_receipts' => "Uitgave Bonnen",
-    # End v4.6.3
+    # End v4.6.3 changes
+
+    # Begin v4.6.7 changes
+    'reports:payments' => "Betalingen",
+    'reports:verb_created' => "Aangemaakt",
+    'reports:verb_paid' => "Betaald",
+    'reports:verb_from_to' => ":1 van :2 tot en met :3",
+    # Deleted "reports:selection_explanation_accrual"
+    # Deleted "reports:selection_explanation_cash"
+    # Deleted "settings:accounting_type"
+    # Deleted "settings:accrual"
+    # Deleted "settings:cash"
+    # End v4.6.7 changes
+    
+    # Begin v4.6.8 changes
+    'reports:amount_paid' => "Betaald Bedrag",
+    # End v4.6.8 changes
+    
+    # Begin v4.6.9 changes
+    'dashboard:upcoming_invoices' => 'Opkomende Facturen',
+    'dashboard:there_are_no_upcoming_invoices' => "Er zijn geen opkomende facturen om te tonen.",
+    "dashboard:view_all_upcoming_invoices" => "Bekijk Alle Opkomende Facturen",
+    # End v4.6.9 changes
+    
+    # Begin v4.7.0 changes
+    "error:cannot_send_error_details" => "U kan geen foutmelding details sturen naar Pancake Support omdat u niet bent ingelogd.",
+    "error:unknown_error_reporting" => "Er heeft een onbekende foutmelding plaats gevonden. Rapporteer dit alstublieft handmatig.",
+    "error:sending_details" => "Bezig met het versturen van de details...",
+    "error:response_will_be_sent_to_email" => "U wordt op de hoogte gehouden van reacties op {email}.",
+    "settings:errors_and_diagnostics" => "Foutmeldingen & Diagnostiek",
+    "error:already_reported" => "Deze foutmelding is al gemeld bij Pancake Support.",
+    "error:title" => "Onbekende Foutmelding",
+    "error:subtitle" => "Een onbekende foutmelding heeft plaats gevonden.",
+    "error:not_logged_in_intro" => "Deze foutmeldingen worden automatisch gelogd.",
+    "error:not_logged_in_extra" => "Als het probleem blijft neem dan contact op :1.",
+    "error:logged_in_intro" => "Deze foutmeldingen worden opgeslagen in de administratie, onder 'Instellingen > Foutmeldingen & Diagnostiek'.",
+    "error:logged_in_extra" => "Klik hier om een gratis support ticket te sturen met de details van de foutmelding naar Pancake Support.",
+    "error:no_logged_errors" => "U heeft geen gelogde foutmeldingen.",
+    "errors:subject" => "Foutmelding titel",
+    "errors:report" => "Rapporteer Foutmelding",
+    "errors:number_of_occurrences" => "# keer voorgekomen",
+    "global:errors" => "Foutmeldingen",
+    "settings:error_reported" => "Foutmelding Gerapporteerd",
+    "settings:report_error" => "Rapporteer Foutmelding",
+    "settings:delete_error" => "Verwijder Foutmelding",
+    "global:once" => "Eenmaal",
+    "global:twice" => "Tweemaal",
+    "global:x_times" => ":1 keer",
+    "global:occurred_times" => "Voorgekomen :1",
+    "settings:view_error_details" => "Bekijk Foutmelding Details",
+    "error:deleting" => "Verwijderen...",
+    "error:reporting" => "Rapporteren...",
+    "clients:noclientbodyfiltered" => "Geen van uw klanten beginnen in de naam met ':1'.", 
+    "tickets:archive" => "Archief",
+    "tickets:unarchive" => "Herstel",
+    'projects:unarchive_proj' => 'Herstel Project',
+    'invoices:lastreoccurrence' => 'Laatste Herhaling: :1',
+    'invoices:thisisareoccurrence' => 'Deze factuur is een herhaling van Factuur :1.',
+    
+    ### This was moved here from the Projects language files, which were in a separate folder.
+    'projects:role_view' => 'Bekijk',
+    'projects:role_create' => 'Aanmaken',
+    'projects:role_edit' => 'Bewerken',
+    'projects:role_delete' => 'Verwijderen',
+    'projects:role_add_task' => 'Taak aanmaken',
+    'projects:role_edit_task' => 'Taak bewerken',
+    'projects:role_delete_task' => 'Taak verwijderen',
+    'projects:role_add_milestone' => 'Mijlpaal aanmaken',
+    'projects:role_edit_milestone' => 'Mijlpaal bewerken',
+    'projects:role_delete_milestone' => 'Mijlpaal verwijderen',
+    'projects:role_track_time' => 'TTijd bijhouden',
+    "projects.title" => "Projecten",
+    "projects.create.title" => "Project aanmaken",
+    "projects.edit.title" => "Project bijwerken",
+    "projects.label.name" => "Naam:",
+    "projects.label.client" => "Klant:",
+    "projects.label.due_date" => "Vervaldag:",
+    "projects.label.rate" => "Uur Tarief:",
+    "projects.label.description" => "Beschrijving:",
+    "projects.label.is_viewable" => "Bekijkbaar in klantgedeelte?",
+    "projects.button.create" => "Project aanmaken &rarr;",
+    "projects.create.succeeded" => "Project is aangemaakt!",
+    "projects.button.edit" => "Project bijwerken &rarr;",
+    "projects.button.delete" => "Het project verwijderen &rarr;",
+    "projects.update.succeeded" => "Het project is bijgewerkt!",
+    "projects.delete.title" => "Weet u zeker dat u het project wilt verwijderen?",
+    "times.title" => "Tijden",
+    "times.create.title" => "Tijd aanmaken",
+    "times.label.start_time" => "Start tijd:",
+    "times.label.end_time" => "Eind tijd:",
+    "times.label.date" => "Datum:",
+    "times.label.task_id" => "Taak:",
+    "times.label.note" => "Notitie:",
+    "times.label.notes" => "Notities:",
+    "times.button.create" => "Tijd aanmaken &rarr;",
+    "times.create.succeeded" => "De tijd is succesvol ingevuld!",
+    "times.edit.succeeded" => "De tijd is succesvol bijgewerkt!",
+    # End v4.7.0 changes
+    
+    # Begin v4.7.1 changes
+    "global:estimates_unsent" => "Onverstuurd",
+    "invoices:estimates_unsent" => "Onverstuurde Offertes",
+    # End v4.7.1 changes
+    
+    # Begin v4.7.3
+    "error:not_enough_disk_space" => "Niet genoeg schijfruimte",
+    "error:cant_send_email" => "Kan email niet versturen",
+    "error:not_enough_disk_space_explanation" => "Uw database server (:1) heeft niet genoeg schijfruimte.",
+    "error:you_cannot_report_this_error" => "U kan dit probleem niet rapporteren bij Pancake Support, want het is een probleem met uw server. Neem alstublieft contact op met uw server administrateur over dit probleem. Wanneer u overlegd met hen, dan kunt u het volgende vertellen:",
+    "error:not_enough_disk_space_solutions" => "Als u root toegang heeft tot de database server, probeer dan /tmp op te schonen. Als dat niet werkt, controleer dan uw database server's schijfruimte gebruik, en probeer wat schijfruimte vrij te maken.",
+    "error:cant_send_email_explanation" => "U heeft gespecificeerd dat u Sendmail (:1) wilt gebruiken om emails te versturen, maar dit was helaas niet mogelijk. Of het pad is incorrect, of er is iets anders fout gegaan.",
+    "error:email_settings_not_valid" => "Uw email instellingen zijn niet geldig.",
+    "error:cant_send_email_solutions" => "Als u root toegang heeft tot de server, controleer dan dat u sendmail heeft geïnstalleerd en probeer het te vinden met <code>which sendmail</code>.",
+    # End v4.7.3
 
 );
 
