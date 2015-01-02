@@ -149,7 +149,7 @@ $lang = array(
 	'global:urltosend'				=>	'Here is the url to send:',
 	'global:copytoclipboard'		=>	'Copy to clipboard',
 	'global:you_need_pancake_cron_job'		=> 'To use recurring invoices, you must be running the Pancake cron job.',
-    'global:if_you_dont_know_how_to_set_it_up'		=> 'If you don\'t know how to set it up, <a href="http://pancakeapp.com/documentation/cron">click here</a>.',
+    'global:if_you_dont_know_how_to_set_it_up'		=> 'If you don\'t know how to set it up, <a href="https://www.pancakeapp.com/documentation/cron">click here</a>.',
 	'global:quick_links'			=> 'Quick Links',
 	'global:view_all'				=> 'View All',
 	'global:deleted'				=>	'Deleted',
@@ -206,8 +206,6 @@ $lang = array(
 
 	/** Users **/
 
-	// ==============================
-	// = LOGIN PAGE COMPLETED - Lee =
 	// ==============================
 	'login:forgotinstructions'	=>	'Please enter your email address so we can send you an email to reset your password.',
 	'login:reset'				=>	'Reset &raquo;',
@@ -325,7 +323,6 @@ $lang = array(
 	'invoices:unique_id'			=> 'Unique ID',
 	'invoices:willreoccurin'		=> 'This invoice will reoccur on :1.',
 	'invoices:willbesentautomatically'		=> 'The client will be notified by email about this invoice on :1.',
-	'invoices:thisisareoccurrence'		=> 'This invoice is a reoccurrence of Invoice :1.',
 	'invoices:clientlastnotifiedon'		=> 'The client was notified by email about this invoice on :1.',
 	'invoices:simple'				=> 'Simple',
 	'invoices:simple_help'			=> 'A simple invoice has no line items. Simply a total.',
@@ -416,7 +413,6 @@ $lang = array(
 	'projects:generate_invoice'		=> 'Generate Invoice',
 	'projects:no_projects'			=> 'There are no projects.',
 	'projects:archive_proj'			=> 'Archive Project',
-	'projects:unarchive_proj'		=> 'Un-archive Project',
 	'projects:archive'				=> 'View Archive',
 	'projects:active'				=> 'Active Projects',
 	'projects:archived'				=> 'Archived Projects',
@@ -855,7 +851,7 @@ $lang = array(
     'settings:add_currency'			=> 'Add Another Currency',
     /** End Settings **/
 
-    'update:ifyourenotsurecontactus'		=> "If you're not sure what to do, please <a href='https://pancakeapp.com/account/support/ticket/new'>open a <strong>free</strong> support ticket</a>.",
+    'update:ifyourenotsurecontactus'		=> "If you're not sure what to do, please <a href='https://www.pancakeapp.com/account/support/ticket/new'>open a <strong>free</strong> support ticket</a>.",
     'update:youmodified'					=> 'You modified',
     'update:youdeleted'						=> 'You deleted',
     'update:loadingpleasewait'				=> 'Loading, please wait...',
@@ -1023,8 +1019,6 @@ $lang = array(
 
     # v4.0.5
 
-    'invoices:lastreoccurrence' => 'Last Reoccurrence: :1',
-
     # Begin v4.1.2 changes
     'invoices:converted_to_estimate' => "Converted invoice #:1 to an estimate.",
     'global:converttoestimate' => 'Convert to Estimate',
@@ -1130,11 +1124,6 @@ $lang = array(
 
     # Begin v4.1.24 changes
     "projects:tracked" => "Tracked",
-    "settings:accounting_type" => "Reporting Method",
-    "settings:accrual" => "Show invoices based on when they were created",
-    "settings:cash" => "Show invoices based on when they were paid",
-    "reports:selection_explanation_accrual" => "Invoices are shown based on when they were created.",
-    "reports:selection_explanation_cash" => "Paid invoices are shown based on the date of their payment.\n\nUnpaid or partially-paid invoices are shown based on when they were created.",
     "invoices:partially_paid" => "Partially",
     # End v4.1.24 changes
 
@@ -1371,7 +1360,120 @@ $lang = array(
     # Begin v4.6.3 changes
     'expenses:edited' => "Success! The expense was edited successfully.",
     'expenses:expense_receipts' => "Expense Receipts",
-    # End v4.6.3
+    # End v4.6.3 changes
+    
+    # Begin v4.6.7 changes
+    'reports:payments' => "Payments",
+    'reports:verb_created' => "Created",
+    'reports:verb_paid' => "Paid",
+    'reports:verb_from_to' => ":1 from :2 to :3",
+    # Deleted "reports:selection_explanation_accrual"
+    # Deleted "reports:selection_explanation_cash"
+    # Deleted "settings:accounting_type"
+    # Deleted "settings:accrual"
+    # Deleted "settings:cash"
+    # End v4.6.7 changes
+    
+    # Begin v4.6.8 changes
+    'reports:amount_paid' => "Payment Amount",
+    # End v4.6.8 changes
+    
+    # Begin v4.6.9 changes
+    'dashboard:upcoming_invoices' => 'Upcoming Invoices',
+    'dashboard:there_are_no_upcoming_invoices' => "There are no upcoming invoices to display.",
+    "dashboard:view_all_upcoming_invoices" => "View All Upcoming Invoices",
+    # End v4.6.9 changes
+    
+    # Begin v4.7.0 changes
+    "error:cannot_send_error_details" => "You cannot send error details to Pancake Support because you are not logged in.",
+    "error:unknown_error_reporting" => "An unknown error occurred. Please report this error manually.",
+    "error:sending_details" => "Sending details...",
+    "error:response_will_be_sent_to_email" => "You will be notified of replies at {email}.",
+    "settings:errors_and_diagnostics" => "Errors & Diagnostics",
+    "error:already_reported" => "This error has already been reported to Pancake Support.",
+    "error:title" => "Unknown Error",
+    "error:subtitle" => "An unknown error has occurred.",
+    "error:not_logged_in_intro" => "These errors are logged automatically.",
+    "error:not_logged_in_extra" => "If the problem persists please contact :1.",
+    "error:logged_in_intro" => "These errors are stored in the admin, under 'Settings > Errors & Diagnostics'.",
+    "error:logged_in_extra" => "Click here to submit a free support ticket with the error's details to Pancake Support.",
+    "error:no_logged_errors" => "You have no logged errors.",
+    "errors:subject" => "Error Title",
+    "errors:report" => "Report Error",
+    "errors:number_of_occurrences" => "# of occurrences",
+    "global:errors" => "Errors",
+    "settings:error_reported" => "Error Reported",
+    "settings:report_error" => "Report Error",
+    "settings:delete_error" => "Delete Error",
+    "global:once" => "Once",
+    "global:twice" => "Twice",
+    "global:x_times" => ":1 times",
+    "global:occurred_times" => "Occurred :1",
+    "settings:view_error_details" => "View Error Details",
+    "error:deleting" => "Deleting...",
+    "error:reporting" => "Reporting...",
+    "clients:noclientbodyfiltered" => "None of your clients' names start with ':1'.", 
+    "tickets:archive" => "Archive",
+    "tickets:unarchive" => "Restore",
+    'projects:unarchive_proj' => 'Restore Project',
+    'invoices:lastreoccurrence' => 'Last Recurrence: :1',
+    'invoices:thisisareoccurrence' => 'This invoice is a recurrence of Invoice :1.',
+    
+    ### This was moved here from the Projects language files, which were in a separate folder.
+    'projects:role_view' => 'View',
+    'projects:role_create' => 'Create',
+    'projects:role_edit' => 'Edit',
+    'projects:role_delete' => 'Delete',
+    'projects:role_add_task' => 'Add Task',
+    'projects:role_edit_task' => 'Edit Task',
+    'projects:role_delete_task' => 'Delete Task',
+    'projects:role_add_milestone' => 'Add Milestone',
+    'projects:role_edit_milestone' => 'Edit Milestone',
+    'projects:role_delete_milestone' => 'Delete Milestone',
+    'projects:role_track_time' => 'Track Time',
+    "projects.title" => "Projects",
+    "projects.create.title" => "Create Project",
+    "projects.edit.title" => "Update Project",
+    "projects.label.name" => "Name:",
+    "projects.label.client" => "Client:",
+    "projects.label.due_date" => "Due Date:",
+    "projects.label.rate" => "Hourly Rate:",
+    "projects.label.description" => "Description:",
+    "projects.label.is_viewable" => "Viewable in client area?",
+    "projects.button.create" => "Create Project &rarr;",
+    "projects.create.succeeded" => "The project has been created!",
+    "projects.button.edit" => "Update Project &rarr;",
+    "projects.button.delete" => "Delete Project &rarr;",
+    "projects.update.succeeded" => "The project has been updated!",
+    "projects.delete.title" => "Are you sure you want to delete this project?",
+    "times.title" => "Times",
+    "times.create.title" => "Add Time",
+    "times.label.start_time" => "Start time:",
+    "times.label.end_time" => "End time:",
+    "times.label.date" => "Date:",
+    "times.label.task_id" => "Task:",
+    "times.label.note" => "Note:",
+    "times.label.notes" => "Notes:",
+    "times.button.create" => "Add Time &rarr;",
+    "times.create.succeeded" => "The time has been entered successfully!",
+    "times.edit.succeeded" => "The time has been edited successfully!",
+    # End v4.7.0 changes
+    
+    # Begin v4.7.1 changes
+    "global:estimates_unsent" => "Unsent",
+    "invoices:estimates_unsent" => "Unsent Estimates",
+    # End v4.7.1 changes
+    
+    # Begin v4.7.3
+    "error:not_enough_disk_space" => "Not Enough Disk Space",
+    "error:cant_send_email" => "Can't Send Email",
+    "error:not_enough_disk_space_explanation" => "Your database server (:1) does not have enough disk space.",
+    "error:you_cannot_report_this_error" => "You cannot report this issue to Pancake Support, because it is an issue with your server. Please contact your server administrator about this issue. When discussing it with them, tell them:",
+    "error:not_enough_disk_space_solutions" => "If you have root access to the database server, try clearing /tmp. If that doesn't work, check your database server's disk space usage, and try freeing some disk space.",
+    "error:cant_send_email_explanation" => "You've specified that you want to use Sendmail (:1) to send email, but it was not possible to do so. Either the path is incorrect, or something else has gone wrong.",
+    "error:email_settings_not_valid" => "Your email settings are not valid.",
+    "error:cant_send_email_solutions" => "If you have root access to the server, make sure you've got sendmail installed and try finding it with <code>which sendmail</code>.",
+    # End v4.7.3
 
 );
 

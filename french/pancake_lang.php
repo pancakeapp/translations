@@ -453,7 +453,7 @@ $lang = array(
 
     /** Début des modèles de courriels **/
     'emailtemplates:email_templates' => 'Modèle de courriel',
-    'emailtemplates:create_template' => 'Créer un nouveau modèle',
+    'emailtemplates:create_template' => 'Créer',
     'emailtemplates:add' => 'Créer un nouveau modèle de courriel',
     'emailtemplates:edit' => 'Modifier le modèle de courriel',
     'emailtemplates:manage' => 'Gérer les modèles',
@@ -1354,6 +1354,23 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'expenses:edited' => "La dépense a été ajouté avec succès.",
     'expenses:expense_receipts' => "Reçus des dépenses",
     # Fin v4.6.3
+    
+     # Début des changements pour la v4.6.7
+    'reports:payments' => "Paiements",
+    'reports:verb_created' => "Créé",
+    'reports:verb_paid' => "Payé",
+    'reports:verb_from_to' => ":1 de :2 à :3",
+    # Fin v4.6.7
+    
+    # Début des changements pour la v4.6.8
+    'reports:amount_paid' => "Montant du paiement",
+    # Fin v4.6.8
+    
+    # Début des changements pour la v4.6.9
+    'dashboard:upcoming_invoices' => 'Factures dues',
+    'dashboard:there_are_no_upcoming_invoices' => "Il n'y a pas de facture à afficher.",
+    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures dues",
+    # Fin v4.6.9
 );
 
 /** Fin du fichier: pancake_lang.php **/
