@@ -1417,13 +1417,13 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:error_reported" => "Erreur reportée",
     "settings:report_error" => "Soumettre l'erreur",
     "settings:delete_error" => "Supprimer l'erreur",
-    "global:once" => "Une",
-    "global:twice" => "Deux",
+    "global:once" => "à une reprise",
+    "global:twice" => "à deux reprises",
     "global:x_times" => ":1 fois",
     "global:occurred_times" => "Survenu :1",
     "settings:view_error_details" => "Voir les détails de l'erreur",
     "error:deleting" => "Supression...",
-    "error:reporting" => "Soumission de l'erreur...",
+    "error:reporting" => "Envoi de l'erreur...",
     "clients:noclientbodyfiltered" => "Aucun nom de vos clients débute par ':1'.",
     "tickets:archive" => "Archive",
     "tickets:unarchive" => "Restaurer",
@@ -1441,13 +1441,13 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'projects:role_add_milestone' => 'Ajouter une étape',
     'projects:role_edit_milestone' => 'Modifier une étape',
     'projects:role_delete_milestone' => 'Supprimer une étape',
-    'projects:role_track_time' => 'Gestion de temps',
+    'projects:role_track_time' => 'Gestion du temps',
     "projects.title" => "Projets",
     "projects.create.title" => "Créer un projet",
     "projects.edit.title" => "Modifier projet",
     "projects.label.name" => "Nom :",
     "projects.label.client" => "Client:",
-    "projects.label.due_date" => "Date due :",
+    "projects.label.due_date" => "Livrable le :",
     "projects.label.rate" => "Taux horaire :",
     "projects.label.description" => "Description:",
     "projects.label.is_viewable" => "Disponible dans l'espace client ?",
@@ -1471,19 +1471,19 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.7.0
     
     # Début des changements la v4.7.1
-    "global:estimates_unsent" => "Unsent",
-    "invoices:estimates_unsent" => "Unsent Estimates",
+    "global:estimates_unsent" => "Non envoyé",
+    "invoices:estimates_unsent" => "Soumissions non envoyées",
     # Fin v4.7.1
     
     # Début des changements la v4.7.3
-    "error:not_enough_disk_space" => "Not Enough Disk Space",
-    "error:cant_send_email" => "Can't Send Email",
-    "error:not_enough_disk_space_explanation" => "Your database server (:1) does not have enough disk space.",
-    "error:you_cannot_report_this_error" => "You cannot report this issue to Pancake Support, because it is an issue with your server. Please contact your server administrator about this issue. When discussing it with them, tell them:",
-    "error:not_enough_disk_space_solutions" => "If you have root access to the database server, try clearing /tmp. If that doesn't work, check your database server's disk space usage, and try freeing some disk space.",
-    "error:cant_send_email_explanation" => "You've specified that you want to use Sendmail (:1) to send email, but it was not possible to do so. Either the path is incorrect, or something else has gone wrong.",
-    "error:email_settings_not_valid" => "Your email settings are not valid.",
-    "error:cant_send_email_solutions" => "If you have root access to the server, make sure you've got sendmail installed and try finding it with <code>which sendmail</code>.",
+    "error:not_enough_disk_space" => "Espace disque insuffisant",
+    "error:cant_send_email" => "Impossible d'envoyer un courriel",
+    "error:not_enough_disk_space_explanation" => "Votre serveur de base de données (:1) ne possède pas d'espace disque suffisant.",
+    "error:you_cannot_report_this_error" => "Vous ne pouvez pas signaler cette erreur au support Pancake parce qu'il y a une erreur avec votre serveur. Veuillez contacter l'administrateur de votre serveur à propos de ce problème. Code d'erreur :",
+    "error:not_enough_disk_space_solutions" => "Si vous avez accès à votre base de données en mode root, supprimez le dossier /tmp. Si cela ne fonctionne pas, veuillez vérifier l'espace disque disponible sur votre serveur de base de données.",
+    "error:cant_send_email_explanation" => "Vous avez spécifié que vous désirer utiliser Sendmail (:1) pour envoyer des courriels. Cette opération est présentement impossible à réaliser. Vérifiez que le chemin d'accès et bien entré.",
+    "error:email_settings_not_valid" => "Vos paramètres courriel ne sont pas valide.",
+    "error:cant_send_email_solutions" => "Si vous avez accès à votre base de données en mode root, veuillez vérifier que la fonction <code>sendmail</code> est bien installée.",
     # Fin v4.7.3
 );
 
