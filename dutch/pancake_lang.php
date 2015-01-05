@@ -1474,6 +1474,15 @@ $lang = array(
     "error:cant_send_email_solutions" => "Als u root toegang heeft tot de server, controleer dan dat u sendmail heeft geïnstalleerd en probeer het te vinden met <code>which sendmail</code>.",
     # End v4.7.3
 
+    # Begin v4.7.5 changes
+    "error:server_error" => "Server Fout",
+    "error:xcache_extension_broken" => "Je server heeft een probleem met de XCache extensie.",
+    "error:xcache_extension_broken_explanation" => "Er ging iets fout terwijl je server probeerde de XCache extensie te laden. Dit heeft totaal geen oorwaak omwille van Pancake, maar het weerhoudt Pancake te draaien.",
+    "error:permissions_not_valid" => "Er is een probleem met de bestandspermissies op je server.",
+    "error:no_tmp_dir_permissions_explanation" => "Je server is ingesteld in zulk een manier dat Pancake geen toelating heeft tijdelijke bestanden aan te maken in <code>:1</code>.",
+    "error:no_tmp_dir_permissions_solutions" => "Indien je geen root toegang heb tot de server, kan je de <code>open_basedir</code> instelling in je php.ini aanpassen zodat <code>:1</code> inbegrepen is in de lijst van toegelaten mappen."
+    # End v4.7.5 changes
+
 );
 
 /** End of file: pancake_lang.php **/
