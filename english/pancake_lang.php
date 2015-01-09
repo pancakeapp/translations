@@ -880,23 +880,12 @@ $lang = array(
     /** End Action Logger **/
 
     /** Partial Payments **/
-    'partial:partialpayments'			=> 'Payment Plan',
     'partial:totalamounttobepaid'		=> "Total amount to be paid by the client",
-    'partial:amountlefttobeadded'		=> "Amount left to be added to the payment plan",
-    'partial:amounttoobig'				=> "Amount that needs to be removed from the payment plan",
-    'partial:noamountneeded'			=> "Your payment plan is complete.",
     'partial:amount'        			=> 'Amount',
     'partial:add_payment'				=> 'Add Payment',
     'partial:dueon'         			=> 'Due on',
-    'partial:addanother'     			=> 'Add another part to this payment',
-    'partial:disabledforrecurring'		=> 'Recurring invoices are limited to one part payments',
     'partial:paymentdetails'			=> 'Payment Details',
-    'partial:wrongtotal'				=> 'The sum of all the parts of your payment plan does not match the total amount you are invoicing.',
-    'partial:problemsaving'				=> 'A problem occurred while saving the payment plan. Please try again.',
-    'partial:wrongtotalbutsaved'		=> 'The sum of all the parts of your payment plan does not match the total amount you are invoicing.<br />The changes to your invoice were saved, but you need to fix your payment plan.',
-    'partial:problemsavingbutsaved'		=> 'A problem occurred while saving the payment plan. Please try again.<br />The changes to your invoice were saved, it is only the payment plan that wasn\'t.',
     'partial:savepaymentdetails'		=> 'Save payment details',
-    'partial:partpaidthanks'			=> "This part of your invoice's payment has been paid. Thank You.",
     'partial:proceedtopayment'			=> 'Proceed to payment',
     'partial:topaynowgoto'				=> 'To pay now, please go to :1',
     'partial:pay_part_x_now' => "Pay part #:1 of your invoice now",
@@ -1464,17 +1453,48 @@ $lang = array(
     "invoices:estimates_unsent" => "Unsent Estimates",
     # End v4.7.1 changes
     
-    # Begin v4.7.3
+    # Begin v4.7.3 changes
     "error:not_enough_disk_space" => "Not Enough Disk Space",
     "error:cant_send_email" => "Can't Send Email",
     "error:not_enough_disk_space_explanation" => "Your database server (:1) does not have enough disk space.",
     "error:you_cannot_report_this_error" => "You cannot report this issue to Pancake Support, because it is an issue with your server. Please contact your server administrator about this issue. When discussing it with them, tell them:",
     "error:not_enough_disk_space_solutions" => "If you have root access to the database server, try clearing /tmp. If that doesn't work, check your database server's disk space usage, and try freeing some disk space.",
-    "error:cant_send_email_explanation" => "You've specified that you want to use Sendmail (:1) to send email, but it was not possible to do so. Either the path is incorrect, or something else has gone wrong.",
+    "error:cant_send_email_explanation" => "You've specified that you want to use Sendmail (:1) to send email, but it was not possible to do so. Either the path to Sendmail is incorrect, or something else has gone wrong.",
     "error:email_settings_not_valid" => "Your email settings are not valid.",
     "error:cant_send_email_solutions" => "If you have root access to the server, make sure you've got sendmail installed and try finding it with <code>which sendmail</code>.",
-    # End v4.7.3
+    # End v4.7.3 changes
+    
+    # Begin v4.7.5 changes
+    "error:server_error" => "Server Error",
+    "error:xcache_extension_broken" => "Your server has a problem with the XCache extension.",
+    "error:xcache_extension_broken_explanation" => "Something went wrong while your server was trying to load the XCache extension. This is not related to Pancake at all, but it's preventing Pancake from running.",
+    "error:permissions_not_valid" => "There is a problem with the file permissions on your server.",
+    "error:no_tmp_dir_permissions_explanation" => "Your server is configured in a way that does not allow Pancake to create temporary files in <code>:1</code>.",
+    "error:no_tmp_dir_permissions_solutions" => "If you have root access to the server, you can change the <code>open_basedir</code> setting in your php.ini so that <code>:1</code> is included in the list of allowed folders.",
+    # End v4.7.5 changes
 
+    # Begin v4.7.7 changes
+    "error:cant_php_mail_explanation" => "You've specified that you want to use PHP mail() to send email, but this method of sending email isn't working correctly on your server. This method of sending email requires zero configuration, but it is not recommended because email servers can't verify who's sending the email. Some of them will even automatically mark your emails as spam. Change your email server setting in the admin, under 'Settings > Emails', to use one of the SMTP options, or, if you can't, use the Sendmail option as a last resort. If none of them work, you will have to contact your server administrator.",
+    "invoices:see_payment_schedule_below" => "See Payment Schedule Below",
+    "invoices:see_payment_schedule" => "See Payment Schedule",
+    
+    'partial:partialpayments' => 'Payment Schedule',
+    'partial:amountlefttobeadded' => "Amount left to be added to the payment schedule",
+    'partial:amounttoobig' => "Amount that needs to be removed from the payment schedule",
+    'partial:noamountneeded' => "Your payment schedule is complete.",
+    'partial:wrongtotal' => 'The sum of all the parts of your payment schedule does not match the total amount you are invoicing.',
+    'partial:problemsaving' => 'A problem occurred while saving the payment schedule. Please try again.',
+    'partial:wrongtotalbutsaved' => 'The sum of all the parts of your payment schedule does not match the total amount you are invoicing.<br />The changes to your invoice were saved, but you need to fix your payment schedule.',
+    'partial:problemsavingbutsaved' => 'A problem occurred while saving the payment schedule. Please try again.<br />The changes to your invoice were saved, it is only the payment schedule that wasn\'t.',
+    'partial:addanother' => 'Add another part to the payment schedule',
+    'partial:disabledforrecurring' => 'Recurring invoices are limited to one-part payment schedules',
+    'partial:partpaidthanks' => "This part of your invoice's payment schedule has been paid. Thank You.",
+    
+    "error:page_not_found" => "Page Not Found",
+    "error:page_does_not_exist" => "The page you were trying to access does not exist.",
+    "error:page_does_not_exist_explanation" => "You were trying to access :1, but it does not exist. If this is unexpected, you can report the error to Pancake Support. You'll find it in 'Settings > Errors & Diagnostics'.",
+    # End v4.7.7 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
