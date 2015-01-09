@@ -864,23 +864,12 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:pancakeupdated'	=> 'Pancake a été mis à jour de :1 à :2',
 
     /** Début paiements partiaux **/
-    'partial:partialpayments'	=> 'Plan de paiement',
     'partial:totalamounttobepaid'	=> "Montant total devant être payé par le client",
-    'partial:amountlefttobeadded'	=> "Montant restant devant être ajouté au plan de paiement",
-    'partial:amounttoobig'	=> "Montant devant être retiré du plan de paiement.",
-    'partial:noamountneeded'	=> "Votre paiement est complété.",
     'partial:amount' => 'Montant',
     'partial:add_payment'	=> 'Ajouter un paiement',
     'partial:dueon' => 'Dû le',
-    'partial:addanother' => 'Ajouter une autre étape à ce paiement',
-    'partial:disabledforrecurring'	=> 'Les factures récurrentes sont limitées à une seule étape de paiement',
     'partial:paymentdetails'	=> 'Détails du paiement',
-    'partial:wrongtotal'	=> 'La somme de toutes les étapes du plan de paiement ne correspond pas au montant total que vous êtes en train de facturer.',
-    'partial:problemsaving'	=> 'Une erreur s\'est produite lors de la sauvegarde du plan de paiement. Veuillez réessayer.',
-    'partial:wrongtotalbutsaved'	=> 'La somme de toutes les étapes du plan de paiement ne corresspond pas au montant total que vous êtes en train de facturer.<br>Les changements à votre facture ont été sauvegardés, mais vous devez corriger votre plan de paiement.',
-    'partial:problemsavingbutsaved'	=> 'Un problème est survenu lors de la sauvegarde de votre plan de paiement. Veuillez réessayer.<br>Les changements à votre facture ont été sauvegardés tandis que les changements au plan de paiement ne l\'ont pas été.',
     'partial:savepaymentdetails'	=> 'Sauvegarder les détails de paiement',
-    'partial:partpaidthanks'	=> "Cette partie de votre facture a été payée. Merci.",
     'partial:proceedtopayment'	=> 'Procédez au paiement',
     'partial:topaynowgoto'	=> 'Pour payer maintenant, veuillez vous rendre au :1',
     'partial:pay_part_x_now' => "Payez la partie #:1 de votre facture maintenant",
@@ -1485,6 +1474,37 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "error:email_settings_not_valid" => "Vos paramètres courriel ne sont pas valide.",
     "error:cant_send_email_solutions" => "Si vous avez accès à votre base de données en mode root, veuillez vérifier que la fonction <code>sendmail</code> est bien installée.",
     # Fin v4.7.3
+    
+    # Début des changements de la v4.7.5
+    "error:server_error" => "Une erreur est survenue sur le serveur",
+    "error:xcache_extension_broken" => "Votre serveur semble avoir un problème avec l'extension XCache.",
+    "error:xcache_extension_broken_explanation" => "Une erreur est survenue pendant que votre serveur utilisait XCache. Ceci n'est pas relié à Pancake mais ceci prévient Pancake de bien fonctionner.",
+    "error:permissions_not_valid" => "Il y a un problème de permission de fichier sur votre serveur.",
+    "error:no_tmp_dir_permissions_explanation" => "Votre serveur ne permet pas à Pancake de créer des fichiers temporaires dans <code>:1</code>.",
+    "error:no_tmp_dir_permissions_solutions" => "Si vous avez l'accès root de votre serveur, vous pouvez changer le paramètre <code>open_basedir</code> dans votre fichier php.ini pour que le <code>:1</code> soit inclu dans la liste des dossiers acceptés.",
+    # Fin v4.7.5
+
+    # Début des changements de la v4.7.7
+    "error:cant_php_mail_explanation" => "Vous avez spécifié vouloir utiliser PHP mail() pour soumettre vos courriels mais cette méthode ne fonctionne pas correctement sur votre serveur. Cette méthode requiert aucune configuration de votre part mais n'est pas recommandé puisque les serveurs de courriels ne peuvent vérifier l'expéditeur. Certain de vos courriels peuvent se retrouver signalés en tant que spam. Changez vos paramètres de votre serveur de courriels dans votre espace d'administration sous 'Paramètres > Courriels' pour utiliser les options SMTP ou si vous ne pouvez pas, utilisez l'option Sendmail comme dernier recours. Si aucune de ces méthodes ne fonctionnent, vous devrez contacter votre administrateur système.",
+    "invoices:see_payment_schedule_below" => "Voyez les modalités de paiement ci-dessous",
+    "invoices:see_payment_schedule" => "Voir l'échéancier des paiements",
+
+    'partial:partialpayments' => 'Échéancier de paiement',
+    'partial:amountlefttobeadded' => "Montant restant à ajouter à l'échéancier de paiement",
+    'partial:amounttoobig' => "Montant devant être retiré de l'échéancier de paiement",
+    'partial:noamountneeded' => "Votre échéancier de paiement est complet.",
+    'partial:wrongtotal' => 'Le total des montants de votre échéancier de paiement ne concordent pas au total de votre facture.',
+    'partial:problemsaving' => 'Une erreur est survenue lors de l\'enregistrement de votre échéancier de paiement. Veuillez réessayer.',
+    'partial:wrongtotalbutsaved' => 'Le total des montants de votre échéancier de paiement ne concordent pas au total de votre facture.<br />Les changements de effectués sur votre facture ont été sauvegardés mais vous devez corriger votre échéancier de paiement.',
+    'partial:problemsavingbutsaved' => 'Une erreur est survenue lors de l\'enregistrement de votre calendrier de paiement. Veuillez réessayer.<br />Les changements de effectués sur votre facture ont été sauvegardés mais vous devez corriger votre échéancier de paiement.',
+    'partial:addanother' => 'Ajouter une nouvelle partie à l\'échéancier de paiement',
+    'partial:disabledforrecurring' => 'Les factures récurrentes sont limités à un seul paiement',
+    'partial:partpaidthanks' => "Cette partie de votre échéancier de paiement à été payé. Merci.",
+
+    "error:page_not_found" => "Page non trouvée",
+    "error:page_does_not_exist" => "La page que vous tentez de consulter n'existe pas.",
+    "error:page_does_not_exist_explanation" => "Vous tentez d'accéder :1, mais cette page n'existe pas. Si cette erreur n'est pas supposée s'afficher, vous pouvez la reporter au support de Pancake. Vous le trouverez dans 'Paramètres > Erreurs et diagnostiques'.",
+    # Fin v4.7.7
 );
 
 /** Fin du fichier: pancake_lang.php **/
