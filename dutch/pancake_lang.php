@@ -879,12 +879,23 @@ $lang = array(
     /** End Action Logger **/
      
     /** Partial Payments **/
+    'partial:partialpayments' => 'Betalingsplan',
     'partial:totalamounttobepaid' => "Totaalbedrag te betalen door klant",
+    'partial:amountlefttobeadded' => "Bedrag over om toe te voegen aan betalingsplan",
+    'partial:amounttoobig' => "Bedrag dat moet worden verwijderd uit betalingsplan",
+    'partial:noamountneeded' => "Uw betalingsplan is compleet.",
     'partial:amount' => 'Bedrag',
     'partial:add_payment' => 'Toevoegen betaling',
     'partial:dueon' => 'Te betalen voor',
+    'partial:addanother' => 'Voeg een ander deel aan deze betaling toe',
+    'partial:disabledforrecurring' => 'Periodieke facturen zijn beperkt tot een deel van de betalingen',
     'partial:paymentdetails' => 'Betalingsgegevens',
+    'partial:wrongtotal' => 'De som van alle onderdelen van je betalingsplan komt niet overeen met het totaal bedrag van de facturatie.',
+    'partial:problemsaving' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsplan. Probeer het nogmaals.',
+    'partial:wrongtotalbutsaved' => 'De som van alle onderdelen van je betalingsplan komt niet overeen met het totaal bedrag van de facturatie.<br />De aanpassingen voor je factuur zijn opgeslagen, maar je moet de fout in het betalingsplan wel herstellen.',
+    'partial:problemsavingbutsaved' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsplan. Probeer het nogmaals.<br />De aanpassingen voor je factuur zijn opgeslagen, alleen het betalingsplan niet.',
     'partial:savepaymentdetails' => 'Betalingsgegevens opslaan',
+    'partial:partpaidthanks' => "Dit deel van de factuur is betaald. Hartelijk dank.",
     'partial:proceedtopayment' => 'Overgaan tot betaling',
     'partial:topaynowgoto' => 'Om direct te betalen ga naar :1',
     'partial:pay_part_x_now' => "Betaal deel #:1 van de factuur nu",
@@ -1452,16 +1463,16 @@ $lang = array(
     "invoices:estimates_unsent" => "Onverstuurde Offertes",
     # End v4.7.1 changes
     
-    # Begin v4.7.3 changes
+    # Begin v4.7.3
     "error:not_enough_disk_space" => "Niet genoeg schijfruimte",
     "error:cant_send_email" => "Kan email niet versturen",
     "error:not_enough_disk_space_explanation" => "Uw database server (:1) heeft niet genoeg schijfruimte.",
     "error:you_cannot_report_this_error" => "U kan dit probleem niet rapporteren bij Pancake Support, want het is een probleem met uw server. Neem alstublieft contact op met uw server administrateur over dit probleem. Wanneer u overlegd met hen, dan kunt u het volgende vertellen:",
     "error:not_enough_disk_space_solutions" => "Als u root toegang heeft tot de database server, probeer dan /tmp op te schonen. Als dat niet werkt, controleer dan uw database server's schijfruimte gebruik, en probeer wat schijfruimte vrij te maken.",
-    "error:cant_send_email_explanation" => "U heeft gespecificeerd dat u Sendmail (:1) wilt gebruiken om emails te versturen, maar dit was helaas niet mogelijk. Of het pad naar Sendmail is incorrect, of er is iets anders fout gegaan.",
+    "error:cant_send_email_explanation" => "U heeft gespecificeerd dat u Sendmail (:1) wilt gebruiken om emails te versturen, maar dit was helaas niet mogelijk. Of het pad is incorrect, of er is iets anders fout gegaan.",
     "error:email_settings_not_valid" => "Uw email instellingen zijn niet geldig.",
     "error:cant_send_email_solutions" => "Als u root toegang heeft tot de server, controleer dan dat u sendmail heeft geïnstalleerd en probeer het te vinden met <code>which sendmail</code>.",
-    # End v4.7.3 changes
+    # End v4.7.3
 
     # Begin v4.7.5 changes
     "error:server_error" => "Server Fout",
@@ -1472,26 +1483,6 @@ $lang = array(
     "error:no_tmp_dir_permissions_solutions" => "Indien je geen root toegang heb tot de server, kan je de <code>open_basedir</code> instelling in je php.ini aanpassen zodat <code>:1</code> inbegrepen is in de lijst van toegelaten mappen."
     # End v4.7.5 changes
 
-    # Begin v4.7.7 changes
-    "error:cant_php_mail_explanation" => "U heeft gespecificeerd dat u PHP mail() wilt gebruiken om email te sturen, maar deze methode van email versturen werkt niet correct op uw server. Deze methode van email versturen vereist geen configuratie, maar dit wordt niet aangeraden omdat email servers niet kunnen verifiëren wie eigenlijk de email stuurt. Sommige van hen zullen zelfs automatisch emails markeren als spam. Verander uw email server instellingen in admin, onder 'Installingen > Emails', om één van de SMTP opties te gebruiken, of, als je dat niet kan, gebruik de Sendmail optie als laatste uitweg. Als geen van deze opties werken, zou u met de server administrateur contact op moeten nemen.",
-    "invoices:see_payment_schedule_below" => "Bekijk betalingsschema hieronder",
-    "invoices:see_payment_schedule" => "Bekijk Betalingsschema",
-    
-    'partial:partialpayments' => 'Betalingsschema',
-    'partial:amountlefttobeadded' => "Bedrag over om toe te voegen aan het betalingsschema",
-    'partial:amounttoobig' => "Bedrag dat moet worden verwijderd uit het betalingsschema",
-    'partial:noamountneeded' => "Uw betalingsschema is compleet.",
-    'partial:wrongtotal' => 'De som van alle onderdelen van het betalingsschema komen niet overeen met het totaal bedrag dat gefactureerd wordt.',
-    'partial:problemsaving' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsschema. Probeer het nogmaals.',,
-    'partial:wrongtotalbutsaved' => 'De som van alle onderdelen van je betalingsschema komen niet overeen met het totaal bedrag dat gefactureerd wordt.<br />De aanpassingen voor je factuur zijn opgeslagen, maar je moet de fout in het betalingsschema wel herstellen.',
-    'partial:problemsavingbutsaved' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsschema. Probeer het nogmaals.<br />De aanpassingen voor je factuur zijn opgeslagen, alleen het betalingsschema niet.',
-    'partial:addanother' => 'Voeg een ander deel aan dit betalingsschema toe',
-    'partial:disabledforrecurring' => 'Periodieke facturen zijn beperkt tot eendelige betalingsschema\'s',
-    'partial:partpaidthanks' => "Dit deel van het betalingsschema van de factuur is betaald. Hartelijk dank.",
-    
-    "error:page_not_found" => "Pagina Niet Gevonden",
-    "error:page_does_not_exist" => "De pagina die u probeert te bereiken bestaat niet.",
-    "error:page_does_not_exist_explanation" => "U probeerde :1 te benaderen, maar dit bestaat niet. Als dit onverwachts is, kunt u een error rapporteren bij Pancake Support. U kunt dit vinden in 'Instellingen > Foutmeldingen & Diagnostiek'.",
-    # End v4.7.7 changes
-); 
+);
+
 /** End of file: pancake_lang.php **/
