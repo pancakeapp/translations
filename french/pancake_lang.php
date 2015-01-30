@@ -2,13 +2,13 @@
 /**
 * Fichier de langue française pour Pancake App
 *
-* @author Anas AIT ALI (http://www.anas10.fr)
-* @author Marc-André Vaillancourt (http://www.webmarksolutions.ca) <divplus@gmail.com>
-* @link https://github.com/ahouin/pancake-traductions
-* @copyright Copyright (c) 2010-2014, Pancake Payments
-* @license http://pancakeapp.com/license
-* @since 1.0
-* @version 2014-04-10
+* @author       Anas AIT ALI (http://www.anas10.fr)
+* @author       Marc-André Vaillancourt (http://www.webmarksolutions.ca) <info@webmarksolutions.ca>
+* @link         https://github.com/ahouin/pancake-traductions
+* @copyright    Copyright (c) 2010-2015, Pancake Payments
+* @license      http://pancakeapp.com/license
+* @since        1.0
+* @version      2014-04-10
 */
 
 // ------------------------------------------------------------------------
@@ -148,7 +148,7 @@ $lang = array(
     'global:urltosend' => 'Voici l\'URL à envoyer : ',
     'global:copytoclipboard' => 'Copier le lien',
     'global:you_need_pancake_cron_job' => 'Pour utiliser les factures récurrentes, vous devez exécuter la tâche cron de Pancake.',
-    'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">cliquez ici</a>.',
+    'global:if_you_dont_know_how_to_set_it_up' => 'Si vous ne savez pas comment la configurer, <a href="https://www.pancakeapp.com/documentation/cron">cliquez ici</a>.',
     'global:quick_links' => 'Liens rapides',
     'global:view_all' => 'Voir tous',
     'global:deleted' => 'Supprimer',
@@ -296,7 +296,7 @@ $lang = array(
     'invoices:taxable' => 'Taxable',
     'invoices:total' => 'Total',
     'invoices:amount' => 'Montant',
-    'invoices:due' => 'Montant dû',
+    'invoices:due' => 'Payable d\'ici le',
     'invoices:subtotal' => 'Sous-total',
     'invoices:totaltax' => 'Taxes',
     'invoices:filestodownload' => 'Fichiers à télécharger',
@@ -318,7 +318,6 @@ $lang = array(
     'invoices:amountrequired' => 'Le champ du montant est requis',
     'invoices:currencydoesnotexist' => 'Cette devise n\'existe pas',
     'invoices:unique_id' => 'ID unique',
-    'invoices:willreoccurin' => 'Cette facture aura lieu à nouveau dans :1.',
     'invoices:willbesentautomatically' => 'Le client sera alerté par courriel à propos de cette facture le :1.',
     'invoices:thisisareoccurrence' => 'Cette facture est une récurrence de la facture :1.',
     'invoices:clientlastnotifiedon' => 'Le client a été alerté par courriel à propos de cette facture le :1.',
@@ -410,7 +409,6 @@ $lang = array(
     'projects:generate_invoice' => 'Générer la facture',
     'projects:no_projects' => 'Il n\'y a aucun projet',
     'projects:archive_proj' => 'Archiver le projet',
-    'projects:unarchive_proj' => 'Désarchiver le projet',
     'projects:archive' => 'Voir l\'archive',
     'projects:active' => 'Projets actifs',
     'projects:archived' => 'Projets archivés',
@@ -675,25 +673,25 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
 
     /** Début billets de support **/
 
-    'tickets:all_tickets'	=>	'Tickets du support',
-    'tickets:support_tickets' => "Tickets du support",
+    'tickets:all_tickets'	=>	'Tous les billets',
+    'tickets:support_tickets' => "Billets de support",
     'tickets:pending'	=>	'En attente',
     'tickets:open'	=>	'Ouvert',
     'tickets:resolved'	=>	'Résolu',
     'tickets:closed'	=>	'Fermé',
-    'tickets:respond'	=>	'Répondre au ticket',
-    'tickets:ticket_options'	=>	'Options de ticket',
+    'tickets:respond'	=>	'Répondre au billet',
+    'tickets:ticket_options'	=>	'Options du billet',
     'tickets:attachment'	=>	'Pièces jointes',
-    'tickets:updated_status'	=>	':1 a mis à jour le status du ticket pour :2',
-    'tickets:add_a_new_ticket' => "Ajouter un nouveau ticket",
-    'tickets:create_a_new_ticket' => 'Créer un nouveau ticket',
-    'tickets:add_ticket' => 'Ajouter un ticket',
+    'tickets:updated_status'	=>	':1 a mis à jour le status du billet pour :2',
+    'tickets:add_a_new_ticket' => "Ajouter un nouveau billet",
+    'tickets:create_a_new_ticket' => 'Créer un nouveau billet',
+    'tickets:add_ticket' => 'Ajouter un billet',
     'tickets:assign_to_user' => 'Assigner à l\'utilisateur',
     'tickets:select_client' => 'Sélectionnez le client',
-    'tickets:ticket_subject' => 'Objet du ticket',
-    'tickets:ticket_message' => 'Message du ticket',
-    'tickets:ticket_priority' => 'Priorité du ticket',
-    'tickets:ticket_status' => 'Status du ticket',
+    'tickets:ticket_subject' => 'Objet du billet',
+    'tickets:ticket_message' => 'Message du billet',
+    'tickets:ticket_priority' => 'Priorité du billet',
+    'tickets:ticket_status' => 'Status du billet',
     'tickets:no_priority' => '-- Aucune priorité --',
     'tickets:no_status' => '-- Aucun statut --',
     'tickets:no_posts' => "Aucun message.",
@@ -866,23 +864,12 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'update:pancakeupdated'	=> 'Pancake a été mis à jour de :1 à :2',
 
     /** Début paiements partiaux **/
-    'partial:partialpayments'	=> 'Plan de paiement',
     'partial:totalamounttobepaid'	=> "Montant total devant être payé par le client",
-    'partial:amountlefttobeadded'	=> "Montant restant devant être ajouté au plan de paiement",
-    'partial:amounttoobig'	=> "Montant devant être retiré du plan de paiement.",
-    'partial:noamountneeded'	=> "Votre paiement est complété.",
     'partial:amount' => 'Montant',
     'partial:add_payment'	=> 'Ajouter un paiement',
     'partial:dueon' => 'Dû le',
-    'partial:addanother' => 'Ajouter une autre étape à ce paiement',
-    'partial:disabledforrecurring'	=> 'Les factures récurrentes sont limitées à une seule étape de paiement',
     'partial:paymentdetails'	=> 'Détails du paiement',
-    'partial:wrongtotal'	=> 'La somme de toutes les étapes du plan de paiement ne correspond pas au montant total que vous êtes en train de facturer.',
-    'partial:problemsaving'	=> 'Une erreur s\'est produite lors de la sauvegarde du plan de paiement. Veuillez réessayer.',
-    'partial:wrongtotalbutsaved'	=> 'La somme de toutes les étapes du plan de paiement ne corresspond pas au montant total que vous êtes en train de facturer.<br>Les changements à votre facture ont été sauvegardés, mais vous devez corriger votre plan de paiement.',
-    'partial:problemsavingbutsaved'	=> 'Un problème est survenu lors de la sauvegarde de votre plan de paiement. Veuillez réessayer.<br>Les changements à votre facture ont été sauvegardés tandis que les changements au plan de paiement ne l\'ont pas été.',
     'partial:savepaymentdetails'	=> 'Sauvegarder les détails de paiement',
-    'partial:partpaidthanks'	=> "Cette partie de votre facture a été payée. Merci.",
     'partial:proceedtopayment'	=> 'Procédez au paiement',
     'partial:topaynowgoto'	=> 'Pour payer maintenant, veuillez vous rendre au :1',
     'partial:pay_part_x_now' => "Payez la partie #:1 de votre facture maintenant",
@@ -998,7 +985,6 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'global:there_are_no_tasks_assigned_to_you' => "Vous n'avez pas de tâches assignées.",
 
     # v4.0.5
-    'invoices:lastreoccurrence' => 'Dernière réapparition: :1',
 
     # Début des changements pour la v4.1.2
     'invoices:converted_to_estimate' => "Facture #:1 converti en devis.",
@@ -1371,6 +1357,154 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'dashboard:there_are_no_upcoming_invoices' => "Il n'y a pas de facture à afficher.",
     "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures dues",
     # Fin v4.6.9
+    
+     # Début des changements la v4.6.3
+    'expenses:edited' => "La dépense a été modifiée avec succès.",
+    'expenses:expense_receipts' => "Reçus des dépenses",
+    # Fin v4.6.3
+    
+    # Début des changements la v4.6.7
+    'reports:payments' => "Paiements",
+    'reports:verb_created' => "Créé",
+    'reports:verb_paid' => "Payé",
+    'reports:verb_from_to' => ":1 de :2 à :3",
+    # Deleted "reports:selection_explanation_accrual"
+    # Deleted "reports:selection_explanation_cash"
+    # Deleted "settings:accounting_type"
+    # Deleted "settings:accrual"
+    # Deleted "settings:cash"
+    # Fin v4.6.7
+    
+    # Début des changements la v4.6.8
+    'reports:amount_paid' => "Montant du paiement",
+    # Fin v4.6.8
+    
+    # Début des changements la v4.6.9
+    'dashboard:upcoming_invoices' => 'Facture à venir',
+    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à venir à afficher.",
+    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à venir",
+    # Fin v4.6.9
+    
+    # Début des changements la v4.7.0
+    "error:cannot_send_error_details" => "Vous ne pouvez pas envoyer le détails des erreurs au support de Pancake parce que vous n'êtes pas connecté.",
+    "error:unknown_error_reporting" => "Une erreur est survenue, veuillez soumettre cette erreur manuellement.",
+    "error:sending_details" => "Envoie des détails en cours...",
+    "error:response_will_be_sent_to_email" => "Vous serez alerté par courriel à {email}.",
+    "settings:errors_and_diagnostics" => "Erreurs et diagnostique",
+    "error:already_reported" => "Cette erreur a déjà été soumis au support de Pancake.",
+    "error:title" => "Erreur inconnue",
+    "error:subtitle" => "Une erreur inconnue est survenue.",
+    "error:not_logged_in_intro" => "Ces erreurs sont enregistrées automatiquement.",
+    "error:not_logged_in_extra" => "Si le problème persiste, veuillez contacter :1.",
+    "error:logged_in_intro" => "Ces erreurs sont enregistrées dans l'admin, sous Paramètres > Erreurs et diagnostiques'.",
+    "error:logged_in_extra" => "Cliquez ici pour soumettre un billet de support avec les détails de l'erreur au support de Pancake.",
+    "error:no_logged_errors" => "Vous n'avez aucune erreur d'enregistrée.",
+    "errors:subject" => "Titre de l'erreur",
+    "errors:report" => "Soumettre l'erreur",
+    "errors:number_of_occurrences" => "# d'occurences",
+    "global:errors" => "Erreurs",
+    "settings:error_reported" => "Erreur reportée",
+    "settings:report_error" => "Soumettre l'erreur",
+    "settings:delete_error" => "Supprimer l'erreur",
+    "global:once" => "à une reprise",
+    "global:twice" => "à deux reprises",
+    "global:x_times" => ":1 fois",
+    "global:occurred_times" => "Survenu :1",
+    "settings:view_error_details" => "Voir les détails de l'erreur",
+    "error:deleting" => "Supression...",
+    "error:reporting" => "Envoi de l'erreur...",
+    "clients:noclientbodyfiltered" => "Aucun nom de vos clients débute par ':1'.",
+    "tickets:archive" => "Archive",
+    "tickets:unarchive" => "Restaurer",
+    'projects:unarchive_proj' => 'Restaurer le projet',
+    'invoices:lastreoccurrence' => 'Dernière récurrence: :1',
+    'invoices:thisisareoccurrence' => 'Cette facture est une récurrence de la facture :1.',
+    ### Ceci a été déplacé du fichier des traductions de projets qui était dans un fichier séparé.
+    'projects:role_view' => 'Voir',
+    'projects:role_create' => 'Créer',
+    'projects:role_edit' => 'Modifier',
+    'projects:role_delete' => 'Supprimer',
+    'projects:role_add_task' => 'Ajouter une tâche',
+    'projects:role_edit_task' => 'Éditer une tâche',
+    'projects:role_delete_task' => 'Supprimer une tâche',
+    'projects:role_add_milestone' => 'Ajouter une étape',
+    'projects:role_edit_milestone' => 'Modifier une étape',
+    'projects:role_delete_milestone' => 'Supprimer une étape',
+    'projects:role_track_time' => 'Gestion du temps',
+    "projects.title" => "Projets",
+    "projects.create.title" => "Créer un projet",
+    "projects.edit.title" => "Modifier projet",
+    "projects.label.name" => "Nom :",
+    "projects.label.client" => "Client:",
+    "projects.label.due_date" => "Livrable le :",
+    "projects.label.rate" => "Taux horaire :",
+    "projects.label.description" => "Description:",
+    "projects.label.is_viewable" => "Disponible dans l'espace client ?",
+    "projects.button.create" => "Créer le projet &rarr;",
+    "projects.create.succeeded" => "Le projet à été créé !",
+    "projects.button.edit" => "Modifier le projet &rarr;",
+    "projects.button.delete" => "Supprimer le projet &rarr;",
+    "projects.update.succeeded" => "Le projet a été modifié !",
+    "projects.delete.title" => "Voulez vous vraiment supprimer ce projet ?",
+    "times.title" => "Temps",
+    "times.create.title" => "Ajouter du temps",
+    "times.label.start_time" => "Heure de début:",
+    "times.label.end_time" => "Heure de fin:",
+    "times.label.date" => "Date:",
+    "times.label.task_id" => "Tâche:",
+    "times.label.note" => "Note :",
+    "times.label.notes" => "Notes :",
+    "times.button.create" => "Ajouter du temps &rarr;",
+    "times.create.succeeded" => "Le temps a été ajouté !",
+    "times.edit.succeeded" => "Le temps a été modifié avec succès !",
+    # Fin v4.7.0
+    
+    # Début des changements la v4.7.1
+    "global:estimates_unsent" => "Non envoyé",
+    "invoices:estimates_unsent" => "Soumissions non envoyées",
+    # Fin v4.7.1
+    
+    # Début des changements la v4.7.3
+    "error:not_enough_disk_space" => "Espace disque insuffisant",
+    "error:cant_send_email" => "Impossible d'envoyer un courriel",
+    "error:not_enough_disk_space_explanation" => "Votre serveur de base de données (:1) ne possède pas d'espace disque suffisant.",
+    "error:you_cannot_report_this_error" => "Vous ne pouvez pas signaler cette erreur au support Pancake parce qu'il y a une erreur avec votre serveur. Veuillez contacter l'administrateur de votre serveur à propos de ce problème. Code d'erreur :",
+    "error:not_enough_disk_space_solutions" => "Si vous avez accès à votre base de données en mode root, supprimez le dossier /tmp. Si cela ne fonctionne pas, veuillez vérifier l'espace disque disponible sur votre serveur de base de données.",
+    "error:cant_send_email_explanation" => "Vous avez spécifié que vous désirer utiliser Sendmail (:1) pour envoyer des courriels. Cette opération est présentement impossible à réaliser. Vérifiez que le chemin d'accès et bien entré.",
+    "error:email_settings_not_valid" => "Vos paramètres courriel ne sont pas valide.",
+    "error:cant_send_email_solutions" => "Si vous avez accès à votre base de données en mode root, veuillez vérifier que la fonction <code>sendmail</code> est bien installée.",
+    # Fin v4.7.3
+    
+    # Début des changements de la v4.7.5
+    "error:server_error" => "Une erreur est survenue sur le serveur",
+    "error:xcache_extension_broken" => "Votre serveur semble avoir un problème avec l'extension XCache.",
+    "error:xcache_extension_broken_explanation" => "Une erreur est survenue pendant que votre serveur utilisait XCache. Ceci n'est pas relié à Pancake mais ceci prévient Pancake de bien fonctionner.",
+    "error:permissions_not_valid" => "Il y a un problème de permission de fichier sur votre serveur.",
+    "error:no_tmp_dir_permissions_explanation" => "Votre serveur ne permet pas à Pancake de créer des fichiers temporaires dans <code>:1</code>.",
+    "error:no_tmp_dir_permissions_solutions" => "Si vous avez l'accès root de votre serveur, vous pouvez changer le paramètre <code>open_basedir</code> dans votre fichier php.ini pour que le <code>:1</code> soit inclu dans la liste des dossiers acceptés.",
+    # Fin v4.7.5
+
+    # Début des changements de la v4.7.7
+    "error:cant_php_mail_explanation" => "Vous avez spécifié vouloir utiliser PHP mail() pour soumettre vos courriels mais cette méthode ne fonctionne pas correctement sur votre serveur. Cette méthode requiert aucune configuration de votre part mais n'est pas recommandé puisque les serveurs de courriels ne peuvent vérifier l'expéditeur. Certain de vos courriels peuvent se retrouver signalés en tant que spam. Changez vos paramètres de votre serveur de courriels dans votre espace d'administration sous 'Paramètres > Courriels' pour utiliser les options SMTP ou si vous ne pouvez pas, utilisez l'option Sendmail comme dernier recours. Si aucune de ces méthodes ne fonctionnent, vous devrez contacter votre administrateur système.",
+    "invoices:see_payment_schedule_below" => "Voyez les modalités de paiement ci-dessous",
+    "invoices:see_payment_schedule" => "Voir l'échéancier des paiements",
+
+    'partial:partialpayments' => 'Échéancier de paiement',
+    'partial:amountlefttobeadded' => "Montant restant à ajouter à l'échéancier de paiement",
+    'partial:amounttoobig' => "Montant devant être retiré de l'échéancier de paiement",
+    'partial:noamountneeded' => "Votre échéancier de paiement est complet.",
+    'partial:wrongtotal' => 'Le total des montants de votre échéancier de paiement ne concordent pas au total de votre facture.',
+    'partial:problemsaving' => 'Une erreur est survenue lors de l\'enregistrement de votre échéancier de paiement. Veuillez réessayer.',
+    'partial:wrongtotalbutsaved' => 'Le total des montants de votre échéancier de paiement ne concordent pas au total de votre facture.<br />Les changements de effectués sur votre facture ont été sauvegardés mais vous devez corriger votre échéancier de paiement.',
+    'partial:problemsavingbutsaved' => 'Une erreur est survenue lors de l\'enregistrement de votre calendrier de paiement. Veuillez réessayer.<br />Les changements de effectués sur votre facture ont été sauvegardés mais vous devez corriger votre échéancier de paiement.',
+    'partial:addanother' => 'Ajouter une nouvelle partie à l\'échéancier de paiement',
+    'partial:disabledforrecurring' => 'Les factures récurrentes sont limités à un seul paiement',
+    'partial:partpaidthanks' => "Cette partie de votre échéancier de paiement à été payé. Merci.",
+
+    "error:page_not_found" => "Page non trouvée",
+    "error:page_does_not_exist" => "La page que vous tentez de consulter n'existe pas.",
+    "error:page_does_not_exist_explanation" => "Vous tentez d'accéder :1, mais cette page n'existe pas. Si cette erreur n'est pas supposée s'afficher, vous pouvez la reporter au support de Pancake. Vous le trouverez dans 'Paramètres > Erreurs et diagnostiques'.",
+    # Fin v4.7.7
 );
 
 /** Fin du fichier: pancake_lang.php **/
