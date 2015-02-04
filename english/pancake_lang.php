@@ -1495,6 +1495,32 @@ $lang = array(
     "error:page_does_not_exist_explanation" => "You were trying to access :1, but it does not exist. If this is unexpected, you can report the error to Pancake Support. You'll find it in 'Settings > Errors & Diagnostics'.",
     # End v4.7.7 changes
     
+    # Begin v4.7.8 changes
+    "settings:importedcredit_notes" => "Imported :1 credit notes successfully.",
+    # End v4.7.8 changes
+    
+    # Begin v4.7.10 changes
+    "expenses:supplier_added" => "Success! The supplier was created successfully.",
+    # End v4.7.10 changes
+    
+    # Begin v4.7.11 changes
+    'reports:per_payment_method' => 'per payment method',
+    # End v4.7.11 changes
+    
+    # Begin v4.7.12 changes
+    "gateways:just_for_logging" => "Note: This payment method does not affect invoices in any way.<br />It is here so that you can track which payments you received by :1.",
+    "projects:no_data_provided" => "You did not enter any information for creating a project from a template.",
+    "projects:invalid_template" => "You did not select a valid project template.",
+    "settings:test_email_subject" => "This a test email.",
+    "settings:test_email_message" => "This is a test email. If you've received this, it means emails are working in Pancake.",
+    "settings:send_test_email" => "Send Test Email",
+    "settings:sending" => "Sending email...",
+    "settings:test_email_sent" => "Sent to :1 successfully!",
+    "settings:test_email_error_header" => "Error sending test email",
+    "settings:test_email_error" => "An error occurred while trying to send the test email:<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you're using SMTP, make sure the port you're trying to use is open in your server's firewall.",
+    "settings:test_email_connection_error" => "Your server can't connect to :1 on port :2. You will need to get in touch with your system administrator and allow this port in your server's firewall.<br /><br />The error message was:<br /><br />:3"
+    # End v4.7.12 changes
+    
 );
 
 /** End of file: pancake_lang.php **/
