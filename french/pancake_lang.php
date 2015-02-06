@@ -1530,6 +1530,4 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.7.12
 );
 
-);
-
 /** Fin du fichier: pancake_lang.php **/
