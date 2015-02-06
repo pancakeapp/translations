@@ -1505,6 +1505,31 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "error:page_does_not_exist" => "La page que vous tentez de consulter n'existe pas.",
     "error:page_does_not_exist_explanation" => "Vous tentez d'accéder :1, mais cette page n'existe pas. Si cette erreur n'est pas supposée s'afficher, vous pouvez la reporter au support de Pancake. Vous le trouverez dans 'Paramètres > Erreurs et diagnostiques'.",
     # Fin v4.7.7
+    
+    # Début v4.7.8
+    "settings:importedcredit_notes" => ":1 notes de crédit importés avec succès.",
+    # Fin v4.7.8
+    # Début v4.7.10
+    "expenses:supplier_added" => "Le fournisseur à été ajouté avec succès.",
+    # Fin v4.7.10
+    # Début v4.7.11
+    'reports:per_payment_method' => 'par méthode de paiement',
+    # Fin v4.7.11
+    # Début v4.7.12
+    "gateways:just_for_logging" => "Note: Cette méthode de paiement n'affecte en aucun cas les factures.<br />Cette dernière sert à savoir quel paiement vous recevez par :1.",
+    "projects:no_data_provided" => "Vous n'avez entré aucune information pour la création du projet depuis un modèle existant.",
+    "projects:invalid_template" => "Vous n'avez sélectionné aucun modèle de projet valide.",
+    "settings:test_email_subject" => "Ceci est un courriel d'essai.",
+    "settings:test_email_message" => "Ceci est un courriel d'essai. Ci vous avez reçu ceci, cela signifie que les courriels fonctionnent dans Pancake.",
+    "settings:send_test_email" => "Envoyer un courriel d'essai",
+    "settings:sending" => "Envoi de courriel en cours...",
+    "settings:test_email_sent" => "Envoyé à :1 avec succès!",
+    "settings:test_email_error_header" => "Erreur lors de l'envoi du courriel d'essai",
+    "settings:test_email_error" => "Une erreur est survenue lors de l'envoi du courriel d'essai :<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you're using SMTP, make sure the port you're trying to use is open in your server's firewall.",
+    "settings:test_email_connection_error" => "Votre serveur ne peut se connecter à :1 sur le port :2. Veuillez contacter votre administrateur réseau pour qu'il autorise ce port dans le coupe-feu de votre serveur.<br /><br />Le message d'erruer est :<br /><br />:3"
+    # Fin v4.7.12
+);
+
 );
 
 /** Fin du fichier: pancake_lang.php **/
