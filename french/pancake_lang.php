@@ -1181,9 +1181,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     
     # Début des changements de la v4.3.7
     'dashboard:today' => "Aujourd'hui",
-    'dashboard:your_projects' => "Vos projets",
-    'dashboard:snapshot' => "Aperçu",
-    'dashboard:team_activity' => "Nouveautés",
+    'dashboard:your_projects' => "Projets",
+    'dashboard:snapshot' => "Statistiques",
+    'dashboard:team_activity' => "Activité",
     'settings:brand_name' => "Nom de votre marque",
     'settings:brand_name_explanation' => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
     'settings:business_name_explanation' => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
