@@ -1380,7 +1380,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.6.8
     
     # Début des changements la v4.6.9
-    'dashboard:upcoming_invoices' => 'Facture à échéance',
+    'dashboard:upcoming_invoices' => 'Facture(s) échue(s)',
     'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à échéance à afficher.",
     "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à échéance",
     # Fin v4.6.9
