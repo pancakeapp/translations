@@ -1469,7 +1469,7 @@ $lang = array(
     "error:xcache_extension_broken_explanation" => "Er ging iets fout terwijl je server probeerde de XCache extensie te laden. Dit heeft totaal geen oorwaak omwille van Pancake, maar het weerhoudt Pancake te draaien.",
     "error:permissions_not_valid" => "Er is een probleem met de bestandspermissies op je server.",
     "error:no_tmp_dir_permissions_explanation" => "Je server is ingesteld in zulk een manier dat Pancake geen toelating heeft tijdelijke bestanden aan te maken in <code>:1</code>.",
-    "error:no_tmp_dir_permissions_solutions" => "Indien je geen root toegang heb tot de server, kan je de <code>open_basedir</code> instelling in je php.ini aanpassen zodat <code>:1</code> inbegrepen is in de lijst van toegelaten mappen."
+    "error:no_tmp_dir_permissions_solutions" => "Indien je geen root toegang heb tot de server, kan je de <code>open_basedir</code> instelling in je php.ini aanpassen zodat <code>:1</code> inbegrepen is in de lijst van toegelaten mappen.",
     # End v4.7.5 changes
 
     # Begin v4.7.7 changes
@@ -1482,7 +1482,7 @@ $lang = array(
     'partial:amounttoobig' => "Bedrag dat moet worden verwijderd uit het betalingsschema",
     'partial:noamountneeded' => "Uw betalingsschema is compleet.",
     'partial:wrongtotal' => 'De som van alle onderdelen van het betalingsschema komen niet overeen met het totaal bedrag dat gefactureerd wordt.',
-    'partial:problemsaving' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsschema. Probeer het nogmaals.',,
+    'partial:problemsaving' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsschema. Probeer het nogmaals.',
     'partial:wrongtotalbutsaved' => 'De som van alle onderdelen van je betalingsschema komen niet overeen met het totaal bedrag dat gefactureerd wordt.<br />De aanpassingen voor je factuur zijn opgeslagen, maar je moet de fout in het betalingsschema wel herstellen.',
     'partial:problemsavingbutsaved' => 'Er is een fout opgetreden tijdens het opslaan van het betalingsschema. Probeer het nogmaals.<br />De aanpassingen voor je factuur zijn opgeslagen, alleen het betalingsschema niet.',
     'partial:addanother' => 'Voeg een ander deel aan dit betalingsschema toe',
