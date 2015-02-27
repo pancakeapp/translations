@@ -1393,3 +1393,4 @@ $lang = array(
 /** End of file: pancake_lang.php **/
 
 $lang["invoices:partially_paid"] = "Teilweise";
+$lang["error:cannot_send_error_details"] = "Sie können keine Fehlerdetails schicken, um Pancake Unterstützung, weil Sie sind nicht angemeldet.";
