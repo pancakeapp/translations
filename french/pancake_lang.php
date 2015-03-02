@@ -174,12 +174,12 @@ $lang = array(
     'global:accept_proposal' => 'Accepter la proposition',
     'global:proposal_rejected' => 'Proposition refusé',
     "global:proposal_accepted" => "Proposition accepté",
-    "global:client_area" => "Espace Client",
+    "global:client_area" => "Espace client",
     "global:admin" => "Admin",
     "global:all_settings" => "Tous les paramètres",
     'global:viewable' => 'Visible dans l\'espace client',
     'global:not_viewable' => 'Non visible dans l\'espace client',
-    'global:milestones' => "Etapes",
+    'global:milestones' => "Étapes",
     /** Fin des salutations **/
 
     /** Début du tableau de bord **/
@@ -203,7 +203,7 @@ $lang = array(
     // ==============================
     // = LOGIN PAGE COMPLETED - Lee =
     // ==============================
-    'login:forgotinstructions' => 'Veuillez entrer votre courriel afin que nous vous envoyions un courriel de réinitialisation du mot de passe.',
+    'login:forgotinstructions' => 'Veuillez entrer votre adresse courriel afin que nous vous envoyions un courriel de réinitialisation du mot de passe.',
     'login:reset' => 'Réinitialiser &rsaquo;',
     'login:reset' => 'Réinitialiser le mot de passe',
     'login:username' => 'Nom d\'utilisateur',
@@ -224,14 +224,14 @@ $lang = array(
 
     /** Début des clients **/
     'clients:title' => 'Tous les clients',
-    'clients:filter' => 'Filtre de client',
+    'clients:filter' => 'Filtrer les clients',
     'clients:add' => 'Ajouter un client',
     'clients:removefilter' => 'Retirer le filtre',
     'clients:edit' => 'Modifier le client',
-    'clients:noclienttitle' => 'Vous devez ajouter au moins un client!',
-    'clients:noclientbody' => 'Pour leur envoyer des factures. Voulez-vous en ajouter un maintenant?',
+    'clients:noclienttitle' => 'Vous devez ajouter au moins un client.',
+    'clients:noclientbody' => 'Pour leur envoyer des factures. Voulez-vous en ajouter un maintenant ?',
     'clients:noclienttitlefilter' => 'Aucun client ne correspond à votre filtre.',
-    'clients:hasnoinvoicetitle' => 'Cool! Ce client est bien configuré!',
+    'clients:hasnoinvoicetitle' => 'Ce client est bien configuré!',
     'clients:hasnoinvoicebody' => 'Créons une facture pour obtenir ce qui nous est dû. Voulez-vous en ajouter une maintenant?',
     'clients:added' => 'Le client a été ajouté!',
     'clients:edited' => 'Le client a été mis à jour!',
@@ -239,14 +239,14 @@ $lang = array(
     'clients:does_not_exist' => 'Ce client n\'existe pas!',
     'clients:health_check' => 'Bilan de santé',
     'clients:all' => 'Tous',
-    'clients:delete_title' => 'Supprimer ce client?!?!',
-    'clients:delete_message' => 'Êtes-vous certain de vouloir supprimer ce client?<br />Cette action supprimera également toutes les factures, les projets et les devis de ce client.',
+    'clients:delete_title' => 'Supprimer ce client',
+    'clients:delete_message' => 'Êtes-vous certain de vouloir supprimer ce client ?<br />Cette action supprimera également toutes les factures, les projets et les devis de ce client.',
     'clients:clientaction' => '&nbsp;',
-    'clients:passphrase' => 'Phrase secrète',
-    'clients:bad_passphrase' => 'La phrase secrète est incorrecte.',
+    'clients:passphrase' => 'Mot de passe',
+    'clients:bad_passphrase' => 'Le mot de passe est incorrect.',
     'clients:total_clients' => 'Total de clients',
     'clients:support' => 'Support',
-    'clients:support_rates' => 'Tarifs de support',
+    'clients:support_rates' => 'Tarif du support',
     'clients:edit_support_rates' => 'Appliquer les tarifs',
     /** Fin des clients **/
 
@@ -296,7 +296,7 @@ $lang = array(
     'invoices:taxable' => 'Taxable',
     'invoices:total' => 'Total',
     'invoices:amount' => 'Montant',
-    'invoices:due' => 'Payable d\'ici le',
+    'invoices:due' => 'Montant dû',
     'invoices:subtotal' => 'Sous-total',
     'invoices:totaltax' => 'Taxes',
     'invoices:filestodownload' => 'Fichiers à télécharger',
@@ -1181,9 +1181,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     
     # Début des changements de la v4.3.7
     'dashboard:today' => "Aujourd'hui",
-    'dashboard:your_projects' => "Vos projets",
-    'dashboard:snapshot' => "Aperçu",
-    'dashboard:team_activity' => "Nouveautés",
+    'dashboard:your_projects' => "Projets",
+    'dashboard:snapshot' => "Statistiques",
+    'dashboard:team_activity' => "Activité",
     'settings:brand_name' => "Nom de votre marque",
     'settings:brand_name_explanation' => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
     'settings:business_name_explanation' => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
@@ -1191,9 +1191,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:billing_email' => "Courriel de facturation",
     'settings:billing_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
     'settings:notify_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
-    'settings:show_name_along_with_logo' => "Affichez le nom de votre marque à côté de votre logo?",
+    'settings:show_name_along_with_logo' => "Affichez le nom de votre marque à côté de votre logo ?",
     'invoices:frequency' => "Fréquence",
-    'invoices:auto_send' => "Envoyez automatiquement?",
+    'invoices:auto_send' => "Envoyer automatiquement ?",
     'invoices:send' => "Envoyez",
     'invoices:days_before_invoice_is_due' => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences' => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
@@ -1380,9 +1380,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.6.8
     
     # Début des changements la v4.6.9
-    'dashboard:upcoming_invoices' => 'Facture à venir',
-    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à venir à afficher.",
-    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à venir",
+    'dashboard:upcoming_invoices' => 'Facture(s) échue(s)',
+    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à échéance à afficher.",
+    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à échéance",
     # Fin v4.6.9
     
     # Début des changements la v4.7.0
