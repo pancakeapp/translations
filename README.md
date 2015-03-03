@@ -1,26 +1,37 @@
-Traduction française de Pancake
-===============================
-
-Ce répertoire contient les traductions françaises de Pancake pour ceux qui n'utlisent pas Pancake en anglais. Nous sommes ouvert à toute aide et support. L'équipe officielle de Pancake supporte ce Gist.
-
-Si vous avez besoin d'aide, [ouvrez une demande d'aide](https://github.com/ahouin/pancake-traductions/issues).
-
-Pour installer un fichier de langage
-------------------
-
-[Téléchargez cette version](https://github.com/ahouin/pancake-traductions/archive/master.zip) et placez le dossier français (`francais`) dans `PATH_TO_YOUR_PANCAKE/system/pancake/language`. Suite à cela, le fichier de langage apparaitra dans `Settings › General › Language`. Vous devez sélectionner `francais`.
-
-![Settings › General › Language](http://i.imgur.com/L1hij3D.png)
-
-Vous voulez aider ?
+Pancake Translations
 ====================
 
-Vous voulez apporter des modifications au traductions ?
+This repository contains a number of Pancake Translations, for those of us who don't use Pancake in English. We welcome all help, feedback and new languages. We also have official support from the Pancake development team.
+
+If you need any help, [create an issue](https://github.com/therephil/pancake-translations/issues/new).
+
+Install a language
+------------------
+
+[Download our translations](https://github.com/therephil/pancake-translations/archive/master.zip) and place the folder of the language you want (for example `german`) in `PATH_TO_YOUR_PANCAKE/system/pancake/language`. It should then appear in `Settings › General › Language`, where you can select it.
+
+![Settings › General › Language](http://i.28hours.org/20140328-033730-22c6.png)
+
+Do you want to help?
+====================
+
+Do you have a translation for a new language?
+---------------------------------------------
+
+If you have a new translation you want us to store here, here's how to do it:
+
+* If you know how to create a pull request, do that.
+* If you don't know how to create a pull request, but know how to upload your translation, do that and [create an issue](https://github.com/therephil/pancake-translations/issues/new) with the URL where we can download your translation.
+* If you don't know how to create a pull request and you don't know how to upload your translation, just email the language files to [bruno@pancakeapp.com](bruno@pancakeapp.com) and ask for them to be included here.
+
+If any of this is not clear and you need any help, just [create an issue](https://github.com/therephil/pancake-translations/issues/new). We'll help you.
+
+Do you want to improve a language that already exists?
 ------------------------------------------------------
 
-Si vous voulez apporter des modifications au fichier de langage, voici comment faire :
+If the language you're using already exists here, here's how to do it:
 
-* Si vous savez comment créer un "pull request", faites le de cette façon.
-* Si vous ne savez pas comment créer un "pull resquest", rendez-vous à cette page  [https://github.com/ahouin/pancake-traductions/blob/master/french/pancake_lang.php](https://github.com/ahouin/pancake-traductions/blob/master/french/pancake_lang.php) et cliquez sur "Edit". Une fois que vous avez fait les changements que vous désirez, ajoutez une description et cliquez sur "Commit changes". Vous aurez ensuite permis de créer un "pull request" pour les changements que vous avez fait. Nous approuverons par la suite vos changements et les appliqueront s'il-y-a lieu
+* If you know how to create a pull request, do that.
+* If you don't know how to create a pull request, go to the language you want to edit (for example [https://github.com/therephil/pancake-translations/blob/master/german/pancake_lang.php](https://github.com/therephil/pancake-translations/blob/master/german/pancake_lang.php)), and click "Edit". Once you've made the changes you want, add a description of your changes and click "Commit changes". You'll then be allowed to create a pull request for the changes you've made. Do that, and we'll review your changes and approve them.
 
-Si cela n'est pas clair et vous avez besoin d'aide, [créez une "issue"](https://github.com/ahouin/pancake-traductions/issues).
+If any of this is not clear and you need any help, just [create an issue](https://github.com/therephil/pancake-translations/issues/new). We'll help you.
