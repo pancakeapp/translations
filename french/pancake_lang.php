@@ -17,7 +17,7 @@ $lang = array(
 
     /** Mots globaux **/
     'global:overview' => 'Vue d\'ensemble',
-    'global:error' => 'Erreur',
+    'global:error' => 'Erreur',a
     'global:pancakeby7am' => 'Pancake :1',
     'global:allrelatedmediacopyright' => 'Pancake et tous les médias liés sont sous copyright :1 :2',
     'global:insecure_action' => 'Une action non sécurisé a été interceptée',
@@ -247,7 +247,7 @@ $lang = array(
     'clients:total_clients' => 'Total de clients',
     'clients:support' => 'Support',
     'clients:support_rates' => 'Tarif du support',
-    'clients:edit_support_rates' => 'Appliquer les tarifs',
+    'clients:edit_support_rates' => 'Appliquer',
     /** Fin des clients **/
 
 
