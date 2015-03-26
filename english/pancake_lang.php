@@ -164,9 +164,6 @@ $lang = array(
 	'global:actions'				=> 'Actions',
         'global:select' => "--- Select ---",
 
-	/** Greetings **/
-	'global:greetings'	=>	array('Ahoy!', 'Hello,', 'Hey,', 'Sup,'),
-
         'global:mark_as_unanswered' => 'Mark as unanswered',
         'global:mark_as_accepted' => 'Mark as accepted',
         'global:mark_as_rejected' => 'Mark as rejected',
@@ -184,8 +181,6 @@ $lang = array(
         'global:viewable' => 'Viewable in client area',
         'global:not_viewable' => 'Not viewable in client area',
         'global:milestones' => "Milestones",
-
-	/** End Greetings **/
 
 	/** Dashboard **/
 	'dashboard:collected'		=>	'Collected',
@@ -1350,7 +1345,7 @@ $lang = array(
     'expenses:edited' => "Success! The expense was edited successfully.",
     'expenses:expense_receipts' => "Expense Receipts",
     # End v4.6.3 changes
-    
+
     # Begin v4.6.7 changes
     'reports:payments' => "Payments",
     'reports:verb_created' => "Created",
@@ -1362,17 +1357,17 @@ $lang = array(
     # Deleted "settings:accrual"
     # Deleted "settings:cash"
     # End v4.6.7 changes
-    
+
     # Begin v4.6.8 changes
     'reports:amount_paid' => "Payment Amount",
     # End v4.6.8 changes
-    
+
     # Begin v4.6.9 changes
     'dashboard:upcoming_invoices' => 'Upcoming Invoices',
     'dashboard:there_are_no_upcoming_invoices' => "There are no upcoming invoices to display.",
     "dashboard:view_all_upcoming_invoices" => "View All Upcoming Invoices",
     # End v4.6.9 changes
-    
+
     # Begin v4.7.0 changes
     "error:cannot_send_error_details" => "You cannot send error details to Pancake Support because you are not logged in.",
     "error:unknown_error_reporting" => "An unknown error occurred. Please report this error manually.",
@@ -1401,13 +1396,13 @@ $lang = array(
     "settings:view_error_details" => "View Error Details",
     "error:deleting" => "Deleting...",
     "error:reporting" => "Reporting...",
-    "clients:noclientbodyfiltered" => "None of your clients' names start with ':1'.", 
+    "clients:noclientbodyfiltered" => "None of your clients' names start with ':1'.",
     "tickets:archive" => "Archive",
     "tickets:unarchive" => "Restore",
     'projects:unarchive_proj' => 'Restore Project',
     'invoices:lastreoccurrence' => 'Last Recurrence: :1',
     'invoices:thisisareoccurrence' => 'This invoice is a recurrence of Invoice :1.',
-    
+
     ### This was moved here from the Projects language files, which were in a separate folder.
     'projects:role_view' => 'View',
     'projects:role_create' => 'Create',
@@ -1447,12 +1442,12 @@ $lang = array(
     "times.create.succeeded" => "The time has been entered successfully!",
     "times.edit.succeeded" => "The time has been edited successfully!",
     # End v4.7.0 changes
-    
+
     # Begin v4.7.1 changes
     "global:estimates_unsent" => "Unsent",
     "invoices:estimates_unsent" => "Unsent Estimates",
     # End v4.7.1 changes
-    
+
     # Begin v4.7.3 changes
     "error:not_enough_disk_space" => "Not Enough Disk Space",
     "error:cant_send_email" => "Can't Send Email",
@@ -1463,7 +1458,7 @@ $lang = array(
     "error:email_settings_not_valid" => "Your email settings are not valid.",
     "error:cant_send_email_solutions" => "If you have root access to the server, make sure you've got sendmail installed and try finding it with <code>which sendmail</code>.",
     # End v4.7.3 changes
-    
+
     # Begin v4.7.5 changes
     "error:server_error" => "Server Error",
     "error:xcache_extension_broken" => "Your server has a problem with the XCache extension.",
@@ -1477,7 +1472,7 @@ $lang = array(
     "error:cant_php_mail_explanation" => "You've specified that you want to use PHP mail() to send email, but this method of sending email isn't working correctly on your server. This method of sending email requires zero configuration, but it is not recommended because email servers can't verify who's sending the email. Some of them will even automatically mark your emails as spam. Change your email server setting in the admin, under 'Settings > Emails', to use one of the SMTP options, or, if you can't, use the Sendmail option as a last resort. If none of them work, you will have to contact your server administrator.",
     "invoices:see_payment_schedule_below" => "See Payment Schedule Below",
     "invoices:see_payment_schedule" => "See Payment Schedule",
-    
+
     'partial:partialpayments' => 'Payment Schedule',
     'partial:amountlefttobeadded' => "Amount left to be added to the payment schedule",
     'partial:amounttoobig' => "Amount that needs to be removed from the payment schedule",
@@ -1489,24 +1484,24 @@ $lang = array(
     'partial:addanother' => 'Add another part to the payment schedule',
     'partial:disabledforrecurring' => 'Recurring invoices are limited to one-part payment schedules',
     'partial:partpaidthanks' => "This part of your invoice's payment schedule has been paid. Thank You.",
-    
+
     "error:page_not_found" => "Page Not Found",
     "error:page_does_not_exist" => "The page you were trying to access does not exist.",
     "error:page_does_not_exist_explanation" => "You were trying to access :1, but it does not exist. If this is unexpected, you can report the error to Pancake Support. You'll find it in 'Settings > Errors & Diagnostics'.",
     # End v4.7.7 changes
-    
+
     # Begin v4.7.8 changes
     "settings:importedcredit_notes" => "Imported :1 credit notes successfully.",
     # End v4.7.8 changes
-    
+
     # Begin v4.7.10 changes
     "expenses:supplier_added" => "Success! The supplier was created successfully.",
     # End v4.7.10 changes
-    
+
     # Begin v4.7.11 changes
     'reports:per_payment_method' => 'per payment method',
     # End v4.7.11 changes
-    
+
     # Begin v4.7.12 changes
     "gateways:just_for_logging" => "Note: This payment method does not affect invoices in any way.<br />It is here so that you can track which payments you received by :1.",
     "projects:no_data_provided" => "You did not enter any information for creating a project from a template.",
@@ -1518,9 +1513,64 @@ $lang = array(
     "settings:test_email_sent" => "Sent to :1 successfully!",
     "settings:test_email_error_header" => "Error sending test email",
     "settings:test_email_error" => "An error occurred while trying to send the test email:<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you're using SMTP, make sure the port you're trying to use is open in your server's firewall.",
-    "settings:test_email_connection_error" => "Your server can't connect to :1 on port :2. You will need to get in touch with your system administrator and allow this port in your server's firewall.<br /><br />The error message was:<br /><br />:3"
+    "settings:test_email_connection_error" => "Your server can't connect to :1 on port :2. You will need to get in touch with your system administrator and allow this port in your server's firewall.<br /><br />The error message was:<br /><br />:3",
     # End v4.7.12 changes
-    
+
+    # Begin v4.8.0 changes
+    # Deleted "global:greetings"
+	"invoices:all_unpaid" => "All Unpaid",
+	'items:select_flat_rate' => 'Flat Rate',
+	'kitchen:no_tickets_created' => "No tickets created.",
+	'kitchen:responses' => "Responses",
+	'kitchen:x_responses' => ":1 Responses",
+	'projects:add_new_task' => "Add New Task",
+	'projects:delete_project_template' => "Delete Project Template",
+	"expenses:supplier_edited" => "Success! The supplier was edited successfully.",
+	"global:show_hide_deleted" => "Show / Hide Deleted",
+	"expenses:supplier_name" => "Supplier Name",
+	"expenses:category_name" => "Category Name",
+	"expenses:category_edited" => "Success! The category was edited successfully.",
+	"expenses:before_you_can_add_expenses" => "Before you can add any expenses you need to go and create some :1 and :2.",
+	"reminders:no_due_date" => "No due date",
+	"reminders:x_days_past_due" => ":1 days past due",
+	"search:results_for_x" => 'Search Results for ":1"',
+	"search:one_matching_result" => "1 matching result",
+	"search:x_matching_results" => ":1 matching results",
+	'global:project_expense' => 'Expense',
+	'global:project_task' => 'Task',
+	'global:ticket' => 'Ticket',
+	'tickets:added' => "The ticket was created successfully.",
+	'tickets:replied' => "Your response to the ticket was saved successfully.",
+	'tickets:user_updated_ticket' => ":1 updated the ticket status to :2 on :3",
+	"global:reply" => "Reply",
+	'global:attach_file' => "Attach File (Maximum Size: :1)",
+	"global:download_csv" => "Download CSV",
+	"reports:uncollected" => "Uncollected",
+	"reports:collected" => "Collected",
+	"clients:filter_clients" => "Filter Clients",
+	"users:deactivate" => "Deactivate",
+	"users:activate" => "Activate",
+	"global:group" => "Group",
+	"users:edit_user" => "Edit User",
+	"users:please_enter_information" => "Please enter the user's information below.",
+	"users:confirm_password" => "Confirm Password",
+	"invoices:not_associated_with_a_project" => "-- Not associated with a project --",
+	"global:by_x_with_time" => "By :1, :2.",
+	"tasks:add_notes" => "Add notes",
+	"tasks:complete_this_task" => "Complete this task",
+	"tasks:task_notes" => "Task Notes",
+	"tasks:discuss_task" => "Discuss Task",
+	"tickets:leave_a_response" => "Leave a Response",
+	"tickets:active_tickets" => "Active Tickets",
+    "projects:rate_type" => "Rate Type",
+    "projects:hourly_rate" => "Hourly Rate",
+	"global:bcc_was_sent_to" => "This email was sent to :1 on :2.",
+	"global:server_default" => "Server Default (Not Recommended)",
+    "error:fixed_in_version" => "This issue was fixed in Pancake {version}. If you haven't yet, update your Pancake.",
+    "error:no_user_found" => "Your license key is not associated with any user in pancakeapp.com, so your error could not be submitted automatically. If this is unexpected, send an email to support@pancakeapp.com and we'll help you.",
+    "error:already_being_dealt_with" => "This issue has already been reported by someone else, and is being dealt with. We are working to resolve it as quickly as possible.",
+    # End v4.8.0 changes
+
 );
 
 /** End of file: pancake_lang.php **/
