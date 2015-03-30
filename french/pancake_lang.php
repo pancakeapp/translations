@@ -174,12 +174,12 @@ $lang = array(
     'global:accept_proposal' => 'Accepter la proposition',
     'global:proposal_rejected' => 'Proposition refusé',
     "global:proposal_accepted" => "Proposition accepté",
-    "global:client_area" => "Espace Client",
+    "global:client_area" => "Espace client",
     "global:admin" => "Admin",
     "global:all_settings" => "Tous les paramètres",
     'global:viewable' => 'Visible dans l\'espace client',
     'global:not_viewable' => 'Non visible dans l\'espace client',
-    'global:milestones' => "Etapes",
+    'global:milestones' => "Étapes",
     /** Fin des salutations **/
 
     /** Début du tableau de bord **/
@@ -203,7 +203,7 @@ $lang = array(
     // ==============================
     // = LOGIN PAGE COMPLETED - Lee =
     // ==============================
-    'login:forgotinstructions' => 'Veuillez entrer votre courriel afin que nous vous envoyions un courriel de réinitialisation du mot de passe.',
+    'login:forgotinstructions' => 'Veuillez entrer votre adresse courriel afin que nous vous envoyions un courriel de réinitialisation du mot de passe.',
     'login:reset' => 'Réinitialiser &rsaquo;',
     'login:reset' => 'Réinitialiser le mot de passe',
     'login:username' => 'Nom d\'utilisateur',
@@ -224,14 +224,14 @@ $lang = array(
 
     /** Début des clients **/
     'clients:title' => 'Tous les clients',
-    'clients:filter' => 'Filtre de client',
+    'clients:filter' => 'Filtrer les clients',
     'clients:add' => 'Ajouter un client',
     'clients:removefilter' => 'Retirer le filtre',
     'clients:edit' => 'Modifier le client',
-    'clients:noclienttitle' => 'Vous devez ajouter au moins un client!',
-    'clients:noclientbody' => 'Pour leur envoyer des factures. Voulez-vous en ajouter un maintenant?',
+    'clients:noclienttitle' => 'Vous devez ajouter au moins un client.',
+    'clients:noclientbody' => 'Pour leur envoyer des factures. Voulez-vous en ajouter un maintenant ?',
     'clients:noclienttitlefilter' => 'Aucun client ne correspond à votre filtre.',
-    'clients:hasnoinvoicetitle' => 'Cool! Ce client est bien configuré!',
+    'clients:hasnoinvoicetitle' => 'Ce client est bien configuré!',
     'clients:hasnoinvoicebody' => 'Créons une facture pour obtenir ce qui nous est dû. Voulez-vous en ajouter une maintenant?',
     'clients:added' => 'Le client a été ajouté!',
     'clients:edited' => 'Le client a été mis à jour!',
@@ -239,15 +239,15 @@ $lang = array(
     'clients:does_not_exist' => 'Ce client n\'existe pas!',
     'clients:health_check' => 'Bilan de santé',
     'clients:all' => 'Tous',
-    'clients:delete_title' => 'Supprimer ce client?!?!',
-    'clients:delete_message' => 'Êtes-vous certain de vouloir supprimer ce client?<br />Cette action supprimera également toutes les factures, les projets et les devis de ce client.',
+    'clients:delete_title' => 'Supprimer ce client',
+    'clients:delete_message' => 'Êtes-vous certain de vouloir supprimer ce client ?<br />Cette action supprimera également toutes les factures, les projets et les devis de ce client.',
     'clients:clientaction' => '&nbsp;',
-    'clients:passphrase' => 'Phrase secrète',
-    'clients:bad_passphrase' => 'La phrase secrète est incorrecte.',
+    'clients:passphrase' => 'Mot de passe',
+    'clients:bad_passphrase' => 'Le mot de passe est incorrect.',
     'clients:total_clients' => 'Total de clients',
     'clients:support' => 'Support',
-    'clients:support_rates' => 'Tarifs de support',
-    'clients:edit_support_rates' => 'Appliquer les tarifs',
+    'clients:support_rates' => 'Tarif du support',
+    'clients:edit_support_rates' => 'Appliquer',
     /** Fin des clients **/
 
 
@@ -296,7 +296,7 @@ $lang = array(
     'invoices:taxable' => 'Taxable',
     'invoices:total' => 'Total',
     'invoices:amount' => 'Montant',
-    'invoices:due' => 'Payable d\'ici le',
+    'invoices:due' => 'Dû pour le ',
     'invoices:subtotal' => 'Sous-total',
     'invoices:totaltax' => 'Taxes',
     'invoices:filestodownload' => 'Fichiers à télécharger',
@@ -615,7 +615,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'items:type'	=> 'Type',
     'items:select_standard'	=> 'Standard',
     'items:select_expense'	=> 'Dépense',
-    'items:add_expense_to_project'	=> 'Ajouter une dépense',
+    'items:add_expense_to_project'	=> 'Ajouter',
     'items:expenses'	=> 'Dépenses',
     /** Fin des items **/
 
@@ -1181,9 +1181,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     
     # Début des changements de la v4.3.7
     'dashboard:today' => "Aujourd'hui",
-    'dashboard:your_projects' => "Vos projets",
-    'dashboard:snapshot' => "Aperçu",
-    'dashboard:team_activity' => "Nouveautés",
+    'dashboard:your_projects' => "Projets",
+    'dashboard:snapshot' => "Statistiques",
+    'dashboard:team_activity' => "Activité",
     'settings:brand_name' => "Nom de votre marque",
     'settings:brand_name_explanation' => "C'est le nom que vos clients verront partout, excepté sur vos factures.",
     'settings:business_name_explanation' => "C'est le nom légal de votre compagnie qui sera utilisé seulement sur vos factures.",
@@ -1191,9 +1191,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'settings:billing_email' => "Courriel de facturation",
     'settings:billing_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de factures, de devis et de propositions.",
     'settings:notify_email_explanation' => "L'adresse du destinateur utilisée lors d'envoi de commentaire, alerte et billets de support.",
-    'settings:show_name_along_with_logo' => "Affichez le nom de votre marque à côté de votre logo?",
+    'settings:show_name_along_with_logo' => "Affichez le nom de votre marque à côté de votre logo ?",
     'invoices:frequency' => "Fréquence",
-    'invoices:auto_send' => "Envoyez automatiquement?",
+    'invoices:auto_send' => "Envoyer automatiquement ?",
     'invoices:send' => "Envoyez",
     'invoices:days_before_invoice_is_due' => "Nombre de jour avant que la facture soit due.",
     'invoices:cannot_change_recurrences' => "Les paramètres d'une facture déjà récurrente à une autre ne peuvent pas être changés.",
@@ -1380,9 +1380,9 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     # Fin v4.6.8
     
     # Début des changements la v4.6.9
-    'dashboard:upcoming_invoices' => 'Facture à venir',
-    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à venir à afficher.",
-    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à venir",
+    'dashboard:upcoming_invoices' => 'Facture(s) échue(s)',
+    'dashboard:there_are_no_upcoming_invoices' => "Aucune facture à échéance à afficher.",
+    "dashboard:view_all_upcoming_invoices" => "Voir toutes les factures à échéance",
     # Fin v4.6.9
     
     # Début des changements la v4.7.0
@@ -1528,6 +1528,62 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:test_email_error" => "Une erreur est survenue lors de l'envoi du courriel d'essai :<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you're using SMTP, make sure the port you're trying to use is open in your server's firewall.",
     "settings:test_email_connection_error" => "Votre serveur ne peut se connecter à :1 sur le port :2. Veuillez contacter votre administrateur réseau pour qu'il autorise ce port dans le coupe-feu de votre serveur.<br /><br />Le message d'erruer est :<br /><br />:3"
     # Fin v4.7.12
+    
+    # Début v4.8.0
+    # Supprimé "global:greetings"
+    "invoices:all_unpaid" => "Toutes factures impayées",
+    'items:select_flat_rate' => 'Taux fixe',
+    'kitchen:no_tickets_created' => "Aucun billet créé.",
+    'kitchen:responses' => "Réponses",
+    'kitchen:x_responses' => ":1 réponses",
+    'projects:add_new_task' => "Ajouter une nouvelle tâche",
+    'projects:delete_project_template' => "Supprimer le modèle du projet",
+    "expenses:supplier_edited" => "Le fournisseur a été modifié avec succès.",
+    "global:show_hide_deleted" => "Afficher / Cacher",
+    "expenses:supplier_name" => "Nom du fournisseur",
+    "expenses:category_name" => "Nom de la catégorie",
+    "expenses:category_edited" => "La catégorie a été modifiée avec succès.",
+    "expenses:before_you_can_add_expenses" => "Avant de pouvoir créer des dépenses, vous devez créer des :1 et des :2.",
+    "reminders:no_due_date" => "Aucune date due",
+    "reminders:x_days_past_due" => ":1 jours passé la date due",
+    "search:results_for_x" => 'Résultats de recherches pour ":1"',
+    "search:one_matching_result" => "1 résultat",
+    "search:x_matching_results" => ":1 résultats",
+    'global:project_expense' => 'Dépense',
+    'global:project_task' => 'Tâche',
+    'global:ticket' => 'Billet',
+    'tickets:added' => "Le billet a été créé avec succès.",
+    'tickets:replied' => "La réponse du billet a été sauvegardé avec succès.",
+    'tickets:user_updated_ticket' => ":1 a mis à jour le billet pour :2 le :3",
+    "global:reply" => "Répondre",
+    'global:attach_file' => "Fichier attaché (Taille maximale: :1)",
+    "global:download_csv" => "Télécharger le CSV",
+    "reports:uncollected" => "Non collecté",
+    "reports:collected" => "Collecté",
+    "clients:filter_clients" => "Filter les clients",
+    "users:deactivate" => "Désactiver",
+    "users:activate" => "Activer",
+    "global:group" => "Grouper",
+    "users:edit_user" => "Modifier l'utilisateur",
+    "users:please_enter_information" => "Veuillez entrer les information de l'utilisateur ci-dessous.",
+    "users:confirm_password" => "Confirmer le mot de passe",
+    "invoices:not_associated_with_a_project" => "-- Aucune association avec un projet --",
+    "global:by_x_with_time" => "Par :1, :2.",
+    "tasks:add_notes" => "Ajouter une note",
+    "tasks:complete_this_task" => "Completer cette tâche",
+    "tasks:task_notes" => "Notes de la tâche",
+    "tasks:discuss_task" => "Discussion de la tâche",
+    "tickets:leave_a_response" => "Répondre",
+    "tickets:active_tickets" => "Billets actifs",
+    "projects:rate_type" => "Taux de change",
+    "projects:hourly_rate" => "Taux horaire",
+    "global:bcc_was_sent_to" => "Ce courriel a été envoyé à :1 le :2.",
+    "global:server_default" => "Paramètres par défaut (Non recommandé)",
+    "error:fixed_in_version" => "Ce problème a été corrigé dans Pancake {version}. Veuillez mettre à jour votre version de Pancake si ce n'est pas déjà fait.",
+    "error:no_user_found" => "Votre licence n'est pas associée avec aucun utilisateur sur pancakeapp.com donc votre erreur n'a pu être envoyé. Envoyez un courriel à support@pancakeapp.com si vous éprouvez des problèmes.",
+    "error:already_being_dealt_with" => "Ce problème a déjà été reporté par quelqu'un. Nous travaillons à résoudre ce problème le plus rapidement possible.",
+    # Fin v4.8.0
+
 );
 
 /** Fin du fichier: pancake_lang.php **/
