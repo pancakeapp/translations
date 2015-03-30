@@ -17,7 +17,7 @@ $lang = array(
 
     /** Mots globaux **/
     'global:overview' => 'Vue d\'ensemble',
-    'global:error' => 'Erreur',a
+    'global:error' => 'Erreur',
     'global:pancakeby7am' => 'Pancake :1',
     'global:allrelatedmediacopyright' => 'Pancake et tous les médias liés sont sous copyright :1 :2',
     'global:insecure_action' => 'Une action non sécurisé a été interceptée',
