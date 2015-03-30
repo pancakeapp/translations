@@ -615,7 +615,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     'items:type'	=> 'Type',
     'items:select_standard'	=> 'Standard',
     'items:select_expense'	=> 'Dépense',
-    'items:add_expense_to_project'	=> 'Ajouter une dépense',
+    'items:add_expense_to_project'	=> 'Ajouter',
     'items:expenses'	=> 'Dépenses',
     /** Fin des items **/
 
