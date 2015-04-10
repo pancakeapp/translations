@@ -1571,6 +1571,28 @@ $lang = array(
     "error:already_being_dealt_with" => "This issue has already been reported by someone else, and is being dealt with. We are working to resolve it as quickly as possible.",
     # End v4.8.0 changes
 
+	# Begin v4.8.8 changes
+	"error:php_outdated" => "The version of PHP that you are using is out of date.",
+	"error:using_php_53" => "You are using PHP 5.3, which has been out of date for well over 3 years and has reached end-of-life status (meaning it's no longer supported by the PHP Group).",
+	"error:pancake_will_stop_supporting_it" => "Pancake will stop supporting it in a few weeks.",
+	"error:using_php_54" => "You are using PHP 5.4, which has been out of date for 2 years and will reach end-of-life status (meaning it's no longer supported by the PHP Group) in September 2015.",
+	"error:why_update" => "By staying with this version of PHP, you're missing out on a number of performance and security improvements, as well as a countless number of bugfixes.",
+	"error:upgrade_php" => "You should upgrade your PHP version to at least 5.5 (ideally 5.6). To do so, please talk to your server administrators and ask them to update PHP.",
+	"error:scan_pancake" => "Scan your Pancake for file-related issues",
+	"error:scan_pancake_explanation" => "Sometimes issues might happen because of a failed update, or because of permissions problems that cause your Pancake files to become corrupted during an update. Use this to check your Pancake for any such problems.",
+	"error:scanning" => "Scanning, please wait...",
+	"error:unknown_error_scanning" => "An unknown error occurred while scanning.",
+	"error:scan" => "Scan",
+	"error:scan_result_success" => "Your Pancake's in perfect condition and has not been altered in any way. Everything's OK.",
+	"error:scan_result_failure_deleted_one" => ":1 file does not exist",
+	"error:scan_result_failure_deleted_other" => ":1 files do not exist",
+	"error:scan_result_failure_modified_one" => ":1 file has been modified",
+	"error:scan_result_failure_modified_other" => ":1 files have been modified",
+	"error:scan_result_failure_heading" => "There are issues with your Pancake's files.",
+	"error:scan_result_failure_how_to_fix" => "To resolve these issues, you will need to manually update your Pancake's files.",
+	"error:click_here_for_instructions" => "Click here for instructions",
+	# End v4.8.8 changes
+
 );
 
 /** End of file: pancake_lang.php **/
