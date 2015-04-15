@@ -1421,3 +1421,4 @@ $lang["projects:role_edit_task"] = "Aufgabe bearbeiten";
 $lang["projects:role_add_task"] = "Aufgabe hinzufügen";
 $lang["projects:role_add_milestone"] = "Meilenstein hinzufügen";
 $lang["clients:noclientbodyfiltered"] = "Keiner Ihrer Kundennamen beginnt mit \"1\".";
+$lang["error:reporting"] = "Berichterstattung...";
