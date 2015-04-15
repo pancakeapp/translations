@@ -1393,7 +1393,7 @@ $lang = array(
 /** End of file: pancake_lang.php **/
 
 $lang["invoices:partially_paid"] = "Teilweise";
-$lang["error:cannot_send_error_details"] = "Sie können keine Fehlerdetails an den Pancake Support schicken, da Sie nicht eingeloggt sind\.";
+$lang["error:cannot_send_error_details"] = "Sie können keine Fehlerdetails an den Pancake Support schicken, da Sie nicht eingeloggt sind.";
 $lang["error:unknown_error_reporting"] = "Ein unbekannter Fehler aufgetreten. Bitte melden Sie diesen Fehler manuell.";
 $lang["error:sending_details"] = "Senden Einzelheiten ...";
 $lang["error:response_will_be_sent_to_email"] = "Sie werden Antworten auf {email} benachrichtigt.";
