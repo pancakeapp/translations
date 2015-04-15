@@ -1407,3 +1407,4 @@ $lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellun
 $lang["error:logged_in_extra"] = "Klicken Sie hier um ein kostenloses Support-Ticket mit Details der Fehler an den Pancake-Support zu schicken.";
 $lang["error:no_logged_errors"] = "Sie haben keine protokollierten Fehler.";
 $lang["errors:subject"] = "Fehlerbezeichnung";
+$lang["settings:report_error"] = "Fehler melden";
