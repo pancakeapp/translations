@@ -1405,3 +1405,4 @@ $lang["error:not_logged_in_intro"] = "Diese Fehler werden automatisch protokolli
 $lang["error:not_logged_in_extra"] = "Wenn das Problem andauert, kontaktieren Sie bitte :1.";
 $lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
 $lang["error:logged_in_extra"] = "Klicken Sie hier um ein kostenloses Support-Ticket mit Details der Fehler an den Pancake-Support zu schicken.";
+$lang["error:no_logged_errors"] = "Sie haben keine protokollierten Fehler.";
