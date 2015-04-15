@@ -1593,6 +1593,10 @@ $lang = array(
 	"error:click_here_for_instructions" => "Click here for instructions",
 	# End v4.8.8 changes
 
+    # Begin v4.8.10 changes
+    "error:and_x_others" => "... and :1 others.",
+    # End v4.8.10 changes
+
 );
 
 /** End of file: pancake_lang.php **/
