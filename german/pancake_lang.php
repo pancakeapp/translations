@@ -1402,3 +1402,4 @@ $lang["error:already_reported"] = "Dieser Fehler wurde bereits berichtet, dass S
 $lang["error:title"] = "Unbekannter Fehler";
 $lang["error:subtitle"] = "Ein unbekannter Fehler ist aufgetreten.";
 $lang["error:not_logged_in_intro"] = "Diese Fehler werden automatisch protokolliert.";
+$lang["error:not_logged_in_extra"] = "Wenn das Problem andauert, kontaktieren Sie bitte :1.";
