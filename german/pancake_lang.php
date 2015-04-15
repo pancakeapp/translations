@@ -1418,3 +1418,4 @@ $lang["tickets:unarchive"] = "Wiederherstellen";
 $lang["projects:role_delete"] = "Löschen";
 $lang["projects:role_delete_task"] = "Aufgabe löschen";
 $lang["projects:role_edit_task"] = "Aufgabe bearbeiten";
+$lang["projects:role_add_task"] = "Aufgabe hinzufügen";
