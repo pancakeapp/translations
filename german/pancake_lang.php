@@ -1400,3 +1400,4 @@ $lang["error:response_will_be_sent_to_email"] = "Sie werden Antworten auf {email
 $lang["settings:errors_and_diagnostics"] = "Fehler & Diagnose";
 $lang["error:already_reported"] = "Dieser Fehler wurde bereits berichtet, dass Support-Pfannkuchen.";
 $lang["error:title"] = "Unbekannter Fehler";
+$lang["error:subtitle"] = "Ein unbekannter Fehler ist aufgetreten.";
