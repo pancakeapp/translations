@@ -1401,3 +1401,4 @@ $lang["settings:errors_and_diagnostics"] = "Fehler & Diagnose";
 $lang["error:already_reported"] = "Dieser Fehler wurde bereits berichtet, dass Support-Pfannkuchen.";
 $lang["error:title"] = "Unbekannter Fehler";
 $lang["error:subtitle"] = "Ein unbekannter Fehler ist aufgetreten.";
+$lang["error:not_logged_in_intro"] = "Diese Fehler werden automatisch protokolliert.";
