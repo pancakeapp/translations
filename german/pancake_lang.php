@@ -1399,3 +1399,4 @@ $lang["error:sending_details"] = "Senden Einzelheiten ...";
 $lang["error:response_will_be_sent_to_email"] = "Sie werden Antworten auf {email} benachrichtigt.";
 $lang["settings:errors_and_diagnostics"] = "Fehler & Diagnose";
 $lang["error:already_reported"] = "Dieser Fehler wurde bereits berichtet, dass Support-Pfannkuchen.";
+$lang["error:title"] = "Unbekannter Fehler";
