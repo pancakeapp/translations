@@ -1413,3 +1413,4 @@ $lang["settings:error_reported"] = "Fehler gemeldet";
 $lang["global:twice"] = "Zweimal";
 $lang["global:occurred_times"] = "Aufgetreten: 1";
 $lang["settings:view_error_details"] = "Fehlerdetails anzeigen";
+$lang["error:deleting"] = "Löschen ...";
