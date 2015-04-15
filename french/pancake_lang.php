@@ -1583,6 +1583,32 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "error:no_user_found" => "Votre licence n'est pas associée avec aucun utilisateur sur pancakeapp.com donc votre erreur n'a pu être envoyé. Envoyez un courriel à support@pancakeapp.com si vous éprouvez des problèmes.",
     "error:already_being_dealt_with" => "Ce problème a déjà été reporté par quelqu'un. Nous travaillons à résoudre ce problème le plus rapidement possible.",
     # Fin v4.8.0
+    
+    # Début v4.8.8
+	"error:php_outdated" => "La version de PHP que vous utilisez est périmée.",
+	"error:using_php_53" => "Vous utilisez la version 5.3 de PHP qui n'est plus supporté depuis plus de 3 ans.",
+	"error:pancake_will_stop_supporting_it" => "Pancake ne supportera plus cette version très prochainement.",
+	"error:using_php_54" => "Vous utilisez la version 5.4 de PHP qui n'est plus supporté depuis plus de 2 ans.",
+	"error:why_update" => "Si vous désirez conserver cette version de PHP, certaines fonctionalités ne seront pas disponibles.",
+	"error:upgrade_php" => "Vous devriez changer votre version de PHP à 5.5 au minimum. Si vous ne savez pas comment faire, contactez votre administrateur réseau.",
+	"error:scan_pancake" => "Vérifier votre installation Pancake pour des problèmes reliés aux fichiers",
+	"error:scan_pancake_explanation" => "Certains problèmes peuvent survenir suite à une mauvaise mise à jour ou à des permissions de fichiers. Utilisez ceci pour vérifier votre installation Pancake.",
+	"error:scanning" => "Veuillez patienter ...",
+	"error:unknown_error_scanning" => "Une erreur inconnue est survenue.",
+	"error:scan" => "Inspection",
+	"error:scan_result_success" => "Pancake est en parfaite condition et fonctionne à merveille.",
+	"error:scan_result_failure_deleted_one" => ":1 fichier n'existe pas",
+	"error:scan_result_failure_deleted_other" => ":1 fichiers n'existent pas",
+	"error:scan_result_failure_modified_one" => ":1 fichier a été modifié",
+	"error:scan_result_failure_modified_other" => ":1 fichiers ont été modifiés",
+	"error:scan_result_failure_heading" => "Il semble y avoir un problème avec vos fichiers Pancake.",
+	"error:scan_result_failure_how_to_fix" => "Pour résoudre ces problèmes, vous devrez mettre à jour vos fichiers Pancake manuellement.",
+	"error:click_here_for_instructions" => "Cliquez ici pour les instructions",
+	# Fin v4.8.8,
+	
+    # Début v4.8.10
+    "error:and_x_others" => "... et :1 autre.",
+    # Fin v4.8.10
 
 );
 
