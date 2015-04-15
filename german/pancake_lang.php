@@ -1410,3 +1410,4 @@ $lang["errors:subject"] = "Fehlerbezeichnung";
 $lang["settings:report_error"] = "Fehler melden";
 $lang["errors:number_of_occurrences"] = "# der Ereignisse";
 $lang["settings:error_reported"] = "Fehler gemeldet";
+$lang["global:twice"] = "Zweimal";
