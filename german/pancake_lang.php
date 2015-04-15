@@ -1414,3 +1414,4 @@ $lang["global:twice"] = "Zweimal";
 $lang["global:occurred_times"] = "Aufgetreten: 1";
 $lang["settings:view_error_details"] = "Fehlerdetails anzeigen";
 $lang["error:deleting"] = "Löschen ...";
+$lang["tickets:unarchive"] = "Wiederherstellen";
