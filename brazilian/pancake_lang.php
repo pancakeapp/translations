@@ -1263,3 +1263,4 @@ $lang["global:credit_note"] = "Nota De Crédito";
 $lang["credit_notes:create"] = "Criar Nota de Crédito";
 $lang["credit_notes:edit"] = "Editar Nota de Crédito";
 $lang["credit_notes:no_credit_notes_body"] = "Você deve começar a fazer isso! Gostaria de criar um agora?";
+$lang["credit_notes:credit_note_date"] = "Data da Nota de Crédito";
