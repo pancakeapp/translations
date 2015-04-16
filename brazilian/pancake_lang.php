@@ -1261,3 +1261,4 @@ $lang["credit_notes:nocredit_notesforthefilteredclient"] = "Você não tem notas
 $lang["credit_notes:alltitle"] = "Todas as Notas de Crédito";
 $lang["global:credit_note"] = "Nota De Crédito";
 $lang["credit_notes:create"] = "Criar Nota de Crédito";
+$lang["credit_notes:edit"] = "Editar Nota de Crédito";
