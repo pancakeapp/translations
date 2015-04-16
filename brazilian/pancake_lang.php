@@ -1256,3 +1256,4 @@ $lang	= array(
 $lang["invoices:discount"] = "Desconto";
 $lang["invoices:discount_explain"] = "Adicione % para porcentagens.";
 $lang["credit_notes:edit_credit_note"] = "Editar Nota de Crédito #: 1";
+$lang["global:credit_notes"] = "Notas de Crédito";
