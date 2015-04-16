@@ -1265,3 +1265,4 @@ $lang["credit_notes:edit"] = "Editar Nota de Crédito";
 $lang["credit_notes:no_credit_notes_body"] = "Você deve começar a fazer isso! Gostaria de criar um agora?";
 $lang["credit_notes:credit_note_date"] = "Data da Nota de Crédito";
 $lang["credit_notes:addedconf"] = "Você adicionou a nota de crédito # <strong>: 1</strong>, totalizando <strong>: 2</strong> (: 3 com impostos) para: 4: 5.";
+$lang["credit_notes:delete_message"] = "Tem certeza de que deseja apagar esta nota de crédito?";
