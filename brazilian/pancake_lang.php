@@ -1268,3 +1268,4 @@ $lang["credit_notes:addedconf"] = "Você adicionou a nota de crédito # <strong>
 $lang["credit_notes:delete_message"] = "Tem certeza de que deseja apagar esta nota de crédito?";
 $lang["email_templates:new_credit_note"] = "Nova Nota de Crédito";
 $lang["credit_notes:send_now_body"] = "Preencha o formulário abaixo e nós entregaremos esta nota de crédito por você.";
+$lang["credit_notes:preview"] = "Pré-visualizar Nota de Crédito";
