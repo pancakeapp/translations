@@ -1253,3 +1253,4 @@ $lang	= array(
 );
 
 /** End of file: pancake_lang.php **/
+$lang["invoices:discount"] = "Desconto";
