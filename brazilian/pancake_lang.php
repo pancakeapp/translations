@@ -1255,22 +1255,22 @@ $lang	= array(
 /** End of file: pancake_lang.php **/
 $lang["invoices:discount"] = "Desconto";
 $lang["invoices:discount_explain"] = "Adicione % para porcentagens.";
-$lang["credit_notes:edit_credit_note"] = "Editar Nota de Crédito #: 1";
+$lang["credit_notes:edit_credit_note"] = "Editar Nota de Crédito #:1";
 $lang["global:credit_notes"] = "Notas de Crédito";
-$lang["credit_notes:nocredit_notesforthefilteredclient"] = "Você não tem notas de crédito para: 1.";
+$lang["credit_notes:nocredit_notesforthefilteredclient"] = "Você não tem notas de crédito para:1.";
 $lang["credit_notes:alltitle"] = "Todas as Notas de Crédito";
 $lang["global:credit_note"] = "Nota De Crédito";
 $lang["credit_notes:create"] = "Criar Nota de Crédito";
 $lang["credit_notes:edit"] = "Editar Nota de Crédito";
 $lang["credit_notes:no_credit_notes_body"] = "Você deve começar a fazer isso! Gostaria de criar um agora?";
 $lang["credit_notes:credit_note_date"] = "Data da Nota de Crédito";
-$lang["credit_notes:addedconf"] = "Você adicionou a nota de crédito # <strong>: 1</strong>, totalizando <strong>: 2</strong> (: 3 com impostos) para: 4: 5.";
+$lang["credit_notes:addedconf"] = "Você adicionou a nota de crédito # <strong>:1</strong>, totalizando <strong>:2</strong> (:3 com impostos) para :4:5.";
 $lang["credit_notes:delete_message"] = "Tem certeza de que deseja apagar esta nota de crédito?";
 $lang["email_templates:new_credit_note"] = "Nova Nota de Crédito";
 $lang["credit_notes:send_now_body"] = "Preencha o formulário abaixo e nós entregaremos esta nota de crédito por você.";
 $lang["credit_notes:preview"] = "Pré-visualizar Nota de Crédito";
 $lang["invoices:make_bulk_payment"] = "Faça Pagamento de Grande Volume";
 $lang["credit_notes:duplicated"] = "Nota de crédito duplicada #:1. O novo número da nota de crédito é #:2.";
-$lang["credit_notes:client_viewed"] = ": 1 <a href=\":2\">nota de crédito visualizada #: 3</a> em: 4";
+$lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
 $lang["clients:view"] = "Ver Cliente";
-$lang["invoices:x_invoices"] = ": 1 faturas";
+$lang["invoices:x_invoices"] = ":1 faturas";
