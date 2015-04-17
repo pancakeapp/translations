@@ -1367,3 +1367,4 @@ $lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes come
 $lang["settings:delete_error"] = "Apagar o Erro";
 $lang["tickets:archive"] = "Arquivo";
 $lang["projects:role_edit"] = "Editar";
+$lang["tickets:unarchive"] = "Restaurar";
