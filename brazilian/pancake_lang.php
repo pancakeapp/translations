@@ -1366,3 +1366,4 @@ $lang["global:x_times"] = ":1 de vezes";
 $lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
 $lang["settings:delete_error"] = "Apagar o Erro";
 $lang["tickets:archive"] = "Arquivo";
+$lang["projects:role_edit"] = "Editar";
