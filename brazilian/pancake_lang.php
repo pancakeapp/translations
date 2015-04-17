@@ -1323,3 +1323,4 @@ $lang["invoices:discount_percentage"] = "Desconto (:1%)";
 $lang["clients:tax_numbers"] = "Números Fiscais dos Clientes / RGs";
 $lang["clients:add_custom_field"] = "Adicionar outro campo personalizado";
 $lang["clients:custom_fields"] = "Campos personalizados";
+$lang["clients:update_balance"] = "Atualização do Balanço de Crédito";
