@@ -1278,3 +1278,4 @@ $lang["invoices:store_bulk_payment"] = "Pagamento à loja cumulativo";
 $lang["invoices:amount_to_pay"] = "Montante para marcar como pago";
 $lang["credit_notes:create_credit_note"] = "Criar Nota de Crédito";
 $lang["credit_notes:no_credit_notes"] = "Você não tem notas de crédito.";
+$lang["credit_notes:credit_note_number"] = "Nota de Crédito #:1";
