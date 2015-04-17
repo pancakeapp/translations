@@ -1275,3 +1275,4 @@ $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visual
 $lang["clients:view"] = "Ver Cliente";
 $lang["invoices:x_invoices"] = ":1 faturas";
 $lang["invoices:store_bulk_payment"] = "Pagamento à loja cumulativo";
+$lang["invoices:amount_to_pay"] = "Montante para marcar como pago";
