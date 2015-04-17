@@ -1444,3 +1444,4 @@ $lang["error:logged_in_extra"] = "Clique aqui para enviar uma mensagem de pedido
 $lang["global:once"] = "Uma vez";
 $lang["global:twice"] = "Duas vezes";
 $lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
+$lang["projects:role_view"] = "Vista";
