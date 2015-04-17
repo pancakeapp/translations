@@ -1,0 +1,10 @@
+<phpunit>
+    <testsuites>
+        <testsuite name="translations">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="BASEPATH" value="UNKNOWN"/>
+    </php>
+</phpunit>

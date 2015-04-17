@@ -7,3 +7,5 @@
 .idea/translations.iml
 .idea/vcs.xml
 .idea/workspace.xml
+vendor/*
+composer.lock
