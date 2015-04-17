@@ -1280,3 +1280,4 @@ $lang["credit_notes:create_credit_note"] = "Criar Nota de Crédito";
 $lang["credit_notes:no_credit_notes"] = "Você não tem notas de crédito.";
 $lang["credit_notes:credit_note_number"] = "Nota de Crédito #:1";
 $lang["credit_notes:delete_title"] = "Apagar esta nota de crédito?";
+$lang["credit_notes:send_now_title"] = "Enviar nota de crédito agora?";
