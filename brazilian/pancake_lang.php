@@ -1346,3 +1346,4 @@ $lang["reports:verb_paid"] = "Pago";
 $lang["error:sending_details"] = "Enviando dados...";
 $lang["expenses:receipt"] = "Recibo";
 $lang["error:title"] = "Erro Desconhecido";
+$lang["invoices:bulk_payment_added"] = "O pagamento em massa foi adicionado com êxito.";
