@@ -1436,3 +1436,4 @@ $lang["clients:noclientbodyfiltered"] = "Keiner Ihrer Kundennamen beginnt mit \"
 $lang["tickets:archive"] = "Archivieren";
 $lang["projects:role_create"] = "Schaffen";
 $lang["projects:role_edit"] = "Bearbeiten";
+$lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
