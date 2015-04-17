@@ -1418,3 +1418,4 @@ $lang["invoices:see_payment_schedule"] = "Veja o cronograma de pagamento";
 $lang["error:cant_send_email_solutions"] = "Se você tiver acesso root ao servidor, certifique-se de que o sendmail está instalado e tente encontrar com qual <code>sendmail</code>.";
 $lang["expenses:supplier_added"] = "Sucesso! O fornecedor foi criado com sucesso.";
 $lang["gateways:just_for_logging"] = "Nota: Este método de pagamento não afeta as faturas de forma alguma.<br/>Ele está aqui para que você possa acompanhar quais pagamentos recebeu por :1.";
+$lang["error:xcache_extension_broken"] = "Seu servidor tem um problema com a extensão XCache.";
