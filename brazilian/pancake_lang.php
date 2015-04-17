@@ -1274,7 +1274,7 @@ $lang["credit_notes:duplicated"] = "Nota de crédito duplicada #:1. O novo núme
 $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
 $lang["clients:view"] = "Ver Cliente";
 $lang["invoices:x_invoices"] = ":1 faturas";
-$lang["invoices:store_bulk_payment"] = "Pagamento à loja cumulativo";
+$lang["invoices:store_bulk_payment"] = "Salvar Múltiplos Pagamentos";
 $lang["invoices:amount_to_pay"] = "Montante para marcar como pago";
 $lang["credit_notes:create_credit_note"] = "Criar Nota de Crédito";
 $lang["credit_notes:no_credit_notes"] = "Você não tem notas de crédito.";
