@@ -1292,3 +1292,4 @@ $lang["invoices:pancake_will_automatically_change_is_viewable"] = "Isto será au
 $lang["store:error1004"] = "Ocorreu um erro desconhecido ao tentar comprar este item. Por favor, tente novamente mais tarde. Se o erro persistir, por favor inicie um ticket de apoio gratuito em pancakeapp.com.";
 $lang["global:error_submitting_ajax"] = "Ocorreu um erro desconhecido ao tentar enviar este formulário. Por favor, tente novamente mais tarde. Se o erro persistir, por favor inicie um ticket de apoio gratuito em pancakeapp.com.";
 $lang["settings:hide_tax_column_explanation"] = "Isto irá ocultar a coluna de imposto nas faturas que não possuem informações fiscais.";
+$lang["global:incorrect_login"] = "A combinação nome de usuário / senha que você digitou é inválida.";
