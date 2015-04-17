@@ -1339,3 +1339,4 @@ $lang["dashboard:upcoming_invoices"] = "Próximas faturas";
 $lang["reports:amount_paid"] = "Valor do Pagamento";
 $lang["expenses:edited"] = "Sucesso! A despesa foi editada com sucesso.";
 $lang["reports:payments"] = "Pagamentos";
+$lang["reports:verb_from_to"] = "De 1% até 2 a 3%";
