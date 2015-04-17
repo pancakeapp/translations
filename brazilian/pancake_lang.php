@@ -1439,3 +1439,4 @@ $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \":2\
 $lang["error:response_will_be_sent_to_email"] = "Você será notificado das respostas através de {email}.";
 $lang["error:subtitle"] = "Ocorreu um erro desconhecido.";
 $lang["error:not_logged_in_extra"] = "Se o problema persistir, por favor contate :1.";
+$lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
