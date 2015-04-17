@@ -1295,3 +1295,4 @@ $lang["settings:hide_tax_column_explanation"] = "Isto irá ocultar a coluna de i
 $lang["global:incorrect_login"] = "A combinação nome de usuário / senha que você digitou é inválida.";
 $lang["settings:hide_tax_column"] = "Esconder a Coluna de Impostos?";
 $lang["tickets:not_yet_generated"] = "A fatura ainda não foi gerada";
+$lang["clients:credit_balance_currently"] = "Saldo de Crédito (atualmente% 1)";
