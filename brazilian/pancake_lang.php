@@ -1284,3 +1284,4 @@ $lang["credit_notes:send_now_title"] = "Enviar nota de crédito agora?";
 $lang["credit_notes:send_now"] = "Enviar Nota de Crédito";
 $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
 $lang["global:success"] = "Sucesso!";
+$lang["invoices:send_payment_notification"] = "Enviar um e-mail de notificação de pagamento para o cliente?";
