@@ -1313,3 +1313,4 @@ $lang["invoices:send_to_client"] = "Fatura por E-mail para o Cliente";
 $lang["emailtemplates:content"] = "Conteúdo de Email";
 $lang["estimates:rejected"] = "Estimativas Rejeitadas";
 $lang["global:triennially"] = "Trienalmente";
+$lang["estimates:send_to_client"] = "Enviar a Estimativa por E-mail para o Cliente";
