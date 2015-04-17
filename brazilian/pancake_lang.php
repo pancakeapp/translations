@@ -1345,3 +1345,4 @@ $lang["dashboard:there_are_no_upcoming_invoices"] = "Não há faturas futuras pa
 $lang["reports:verb_paid"] = "Pago";
 $lang["error:sending_details"] = "Enviando dados...";
 $lang["expenses:receipt"] = "Recibo";
+$lang["error:title"] = "Erro Desconhecido";
