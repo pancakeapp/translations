@@ -1423,3 +1423,4 @@ $lang["projects:no_data_provided"] = "Você não inseriu qualquer informação p
 $lang["settings:importedcredit_notes"] = "Importados :1 de notas de crédito com sucesso.";
 $lang["settings:test_email_subject"] = "Este e-mail é um teste.";
 $lang["reports:per_payment_method"] = "por método de pagamento";
+$lang["error:cant_send_email_explanation"] = "Você especificou que deseja utilizar o Sendmail (1%) para enviar e-mail, mas não foi possível fazê-lo. Ou o caminho até o Sendmail está incorreto, ou alguma outra coisa deu errado.";
