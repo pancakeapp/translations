@@ -1410,3 +1410,4 @@ $lang["projects:role_add_milestone"] = "Adicionar Marco";
 $lang["times.label.notes"] = "Notas:";
 $lang["times.label.task_id"] = "Tarefa:";
 $lang["error:email_settings_not_valid"] = "Suas configurações de e-mail não são válidas.";
+$lang["error:xcache_extension_broken_explanation"] = "Algo deu errado enquanto seu servidor estava tentando carregar a extensão XCache. Isso não está, de forma alguma, relacionado a Pancake, mas está impedindo que Pancake seja executado.";
