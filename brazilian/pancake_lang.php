@@ -1427,3 +1427,4 @@ $lang["error:cant_send_email_explanation"] = "Você especificou que deseja utili
 $lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar :1, mas não existe. Se isso for inesperado, você pode relatar o erro ao Suporte Pancake. Você o encontrará em \"Configurações > Erros & Diagnósticos\".";
 $lang["error:page_does_not_exist"] = "A página que você está tentando acessar não existe.";
 $lang["error:page_not_found"] = "Página Não Encontrada";
+$lang["kitchen:responses"] = "Respostas";
