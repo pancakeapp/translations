@@ -1389,3 +1389,4 @@ $lang["projects.button.delete"] = "Apagar Projeto &rarr;";
 $lang["projects.button.create"] = "Criar Projeto &rarr;";
 $lang["projects.edit.title"] = "Atualizar Projeto";
 $lang["times.label.date"] = "Data:";
+$lang["projects.label.rate"] = "Taxa por Hora:";
