@@ -1293,3 +1293,4 @@ $lang["store:error1004"] = "Ocorreu um erro desconhecido ao tentar comprar este 
 $lang["global:error_submitting_ajax"] = "Ocorreu um erro desconhecido ao tentar enviar este formulário. Por favor, tente novamente mais tarde. Se o erro persistir, por favor inicie um ticket de apoio gratuito em pancakeapp.com.";
 $lang["settings:hide_tax_column_explanation"] = "Isto irá ocultar a coluna de imposto nas faturas que não possuem informações fiscais.";
 $lang["global:incorrect_login"] = "A combinação nome de usuário / senha que você digitou é inválida.";
+$lang["settings:hide_tax_column"] = "Esconder a Coluna de Impostos?";
