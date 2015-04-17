@@ -1358,3 +1358,4 @@ $lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro 
 $lang["settings:report_error"] = "Relatar erro";
 $lang["global:errors"] = "Erros";
 $lang["errors:report"] = "Relatar erro";
+$lang["settings:errors_and_diagnostics"] = "Erros & Diagnósticos";
