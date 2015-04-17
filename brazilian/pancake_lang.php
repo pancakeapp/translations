@@ -1360,3 +1360,4 @@ $lang["global:errors"] = "Erros";
 $lang["errors:report"] = "Relatar erro";
 $lang["settings:errors_and_diagnostics"] = "Erros & Diagnósticos";
 $lang["errors:number_of_occurrences"] = "# de ocorrências";
+$lang["error:deleting"] = "Excluindo...";
