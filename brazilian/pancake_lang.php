@@ -1450,3 +1450,4 @@ $lang["projects.update.succeeded"] = "O projeto foi atualizado!";
 $lang["projects.delete.title"] = "Tem certeza de que deseja excluir este projeto?";
 $lang["times.edit.succeeded"] = "O tempo foi editado com sucesso!";
 $lang["error:not_enough_disk_space"] = "Memória Insuficiente no Disco";
+$lang["error:not_enough_disk_space_solutions"] = "Se você tiver acesso \"root\" ao servidor do banco de dados, tente limpar /tmp. Se isso não funcionar, verifique o uso da memória do seu servidor de banco de dados, e tente libertar algum espaço no disco.";
