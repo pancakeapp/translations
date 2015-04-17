@@ -1449,3 +1449,4 @@ $lang["projects.create.succeeded"] = "O projeto foi criado!";
 $lang["projects.update.succeeded"] = "O projeto foi atualizado!";
 $lang["projects.delete.title"] = "Tem certeza de que deseja excluir este projeto?";
 $lang["times.edit.succeeded"] = "O tempo foi editado com sucesso!";
+$lang["error:not_enough_disk_space"] = "Memória Insuficiente no Disco";
