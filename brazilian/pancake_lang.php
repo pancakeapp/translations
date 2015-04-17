@@ -1393,3 +1393,4 @@ $lang["projects.label.rate"] = "Taxa por Hora:";
 $lang["times.create.title"] = "Adicionar Tempo";
 $lang["projects.label.due_date"] = "Data de Vencimento:";
 $lang["times.label.note"] = "Nota:";
+$lang["times.label.start_time"] = "Hora de início:";
