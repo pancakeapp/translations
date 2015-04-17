@@ -1368,3 +1368,4 @@ $lang["settings:delete_error"] = "Apagar o Erro";
 $lang["tickets:archive"] = "Arquivo";
 $lang["projects:role_edit"] = "Editar";
 $lang["tickets:unarchive"] = "Restaurar";
+$lang["global:occurred_times"] = "Ocorreu :1";
