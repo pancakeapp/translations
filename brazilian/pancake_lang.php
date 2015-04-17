@@ -1387,3 +1387,4 @@ $lang["projects.button.edit"] = "Atualizar Projeto & rarr;";
 $lang["projects:role_delete"] = "Excluir";
 $lang["projects.button.delete"] = "Apagar Projeto &rarr;";
 $lang["projects.button.create"] = "Criar Projeto &rarr;";
+$lang["projects.edit.title"] = "Atualizar Projeto";
