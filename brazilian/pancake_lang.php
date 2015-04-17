@@ -1269,7 +1269,7 @@ $lang["credit_notes:delete_message"] = "Tem certeza de que deseja apagar esta no
 $lang["email_templates:new_credit_note"] = "Nova Nota de Crédito";
 $lang["credit_notes:send_now_body"] = "Preencha o formulário abaixo e nós entregaremos esta nota de crédito por você.";
 $lang["credit_notes:preview"] = "Pré-visualizar Nota de Crédito";
-$lang["invoices:make_bulk_payment"] = "Faça Pagamento de Grande Volume";
+$lang["invoices:make_bulk_payment"] = "Faça Multiplos Pagamentos";
 $lang["credit_notes:duplicated"] = "Nota de crédito duplicada #:1. O novo número da nota de crédito é #:2.";
 $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
 $lang["clients:view"] = "Ver Cliente";
