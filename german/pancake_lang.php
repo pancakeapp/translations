@@ -1435,3 +1435,4 @@ $lang["global:x_times"] = ":1 Mal";
 $lang["clients:noclientbodyfiltered"] = "Keiner Ihrer Kundennamen beginnt mit \":1\".";
 $lang["tickets:archive"] = "Archivieren";
 $lang["projects:role_create"] = "Schaffen";
+$lang["projects:role_edit"] = "Bearbeiten";
