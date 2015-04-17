@@ -1,7 +1,7 @@
 Pancake Translations
 ====================
 
-[![Travis](https://img.shields.io/travis/pancakeapp/translations.svg)]() [![HHVM](https://img.shields.io/hhvm/pancakeapp/translations.svg)]()
+[![Travis](https://img.shields.io/travis/pancakeapp/translations.svg)]()
 
 This repository contains a number of Pancake Translations, for those of us who don't use Pancake in English. We welcome all help, feedback and new languages. We also have official support from the Pancake development team.
 
