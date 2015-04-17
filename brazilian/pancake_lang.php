@@ -1373,3 +1373,4 @@ $lang["projects:role_edit_task"] = "Editar Tarefa";
 $lang["error:reporting"] = "Reportando...";
 $lang["projects:role_create"] = "Criar";
 $lang["error:already_reported"] = "Este erro já foi relatado ao Suporte Pancake.";
+$lang["errors:subject"] = "Título Errado";
