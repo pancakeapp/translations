@@ -1429,3 +1429,4 @@ $lang["projects:role_track_time"] = "Streckenzeit";
 $lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
 $lang["errors:report"] = "Fehler melden";
 $lang["global:errors"] = "Fehler";
+$lang["settings:delete_error"] = "Fehler löschen";
