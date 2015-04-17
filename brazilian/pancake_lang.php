@@ -1291,3 +1291,4 @@ $lang["invoices:specify_bulk_payment_details"] = "Especifique os detalhes de pag
 $lang["invoices:pancake_will_automatically_change_is_viewable"] = "Isto será automaticamente alterado para \"Sim\" quando você enviar a fatura para o cliente por e-mail.";
 $lang["store:error1004"] = "Ocorreu um erro desconhecido ao tentar comprar este item. Por favor, tente novamente mais tarde. Se o erro persistir, por favor inicie um ticket de apoio gratuito em pancakeapp.com.";
 $lang["global:error_submitting_ajax"] = "Ocorreu um erro desconhecido ao tentar enviar este formulário. Por favor, tente novamente mais tarde. Se o erro persistir, por favor inicie um ticket de apoio gratuito em pancakeapp.com.";
+$lang["settings:hide_tax_column_explanation"] = "Isto irá ocultar a coluna de imposto nas faturas que não possuem informações fiscais.";
