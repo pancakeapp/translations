@@ -1282,3 +1282,4 @@ $lang["credit_notes:credit_note_number"] = "Nota de Crédito #:1";
 $lang["credit_notes:delete_title"] = "Apagar esta nota de crédito?";
 $lang["credit_notes:send_now_title"] = "Enviar nota de crédito agora?";
 $lang["credit_notes:send_now"] = "Enviar Nota de Crédito";
+$lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
