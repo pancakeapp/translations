@@ -1326,3 +1326,4 @@ $lang["clients:custom_fields"] = "Campos personalizados";
 $lang["clients:update_balance"] = "Atualização do Balanço de Crédito";
 $lang["invoices:sub_total_after_discounts"] = "Subtotal (após descontos)";
 $lang["expenses:category_added"] = "Sucesso! A categoria de despesas foi criada com sucesso.";
+$lang["clients:save_balance_alteration"] = "Guardar alteração do saldo";
