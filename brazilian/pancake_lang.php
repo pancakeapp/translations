@@ -1310,3 +1310,4 @@ $lang["global:accepted"] = "Aceito";
 $lang["estimates:accepted"] = "Estimativas aceitas";
 $lang["estimates:unanswered"] = "Estimativas não respondidas";
 $lang["invoices:send_to_client"] = "Fatura por E-mail para o Cliente";
+$lang["emailtemplates:content"] = "Conteúdo de Email";
