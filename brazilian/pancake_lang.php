@@ -1337,3 +1337,4 @@ $lang["expenses:expense_receipts"] = "Recibos de Despesas";
 $lang["expenses:no_receipt"] = "Sem Recibo";
 $lang["dashboard:upcoming_invoices"] = "Próximas faturas";
 $lang["reports:amount_paid"] = "Valor do Pagamento";
+$lang["expenses:edited"] = "Sucesso! A despesa foi editada com sucesso.";
