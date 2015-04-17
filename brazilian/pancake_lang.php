@@ -1336,3 +1336,4 @@ $lang["expenses:no_project_business_expense"] = "Despesa de Negócios (Sem Proje
 $lang["expenses:expense_receipts"] = "Recibos de Despesas";
 $lang["expenses:no_receipt"] = "Sem Recibo";
 $lang["dashboard:upcoming_invoices"] = "Próximas faturas";
+$lang["reports:amount_paid"] = "Valor do Pagamento";
