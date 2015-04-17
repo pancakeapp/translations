@@ -1299,3 +1299,4 @@ $lang["clients:credit_balance_currently"] = "Saldo de Crédito (atualmente% 1)";
 $lang["invoices:send_bulk_payment_notification"] = "Enviar e-mails de notificação de pagamento para o cliente?";
 $lang["clients:has_no_unpaid_invoices"] = ":1 não tem faturas a serem pagas.";
 $lang["global:credit_balance"] = "Saldo de Crédito";
+$lang["tickets:ticket_number"] = "Bilhete #1%";
