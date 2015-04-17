@@ -1351,3 +1351,4 @@ $lang["reports:verb_created"] = "Criado";
 $lang["dashboard:view_all_upcoming_invoices"] = "Ver Todas as Próximas Faturas";
 $lang["error:not_logged_in_intro"] = "Esses erros são registrados automaticamente.";
 $lang["error:unknown_error_reporting"] = "Ocorreu um erro desconhecido. Por favor, reporte este erro manualmente.";
+$lang["error:no_logged_errors"] = "Você não tem erros registrados.";
