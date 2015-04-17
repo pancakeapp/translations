@@ -1380,3 +1380,4 @@ $lang["projects:role_delete_task"] = "Apagar Tarefa";
 $lang["projects:role_delete_milestone"] = "Apagar Marco";
 $lang["projects.create.title"] = "Criar projeto";
 $lang["projects.label.description"] = "Descrição:";
+$lang["projects.label.name"] = "Nome:";
