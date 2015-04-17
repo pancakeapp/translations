@@ -1287,3 +1287,4 @@ $lang["global:success"] = "Sucesso!";
 $lang["invoices:send_payment_notification"] = "Enviar um e-mail de notificação de pagamento para o cliente?";
 $lang["credit_notes:view"] = "Ver Nota de Crédito";
 $lang["expenses:added"] = "A despesa foi adicionada com sucesso.";
+$lang["invoices:specify_bulk_payment_details"] = "Especifique os detalhes de pagamento de seu cliente, e escolha qual a fatura que se aplica ao pagamento.";
