@@ -1428,3 +1428,4 @@ $lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar 
 $lang["error:page_does_not_exist"] = "A página que você está tentando acessar não existe.";
 $lang["error:page_not_found"] = "Página Não Encontrada";
 $lang["kitchen:responses"] = "Respostas";
+$lang["error:no_tmp_dir_permissions_explanation"] = "Seu servidor está configurado de uma forma que não permite à Pancake criar arquivos temporários em <code>:1</code>.";
