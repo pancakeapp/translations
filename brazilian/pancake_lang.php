@@ -1422,3 +1422,4 @@ $lang["error:xcache_extension_broken"] = "Seu servidor tem um problema com a ext
 $lang["projects:no_data_provided"] = "Você não inseriu qualquer informação para criar um projeto a partir de um modelo.";
 $lang["settings:importedcredit_notes"] = "Importados :1 de notas de crédito com sucesso.";
 $lang["settings:test_email_subject"] = "Este e-mail é um teste.";
+$lang["reports:per_payment_method"] = "por método de pagamento";
