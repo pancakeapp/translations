@@ -1371,3 +1371,4 @@ $lang["tickets:unarchive"] = "Restaurar";
 $lang["global:occurred_times"] = "Ocorreu :1";
 $lang["projects:role_edit_task"] = "Editar Tarefa";
 $lang["error:reporting"] = "Reportando...";
+$lang["projects:role_create"] = "Criar";
