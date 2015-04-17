@@ -1441,3 +1441,4 @@ $lang["error:subtitle"] = "Ocorreu um erro desconhecido.";
 $lang["error:not_logged_in_extra"] = "Se o problema persistir, por favor contate :1.";
 $lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
 $lang["error:logged_in_extra"] = "Clique aqui para enviar uma mensagem de pedido de assistência gratuita com os detalhes do erro à Assistência Pancake.";
+$lang["global:once"] = "Uma vez";
