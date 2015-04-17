@@ -1349,3 +1349,4 @@ $lang["error:title"] = "Erro Desconhecido";
 $lang["invoices:bulk_payment_added"] = "O pagamento em massa foi adicionado com êxito.";
 $lang["reports:verb_created"] = "Criado";
 $lang["dashboard:view_all_upcoming_invoices"] = "Ver Todas as Próximas Faturas";
+$lang["error:not_logged_in_intro"] = "Esses erros são registrados automaticamente.";
