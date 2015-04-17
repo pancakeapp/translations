@@ -1406,3 +1406,4 @@ $lang["times.create.succeeded"] = "O tempo foi inserido com sucesso!";
 $lang["error:server_error"] = "Erro no Servidor";
 $lang["times.button.create"] = "Adicionar Tempo &rarr;";
 $lang["times.title"] = "Tempos";
+$lang["projects:role_add_milestone"] = "Adicionar Marco";
