@@ -1305,3 +1305,4 @@ $lang["settings:never_send_ticket_invoices_automatically"] = "- Nunca envie fatu
 $lang["settings:ticket_status_for_sending_invoice_description"] = "Quando um bilhete pago é atualizado para este status, uma fatura será automaticamente gerada e enviada para o cliente.";
 $lang["global:unanswered"] = "Sem resposta";
 $lang["global:rejected"] = "Rejeitado";
+$lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para este tíquete quando o estado do tíquete for alterado para \":2\".";
