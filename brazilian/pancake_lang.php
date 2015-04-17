@@ -1334,3 +1334,4 @@ $lang["expenses:expense_date"] = "Data";
 $lang["expenses:attach_receipt"] = "Anexar Recibo (Tamanho Máximo: :1)";
 $lang["expenses:no_project_business_expense"] = "Despesa de Negócios (Sem Projeto)";
 $lang["expenses:expense_receipts"] = "Recibos de Despesas";
+$lang["expenses:no_receipt"] = "Sem Recibo";
