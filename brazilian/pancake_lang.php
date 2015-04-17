@@ -1408,3 +1408,4 @@ $lang["times.button.create"] = "Adicionar Tempo &rarr;";
 $lang["times.title"] = "Tempos";
 $lang["projects:role_add_milestone"] = "Adicionar Marco";
 $lang["times.label.notes"] = "Notas:";
+$lang["times.label.task_id"] = "Tarefa:";
