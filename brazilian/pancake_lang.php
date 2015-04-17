@@ -1341,3 +1341,4 @@ $lang["expenses:edited"] = "Sucesso! A despesa foi editada com sucesso.";
 $lang["reports:payments"] = "Pagamentos";
 $lang["reports:verb_from_to"] = "De 1% até 2 a 3%";
 $lang["clients:no_amount_specified"] = "Você não especificou uma quantia.";
+$lang["dashboard:there_are_no_upcoming_invoices"] = "Não há faturas futuras para exibir.";
