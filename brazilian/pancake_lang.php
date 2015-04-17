@@ -1300,3 +1300,4 @@ $lang["invoices:send_bulk_payment_notification"] = "Enviar e-mails de notificaç
 $lang["clients:has_no_unpaid_invoices"] = ":1 não tem faturas a serem pagas.";
 $lang["global:credit_balance"] = "Saldo de Crédito";
 $lang["tickets:ticket_number"] = "Bilhete #1%";
+$lang["settings:ticket_status_for_sending_invoice"] = "Status do Ticket  para Cobrança";
