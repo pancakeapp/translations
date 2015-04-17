@@ -1399,3 +1399,4 @@ $lang["projects:role_track_time"] = "Controlar Tempo";
 $lang["invoices:estimates_unsent"] = "Estimativas não enviadas";
 $lang["projects.label.is_viewable"] = "Visível na área do cliente?";
 $lang["error:not_enough_disk_space_explanation"] = "O seu servidor de banco de dados (1%) não tem espaço em disco suficiente.";
+$lang["error:not_enough_disk_space_solutions"] = "Se você tiver acesso \"root\" ao servidor do banco de dados, tente clearing/tmp. Se isso não funcionar, verifique o uso da memória do seu servidor de banco de dados, e tente libertar algum espaço no disco.";
