@@ -1377,3 +1377,4 @@ $lang["errors:subject"] = "Título Errado";
 $lang["projects.title"] = "Projetos";
 $lang["projects:role_add_task"] = "Adicionar Tarefa";
 $lang["projects:role_delete_task"] = "Apagar Tarefa";
+$lang["projects:role_delete_milestone"] = "Apagar Marco";
