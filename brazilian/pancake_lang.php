@@ -1376,3 +1376,4 @@ $lang["error:already_reported"] = "Este erro já foi relatado ao Suporte Pancake
 $lang["errors:subject"] = "Título Errado";
 $lang["projects.title"] = "Projetos";
 $lang["projects:role_add_task"] = "Adicionar Tarefa";
+$lang["projects:role_delete_task"] = "Apagar Tarefa";
