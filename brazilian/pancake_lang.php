@@ -1396,3 +1396,4 @@ $lang["times.label.note"] = "Nota:";
 $lang["times.label.start_time"] = "Hora de início:";
 $lang["global:estimates_unsent"] = "Não enviado";
 $lang["projects:role_track_time"] = "Controlar Tempo";
+$lang["invoices:estimates_unsent"] = "Estimativas não enviadas";
