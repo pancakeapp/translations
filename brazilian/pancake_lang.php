@@ -1317,3 +1317,4 @@ $lang["estimates:send_to_client"] = "Enviar a Estimativa por E-mail para o Clien
 $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \"% 2\".";
 $lang["global:appendtoproject"] = "Converter em tarefas para \"% 1\"";
 $lang["items:percentage_discount"] = "Desconto (%)";
+$lang["items:fixed_discount"] = "Desconto (% 1)";
