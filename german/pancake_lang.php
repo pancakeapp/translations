@@ -1426,3 +1426,4 @@ $lang["projects:role_view"] = "Ansicht";
 $lang["projects:role_delete_milestone"] = "Meilenstein löschen";
 $lang["projects:role_edit_milestone"] = "Meilenstein bearbeiten";
 $lang["projects:role_track_time"] = "Streckenzeit";
+$lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
