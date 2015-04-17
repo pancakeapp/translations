@@ -1443,3 +1443,4 @@ $lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro 
 $lang["error:logged_in_extra"] = "Clique aqui para enviar uma mensagem de pedido de assistência gratuita com os detalhes do erro à Assistência Pancake.";
 $lang["global:once"] = "Uma vez";
 $lang["global:twice"] = "Duas vezes";
+$lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
