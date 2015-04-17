@@ -1286,3 +1286,4 @@ $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visual
 $lang["global:success"] = "Sucesso!";
 $lang["invoices:send_payment_notification"] = "Enviar um e-mail de notificação de pagamento para o cliente?";
 $lang["credit_notes:view"] = "Ver Nota de Crédito";
+$lang["expenses:added"] = "A despesa foi adicionada com sucesso.";
