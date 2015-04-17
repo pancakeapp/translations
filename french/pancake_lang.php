@@ -1526,7 +1526,7 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
     "settings:test_email_sent" => "Envoyé à :1 avec succès!",
     "settings:test_email_error_header" => "Erreur lors de l'envoi du courriel d'essai",
     "settings:test_email_error" => "Une erreur est survenue lors de l'envoi du courriel d'essai :<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you're using SMTP, make sure the port you're trying to use is open in your server's firewall.",
-    "settings:test_email_connection_error" => "Votre serveur ne peut se connecter à :1 sur le port :2. Veuillez contacter votre administrateur réseau pour qu'il autorise ce port dans le coupe-feu de votre serveur.<br /><br />Le message d'erruer est :<br /><br />:3"
+    "settings:test_email_connection_error" => "Votre serveur ne peut se connecter à :1 sur le port :2. Veuillez contacter votre administrateur réseau pour qu'il autorise ce port dans le coupe-feu de votre serveur.<br /><br />Le message d'erreur est :<br /><br />:3",
     # Fin v4.7.12
     
     # Début v4.8.0
