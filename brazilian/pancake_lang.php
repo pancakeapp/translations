@@ -1294,3 +1294,4 @@ $lang["global:error_submitting_ajax"] = "Ocorreu um erro desconhecido ao tentar 
 $lang["settings:hide_tax_column_explanation"] = "Isto irá ocultar a coluna de imposto nas faturas que não possuem informações fiscais.";
 $lang["global:incorrect_login"] = "A combinação nome de usuário / senha que você digitou é inválida.";
 $lang["settings:hide_tax_column"] = "Esconder a Coluna de Impostos?";
+$lang["tickets:not_yet_generated"] = "A fatura ainda não foi gerada";
