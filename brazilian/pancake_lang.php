@@ -1318,3 +1318,4 @@ $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \"% 2
 $lang["global:appendtoproject"] = "Converter em tarefas para \"% 1\"";
 $lang["items:percentage_discount"] = "Desconto (%)";
 $lang["items:fixed_discount"] = "Desconto (% 1)";
+$lang["clients:tax_registration_number"] = ":1 Número / ID";
