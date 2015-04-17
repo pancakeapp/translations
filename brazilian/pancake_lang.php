@@ -1414,3 +1414,4 @@ $lang["error:xcache_extension_broken_explanation"] = "Algo deu errado enquanto s
 $lang["error:permissions_not_valid"] = "Há um problema com as permissões de arquivo em seu servidor.";
 $lang["error:you_cannot_report_this_error"] = "Você não pode relatar esse problema ao Suporte Pancake, porque é um problema com o seu servidor. Por favor, entre em contato com o administrador do seu servidor sobre este problema. Quando o discutir com eles, diga:";
 $lang["invoices:see_payment_schedule_below"] = "Veja Abaixo o Cronograma de Pagamento ";
+$lang["invoices:see_payment_schedule"] = "Veja o cronograma de pagamento";
