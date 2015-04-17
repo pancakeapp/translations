@@ -1412,3 +1412,4 @@ $lang["times.label.task_id"] = "Tarefa:";
 $lang["error:email_settings_not_valid"] = "Suas configurações de e-mail não são válidas.";
 $lang["error:xcache_extension_broken_explanation"] = "Algo deu errado enquanto seu servidor estava tentando carregar a extensão XCache. Isso não está, de forma alguma, relacionado a Pancake, mas está impedindo que Pancake seja executado.";
 $lang["error:permissions_not_valid"] = "Há um problema com as permissões de arquivo em seu servidor.";
+$lang["error:you_cannot_report_this_error"] = "Você não pode relatar esse problema ao Suporte Pancake, porque é um problema com o seu servidor. Por favor, entre em contato com o administrador do seu servidor sobre este problema. Quando o discutir com eles, diga:";
