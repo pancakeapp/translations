@@ -1325,3 +1325,4 @@ $lang["clients:add_custom_field"] = "Adicionar outro campo personalizado";
 $lang["clients:custom_fields"] = "Campos personalizados";
 $lang["clients:update_balance"] = "Atualização do Balanço de Crédito";
 $lang["invoices:sub_total_after_discounts"] = "Subtotal (após descontos)";
+$lang["expenses:category_added"] = "Sucesso! A categoria de despesas foi criada com sucesso.";
