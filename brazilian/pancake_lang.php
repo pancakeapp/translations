@@ -1309,3 +1309,4 @@ $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para
 $lang["global:accepted"] = "Aceito";
 $lang["estimates:accepted"] = "Estimativas aceitas";
 $lang["estimates:unanswered"] = "Estimativas não respondidas";
+$lang["invoices:send_to_client"] = "Fatura por E-mail para o Cliente";
