@@ -1356,3 +1356,4 @@ $lang["error:cannot_send_error_details"] = "Você não pode enviar detalhes do e
 $lang["settings:error_reported"] = "Erro Reportado";
 $lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
 $lang["settings:report_error"] = "Relatar erro";
+$lang["global:errors"] = "Erros";
