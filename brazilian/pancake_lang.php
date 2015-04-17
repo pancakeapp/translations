@@ -1384,3 +1384,4 @@ $lang["projects.label.name"] = "Nome:";
 $lang["projects.label.client"] = "Cliente:";
 $lang["projects:role_edit_milestone"] = "Editar Etapa";
 $lang["projects.button.edit"] = "Atualizar Projeto & rarr;";
+$lang["projects:role_delete"] = "Excluir";
