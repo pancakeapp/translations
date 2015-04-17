@@ -1332,3 +1332,4 @@ $lang["clients:what_do_you_want_to_do"] = "O que você deseja fazer";
 $lang["clients:balance_updated"] = "Sucesso! O saldo de crédito do cliente foi atualizado com sucesso.";
 $lang["expenses:expense_date"] = "Data";
 $lang["expenses:attach_receipt"] = "Anexar Recibo (Tamanho Máximo: :1)";
+$lang["expenses:no_project_business_expense"] = "Despesa de Negócios (Sem Projeto)";
