@@ -1404,3 +1404,4 @@ $lang["error:cant_send_email"] = "Não é possível enviar e-mail";
 $lang["times.label.end_time"] = "Hora do fim:";
 $lang["times.create.succeeded"] = "O tempo foi inserido com sucesso!";
 $lang["error:server_error"] = "Erro no Servidor";
+$lang["times.button.create"] = "Adicionar Tempo &rarr;";
