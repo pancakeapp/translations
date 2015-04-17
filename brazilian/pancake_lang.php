@@ -1307,3 +1307,4 @@ $lang["global:unanswered"] = "Sem resposta";
 $lang["global:rejected"] = "Rejeitado";
 $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para este tíquete quando o estado do tíquete for alterado para \":2\".";
 $lang["global:accepted"] = "Aceito";
+$lang["estimates:accepted"] = "Estimativas aceitas";
