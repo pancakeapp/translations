@@ -1330,3 +1330,4 @@ $lang["clients:save_balance_alteration"] = "Guardar alteração do saldo";
 $lang["global:beforeunload"] = "Você está prestes a sair desta página. Se fizer isso, todos os dados que inseriu até agora serão perdidos. Tem certeza de que deseja sair desta página?";
 $lang["clients:what_do_you_want_to_do"] = "O que você deseja fazer";
 $lang["clients:balance_updated"] = "Sucesso! O saldo de crédito do cliente foi atualizado com sucesso.";
+$lang["expenses:expense_date"] = "Data";
