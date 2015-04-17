@@ -1429,3 +1429,4 @@ $lang["error:page_does_not_exist"] = "A página que você está tentando acessar
 $lang["error:page_not_found"] = "Página Não Encontrada";
 $lang["kitchen:responses"] = "Respostas";
 $lang["error:no_tmp_dir_permissions_explanation"] = "Seu servidor está configurado de uma forma que não permite à Pancake criar arquivos temporários em <code>:1</code>.";
+$lang["error:no_tmp_dir_permissions_solutions"] = "Se você tiver acesso root ao servidor, você pode mudar a configuração <code>open_basedir</code> no php.ini para que <code>1%</code> seja incluído na lista de pastas permitidas.";
