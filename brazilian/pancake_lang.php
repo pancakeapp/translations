@@ -1424,3 +1424,4 @@ $lang["settings:importedcredit_notes"] = "Importados :1 de notas de crédito com
 $lang["settings:test_email_subject"] = "Este e-mail é um teste.";
 $lang["reports:per_payment_method"] = "por método de pagamento";
 $lang["error:cant_send_email_explanation"] = "Você especificou que deseja utilizar o Sendmail (1%) para enviar e-mail, mas não foi possível fazê-lo. Ou o caminho até o Sendmail está incorreto, ou alguma outra coisa deu errado.";
+$lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar :1, mas não existe. Se isso for inesperado, você pode relatar o erro ao Suporte Pancake. Você o encontrará em \"Configurações > Erros & Diagnósticos\".";
