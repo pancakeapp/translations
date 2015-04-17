@@ -1363,3 +1363,4 @@ $lang["errors:number_of_occurrences"] = "# de ocorrências";
 $lang["error:deleting"] = "Excluindo...";
 $lang["settings:view_error_details"] = "Ver Detalhes do Erro";
 $lang["global:x_times"] = ":1 de vezes";
+$lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
