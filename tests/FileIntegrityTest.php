@@ -15,8 +15,8 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
     protected function get_recursive_file_list($folder, $prefix = '') {
         # Add trailing slash
         $folder   = (substr($folder, strlen($folder) - 1, 1) == '/') ? $folder : $folder . '/';
-        $return   = [];
-        $ignore   = [];
+        $return   = array();
+        $ignore   = array();
         $ignore[] = 'composer.json';
         $ignore[] = 'composer.lock';
         $ignore[] = 'index.html';
