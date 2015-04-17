@@ -1430,3 +1430,4 @@ $lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellun
 $lang["errors:report"] = "Fehler melden";
 $lang["global:errors"] = "Fehler";
 $lang["settings:delete_error"] = "Fehler löschen";
+$lang["global:once"] = "Einmal";
