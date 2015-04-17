@@ -1448,3 +1448,4 @@ $lang["projects:role_view"] = "Vista";
 $lang["projects.create.succeeded"] = "O projeto foi criado!";
 $lang["projects.update.succeeded"] = "O projeto foi atualizado!";
 $lang["projects.delete.title"] = "Tem certeza de que deseja excluir este projeto?";
+$lang["times.edit.succeeded"] = "O tempo foi editado com sucesso!";
