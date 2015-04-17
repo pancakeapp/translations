@@ -1416,3 +1416,4 @@ $lang["error:you_cannot_report_this_error"] = "Você não pode relatar esse prob
 $lang["invoices:see_payment_schedule_below"] = "Veja Abaixo o Cronograma de Pagamento ";
 $lang["invoices:see_payment_schedule"] = "Veja o cronograma de pagamento";
 $lang["error:cant_send_email_solutions"] = "Se você tiver acesso root ao servidor, certifique-se de que o sendmail está instalado e tente encontrar com qual <code>sendmail</code>.";
+$lang["expenses:supplier_added"] = "Sucesso! O fornecedor foi criado com sucesso.";
