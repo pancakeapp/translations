@@ -1420,3 +1420,4 @@ $lang["expenses:supplier_added"] = "Sucesso! O fornecedor foi criado com sucesso
 $lang["gateways:just_for_logging"] = "Nota: Este método de pagamento não afeta as faturas de forma alguma.<br/>Ele está aqui para que você possa acompanhar quais pagamentos recebeu por :1.";
 $lang["error:xcache_extension_broken"] = "Seu servidor tem um problema com a extensão XCache.";
 $lang["projects:no_data_provided"] = "Você não inseriu qualquer informação para criar um projeto a partir de um modelo.";
+$lang["settings:importedcredit_notes"] = "Importados :1 de notas de crédito com sucesso.";
