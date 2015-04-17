@@ -1303,3 +1303,4 @@ $lang["tickets:ticket_number"] = "Bilhete #1%";
 $lang["settings:ticket_status_for_sending_invoice"] = "Status do Ticket  para Cobrança";
 $lang["settings:never_send_ticket_invoices_automatically"] = "- Nunca envie faturas de tickets automaticamente -";
 $lang["settings:ticket_status_for_sending_invoice_description"] = "Quando um bilhete pago é atualizado para este status, uma fatura será automaticamente gerada e enviada para o cliente.";
+$lang["global:unanswered"] = "Sem resposta";
