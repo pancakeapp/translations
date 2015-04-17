@@ -1446,3 +1446,4 @@ $lang["global:twice"] = "Duas vezes";
 $lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
 $lang["projects:role_view"] = "Vista";
 $lang["projects.create.succeeded"] = "O projeto foi criado!";
+$lang["projects.update.succeeded"] = "O projeto foi atualizado!";
