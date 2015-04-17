@@ -1437,3 +1437,4 @@ $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para
 $lang["global:appendtoproject"] = "Converter em tarefas para \":1\"";
 $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \":2\".";
 $lang["error:response_will_be_sent_to_email"] = "Você será notificado das respostas através de {email}.";
+$lang["error:subtitle"] = "Ocorreu um erro desconhecido.";
