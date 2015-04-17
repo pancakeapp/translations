@@ -1354,3 +1354,4 @@ $lang["error:unknown_error_reporting"] = "Ocorreu um erro desconhecido. Por favo
 $lang["error:no_logged_errors"] = "Você não tem erros registrados.";
 $lang["error:cannot_send_error_details"] = "Você não pode enviar detalhes do erro para o Pancake Support, porque você não está logado.";
 $lang["settings:error_reported"] = "Erro Reportado";
+$lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
