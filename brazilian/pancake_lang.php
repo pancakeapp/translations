@@ -1507,3 +1507,4 @@ $lang["error:why_update"] = "Ao ficar com esta versão do PHP, você está perde
 $lang["error:fixed_in_version"] = "Esse problema foi corrigido no Pancake {versão}. Se você ainda não o fez, atualize seu Pancake.";
 $lang["error:scan_pancake"] = "Analise seu Pancake para encontrar questões relacionadas a arquivos";
 $lang["error:scan"] = "Digitalização";
+$lang["error:scanning"] = "Digitalizando, por favor aguarde...";
