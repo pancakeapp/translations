@@ -1515,3 +1515,4 @@ $lang["tickets:user_updated_ticket"] = "1% atualizou o status do ingresso para 2
 $lang["error:scan_result_failure_how_to_fix"] = "Para resolver estes problemas, você terá que atualizar manualmente os arquivos de Pancake.";
 $lang["error:click_here_for_instructions"] = "Clique aqui para obter instruções";
 $lang["error:using_php_54"] = "Você está usando o PHP 5.4, que está desatualizado há 2 anos e vai chegar ao status de fim-da-vida (o que significa que já não é suportado pelo Grupo PHP) em setembro de 2015.";
+$lang["global:archived"] = "Arquivado";
