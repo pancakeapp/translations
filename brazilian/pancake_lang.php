@@ -1526,3 +1526,4 @@ $lang["credit_notes:archived"] = "Você arquivou a nota de crédito #% 1 com êx
 $lang["estimates:archived"] = "Você arquivou uma estimativa de  #:1 com êxito.";
 $lang["global:restore"] = "Restaurar";
 $lang["proposals:list_accepted"] = "Propostas aceitas";
+$lang["error:scan_result_failure_modified_other"] = "% 1 dos arquivos foram modificados";
