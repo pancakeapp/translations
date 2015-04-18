@@ -1464,3 +1464,4 @@ $lang["expenses:supplier_name"] = "Nome do Fornecedor";
 $lang["expenses:category_edited"] = "Sucesso! A categoria foi editada com sucesso.";
 $lang["expenses:category_name"] = "Nome da Categoria";
 $lang["expenses:before_you_can_add_expenses"] = "Antes que você possa adicionar quaisquer despesas, você precisa criar algum :1 e % 2.";
+$lang["reminders:no_due_date"] = "Nenhuma data de vencimento";
