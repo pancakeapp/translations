@@ -1480,3 +1480,4 @@ $lang["tickets:replied"] = "Sua resposta para o bilhete foi salva com sucesso.";
 $lang["users:deactivate"] = "Desativar";
 $lang["reports:collected"] = "Recolhido";
 $lang["global:group"] = "Grupo";
+$lang["users:please_enter_information"] = "Por favor digite as informações do usuário abaixo.";
