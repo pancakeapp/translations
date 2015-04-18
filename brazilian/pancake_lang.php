@@ -1521,3 +1521,4 @@ $lang["global:archive"] = "Arquivo";
 $lang["invoices:archived"] = "Você arquivou a fatura #% 1 com êxito.";
 $lang["proposals:archived"] = "Você arquivou a proposta #% 1 com êxito.";
 $lang["credit_notes:restored"] = "Você restaurou a nota de crédito #:1 com sucesso.";
+$lang["proposals:list_all"] = "Todas as propostas";
