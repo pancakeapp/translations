@@ -1484,3 +1484,4 @@ $lang["users:please_enter_information"] = "Por favor digite as informações do 
 $lang["users:edit_user"] = "Editar Usuário";
 $lang["global:download_csv"] = "Baixar o CSV";
 $lang["tasks:complete_this_task"] = "Complete esta tarefa";
+$lang["global:by_x_with_time"] = "Por 1%, 2%";
