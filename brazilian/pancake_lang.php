@@ -1497,3 +1497,4 @@ $lang["tasks:add_notes"] = "Adicionar notas";
 $lang["error:already_being_dealt_with"] = "Esse problema já foi relatado por outra pessoa, e está sendo resolvido. Estamos trabalhando para resolvê-lo o mais rápido possível.";
 $lang["global:bcc_was_sent_to"] = "Este e-mail foi enviado para % 1 em % 2.";
 $lang["tasks:task_notes"] = "Notas de tarefas";
+$lang["error:php_outdated"] = "A versão do PHP que você está usando está desatualizada.";
