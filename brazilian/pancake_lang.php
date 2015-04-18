@@ -1493,3 +1493,4 @@ $lang["projects:rate_type"] = "Tipo de Taxa";
 $lang["clients:filter_clients"] = "Filtrar Clientes";
 $lang["users:activate"] = "Ativar";
 $lang["invoices:not_associated_with_a_project"] = "-- Não está associado a um projeto --";
+$lang["tasks:add_notes"] = "Adicionar notas";
