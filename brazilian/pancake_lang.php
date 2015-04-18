@@ -1519,3 +1519,4 @@ $lang["global:archived"] = "Arquivado";
 $lang["error:scan_result_failure_deleted_other"] = "1% dos arquivos não existem";
 $lang["global:archive"] = "Arquivo";
 $lang["invoices:archived"] = "Você arquivou a fatura #% 1 com êxito.";
+$lang["proposals:archived"] = "Você arquivou a proposta #% 1 com êxito.";
