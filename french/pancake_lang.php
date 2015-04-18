@@ -1629,3 +1629,4 @@ $lang["credit_notes:restored"] = "Vous avez restauré la note de crédit #:1 ave
 $lang["proposals:list_rejected"] = "Offres rejetées";
 $lang["proposals:list_all"] = "Toutes les offres.";
 $lang["proposals:list_archived"] = "Propositions archivées";
+$lang["invoices:invoices_archived"] = "Factures archivées";
