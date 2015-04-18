@@ -1455,3 +1455,4 @@ $lang["error:cant_php_mail_explanation"] = "Você especificou que deseja utiliza
 $lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar :1, mas não existe. Se isso for inesperado, você pode relatar o erro ao Suporte Pancake. Você o encontrará em \"Configurações > Erros & Diagnósticos\".";
 $lang["settings:test_email_connection_error"] = "Ocorreu um erro ao tentar enviar o e-mail de teste:<br/><br/>:1<br/><br/>Por favor, verifique se os detalhes inseridos estão corretos. Se estiver usando SMTP, verifique se a porta que está tentando usar está aberta no firewall do servidor.";
 $lang["kitchen:no_tickets_created"] = "Taxa Fixa";
+$lang["projects:add_new_task"] = "% 1 Respostas";
