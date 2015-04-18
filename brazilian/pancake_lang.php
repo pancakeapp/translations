@@ -1524,3 +1524,4 @@ $lang["credit_notes:restored"] = "Você restaurou a nota de crédito #:1 com suc
 $lang["proposals:list_all"] = "Todas as propostas";
 $lang["credit_notes:archived"] = "Você arquivou a nota de crédito #% 1 com êxito.";
 $lang["estimates:archived"] = "Você arquivou uma estimativa de  #:1 com êxito.";
+$lang["global:restore"] = "Restaurar";
