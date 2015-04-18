@@ -1511,3 +1511,4 @@ $lang["error:scanning"] = "Digitalizando, por favor aguarde...";
 $lang["error:scan_result_failure_modified_one"] = "% 1 do arquivo foi modificado";
 $lang["error:scan_result_failure_heading"] = "Existem problemas com os ficheiros de seu Pancake.";
 $lang["error:unknown_error_scanning"] = "Ocorreu um erro desconhecido durante a digitalização.";
+$lang["tickets:user_updated_ticket"] = "1% atualizou o status do ingresso para 2% em 3% ";
