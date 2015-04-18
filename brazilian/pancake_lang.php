@@ -1517,3 +1517,4 @@ $lang["error:click_here_for_instructions"] = "Clique aqui para obter instruçõe
 $lang["error:using_php_54"] = "Você está usando o PHP 5.4, que está desatualizado há 2 anos e vai chegar ao status de fim-da-vida (o que significa que já não é suportado pelo Grupo PHP) em setembro de 2015.";
 $lang["global:archived"] = "Arquivado";
 $lang["error:scan_result_failure_deleted_other"] = "1% dos arquivos não existem";
+$lang["global:archive"] = "Arquivo";
