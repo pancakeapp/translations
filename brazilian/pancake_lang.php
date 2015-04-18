@@ -1503,3 +1503,4 @@ $lang["users:confirm_password"] = "Confirme Senha";
 $lang["global:server_default"] = "Servidor Padrão (Não Recomendado)";
 $lang["error:upgrade_php"] = "Você deve atualizar sua versão do PHP, no mínimo para 5,5 (o ideal é 5,6). Para fazê-lo, por favor, fale com seus administradores de servidor e peça-lhes para atualizar o PHP.";
 $lang["error:scan_result_success"] = "O seu Pancake está em perfeitas condições e não foi alterado de qualquer maneira. Está tudo OK.";
+$lang["error:why_update"] = "Ao ficar com esta versão do PHP, você está perdendo uma série de melhorias de desempenho e segurança, bem como um número incontável de correções de bugs.";
