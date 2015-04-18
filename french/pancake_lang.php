@@ -1631,3 +1631,4 @@ $lang["proposals:list_all"] = "Toutes les offres.";
 $lang["proposals:list_archived"] = "Propositions archivées";
 $lang["invoices:invoices_archived"] = "Factures archivées";
 $lang["invoices:estimates_archived"] = "Estimations Archivées";
+$lang["invoices:archived"] = "Vous avez archivé la facture #:1 avec succès.";
