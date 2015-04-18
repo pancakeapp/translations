@@ -1467,3 +1467,4 @@ $lang["expenses:before_you_can_add_expenses"] = "Antes que você possa adicionar
 $lang["reminders:no_due_date"] = "Nenhuma data de vencimento";
 $lang["reminders:x_days_past_due"] = ":1 dias de atraso";
 $lang["search:one_matching_result"] = "1 resultado encontrado";
+$lang["search:x_matching_results"] = ":1 resultados encontrados";
