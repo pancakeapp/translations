@@ -1466,3 +1466,4 @@ $lang["expenses:category_name"] = "Nome da Categoria";
 $lang["expenses:before_you_can_add_expenses"] = "Antes que você possa adicionar quaisquer despesas, você precisa criar algum :1 e % 2.";
 $lang["reminders:no_due_date"] = "Nenhuma data de vencimento";
 $lang["reminders:x_days_past_due"] = ":1 dias de atraso";
+$lang["search:one_matching_result"] = "1 resultado encontrado";
