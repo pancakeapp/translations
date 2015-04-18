@@ -1479,3 +1479,4 @@ $lang["reports:uncollected"] = "Não cobrado";
 $lang["tickets:replied"] = "Sua resposta para o bilhete foi salva com sucesso.";
 $lang["users:deactivate"] = "Desativar";
 $lang["reports:collected"] = "Recolhido";
+$lang["global:group"] = "Grupo";
