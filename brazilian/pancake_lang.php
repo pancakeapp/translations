@@ -1461,3 +1461,4 @@ $lang["projects:delete_project_template"] = "Apagar Modelo de Projeto";
 $lang["global:show_hide_deleted"] = "Mostrar / Esconder Eliminados";
 $lang["expenses:supplier_edited"] = "Sucesso! O fornecedor foi editado com sucesso.";
 $lang["expenses:supplier_name"] = "Nome do Fornecedor";
+$lang["expenses:category_edited"] = "Sucesso! A categoria foi editada com sucesso.";
