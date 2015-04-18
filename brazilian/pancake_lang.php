@@ -1509,3 +1509,4 @@ $lang["error:scan_pancake"] = "Analise seu Pancake para encontrar questões rela
 $lang["error:scan"] = "Digitalização";
 $lang["error:scanning"] = "Digitalizando, por favor aguarde...";
 $lang["error:scan_result_failure_modified_one"] = "% 1 do arquivo foi modificado";
+$lang["error:scan_result_failure_heading"] = "Existem problemas com os ficheiros de seu Pancake.";
