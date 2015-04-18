@@ -1472,3 +1472,4 @@ $lang["search:results_for_x"] = "Resultados da pesquisa para \"% 1\"";
 $lang["global:project_task"] = "Tarefa";
 $lang["global:project_expense"] = "Despesa";
 $lang["global:ticket"] = "Bilhete";
+$lang["global:attach_file"] = "Anexar arquivo (Tamanho máximo: % 1)";
