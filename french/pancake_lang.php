@@ -1618,3 +1618,4 @@ $lang["global:archive"] = "Archive";
 $lang["global:archived"] = "Archivé";
 $lang["global:restore"] = "Restaurer";
 $lang["proposals:restored"] = "Vous avez restauré la proposition #:1 avec succès.";
+$lang["proposals:archived"] = "Vous avez archivé la proposition #:1 avec succès.";
