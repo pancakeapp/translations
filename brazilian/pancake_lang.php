@@ -1500,3 +1500,4 @@ $lang["tasks:task_notes"] = "Notas de tarefas";
 $lang["error:php_outdated"] = "A versão do PHP que você está usando está desatualizada.";
 $lang["error:pancake_will_stop_supporting_it"] = "O Pancake vai deixar de prestar suporte a ele em algumas semanas.";
 $lang["users:confirm_password"] = "Confirme Senha";
+$lang["global:server_default"] = "Servidor Padrão (Não Recomendado)";
