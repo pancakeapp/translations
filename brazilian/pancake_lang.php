@@ -1457,3 +1457,4 @@ $lang["settings:test_email_connection_error"] = "Ocorreu um erro ao tentar envia
 $lang["kitchen:no_tickets_created"] = "Taxa Fixa";
 $lang["projects:add_new_task"] = "% 1 Respostas";
 $lang["items:select_flat_rate"] = "Tudo não pago";
+$lang["projects:delete_project_template"] = "Adicionar Nova Tarefa";
