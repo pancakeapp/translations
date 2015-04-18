@@ -1532,3 +1532,4 @@ $lang["error:and_x_others"] = "... e :1 outros.";
 $lang["error:scan_result_failure_deleted_one"] = " 1% do arquivo não existe";
 $lang["error:using_php_53"] = "Você está usando o PHP 5.3, que está desatualizado faz bem mais de 3 anos e chegou ao estatuto de fim de vida (o que significa que não é mais suportado pelo Grupo PHP).";
 $lang["estimates:restored"] = "Você restaurou a estimativa #% 1 com êxito.";
+$lang["proposals:restored"] = "Você restaurou a proposta #% 1 com êxito.";
