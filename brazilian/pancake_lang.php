@@ -1481,3 +1481,4 @@ $lang["users:deactivate"] = "Desativar";
 $lang["reports:collected"] = "Recolhido";
 $lang["global:group"] = "Grupo";
 $lang["users:please_enter_information"] = "Por favor digite as informações do usuário abaixo.";
+$lang["users:edit_user"] = "Editar Usuário";
