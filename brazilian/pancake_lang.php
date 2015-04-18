@@ -1490,3 +1490,4 @@ $lang["tickets:active_tickets"] = "Bilhetes ativos";
 $lang["tickets:leave_a_response"] = "Deixe uma Resposta";
 $lang["tasks:discuss_task"] = "Discutir Tarefa";
 $lang["projects:rate_type"] = "Tipo de Taxa";
+$lang["clients:filter_clients"] = "Filtrar Clientes";
