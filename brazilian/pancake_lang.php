@@ -1469,3 +1469,4 @@ $lang["reminders:x_days_past_due"] = ":1 dias de atraso";
 $lang["search:one_matching_result"] = "1 resultado encontrado";
 $lang["search:x_matching_results"] = ":1 resultados encontrados";
 $lang["search:results_for_x"] = "Resultados da pesquisa para \"% 1\"";
+$lang["global:project_task"] = "Tarefa";
