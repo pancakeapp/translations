@@ -1625,3 +1625,4 @@ $lang["estimates:archived"] = "Vous avez archivé l'estimation #:1 avec succès.
 $lang["invoices:credit_notes_archived"] = "Notes de Crédit archivées";
 $lang["credit_notes:archived"] = "Vous avez archivé la note de crédit #:1 avec succès.";
 $lang["estimates:restored"] = "Vous avez restauré l'estimation #:1 avec succès.";
+$lang["credit_notes:restored"] = "Vous avez restauré la note de crédit #:1 avec succès.";
