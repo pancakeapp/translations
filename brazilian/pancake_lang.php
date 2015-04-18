@@ -1505,3 +1505,4 @@ $lang["error:upgrade_php"] = "Você deve atualizar sua versão do PHP, no mínim
 $lang["error:scan_result_success"] = "O seu Pancake está em perfeitas condições e não foi alterado de qualquer maneira. Está tudo OK.";
 $lang["error:why_update"] = "Ao ficar com esta versão do PHP, você está perdendo uma série de melhorias de desempenho e segurança, bem como um número incontável de correções de bugs.";
 $lang["error:fixed_in_version"] = "Esse problema foi corrigido no Pancake {versão}. Se você ainda não o fez, atualize seu Pancake.";
+$lang["error:scan_pancake"] = "Analise seu Pancake para encontrar questões relacionadas a arquivos";
