@@ -1533,3 +1533,4 @@ $lang["error:scan_result_failure_deleted_one"] = " 1% do arquivo não existe";
 $lang["error:using_php_53"] = "Você está usando o PHP 5.3, que está desatualizado faz bem mais de 3 anos e chegou ao estatuto de fim de vida (o que significa que não é mais suportado pelo Grupo PHP).";
 $lang["estimates:restored"] = "Você restaurou a estimativa #% 1 com êxito.";
 $lang["proposals:restored"] = "Você restaurou a proposta #% 1 com êxito.";
+$lang["error:scan_pancake_explanation"] = "Às vezes, problemas podem acontecer por conta de uma falha na atualização, ou por causa de problemas de permissões que causam o corrompimento de seus arquivos de Pancake durante uma atualização. Use isto para verificar o seu Pancake para tais problemas.";
