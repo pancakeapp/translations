@@ -1508,3 +1508,4 @@ $lang["error:fixed_in_version"] = "Esse problema foi corrigido no Pancake {vers�
 $lang["error:scan_pancake"] = "Analise seu Pancake para encontrar questões relacionadas a arquivos";
 $lang["error:scan"] = "Digitalização";
 $lang["error:scanning"] = "Digitalizando, por favor aguarde...";
+$lang["error:scan_result_failure_modified_one"] = "% 1 do arquivo foi modificado";
