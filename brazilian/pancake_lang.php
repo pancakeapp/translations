@@ -1459,3 +1459,4 @@ $lang["projects:add_new_task"] = "% 1 Respostas";
 $lang["items:select_flat_rate"] = "Tudo não pago";
 $lang["projects:delete_project_template"] = "Apagar Modelo de Projeto";
 $lang["global:show_hide_deleted"] = "Mostrar / Esconder Eliminados";
+$lang["expenses:supplier_edited"] = "Sucesso! O fornecedor foi editado com sucesso.";
