@@ -1513,3 +1513,4 @@ $lang["error:scan_result_failure_heading"] = "Existem problemas com os ficheiros
 $lang["error:unknown_error_scanning"] = "Ocorreu um erro desconhecido durante a digitalização.";
 $lang["tickets:user_updated_ticket"] = "1% atualizou o status do ingresso para 2% em 3% ";
 $lang["error:scan_result_failure_how_to_fix"] = "Para resolver estes problemas, você terá que atualizar manualmente os arquivos de Pancake.";
+$lang["error:click_here_for_instructions"] = "Clique aqui para obter instruções";
