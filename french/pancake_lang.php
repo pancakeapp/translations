@@ -1613,3 +1613,5 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
 );
 
 /** Fin du fichier: pancake_lang.php **/
+
+$lang["global:archive"] = "Archive";
