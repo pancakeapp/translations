@@ -1617,3 +1617,4 @@ Les factures impayées sans date d\'échéance sont présentés en fonction de l
 $lang["global:archive"] = "Archive";
 $lang["global:archived"] = "Archivé";
 $lang["global:restore"] = "Restaurer";
+$lang["proposals:restored"] = "Vous avez restauré la proposition #:1 avec succès.";
