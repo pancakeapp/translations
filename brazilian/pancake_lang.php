@@ -1529,3 +1529,4 @@ $lang["proposals:list_accepted"] = "Propostas aceitas";
 $lang["error:scan_result_failure_modified_other"] = "% 1 dos arquivos foram modificados";
 $lang["invoices:restored"] = "Você restaurou a fatura #% 1 com êxito.";
 $lang["error:and_x_others"] = "... e :1 outros.";
+$lang["error:scan_result_failure_deleted_one"] = " 1% do arquivo não existe";
