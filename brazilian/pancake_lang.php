@@ -1475,3 +1475,4 @@ $lang["global:ticket"] = "Bilhete";
 $lang["global:attach_file"] = "Anexar arquivo (Tamanho máximo: % 1)";
 $lang["tickets:added"] = "O bilhete foi criado com sucesso.";
 $lang["global:reply"] = "Responder";
+$lang["reports:uncollected"] = "Não cobrado";
