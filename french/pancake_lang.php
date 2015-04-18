@@ -1621,3 +1621,4 @@ $lang["proposals:restored"] = "Vous avez restauré la proposition #:1 avec succ�
 $lang["proposals:archived"] = "Vous avez archivé la proposition #:1 avec succès.";
 $lang["proposals:list_unanswered"] = "Propositions sans réponse";
 $lang["invoices:restored"] = "Vous avez restauré la facture #:1 avec succès.";
+$lang["estimates:archived"] = "Vous avez archivé l'estimation #:1 avec succès.";
