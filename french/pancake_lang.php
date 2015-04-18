@@ -1630,3 +1630,4 @@ $lang["proposals:list_rejected"] = "Offres rejetées";
 $lang["proposals:list_all"] = "Toutes les offres.";
 $lang["proposals:list_archived"] = "Propositions archivées";
 $lang["invoices:invoices_archived"] = "Factures archivées";
+$lang["invoices:estimates_archived"] = "Estimations Archivées";
