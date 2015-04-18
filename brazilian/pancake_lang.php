@@ -1498,3 +1498,4 @@ $lang["error:already_being_dealt_with"] = "Esse problema já foi relatado por ou
 $lang["global:bcc_was_sent_to"] = "Este e-mail foi enviado para % 1 em % 2.";
 $lang["tasks:task_notes"] = "Notas de tarefas";
 $lang["error:php_outdated"] = "A versão do PHP que você está usando está desatualizada.";
+$lang["error:pancake_will_stop_supporting_it"] = "O Pancake vai deixar de prestar suporte a ele em algumas semanas.";
