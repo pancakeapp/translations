@@ -1501,3 +1501,4 @@ $lang["error:php_outdated"] = "A versão do PHP que você está usando está des
 $lang["error:pancake_will_stop_supporting_it"] = "O Pancake vai deixar de prestar suporte a ele em algumas semanas.";
 $lang["users:confirm_password"] = "Confirme Senha";
 $lang["global:server_default"] = "Servidor Padrão (Não Recomendado)";
+$lang["error:upgrade_php"] = "Você deve atualizar sua versão do PHP, no mínimo para 5,5 (o ideal é 5,6). Para fazê-lo, por favor, fale com seus administradores de servidor e peça-lhes para atualizar o PHP.";
