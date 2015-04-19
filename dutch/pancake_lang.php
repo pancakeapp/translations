@@ -1257,5 +1257,6 @@ $lang = array (
   'tickets:leave_a_response' => 'Laat een reactie achter',
   'invoices:not_associated_with_a_project' => '- Niet geassocieerd met een project -',
   'global:by_x_with_time' => 'Door :1,:2.',
+  'projects:rate_type' => 'Tarief type',
 );
 /** End of file: pancake_lang.php **/
