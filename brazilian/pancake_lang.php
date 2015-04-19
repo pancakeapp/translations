@@ -1313,3 +1313,4 @@ $lang["settings:send_test_email"] = "Enviar E-mail de Teste";
 $lang["settings:sending"] = "Enviando e-mail...";
 $lang["settings:test_email_sent"] = "Enviado para :1 com sucesso!";
 $lang["settings:test_email_error_header"] = "Erro ao enviar e-mail de teste";
+$lang["settings:test_email_error"] = "Ocorreu um erro ao tentar enviar o e-mail de teste:<br/><br/>:1<br/><br/>Por favor, verifique se os detalhes inseridos estão corretos. Se estiver usando SMTP, verifique se a porta que está tentando usar está aberta no firewall do servidor.";
