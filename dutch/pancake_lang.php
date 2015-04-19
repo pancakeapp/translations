@@ -1259,5 +1259,6 @@ $lang = array (
   'global:by_x_with_time' => 'Door :1,:2.',
   'projects:rate_type' => 'Tarief type',
   'tasks:discuss_task' => 'Bespreek de taak',
+  'tasks:add_notes' => 'Notities toevoegen',
 );
 /** End of file: pancake_lang.php **/
