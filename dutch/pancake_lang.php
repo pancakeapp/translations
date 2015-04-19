@@ -1270,5 +1270,6 @@ $lang = array (
   'error:using_php_53' => 'U maakt gebruik van PHP 5.3, die al meer dan 3 jaar verouderd is en heeft zijn end-of-life status bereikt. (dit betekent dat het niet meer wordt ondersteund door de PHP Group)',
   'error:pancake_will_stop_supporting_it' => 'Pancake zal de ondersteuning binnen een paar weken beëindigen.',
   'error:upgrade_php' => 'U moet uw PHP-versie upgraden naar ten minste 5,5 (idealiter 5.6). Om dit te doen, neem contact op met uw server beheerders en vraag hen om PHP te updaten.',
+  'error:why_update' => 'Door het blijven gebruiken van deze versie van PHP, mist u een aantal verbeteringen in de prestatie en beveiliging, evenals een ontelbaar aantal bugfixes.',
 );
 /** End of file: pancake_lang.php **/
