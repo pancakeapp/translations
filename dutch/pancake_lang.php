@@ -1254,5 +1254,6 @@ $lang = array (
   'users:activate' => 'Activeren',
   'reports:collected' => 'Verzameld',
   'tasks:complete_this_task' => 'Voltooi deze taak',
+  'tickets:leave_a_response' => 'Laat een reactie achter',
 );
 /** End of file: pancake_lang.php **/
