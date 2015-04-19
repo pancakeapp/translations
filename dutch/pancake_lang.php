@@ -1209,3 +1209,4 @@ $lang["gateways:just_for_logging"] = "Opmerking: Deze betaalmethode beïnvloedt 
 $lang["projects:no_data_provided"] = "U heeft geen informatie ingevoerd voor het creëren van een project vanuit een sjabloon.";
 $lang["projects:invalid_template"] = "U heeft geen geldig project-sjabloon geselecteerd.";
 $lang["settings:test_email_subject"] = "Dit een test e-mail.";
+$lang["settings:test_email_message"] = "Dit is een test e-mail. Als u dit heeft ontvangen, betekent dit dat e-mails werken in Pancake.";
