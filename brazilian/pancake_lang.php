@@ -1303,3 +1303,5 @@ Faturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de e
   'invoices:estimates_archived' => 'Estimativas arquivadas',
 );
 /** End of file: pancake_lang.php **/
+
+$lang["error:not_enough_disk_space_solutions"] = "Se você tiver acesso \"root\" ao servidor do banco de dados, tente limpar /tmp. Se isso não funcionar, verifique o uso da memória do seu servidor de banco de dados, e tente libertar algum espaço no disco.";
