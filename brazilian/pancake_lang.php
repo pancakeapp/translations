@@ -1538,3 +1538,4 @@ $lang["error:no_user_found"] = "A sua chave de licença não está associada a n
 $lang["proposals:list_rejected"] = "Propostas rejeitadas";
 $lang["proposals:list_unanswered"] = "Propostas não respondidas";
 $lang["invoices:credit_notes_archived"] = "Notas de Crédito Arquivadas";
+$lang["invoices:invoices_archived"] = "Faturas arquivadas";
