@@ -1309,3 +1309,4 @@ $lang["error:cant_php_mail_explanation"] = "Você especificou que deseja utiliza
 $lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar :1, mas não existe. Se isso for inesperado, você pode relatar o erro ao Suporte Pancake. Você o encontrará em \"Configurações > Erros & Diagnósticos\".";
 $lang["projects:invalid_template"] = "Você não selecionou um modelo de projeto válido.";
 $lang["settings:test_email_message"] = "Este é um e-mail de teste. Se você recebeu esta mensagem, significa que os e-mails estão funcionando na Pancake.";
+$lang["settings:send_test_email"] = "Enviar E-mail de Teste";
