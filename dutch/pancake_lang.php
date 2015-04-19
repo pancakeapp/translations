@@ -1237,5 +1237,6 @@ $lang = array (
   'global:project_expense' => 'Kosten',
   'search:x_matching_results' => '% 1 overeenkomstige resultaten',
   'global:ticket' => 'Ticket',
+  'tickets:added' => 'De ticket is succesvol aangemaakt.',
 );
 /** End of file: pancake_lang.php **/
