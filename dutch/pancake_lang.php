@@ -1228,3 +1228,4 @@ $lang["global:show_hide_deleted"] = "Toon / Verberg Verwijderde";
 $lang["expenses:supplier_name"] = "Naam Van Leverancier";
 $lang["expenses:category_name"] = "Categorie Naam";
 $lang["expenses:category_edited"] = "Gelukt! De categorie is met succes gewijzigd.";
+$lang["expenses:before_you_can_add_expenses"] = "Voordat u kosten kunt toevoegen moet u enkele :1 en :2 aanmaken.";
