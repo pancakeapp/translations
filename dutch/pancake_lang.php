@@ -1221,3 +1221,4 @@ $lang["items:select_flat_rate"] = "Vast Bedrag";
 $lang["kitchen:no_tickets_created"] = "Geen tickets aangemaakt.";
 $lang["kitchen:responses"] = "Reacties";
 $lang["kitchen:x_responses"] = ":1 Reacties";
+$lang["projects:add_new_task"] = "Voeg Nieuwe Taak Toe";
