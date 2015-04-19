@@ -1226,3 +1226,4 @@ $lang["projects:delete_project_template"] = "Verwijder Project Sjabloon";
 $lang["expenses:supplier_edited"] = "Succes! De leverancier is met succes gewijzigd.";
 $lang["global:show_hide_deleted"] = "Toon / Verberg Verwijderde";
 $lang["expenses:supplier_name"] = "Naam Van Leverancier";
+$lang["expenses:category_name"] = "Categorie Naam";
