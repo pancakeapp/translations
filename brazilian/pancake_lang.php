@@ -1310,3 +1310,4 @@ $lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar 
 $lang["projects:invalid_template"] = "Você não selecionou um modelo de projeto válido.";
 $lang["settings:test_email_message"] = "Este é um e-mail de teste. Se você recebeu esta mensagem, significa que os e-mails estão funcionando na Pancake.";
 $lang["settings:send_test_email"] = "Enviar E-mail de Teste";
+$lang["settings:sending"] = "Enviando e-mail...";
