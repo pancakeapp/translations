@@ -1245,5 +1245,6 @@ $lang = array (
   'global:attach_file' => 'Bestand bijvoegen (Maximale grootte:% 1)',
   'global:download_csv' => 'Download CSV',
   'users:deactivate' => 'Deactiveren',
+  'global:group' => 'Groep',
 );
 /** End of file: pancake_lang.php **/
