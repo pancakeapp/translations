@@ -1243,5 +1243,6 @@ $lang = array (
   'global:project_task' => 'Taak',
   'tickets:replied' => 'Uw antwoord op de ticket is succesvol opgeslagen.',
   'global:attach_file' => 'Bestand bijvoegen (Maximale grootte:% 1)',
+  'global:download_csv' => 'Download CSV',
 );
 /** End of file: pancake_lang.php **/
