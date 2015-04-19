@@ -1214,3 +1214,4 @@ $lang["settings:send_test_email"] = "Stuur Test E-mail";
 $lang["settings:sending"] = "E-mail aan het verzenden ...";
 $lang["settings:test_email_sent"] = "Met succes verzonden naar :1!";
 $lang["settings:test_email_error_header"] = "Fout bij het verzenden van test e-mail";
+$lang["settings:test_email_error"] = "Er is een fout opgetreden bij het verzenden van de test e-mail:<br/><br/>% 1<br/><br/>Zorg ervoor dat de gegevens die u heeft ingevoerd correct zijn. Als u gebruik maakt van SMTP, zorg er dan voor dat de poort die u probeert te gebruiken geopend is in de firewall van uw server.";
