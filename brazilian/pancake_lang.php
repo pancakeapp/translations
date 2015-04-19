@@ -7,7 +7,7 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Dev Team
+
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
@@ -1301,19 +1301,14 @@ Faturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de e
   'invoices:invoices_archived' => 'Faturas arquivadas',
   'proposals:list_archived' => 'Propostas arquivadas',
   'invoices:estimates_archived' => 'Estimativas arquivadas',
+  'projects:invalid_template' => 'Você não selecionou um modelo de projeto válido.',
+  'settings:test_email_message' => 'Este é um e-mail de teste. Se você recebeu esta mensagem, significa que os e-mails estão funcionando na Pancake.',
+  'settings:send_test_email' => 'Enviar E-mail de Teste',
+  'settings:sending' => 'Enviando e-mail...',
+  'settings:test_email_sent' => 'Enviado para :1 com sucesso!',
+  'settings:test_email_error_header' => 'Erro ao enviar e-mail de teste',
+  'settings:test_email_error' => 'Ocorreu um erro ao tentar enviar o e-mail de teste:<br/><br/>:1<br/><br/>Por favor, verifique se os detalhes inseridos estão corretos. Se estiver usando SMTP, verifique se a porta que está tentando usar está aberta no firewall do servidor.',
+  'invoices:all_unpaid' => 'Tudo não pago',
+  'kitchen:x_responses' => ':1 Respostas',
 );
 /** End of file: pancake_lang.php **/
-
-$lang["error:not_enough_disk_space_solutions"] = "Se você tiver acesso \"root\" ao servidor do banco de dados, tente limpar /tmp. Se isso não funcionar, verifique o uso da memória do seu servidor de banco de dados, e tente libertar algum espaço no disco.";
-$lang["error:cant_php_mail_explanation"] = "Você especificou que deseja utilizar o PHP mail() para enviar e-mails, mas este método de envio de e-mail não está funcionando corretamente em seu servidor. Este método de envio de e-mails não requer configuração, mas não é recomendado porque os servidores de e-mail não podem verificar quem está enviando o e-mail. Alguns deles irão até marcar automaticamente seus e-mails como spam. Altere a configuração de seu servidor de e-mail no admin, em \"Configurações > E-mails ', para usar uma das opções de SMTP, ou, se você não puder, use a opção Sendmail como último recurso. Se nenhum deles funcionar, você terá que entrar em contato com o administrador de seu servidor.";
-$lang["error:page_does_not_exist_explanation"] = "Você estava tentando acessar :1, mas não existe. Se isso for inesperado, você pode relatar o erro ao Suporte Pancake. Você o encontrará em \"Configurações > Erros & Diagnósticos\".";
-$lang["projects:invalid_template"] = "Você não selecionou um modelo de projeto válido.";
-$lang["settings:test_email_message"] = "Este é um e-mail de teste. Se você recebeu esta mensagem, significa que os e-mails estão funcionando na Pancake.";
-$lang["settings:send_test_email"] = "Enviar E-mail de Teste";
-$lang["settings:sending"] = "Enviando e-mail...";
-$lang["settings:test_email_sent"] = "Enviado para :1 com sucesso!";
-$lang["settings:test_email_error_header"] = "Erro ao enviar e-mail de teste";
-$lang["settings:test_email_error"] = "Ocorreu um erro ao tentar enviar o e-mail de teste:<br/><br/>:1<br/><br/>Por favor, verifique se os detalhes inseridos estão corretos. Se estiver usando SMTP, verifique se a porta que está tentando usar está aberta no firewall do servidor.";
-$lang["invoices:all_unpaid"] = "Tudo não pago";
-$lang["kitchen:x_responses"] = ":1 Respostas";
-$lang["search:results_for_x"] = "Resultados da pesquisa para \":1\"";
