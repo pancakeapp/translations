@@ -1218,3 +1218,4 @@ $lang["settings:test_email_error"] = "Er is een fout opgetreden bij het verzende
 $lang["settings:test_email_connection_error"] = "Uw server kan geen verbinding maken met :1 op poort :2. U zal uw systeembeheerder moeten contacteren om deze poort open te zetten in de firewall van de server.<br/><br/>De foutmelding was:<br/><br/>% 3";
 $lang["invoices:all_unpaid"] = "Alle Onbetaalde";
 $lang["items:select_flat_rate"] = "Vast Bedrag";
+$lang["kitchen:no_tickets_created"] = "Geen tickets aangemaakt.";
