@@ -1546,3 +1546,4 @@ $lang["invoices:pancake_will_automatically_change_is_viewable"] = "Isto será au
 $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para este tíquete quando o estado do tíquete for alterado para \":2\".";
 $lang["global:appendtoproject"] = "Converter em tarefas para \":1\"";
 $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \":2\".";
+$lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
