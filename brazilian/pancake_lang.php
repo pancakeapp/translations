@@ -1547,3 +1547,4 @@ $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para
 $lang["global:appendtoproject"] = "Converter em tarefas para \":1\"";
 $lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \":2\".";
 $lang["error:logged_in_intro"] = "Estes erros são armazenados no admin, dentro de \"Configurações\" > Erros & Diagnósticos.";
+$lang["clients:noclientbodyfiltered"] = "Nenhum dos nomes dos seus clientes começa com ':1'.";
