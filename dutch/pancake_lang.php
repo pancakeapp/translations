@@ -1213,3 +1213,4 @@ $lang["settings:test_email_message"] = "Dit is een test e-mail. Als u dit heeft 
 $lang["settings:send_test_email"] = "Stuur Test E-mail";
 $lang["settings:sending"] = "E-mail aan het verzenden ...";
 $lang["settings:test_email_sent"] = "Met succes verzonden naar :1!";
+$lang["settings:test_email_error_header"] = "Fout bij het verzenden van test e-mail";
