@@ -7,7 +7,7 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Dev Team
+
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
@@ -1199,36 +1199,34 @@ $lang = array (
   'error:page_does_not_exist' => 'De pagina die u probeert te bereiken bestaat niet.',
   'error:page_does_not_exist_explanation' => 'U probeerde :1 te benaderen, maar dit bestaat niet. Als dit onverwachts is, kunt u een error rapporteren bij Pancake Support. U kunt dit vinden in \'Instellingen > Foutmeldingen & Diagnostiek\'.',
   'settings:importedcredit_notes' => '% 1 creditnota\'s succesvol geïmporteerd.',
+  'expenses:supplier_added' => 'Succes! De leverancier is succesvol aangemaakt.',
+  'reports:per_payment_method' => 'per betaalmethode',
+  'gateways:just_for_logging' => 'Opmerking: Deze betaalmethode beïnvloedt de facturen op geen enkele manier.<br/>Het bestaat zodat u kunt bijhouden welke betalingen u met % 1 heeft ontvangen.',
+  'projects:no_data_provided' => 'U heeft geen informatie ingevoerd voor het creëren van een project vanuit een sjabloon.',
+  'projects:invalid_template' => 'U heeft geen geldig project-sjabloon geselecteerd.',
+  'settings:test_email_subject' => 'Dit een test e-mail.',
+  'settings:test_email_message' => 'Dit is een test e-mail. Als u dit heeft ontvangen, betekent dit dat e-mails werken in Pancake.',
+  'settings:send_test_email' => 'Stuur Test E-mail',
+  'settings:sending' => 'E-mail aan het verzenden ...',
+  'settings:test_email_sent' => 'Met succes verzonden naar :1!',
+  'settings:test_email_error_header' => 'Fout bij het verzenden van test e-mail',
+  'settings:test_email_error' => 'Er is een fout opgetreden bij het verzenden van de test e-mail:<br/><br/>% 1<br/><br/>Zorg ervoor dat de gegevens die u heeft ingevoerd correct zijn. Als u gebruik maakt van SMTP, zorg er dan voor dat de poort die u probeert te gebruiken geopend is in de firewall van uw server.',
+  'settings:test_email_connection_error' => 'Uw server kan geen verbinding maken met :1 op poort :2. U zal uw systeembeheerder moeten contacteren om deze poort open te zetten in de firewall van de server.<br/><br/>De foutmelding was:<br/><br/>% 3',
+  'invoices:all_unpaid' => 'Alle Onbetaalde',
+  'items:select_flat_rate' => 'Vast Bedrag',
+  'kitchen:no_tickets_created' => 'Geen tickets aangemaakt.',
+  'kitchen:responses' => 'Reacties',
+  'kitchen:x_responses' => ':1 Reacties',
+  'projects:add_new_task' => 'Voeg Nieuwe Taak Toe',
+  'projects:delete_project_template' => 'Verwijder Project Sjabloon',
+  'expenses:supplier_edited' => 'Succes! De leverancier is met succes gewijzigd.',
+  'global:show_hide_deleted' => 'Toon / Verberg Verwijderde',
+  'expenses:supplier_name' => 'Naam Van Leverancier',
+  'expenses:category_name' => 'Categorie Naam',
+  'expenses:category_edited' => 'Gelukt! De categorie is met succes gewijzigd.',
+  'expenses:before_you_can_add_expenses' => 'Voordat u kosten kunt toevoegen moet u enkele :1 en :2 aanmaken.',
+  'reminders:no_due_date' => 'Geen einddatum',
+  'reminders:x_days_past_due' => ':1 dagen na de vervaldatum',
+  'search:results_for_x' => 'Zoekresultaten voor ":1"',
 );
 /** End of file: pancake_lang.php **/
-
-$lang["settings:importedcredit_notes"] = "% 1 creditnota's succesvol geïmporteerd.";
-$lang["expenses:supplier_added"] = "Succes! De leverancier is succesvol aangemaakt.";
-$lang["reports:per_payment_method"] = "per betaalmethode";
-$lang["gateways:just_for_logging"] = "Opmerking: Deze betaalmethode beïnvloedt de facturen op geen enkele manier.<br/>Het bestaat zodat u kunt bijhouden welke betalingen u met % 1 heeft ontvangen.";
-$lang["projects:no_data_provided"] = "U heeft geen informatie ingevoerd voor het creëren van een project vanuit een sjabloon.";
-$lang["projects:invalid_template"] = "U heeft geen geldig project-sjabloon geselecteerd.";
-$lang["settings:test_email_subject"] = "Dit een test e-mail.";
-$lang["settings:test_email_message"] = "Dit is een test e-mail. Als u dit heeft ontvangen, betekent dit dat e-mails werken in Pancake.";
-$lang["settings:send_test_email"] = "Stuur Test E-mail";
-$lang["settings:sending"] = "E-mail aan het verzenden ...";
-$lang["settings:test_email_sent"] = "Met succes verzonden naar :1!";
-$lang["settings:test_email_error_header"] = "Fout bij het verzenden van test e-mail";
-$lang["settings:test_email_error"] = "Er is een fout opgetreden bij het verzenden van de test e-mail:<br/><br/>% 1<br/><br/>Zorg ervoor dat de gegevens die u heeft ingevoerd correct zijn. Als u gebruik maakt van SMTP, zorg er dan voor dat de poort die u probeert te gebruiken geopend is in de firewall van uw server.";
-$lang["settings:test_email_connection_error"] = "Uw server kan geen verbinding maken met :1 op poort :2. U zal uw systeembeheerder moeten contacteren om deze poort open te zetten in de firewall van de server.<br/><br/>De foutmelding was:<br/><br/>% 3";
-$lang["invoices:all_unpaid"] = "Alle Onbetaalde";
-$lang["items:select_flat_rate"] = "Vast Bedrag";
-$lang["kitchen:no_tickets_created"] = "Geen tickets aangemaakt.";
-$lang["kitchen:responses"] = "Reacties";
-$lang["kitchen:x_responses"] = ":1 Reacties";
-$lang["projects:add_new_task"] = "Voeg Nieuwe Taak Toe";
-$lang["projects:delete_project_template"] = "Verwijder Project Sjabloon";
-$lang["expenses:supplier_edited"] = "Succes! De leverancier is met succes gewijzigd.";
-$lang["global:show_hide_deleted"] = "Toon / Verberg Verwijderde";
-$lang["expenses:supplier_name"] = "Naam Van Leverancier";
-$lang["expenses:category_name"] = "Categorie Naam";
-$lang["expenses:category_edited"] = "Gelukt! De categorie is met succes gewijzigd.";
-$lang["expenses:before_you_can_add_expenses"] = "Voordat u kosten kunt toevoegen moet u enkele :1 en :2 aanmaken.";
-$lang["reminders:no_due_date"] = "Geen einddatum";
-$lang["reminders:x_days_past_due"] = ":1 dagen na de vervaldatum";
-$lang["search:results_for_x"] = "Zoekresultaten voor \":1\"";
