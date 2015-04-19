@@ -1251,5 +1251,6 @@ $lang = array (
   'reports:uncollected' => 'Ongeïnd',
   'clients:filter_clients' => 'Klanten filteren',
   'users:please_enter_information' => 'Voer hieronder de informatie van de gebruiker in.',
+  'users:activate' => 'Activeren',
 );
 /** End of file: pancake_lang.php **/
