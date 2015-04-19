@@ -1263,5 +1263,6 @@ $lang = array (
   'global:bcc_was_sent_to' => 'Deze e-mail is verzonden naar :1 tot :2.',
   'projects:hourly_rate' => 'Uurtarief',
   'tickets:active_tickets' => 'Actieve Tickets',
+  'error:already_being_dealt_with' => 'Deze kwestie is reeds gemeld door iemand anders en wordt behandeld. We zijn bezig het zo snel mogelijk op te lossen.',
 );
 /** End of file: pancake_lang.php **/
