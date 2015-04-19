@@ -7,7 +7,12 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
-
+ * @author Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author jeffreybertoen - https://github.com/jeffreybertoen
+ * @author Jan Castermans - https://github.com/pprazzi
+ * @author Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
+ * @author davidh071 - https://github.com/davidh071
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
