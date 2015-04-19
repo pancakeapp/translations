@@ -1536,3 +1536,4 @@ $lang["proposals:restored"] = "Você restaurou a proposta #% 1 com êxito.";
 $lang["error:scan_pancake_explanation"] = "Às vezes, problemas podem acontecer por conta de uma falha na atualização, ou por causa de problemas de permissões que causam o corrompimento de seus arquivos de Pancake durante uma atualização. Use isto para verificar o seu Pancake para tais problemas.";
 $lang["error:no_user_found"] = "A sua chave de licença não está associada a nenhum usuário em pancakeapp.com, sendo assim o seu erro não poderá ser submetido automaticamente. Se isto é inesperado, envie um e-mail para support@pancakeapp.com e nós iremos ajuda-lo.";
 $lang["proposals:list_rejected"] = "Propostas rejeitadas";
+$lang["proposals:list_unanswered"] = "Propostas não respondidas";
