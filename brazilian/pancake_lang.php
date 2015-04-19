@@ -1540,3 +1540,4 @@ $lang["proposals:list_unanswered"] = "Propostas não respondidas";
 $lang["invoices:credit_notes_archived"] = "Notas de Crédito Arquivadas";
 $lang["invoices:invoices_archived"] = "Faturas arquivadas";
 $lang["proposals:list_archived"] = "Propostas arquivadas";
+$lang["invoices:estimates_archived"] = "Estimativas arquivadas";
