@@ -1248,5 +1248,6 @@ $lang = array (
   'global:group' => 'Groep',
   'users:confirm_password' => 'Bevestig Wachtwoord',
   'users:edit_user' => 'Gebruiker bewerken',
+  'reports:uncollected' => 'Ongeïnd',
 );
 /** End of file: pancake_lang.php **/
