@@ -1545,3 +1545,4 @@ $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visual
 $lang["invoices:pancake_will_automatically_change_is_viewable"] = "Isto será automaticamente alterado para \"Sim\" quando você enviar a fatura para o cliente por e-mail.";
 $lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para este tíquete quando o estado do tíquete for alterado para \":2\".";
 $lang["global:appendtoproject"] = "Converter em tarefas para \":1\"";
+$lang["estimates:appended"] = "Estimativa convertida de  #:1 em tarefas de \":2\".";
