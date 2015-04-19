@@ -1224,3 +1224,4 @@ $lang["kitchen:x_responses"] = ":1 Reacties";
 $lang["projects:add_new_task"] = "Voeg Nieuwe Taak Toe";
 $lang["projects:delete_project_template"] = "Verwijder Project Sjabloon";
 $lang["expenses:supplier_edited"] = "Succes! De leverancier is met succes gewijzigd.";
+$lang["global:show_hide_deleted"] = "Toon / Verberg Verwijderde";
