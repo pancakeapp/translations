@@ -13,6 +13,7 @@
  * @author Jan Castermans - https://github.com/pprazzi
  * @author Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author davidh071 - https://github.com/davidh071
+ * @author 1Martin - 
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
