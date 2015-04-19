@@ -1231,3 +1231,4 @@ $lang["expenses:category_edited"] = "Gelukt! De categorie is met succes gewijzig
 $lang["expenses:before_you_can_add_expenses"] = "Voordat u kosten kunt toevoegen moet u enkele :1 en :2 aanmaken.";
 $lang["reminders:no_due_date"] = "Geen einddatum";
 $lang["reminders:x_days_past_due"] = ":1 dagen na de vervaldatum";
+$lang["search:results_for_x"] = "Zoekresultaten voor \":1\"";
