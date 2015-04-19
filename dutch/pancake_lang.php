@@ -1264,5 +1264,6 @@ $lang = array (
   'projects:hourly_rate' => 'Uurtarief',
   'tickets:active_tickets' => 'Actieve Tickets',
   'error:already_being_dealt_with' => 'Deze kwestie is reeds gemeld door iemand anders en wordt behandeld. We zijn bezig het zo snel mogelijk op te lossen.',
+  'error:no_user_found' => 'Uw licentiesleutel wordt niet geassocieerd met een gebruiker op de pancakeapp.com, dus uw fout kan niet automatische ingediend worden. Als dit onverwacht is, stuur dan een email naar support@pancakeapp.com en dan helpen wij u verder.',
 );
 /** End of file: pancake_lang.php **/
