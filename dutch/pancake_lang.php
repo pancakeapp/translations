@@ -1236,5 +1236,6 @@ $lang = array (
   'search:results_for_x' => 'Zoekresultaten voor ":1"',
   'global:project_expense' => 'Kosten',
   'search:x_matching_results' => '% 1 overeenkomstige resultaten',
+  'global:ticket' => 'Ticket',
 );
 /** End of file: pancake_lang.php **/
