@@ -1438,3 +1438,4 @@ $lang["projects:role_create"] = "Schaffen";
 $lang["projects:role_edit"] = "Bearbeiten";
 $lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
 $lang["clients:noclientbodyfiltered"] = "Keiner Ihrer Kundennamen beginnt mit \":1\".";
+$lang["error:logged_in_intro"] = "Diese Fehler werden im Admin unter 'Einstellungen > Fehler & Diagnosen' gespeichert.";
