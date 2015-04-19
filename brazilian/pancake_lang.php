@@ -1312,3 +1312,4 @@ $lang["settings:test_email_message"] = "Este é um e-mail de teste. Se você rec
 $lang["settings:send_test_email"] = "Enviar E-mail de Teste";
 $lang["settings:sending"] = "Enviando e-mail...";
 $lang["settings:test_email_sent"] = "Enviado para :1 com sucesso!";
+$lang["settings:test_email_error_header"] = "Erro ao enviar e-mail de teste";
