@@ -1219,3 +1219,4 @@ $lang["settings:test_email_connection_error"] = "Uw server kan geen verbinding m
 $lang["invoices:all_unpaid"] = "Alle Onbetaalde";
 $lang["items:select_flat_rate"] = "Vast Bedrag";
 $lang["kitchen:no_tickets_created"] = "Geen tickets aangemaakt.";
+$lang["kitchen:responses"] = "Reacties";
