@@ -1267,5 +1267,6 @@ $lang = array (
   'error:no_user_found' => 'Uw licentiesleutel wordt niet geassocieerd met een gebruiker op de pancakeapp.com, dus uw fout kan niet automatische ingediend worden. Als dit onverwacht is, stuur dan een email naar support@pancakeapp.com en dan helpen wij u verder.',
   'error:fixed_in_version' => 'Dit probleem werd opgelost in Pancake {versie}. Update uw Pancake als u dat not niet heeft gedaan.',
   'error:php_outdated' => 'De versie van PHP die u gebruikt is verouderd.',
+  'error:using_php_53' => 'U maakt gebruik van PHP 5.3, die al meer dan 3 jaar verouderd is en heeft zijn end-of-life status bereikt. (dit betekent dat het niet meer wordt ondersteund door de PHP Group)',
 );
 /** End of file: pancake_lang.php **/
