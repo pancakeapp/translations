@@ -1247,5 +1247,6 @@ $lang = array (
   'users:deactivate' => 'Deactiveren',
   'global:group' => 'Groep',
   'users:confirm_password' => 'Bevestig Wachtwoord',
+  'users:edit_user' => 'Gebruiker bewerken',
 );
 /** End of file: pancake_lang.php **/
