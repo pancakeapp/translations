@@ -1208,3 +1208,4 @@ $lang["reports:per_payment_method"] = "per betaalmethode";
 $lang["gateways:just_for_logging"] = "Opmerking: Deze betaalmethode beïnvloedt de facturen op geen enkele manier.<br/>Het bestaat zodat u kunt bijhouden welke betalingen u met % 1 heeft ontvangen.";
 $lang["projects:no_data_provided"] = "U heeft geen informatie ingevoerd voor het creëren van een project vanuit een sjabloon.";
 $lang["projects:invalid_template"] = "U heeft geen geldig project-sjabloon geselecteerd.";
+$lang["settings:test_email_subject"] = "Dit een test e-mail.";
