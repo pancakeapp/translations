@@ -1543,3 +1543,4 @@ $lang["proposals:list_archived"] = "Propostas arquivadas";
 $lang["invoices:estimates_archived"] = "Estimativas arquivadas";
 $lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
 $lang["invoices:pancake_will_automatically_change_is_viewable"] = "Isto será automaticamente alterado para \"Sim\" quando você enviar a fatura para o cliente por e-mail.";
+$lang["tickets:invoice_will_be_generated"] = "Uma fatura de :1 será gerada para este tíquete quando o estado do tíquete for alterado para \":2\".";
