@@ -1205,3 +1205,4 @@ $lang = array (
 $lang["settings:importedcredit_notes"] = "% 1 creditnota's succesvol geïmporteerd.";
 $lang["expenses:supplier_added"] = "Succes! De leverancier is succesvol aangemaakt.";
 $lang["reports:per_payment_method"] = "per betaalmethode";
+$lang["gateways:just_for_logging"] = "Opmerking: Deze betaalmethode beïnvloedt de facturen op geen enkele manier.<br/>Het bestaat zodat u kunt bijhouden welke betalingen u met % 1 heeft ontvangen.";
