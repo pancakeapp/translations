@@ -1204,3 +1204,4 @@ $lang = array (
 
 $lang["settings:importedcredit_notes"] = "% 1 creditnota's succesvol geïmporteerd.";
 $lang["expenses:supplier_added"] = "Succes! De leverancier is succesvol aangemaakt.";
+$lang["reports:per_payment_method"] = "per betaalmethode";
