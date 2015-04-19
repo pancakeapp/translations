@@ -8,3 +8,6 @@ php:
   - nightly
 git:
   depth: 9999999
+matrix:
+  allow_failures:
+    - php: nightly
