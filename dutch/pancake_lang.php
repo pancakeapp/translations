@@ -1238,5 +1238,6 @@ $lang = array (
   'search:x_matching_results' => '% 1 overeenkomstige resultaten',
   'global:ticket' => 'Ticket',
   'tickets:added' => 'De ticket is succesvol aangemaakt.',
+  'search:one_matching_result' => '1 overeenkomstig resultaat',
 );
 /** End of file: pancake_lang.php **/
