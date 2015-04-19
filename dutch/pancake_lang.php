@@ -1201,3 +1201,5 @@ $lang = array (
   'settings:importedcredit_notes' => '% 1 creditnota\'s succesvol geïmporteerd.',
 );
 /** End of file: pancake_lang.php **/
+
+$lang["settings:importedcredit_notes"] = "% 1 creditnota's succesvol geïmporteerd.";
