@@ -1634,3 +1634,4 @@ $lang["invoices:estimates_archived"] = "Estimations Archivées";
 $lang["invoices:archived"] = "Vous avez archivé la facture #:1 avec succès.";
 $lang["proposals:list_accepted"] = "Propositions acceptées";
 $lang["invoices:willreoccurin"] = "Cette facture se reproduira au  :1.";
+$lang["estimates:archived"] = "Vous avez archivé l'estimation #:1 avec succès.";
