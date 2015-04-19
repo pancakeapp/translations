@@ -1235,5 +1235,6 @@ $lang = array (
   'reminders:x_days_past_due' => ':1 dagen na de vervaldatum',
   'search:results_for_x' => 'Zoekresultaten voor ":1"',
   'global:project_expense' => 'Kosten',
+  'search:x_matching_results' => '% 1 overeenkomstige resultaten',
 );
 /** End of file: pancake_lang.php **/
