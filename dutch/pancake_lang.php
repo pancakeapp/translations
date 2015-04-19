@@ -1227,3 +1227,4 @@ $lang["expenses:supplier_edited"] = "Succes! De leverancier is met succes gewijz
 $lang["global:show_hide_deleted"] = "Toon / Verberg Verwijderde";
 $lang["expenses:supplier_name"] = "Naam Van Leverancier";
 $lang["expenses:category_name"] = "Categorie Naam";
+$lang["expenses:category_edited"] = "Gelukt! De categorie is met succes gewijzigd.";
