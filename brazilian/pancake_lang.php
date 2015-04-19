@@ -1541,3 +1541,4 @@ $lang["invoices:credit_notes_archived"] = "Notas de Crédito Arquivadas";
 $lang["invoices:invoices_archived"] = "Faturas arquivadas";
 $lang["proposals:list_archived"] = "Propostas arquivadas";
 $lang["invoices:estimates_archived"] = "Estimativas arquivadas";
+$lang["credit_notes:client_viewed"] = ":1 <a href=\":2\">nota de crédito visualizada #:3</a> em :4";
