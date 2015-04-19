@@ -1266,5 +1266,6 @@ $lang = array (
   'error:already_being_dealt_with' => 'Deze kwestie is reeds gemeld door iemand anders en wordt behandeld. We zijn bezig het zo snel mogelijk op te lossen.',
   'error:no_user_found' => 'Uw licentiesleutel wordt niet geassocieerd met een gebruiker op de pancakeapp.com, dus uw fout kan niet automatische ingediend worden. Als dit onverwacht is, stuur dan een email naar support@pancakeapp.com en dan helpen wij u verder.',
   'error:fixed_in_version' => 'Dit probleem werd opgelost in Pancake {versie}. Update uw Pancake als u dat not niet heeft gedaan.',
+  'error:php_outdated' => 'De versie van PHP die u gebruikt is verouderd.',
 );
 /** End of file: pancake_lang.php **/
