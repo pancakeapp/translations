@@ -1203,3 +1203,4 @@ $lang = array (
 /** End of file: pancake_lang.php **/
 
 $lang["settings:importedcredit_notes"] = "% 1 creditnota's succesvol geïmporteerd.";
+$lang["expenses:supplier_added"] = "Succes! De leverancier is succesvol aangemaakt.";
