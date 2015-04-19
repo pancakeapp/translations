@@ -1261,5 +1261,6 @@ $lang = array (
   'tasks:discuss_task' => 'Bespreek de taak',
   'tasks:add_notes' => 'Notities toevoegen',
   'global:bcc_was_sent_to' => 'Deze e-mail is verzonden naar :1 tot :2.',
+  'projects:hourly_rate' => 'Uurtarief',
 );
 /** End of file: pancake_lang.php **/
