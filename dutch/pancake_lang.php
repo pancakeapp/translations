@@ -1268,5 +1268,6 @@ $lang = array (
   'error:fixed_in_version' => 'Dit probleem werd opgelost in Pancake {versie}. Update uw Pancake als u dat not niet heeft gedaan.',
   'error:php_outdated' => 'De versie van PHP die u gebruikt is verouderd.',
   'error:using_php_53' => 'U maakt gebruik van PHP 5.3, die al meer dan 3 jaar verouderd is en heeft zijn end-of-life status bereikt. (dit betekent dat het niet meer wordt ondersteund door de PHP Group)',
+  'error:pancake_will_stop_supporting_it' => 'Pancake zal de ondersteuning binnen een paar weken beëindigen.',
 );
 /** End of file: pancake_lang.php **/
