@@ -1246,5 +1246,6 @@ $lang = array (
   'global:download_csv' => 'Download CSV',
   'users:deactivate' => 'Deactiveren',
   'global:group' => 'Groep',
+  'users:confirm_password' => 'Bevestig Wachtwoord',
 );
 /** End of file: pancake_lang.php **/
