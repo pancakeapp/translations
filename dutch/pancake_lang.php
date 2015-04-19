@@ -1260,5 +1260,6 @@ $lang = array (
   'projects:rate_type' => 'Tarief type',
   'tasks:discuss_task' => 'Bespreek de taak',
   'tasks:add_notes' => 'Notities toevoegen',
+  'global:bcc_was_sent_to' => 'Deze e-mail is verzonden naar :1 tot :2.',
 );
 /** End of file: pancake_lang.php **/
