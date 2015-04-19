@@ -1249,5 +1249,6 @@ $lang = array (
   'users:confirm_password' => 'Bevestig Wachtwoord',
   'users:edit_user' => 'Gebruiker bewerken',
   'reports:uncollected' => 'Ongeïnd',
+  'clients:filter_clients' => 'Klanten filteren',
 );
 /** End of file: pancake_lang.php **/
