@@ -1537,3 +1537,4 @@ $lang["error:scan_pancake_explanation"] = "Às vezes, problemas podem acontecer 
 $lang["error:no_user_found"] = "A sua chave de licença não está associada a nenhum usuário em pancakeapp.com, sendo assim o seu erro não poderá ser submetido automaticamente. Se isto é inesperado, envie um e-mail para support@pancakeapp.com e nós iremos ajuda-lo.";
 $lang["proposals:list_rejected"] = "Propostas rejeitadas";
 $lang["proposals:list_unanswered"] = "Propostas não respondidas";
+$lang["invoices:credit_notes_archived"] = "Notas de Crédito Arquivadas";
