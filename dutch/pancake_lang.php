@@ -1216,3 +1216,4 @@ $lang["settings:test_email_sent"] = "Met succes verzonden naar :1!";
 $lang["settings:test_email_error_header"] = "Fout bij het verzenden van test e-mail";
 $lang["settings:test_email_error"] = "Er is een fout opgetreden bij het verzenden van de test e-mail:<br/><br/>% 1<br/><br/>Zorg ervoor dat de gegevens die u heeft ingevoerd correct zijn. Als u gebruik maakt van SMTP, zorg er dan voor dat de poort die u probeert te gebruiken geopend is in de firewall van uw server.";
 $lang["settings:test_email_connection_error"] = "Uw server kan geen verbinding maken met :1 op poort :2. U zal uw systeembeheerder moeten contacteren om deze poort open te zetten in de firewall van de server.<br/><br/>De foutmelding was:<br/><br/>% 3";
+$lang["invoices:all_unpaid"] = "Alle Onbetaalde";
