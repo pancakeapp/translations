@@ -1240,5 +1240,6 @@ $lang = array (
   'tickets:added' => 'De ticket is succesvol aangemaakt.',
   'search:one_matching_result' => '1 overeenkomstig resultaat',
   'global:reply' => 'Antwoorden',
+  'global:project_task' => 'Taak',
 );
 /** End of file: pancake_lang.php **/
