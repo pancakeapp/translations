@@ -1103,5 +1103,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'emailtemplates:content' => 'Contenido del correo electrónico',
   'reports:verb_created' => 'Creado',
   'reports:verb_paid' => 'Pagado',
+  'reports:verb_from_to' => ':1 desde :2 a :3',
 );
 /** End of file: pancake_lang.php **/
