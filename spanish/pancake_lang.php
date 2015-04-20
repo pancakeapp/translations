@@ -1181,5 +1181,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:not_enough_disk_space' => 'No hay espacio suficiente en el disco',
   'times.label.notes' => 'Notas:',
   'times.title' => 'Cantidad de veces',
+  'times.label.date' => 'Fecha:',
 );
 /** End of file: pancake_lang.php **/
