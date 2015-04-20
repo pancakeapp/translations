@@ -1057,5 +1057,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'credit_notes:client_viewed' => '% 1 <a href=":2">nota de crédito vista # 3%</a> en 4%',
   'invoices:bulk_payment_added' => 'El pago masivo ha sido añadido con éxito.',
   'invoices:send_payment_notification' => '¿Enviar una notificación del pago mediante correo electrónico al cliente?',
+  'invoices:specify_bulk_payment_details' => 'Especifique los detalles del pago de su cliente, y seleccione las facturas a las que se aplica el pago.',
 );
 /** End of file: pancake_lang.php **/
