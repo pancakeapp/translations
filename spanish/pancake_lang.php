@@ -1091,5 +1091,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'estimates:send_to_client' => 'Correo electrónico estimado del cliente.',
   'settings:hide_tax_column_explanation' => 'Esto ocultará la columna de impuestos en las facturas que no tienen información fiscal.',
   'clients:no_amount_specified' => 'No has especificado una cantidad.',
+  'clients:tax_registration_number' => ':1 Número / ID',
 );
 /** End of file: pancake_lang.php **/
