@@ -1309,5 +1309,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'invoices:restored' => 'U heeft factuur 1 [invoice #:1] met succes hersteld.
 
 ',
+  'invoices:archived' => 'U heeft factuur 1 [invoice #:1] succesvol gearchiveerd.
+',
 );
 /** End of file: pancake_lang.php **/
