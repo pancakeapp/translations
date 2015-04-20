@@ -1216,5 +1216,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:supplier_added' => '¡Éxito! El proveedor fue creado con éxito.',
   'kitchen:no_tickets_created' => 'No hay tickets creados.',
   'projects:add_new_task' => 'Añadir nueva tarea',
+  'kitchen:x_responses' => '1% Respuestas',
 );
 /** End of file: pancake_lang.php **/
