@@ -7,9 +7,9 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
- * @author Robson Sobral - https://github.com/robsonsobral
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
