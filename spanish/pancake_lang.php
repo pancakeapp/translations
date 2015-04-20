@@ -1022,5 +1022,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:you_cannot_send' => 'No puedes enviarle a este cliente sus detalles del área de clientes por correo electrónico porque este cliente no tiene una dirección de correo electrónico.',
   'email_templates:client_area_details' => 'Detalles del Área de Clientes',
   'invoices:discount' => 'Descuento',
+  'clients:send_client_area_email' => 'Enviar detalles del área de clientes',
 );
 /** End of file: pancake_lang.php **/
