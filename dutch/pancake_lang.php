@@ -1293,5 +1293,6 @@ $lang = array (
   'error:scan_result_failure_deleted_one' => ':1 bestand bestaat niet',
   'proposals:list_all' => 'Alle Voorstellen',
   'proposals:list_rejected' => 'Verworpen Voorstellen',
+  'invoices:invoices_archived' => 'Gearchiveerde Facturen',
 );
 /** End of file: pancake_lang.php **/
