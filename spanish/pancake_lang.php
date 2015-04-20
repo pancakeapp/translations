@@ -1241,5 +1241,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tickets:replied' => 'Tu respuesta al ticket fue guardada correctamente.',
   'reminders:x_days_past_due' => '% 1 de días vencidos',
   'global:project_expense' => 'Gasto',
+  'global:reply' => 'Respuesta',
 );
 /** End of file: pancake_lang.php **/
