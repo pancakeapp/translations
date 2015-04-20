@@ -990,5 +990,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:sort_or_filter' => 'Ordenar/Filtrar Gastos',
   'global:there_is_no_activity' => 'No hay actividad de equipo para mostrar.',
   'global:there_are_no_tasks_assigned_to_you' => 'No hay tienes tareas asignadas.',
+  'global:sort_by' => 'Ordenar por',
 );
 /** End of file: pancake_lang.php **/
