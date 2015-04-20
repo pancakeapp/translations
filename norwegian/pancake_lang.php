@@ -1217,5 +1217,6 @@ $lang = array (
   'kitchen:no_tickets_created' => 'Ingen billetter opprettet.',
   'kitchen:responses' => 'Tilbakemeldinger',
   'invoices:all_unpaid' => 'Alle ubetalte',
+  'items:select_flat_rate' => 'Fast pris',
 );
 /** End of file: pancake_lang.php **/
