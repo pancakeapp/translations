@@ -1044,5 +1044,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'credit_notes:preview' => 'Previsualizar la nota de crédito',
   'email_templates:new_credit_note' => 'Nueva nota de crédito',
   'clients:view' => 'Ver cliente',
+  'credit_notes:duplicated' => 'La nota de crédito está duplicada #% 1. El número de la nueva nota de crédito es #% 2.',
 );
 /** End of file: pancake_lang.php **/
