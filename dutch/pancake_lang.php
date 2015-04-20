@@ -1283,5 +1283,6 @@ $lang = array (
   'global:archive' => 'Archief',
   'global:archived' => 'Gearchiveerd',
   'proposals:list_accepted' => 'Geaccepteerde Voorstellen',
+  'error:click_here_for_instructions' => 'Klik hier voor instructies',
 );
 /** End of file: pancake_lang.php **/
