@@ -1207,5 +1207,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:you_cannot_report_this_error' => 'No puede informar de este problema al soporte de Pancake, ya que es un problema con su servidor. Por favor, póngase en contacto con el administrador de su servidor acerca de este problema. Cuando lo discuta con ellos, dígales:',
   'reports:per_payment_method' => 'por la forma de pago',
   'settings:importedcredit_notes' => 'Importadas con éxito las Notas de Crédito % 1.',
+  'projects:invalid_template' => 'No seleccionó una plantilla válida para el proyecto.',
 );
 /** End of file: pancake_lang.php **/
