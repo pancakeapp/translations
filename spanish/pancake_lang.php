@@ -1254,5 +1254,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:group' => 'Grupo',
   'users:confirm_password' => 'Confirmar contraseña',
   'tasks:add_notes' => 'Añadir notas',
+  'users:edit_user' => 'Editar usuario',
 );
 /** End of file: pancake_lang.php **/
