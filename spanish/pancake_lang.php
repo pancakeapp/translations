@@ -1164,5 +1164,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.update.succeeded' => '¡El proyecto se ha actualizado!',
   'projects.label.is_viewable' => '¿Visible en el área de clientes?',
   'projects.delete.title' => '¿Está seguro de que quiere eliminar este proyecto?',
+  'projects.label.due_date' => 'Fecha de vencimiento:',
 );
 /** End of file: pancake_lang.php **/
