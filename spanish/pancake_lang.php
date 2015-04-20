@@ -1062,5 +1062,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'credit_notes:view' => 'Ver nota de abono.',
   'invoices:store_bulk_payment' => 'Guardar Pago a Granel',
   'settings:ticket_status_for_sending_invoice' => 'Estado de los tickets para la facturación.',
+  'expenses:added' => 'El gasto fue añadido con éxito.',
 );
 /** End of file: pancake_lang.php **/
