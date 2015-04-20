@@ -1216,5 +1216,6 @@ $lang = array (
   'invoices:estimate_help' => 'Estimater er detaljerte fakturaer som ikke er fakturerbare.',
   'kitchen:no_tickets_created' => 'Ingen billetter opprettet.',
   'kitchen:responses' => 'Tilbakemeldinger',
+  'invoices:all_unpaid' => 'Alle ubetalte',
 );
 /** End of file: pancake_lang.php **/
