@@ -1185,5 +1185,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tickets:archive' => 'Archivo',
   'projects.button.edit' => 'Actualizar el proyecto →',
   'times.label.note' => 'Nota:',
+  'error:email_settings_not_valid' => 'La configuración de su correo electrónico no es válida.',
 );
 /** End of file: pancake_lang.php **/
