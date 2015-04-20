@@ -993,5 +993,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:sort_by' => 'Ordenar por',
   'expenses:show' => 'Mostrar gastos',
   'global:sort_order' => 'Orden de clasificación',
+  'global:desc' => 'Descendiendo (A-Z)',
 );
 /** End of file: pancake_lang.php **/
