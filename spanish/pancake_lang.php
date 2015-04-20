@@ -1097,5 +1097,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:pancake_will_automatically_change_is_viewable' => 'Esto cambiará a "sí" automáticamente cuando se envíe  la factura al cliente por correo electrónico.',
   'expenses:category_added' => '¡Éxito! La categoría de gastos fue creada satisfactoriamente.',
   'clients:what_do_you_want_to_do' => '¿Qué quiere hacer?',
+  'expenses:no_receipt' => 'Sin recibo',
 );
 /** End of file: pancake_lang.php **/
