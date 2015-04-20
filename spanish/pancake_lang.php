@@ -1166,5 +1166,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.delete.title' => '¿Está seguro de que quiere eliminar este proyecto?',
   'projects.label.due_date' => 'Fecha de vencimiento:',
   'projects.create.succeeded' => '¡El proyecto ha sido creado!',
+  'times.label.end_time' => 'Hora de finalización:',
 );
 /** End of file: pancake_lang.php **/
