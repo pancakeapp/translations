@@ -1013,5 +1013,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:send' => 'Enviar',
   'invoices:auto_send' => '¿Enviar automáticamente?',
   'dashboard:today' => 'Hoy',
+  'settings:always_https' => '¿Forzar HTTPS?',
 );
 /** End of file: pancake_lang.php **/
