@@ -1126,5 +1126,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'errors:report' => 'Informe del error',
   'reports:amount_paid' => 'Importe del pago',
   'errors:subject' => 'Título erróneo',
+  'global:once' => 'Una vez',
 );
 /** End of file: pancake_lang.php **/
