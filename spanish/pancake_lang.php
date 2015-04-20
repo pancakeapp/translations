@@ -1156,5 +1156,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tickets:unarchive' => 'Restaurar',
   'global:errors' => 'Errores',
   'projects.button.create' => 'Crear proyecto →',
+  'projects:role_delete_milestone' => 'Eliminar Milestone',
 );
 /** End of file: pancake_lang.php **/
