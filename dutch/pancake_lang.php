@@ -1306,5 +1306,8 @@ Scan uw Pancake voor file-gerelateerde zaken',
 ',
   'proposals:restored' => 'U heeft voorstel 1 [proposal #:1] met succes hersteld.
 ',
+  'invoices:restored' => 'U heeft factuur 1 [invoice #:1] met succes hersteld.
+
+',
 );
 /** End of file: pancake_lang.php **/
