@@ -1278,5 +1278,6 @@ $lang = array (
   'error:scan_result_failure_modified_one' => ':1 bestand is aangepast',
   'error:scan' => 'Scannen',
   'error:scan_result_failure_heading' => 'Er zijn problemen met uw bestanden op Pancake.',
+  'error:and_x_others' => '... en :1 anderen.',
 );
 /** End of file: pancake_lang.php **/
