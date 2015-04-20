@@ -1000,5 +1000,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:tax' => 'Impuesto',
   'global:youarenotallowed' => 'No tiene permitido acceder a esta página.',
   'settings:tax_compound' => '¿Compuesto?',
+  'settings:billing_email' => 'Correo electrónico asociado a la cuenta de facturación',
 );
 /** End of file: pancake_lang.php **/
