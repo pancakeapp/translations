@@ -1066,5 +1066,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:ticket_status_for_sending_invoice_description' => 'Cuando un ticket pagado se actualiza a éste estado, una factura se generará automáticamente y será enviada al cliente.',
   'tickets:ticket_number' => 'Ticket #% 1',
   'global:incorrect_login' => 'La combinación de nombre de usuario/contraseña que ha introducido no es válida.',
+  'settings:hide_tax_column' => '¿Ocultar columna de impuestos?',
 );
 /** End of file: pancake_lang.php **/
