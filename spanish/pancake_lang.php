@@ -1183,5 +1183,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'times.title' => 'Cantidad de veces',
   'times.label.date' => 'Fecha:',
   'tickets:archive' => 'Archivo',
+  'projects.button.edit' => 'Actualizar el proyecto →',
 );
 /** End of file: pancake_lang.php **/
