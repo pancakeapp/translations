@@ -1285,5 +1285,6 @@ $lang = array (
   'proposals:list_accepted' => 'Geaccepteerde Voorstellen',
   'error:click_here_for_instructions' => 'Klik hier voor instructies',
   'credit_notes:restored' => 'U heeft \'credit note 1\' met succes hersteld.',
+  'proposals:list_unanswered' => 'Onbeantwoorde Voorstellen',
 );
 /** End of file: pancake_lang.php **/
