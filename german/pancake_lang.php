@@ -1315,5 +1315,6 @@ Die Fehlermeldung war:
   'credit_notes:restored' => 'Sie haben Gutschrift #% 1 erfolgreich wiederhergestellt.',
   'proposals:list_accepted' => 'Akzeptierte Vorschläge',
   'proposals:list_unanswered' => 'Unbeantwortete Vorschläge',
+  'proposals:list_rejected' => 'Abgelehnte Vorschläge',
 );
 /** End of file: pancake_lang.php **/
