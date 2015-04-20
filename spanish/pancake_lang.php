@@ -1107,5 +1107,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'reports:payments' => 'Pagos',
   'expenses:edited' => '¡Éxito! El gasto fue editado satisfactoriamente.',
   'dashboard:upcoming_invoices' => 'Próximas facturas',
+  'error:unknown_error_reporting' => 'Ocurrió un error desconocido. Por favor, informe de este error manualmente.',
 );
 /** End of file: pancake_lang.php **/
