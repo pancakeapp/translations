@@ -1244,5 +1244,6 @@ $lang = array (
   'clients:filter_clients' => 'Filtrer klienter',
   'users:activate' => 'Aktiver',
   'global:group' => 'Gruppe',
+  'users:edit_user' => 'Endre bruker',
 );
 /** End of file: pancake_lang.php **/
