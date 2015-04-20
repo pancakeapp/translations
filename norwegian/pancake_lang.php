@@ -1220,5 +1220,6 @@ $lang = array (
   'items:select_flat_rate' => 'Fast pris',
   'kitchen:x_responses' => ':1 Tilbakemeldinger',
   'projects:delete_project_template' => 'Slett prosjektmal',
+  'expenses:supplier_name' => 'Leverandørnavn',
 );
 /** End of file: pancake_lang.php **/
