@@ -1118,5 +1118,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'dashboard:view_all_upcoming_invoices' => 'Ver todas las facturas pendientes',
   'error:subtitle' => 'Se ha producido un error desconocido.',
   'error:title' => 'Error desconocido',
+  'error:already_reported' => 'Este error ya se ha reportado al soporte de Pancake.',
 );
 /** End of file: pancake_lang.php **/
