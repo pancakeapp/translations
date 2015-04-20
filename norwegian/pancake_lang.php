@@ -1250,5 +1250,6 @@ $lang = array (
   'users:please_enter_information' => 'Skriv inn brukerens informasjon nedenfor.',
   'users:confirm_password' => 'Bekreft passord',
   'reminders:no_due_date' => 'Ingen forfallsdato',
+  'global:by_x_with_time' => 'Av :1, :2.',
 );
 /** End of file: pancake_lang.php **/
