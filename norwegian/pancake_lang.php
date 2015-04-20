@@ -1226,5 +1226,6 @@ $lang = array (
   'expenses:category_name' => 'Kategorinavn',
   'projects:add_new_task' => 'Legg til ny oppgave',
   'search:results_for_x' => 'Søkeresultater for «:1»',
+  'expenses:before_you_can_add_expenses' => 'Før du kan legge til eventuelle utgifter må du lage noen :1 og :2.',
 );
 /** End of file: pancake_lang.php **/
