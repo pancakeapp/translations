@@ -1063,5 +1063,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:store_bulk_payment' => 'Guardar Pago a Granel',
   'settings:ticket_status_for_sending_invoice' => 'Estado de los tickets para la facturación.',
   'expenses:added' => 'El gasto fue añadido con éxito.',
+  'settings:ticket_status_for_sending_invoice_description' => 'Cuando un ticket pagado se actualiza a éste estado, una factura se generará automáticamente y será enviada al cliente.',
 );
 /** End of file: pancake_lang.php **/
