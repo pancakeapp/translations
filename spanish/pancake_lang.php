@@ -1261,5 +1261,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tasks:complete_this_task' => 'Completar esta tarea',
   'users:please_enter_information' => 'Por favor, introduzca la información del usuario a continuación.',
   'global:bcc_was_sent_to' => 'Este correo electrónico se ha enviado a :1 el :2.',
+  'global:server_default' => 'Servidor por defecto (no recomendado)',
 );
 /** End of file: pancake_lang.php **/
