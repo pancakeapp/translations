@@ -1046,5 +1046,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:view' => 'Ver cliente',
   'credit_notes:duplicated' => 'La nota de crédito está duplicada #% 1. El número de la nueva nota de crédito es #% 2.',
   'global:success' => '¡Éxito!',
+  'clients:credit_balance_currently' => 'Balance de crédito (actualmente :1)',
 );
 /** End of file: pancake_lang.php **/
