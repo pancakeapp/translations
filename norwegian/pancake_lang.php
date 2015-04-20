@@ -1240,5 +1240,6 @@ $lang = array (
   'global:project_task' => 'Oppgave',
   'reports:collected' => 'Hentede',
   'users:deactivate' => 'Deaktiver',
+  'reports:uncollected' => 'Uavhentede',
 );
 /** End of file: pancake_lang.php **/
