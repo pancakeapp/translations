@@ -1189,5 +1189,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:cant_send_email_explanation' => 'Ha especificado que desea utilizar Sendmail (:1) para enviar correos electrónicos, pero no fue posible hacerlo. O la ruta a Sendmail es incorrecta, o algo más ha ido mal.',
   'error:server_error' => 'Error en el servidor',
   'error:permissions_not_valid' => 'Hay un problema con los permisos del archivo en su servidor.',
+  'global:estimates_unsent' => 'No enviado',
 );
 /** End of file: pancake_lang.php **/
