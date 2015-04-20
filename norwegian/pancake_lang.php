@@ -1257,5 +1257,6 @@ $lang = array (
   'tasks:discuss_task' => 'Diskuter oppgave',
   'projects:rate_type' => 'Satstype',
   'global:bcc_was_sent_to' => 'Denne e-posten ble sendt til :1 på :2.',
+  'tickets:active_tickets' => 'Aktive billetter',
 );
 /** End of file: pancake_lang.php **/
