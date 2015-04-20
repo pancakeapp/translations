@@ -1229,5 +1229,6 @@ $lang = array (
   'expenses:before_you_can_add_expenses' => 'Før du kan legge til eventuelle utgifter må du lage noen :1 og :2.',
   'reminders:x_days_past_due' => ':1 dager etter forfall',
   'search:one_matching_result' => '1 samsvarende resultat',
+  'global:ticket' => 'Billett',
 );
 /** End of file: pancake_lang.php **/
