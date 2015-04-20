@@ -1072,5 +1072,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:sub_total_after_discounts' => 'Subtotal (después de los descuentos)',
   'global:beforeunload' => 'Estás a punto de salir de esta página. Si lo haces, se perderán todos los datos que has introducido hasta ahora. ¿Estás seguro de que quieres salir de esta página?',
   'global:unanswered' => 'Sin respuesta',
+  'global:accepted' => 'Aceptado',
 );
 /** End of file: pancake_lang.php **/
