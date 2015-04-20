@@ -1243,5 +1243,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:project_expense' => 'Gasto',
   'global:reply' => 'Respuesta',
   'expenses:before_you_can_add_expenses' => 'Antes de poder añadir cualquier gasto, es necesario crear algunos :1 y :2.',
+  'users:deactivate' => 'Desactivar',
 );
 /** End of file: pancake_lang.php **/
