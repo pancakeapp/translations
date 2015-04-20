@@ -1239,5 +1239,6 @@ $lang = array (
   'global:download_csv' => 'Last ned CSV',
   'global:project_task' => 'Oppgave',
   'reports:collected' => 'Hentede',
+  'users:deactivate' => 'Deaktiver',
 );
 /** End of file: pancake_lang.php **/
