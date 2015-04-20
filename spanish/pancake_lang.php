@@ -1001,5 +1001,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:youarenotallowed' => 'No tiene permitido acceder a esta página.',
   'settings:tax_compound' => '¿Compuesto?',
   'settings:billing_email' => 'Correo electrónico asociado a la cuenta de facturación',
+  'settings:brand_name' => 'Nombre de la Marca',
 );
 /** End of file: pancake_lang.php **/
