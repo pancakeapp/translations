@@ -1316,5 +1316,6 @@ Die Fehlermeldung war:
   'proposals:list_accepted' => 'Akzeptierte Vorschläge',
   'proposals:list_unanswered' => 'Unbeantwortete Vorschläge',
   'proposals:list_rejected' => 'Abgelehnte Vorschläge',
+  'global:archive' => 'Archiv',
 );
 /** End of file: pancake_lang.php **/
