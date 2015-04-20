@@ -1060,5 +1060,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:specify_bulk_payment_details' => 'Especifique los detalles del pago de su cliente, y seleccione las facturas a las que se aplica el pago.',
   'clients:has_no_unpaid_invoices' => ':1 no tiene facturas sin pagar.',
   'credit_notes:view' => 'Ver nota de abono.',
+  'invoices:store_bulk_payment' => 'Guardar Pago a Granel',
 );
 /** End of file: pancake_lang.php **/
