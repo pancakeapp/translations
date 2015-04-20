@@ -1099,5 +1099,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:what_do_you_want_to_do' => '¿Qué quiere hacer?',
   'expenses:no_receipt' => 'Sin recibo',
   'estimates:appended' => 'Conversión estimada #1% en tareas de "2%".',
+  'tickets:invoice_will_be_generated' => 'Un 1% de la factura para éste ticket se generará cuando el estado del ticket cambie a "2%".',
 );
 /** End of file: pancake_lang.php **/
