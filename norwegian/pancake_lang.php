@@ -1252,5 +1252,6 @@ $lang = array (
   'reminders:no_due_date' => 'Ingen forfallsdato',
   'global:by_x_with_time' => 'Av :1, :2.',
   'tasks:add_notes' => 'Legg til notater',
+  'tasks:complete_this_task' => 'Fullfør denne oppgaven',
 );
 /** End of file: pancake_lang.php **/
