@@ -1234,5 +1234,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'search:results_for_x' => 'Resultados de búsqueda para ":1"',
   'expenses:category_edited' => '¡Éxito! La categoría fue editada satisfactoriamente.',
   'global:project_task' => 'Tarea',
+  'global:ticket' => 'Ticket',
 );
 /** End of file: pancake_lang.php **/
