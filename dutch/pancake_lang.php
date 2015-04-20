@@ -1281,5 +1281,6 @@ $lang = array (
   'error:and_x_others' => '... en :1 anderen.',
   'error:scan_result_failure_modified_other' => ':1 bestanden zijn gewijzigd',
   'global:archive' => 'Archief',
+  'global:archived' => 'Gearchiveerd',
 );
 /** End of file: pancake_lang.php **/
