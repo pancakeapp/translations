@@ -1049,5 +1049,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:credit_balance_currently' => 'Balance de crédito (actualmente :1)',
   'invoices:make_bulk_payment' => 'Hacer Pago a Granel',
   'credit_notes:send_now_body' => 'Rellene el siguiente formulario y le entregaremos esta nota de crédito.',
+  'invoices:x_invoices' => 'el 1% de las facturas',
 );
 /** End of file: pancake_lang.php **/
