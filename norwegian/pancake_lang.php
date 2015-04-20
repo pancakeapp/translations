@@ -1254,5 +1254,6 @@ $lang = array (
   'tasks:add_notes' => 'Legg til notater',
   'tasks:complete_this_task' => 'Fullfør denne oppgaven',
   'tasks:task_notes' => 'Oppgavenotater',
+  'tasks:discuss_task' => 'Diskuter oppgave',
 );
 /** End of file: pancake_lang.php **/
