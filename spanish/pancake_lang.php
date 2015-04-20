@@ -1195,5 +1195,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:no_tmp_dir_permissions_explanation' => 'Su servidor está configurado de tal manera que no permite a Pancake crear archivos temporales en <code>1%</code>.',
   'invoices:see_payment_schedule' => 'Ver Programa de Pagos',
   'times.label.task_id' => 'Tarea:',
+  'error:page_not_found' => 'Página no encontrada',
 );
 /** End of file: pancake_lang.php **/
