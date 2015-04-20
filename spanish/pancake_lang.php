@@ -1115,5 +1115,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:no_project_business_expense' => 'Gastos del negocio (No del proyecto)',
   'clients:tax_numbers' => 'Número de identificación fiscal de los clientes / documentos de identidad',
   'dashboard:there_are_no_upcoming_invoices' => 'No hay nuevas facturas para mostrar.',
+  'dashboard:view_all_upcoming_invoices' => 'Ver todas las facturas pendientes',
 );
 /** End of file: pancake_lang.php **/
