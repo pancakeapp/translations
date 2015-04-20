@@ -1318,5 +1318,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'estimates:restored' => 'U heeft schatting 1 [estimate #:1] succesvol hersteld.
 ',
   'invoices:credit_notes_archived' => 'Gearchiveerde Creditnota\'s',
+  'tickets:user_updated_ticket' => ':1 ticketstatus geüpdatet naar :2 op:3',
 );
 /** End of file: pancake_lang.php **/
