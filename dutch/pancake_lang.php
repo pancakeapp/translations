@@ -1315,5 +1315,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
 ',
   'credit_notes:archived' => 'U heeft creditnota {credit note #:1] succesvol gearchiveerd.
 ',
+  'estimates:restored' => 'U heeft schatting 1 [estimate #:1] succesvol hersteld.
+',
 );
 /** End of file: pancake_lang.php **/
