@@ -1234,5 +1234,6 @@ $lang = array (
   'tickets:added' => 'Billetten ble opprettet.',
   'tickets:user_updated_ticket' => ':1 oppdaterte billettstatusen til :2 på :3',
   'global:reply' => 'Svar',
+  'tickets:replied' => 'Din tilbakemelding på billetten ble lagret.',
 );
 /** End of file: pancake_lang.php **/
