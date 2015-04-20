@@ -1008,5 +1008,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:billing_email_explanation' => 'Esta es la dirección utilizada como "remitente" para los correos electrónicos de Facturas, Estimaciones y Propuestas.',
   'dashboard:snapshot' => 'Instantánea',
   'invoices:frequency' => 'Frecuencia',
+  'settings:business_name_explanation' => 'Este es el nombre legal de su negocio. Se mostrará en sus facturas.',
 );
 /** End of file: pancake_lang.php **/
