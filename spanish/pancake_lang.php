@@ -1209,5 +1209,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:importedcredit_notes' => 'Importadas con éxito las Notas de Crédito % 1.',
   'projects:invalid_template' => 'No seleccionó una plantilla válida para el proyecto.',
   'gateways:just_for_logging' => 'Nota: Esta forma de pago no afecta a las facturas de ninguna manera.<br/>Está aquí para que pueda realizar un seguimiento de los pagos recibidos por :1.',
+  'settings:test_email_message' => 'Este es un correo electrónico de prueba. Si has recibido esto, significa que los correos electrónicos están funcionando en Pancake.',
 );
 /** End of file: pancake_lang.php **/
