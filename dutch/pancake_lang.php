@@ -1272,5 +1272,6 @@ $lang = array (
   'error:upgrade_php' => 'U moet uw PHP-versie upgraden naar ten minste 5,5 (idealiter 5.6). Om dit te doen, neem contact op met uw server beheerders en vraag hen om PHP te updaten.',
   'error:why_update' => 'Door het blijven gebruiken van deze versie van PHP, mist u een aantal verbeteringen in de prestatie en beveiliging, evenals een ontelbaar aantal bugfixes.',
   'error:scanning' => 'bezig met scannen, even geduld...',
+  'error:using_php_54' => 'U maakt gebruik van PHP 5.4, die al meer dan 2 jaar verouderd is en het einde van zijn levensduur [end-of-life status] heeft bereikt. (wat betekent dat het niet meer wordt ondersteund door de PHP Group) In september 2015.',
 );
 /** End of file: pancake_lang.php **/
