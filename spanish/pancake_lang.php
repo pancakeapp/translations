@@ -1061,5 +1061,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:has_no_unpaid_invoices' => ':1 no tiene facturas sin pagar.',
   'credit_notes:view' => 'Ver nota de abono.',
   'invoices:store_bulk_payment' => 'Guardar Pago a Granel',
+  'settings:ticket_status_for_sending_invoice' => 'Estado de los tickets para la facturación.',
 );
 /** End of file: pancake_lang.php **/
