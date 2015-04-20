@@ -1202,5 +1202,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:see_payment_schedule_below' => 'Ver Programa de Pagos debajo',
   'error:xcache_extension_broken_explanation' => 'Algo salió mal mientras su servidor estaba tratando de cargar la extensión XCache. Esto no está relacionado con Pancake en absoluto, pero está impidiendo que se ejecute Pancake.',
   'error:no_tmp_dir_permissions_solutions' => 'Si tiene acceso root al servidor, puede cambiar el ajuste <code>open_basedir</code> en su php.ini para que <code>:1</code> se incluya en la lista de carpetas permitidas.',
+  'error:page_does_not_exist_explanation' => 'Estaba intentando acceder a % 1, pero no existe. Si éste error es inesperado, puede informar del error al Equipo de Soporte de Pancake. Lo encontrarás en \'Ajustes &gt; Errores &amp; Diagnosticos.',
 );
 /** End of file: pancake_lang.php **/
