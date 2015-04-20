@@ -1304,7 +1304,7 @@ Die Fehlermeldung war:
   'error:scan_result_failure_how_to_fix' => 'Um diese Fehler zu beheben, müssen Sie Pancake manuell updaten.',
   'error:click_here_for_instructions' => 'Klicken Sie hier für mehr Inforamtionen darüber.',
   'error:and_x_others' => '... und :1 andere.',
-  'invoices:invoices_archived' => NULL,
+  'invoices:invoices_archived' => 'Archivierte Abrechnungen',
   'proposals:restored' => 'Sie haben Vorschlag #% 1 erfolgreich wiederhergestellt.',
   'proposals:archived' => 'Sie haben Vorschlag #% 1 erfolgreich archiviert.',
   'estimates:archived' => 'Sie haben Schätzung #% 1 erfolgreich archiviert.',
