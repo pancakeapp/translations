@@ -1075,5 +1075,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:accepted' => 'Aceptado',
   'tickets:not_yet_generated' => 'Factura no generada todavía',
   'estimates:accepted' => 'Aceptaciones estimadas',
+  'store:error1004' => 'Se produjo un error desconocido al tratar de adquirir este artículo. Por favor, inténtelo de nuevo más tarde. Si el error persiste, por favor contacte gratuitamente con atención al cliente en pancakeapp.com.',
 );
 /** End of file: pancake_lang.php **/
