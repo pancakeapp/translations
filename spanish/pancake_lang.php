@@ -1227,5 +1227,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:test_email_error' => 'Se produjo un error al tratar de enviar el correo electrónico de prueba:<br/><br/>1%<br/><br/>Por favor, asegúrese de que los datos introducidos son correctos. Si está utilizando SMTP, asegúrese de que el puerto que está intentando usar está abierto en el cortafuegos de su servidor.',
   'global:show_hide_deleted' => 'Mostrar / ocultar borrados',
   'settings:test_email_connection_error' => 'Su servidor no puede conectarse a :1 en el puerto :2. Tendrá que ponerse en contacto con el administrador del sistema y permitir este puerto en el cortafuegos de su servidor.<br/><br/>El mensaje de error fue:<br/><br/>3%',
+  'settings:test_email_subject' => 'Este es un email de prueba.',
 );
 /** End of file: pancake_lang.php **/
