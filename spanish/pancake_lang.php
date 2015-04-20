@@ -1086,5 +1086,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'items:fixed_discount' => 'Descuento (:1)',
   'clients:add_custom_field' => 'Añadir otro campo personalizado',
   'clients:balance_updated' => 'Éxito! El saldo de crédito de cliente se actualizó con éxito.',
+  'invoices:discount_percentage' => 'Descuento (:1%)',
 );
 /** End of file: pancake_lang.php **/
