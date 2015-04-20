@@ -1191,5 +1191,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:permissions_not_valid' => 'Hay un problema con los permisos del archivo en su servidor.',
   'global:estimates_unsent' => 'No enviado',
   'times.edit.succeeded' => '¡La hora ha sido editada con éxito!',
+  'error:xcache_extension_broken' => 'Su servidor tiene un problema con la extensión XCache.',
 );
 /** End of file: pancake_lang.php **/
