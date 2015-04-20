@@ -1261,5 +1261,6 @@ $lang = array (
   'error:fixed_in_version' => 'Dette problemet ble løst i Pancake {version}. Oppdater Pancake hvis du ikke har gjort det enda.',
   'projects:hourly_rate' => 'Timesats',
   'global:server_default' => 'Serverstandard (anbefales ikke)',
+  'tickets:leave_a_response' => 'Legg igjen en tilbakemelding',
 );
 /** End of file: pancake_lang.php **/
