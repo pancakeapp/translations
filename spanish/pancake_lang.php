@@ -1212,5 +1212,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:test_email_message' => 'Este es un correo electrónico de prueba. Si has recibido esto, significa que los correos electrónicos están funcionando en Pancake.',
   'settings:sending' => 'Enviando correo electrónico...',
   'kitchen:responses' => 'Respuestas',
+  'settings:test_email_sent' => 'Enviado al 1% correctamente!',
 );
 /** End of file: pancake_lang.php **/
