@@ -1094,5 +1094,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:tax_registration_number' => ':1 Número / ID',
   'expenses:receipt' => 'Recibo',
   'global:triennially' => 'Trienalmente',
+  'invoices:pancake_will_automatically_change_is_viewable' => 'Esto cambiará a "sí" automáticamente cuando se envíe  la factura al cliente por correo electrónico.',
 );
 /** End of file: pancake_lang.php **/
