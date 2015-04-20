@@ -1227,5 +1227,6 @@ $lang = array (
   'projects:add_new_task' => 'Legg til ny oppgave',
   'search:results_for_x' => 'Søkeresultater for «:1»',
   'expenses:before_you_can_add_expenses' => 'Før du kan legge til eventuelle utgifter må du lage noen :1 og :2.',
+  'reminders:x_days_past_due' => ':1 dager etter forfall',
 );
 /** End of file: pancake_lang.php **/
