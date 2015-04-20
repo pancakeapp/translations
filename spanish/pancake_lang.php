@@ -1129,5 +1129,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:once' => 'Una vez',
   'settings:delete_error' => 'Eliminar error',
   'global:x_times' => ':1 veces',
+  'global:twice' => 'Dos veces',
 );
 /** End of file: pancake_lang.php **/
