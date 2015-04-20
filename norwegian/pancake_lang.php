@@ -7,6 +7,7 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1212,5 +1213,6 @@ $lang = array (
   'settings:test_email_error_header' => 'Error sending test email',
   'settings:test_email_error' => 'An error occurred while trying to send the test email:<br /><br />:1<br /><br />Please make sure the details you entered are correct. If you\'re using SMTP, make sure the port you\'re trying to use is open in your server\'s firewall.',
   'settings:test_email_connection_error' => 'Your server can\'t connect to :1 on port :2. You will need to get in touch with your system administrator and allow this port in your server\'s firewall.<br /><br />The error message was:<br /><br />:3',
+  'invoices:estimate_help' => 'Estimater er detaljerte fakturaer som ikke er fakturerbare.',
 );
 /** End of file: pancake_lang.php **/
