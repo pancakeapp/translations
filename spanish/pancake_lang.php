@@ -1012,5 +1012,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'dashboard:your_projects' => 'Tus proyectos',
   'invoices:send' => 'Enviar',
   'invoices:auto_send' => '¿Enviar automáticamente?',
+  'dashboard:today' => 'Hoy',
 );
 /** End of file: pancake_lang.php **/
