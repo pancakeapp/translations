@@ -1200,5 +1200,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:not_enough_disk_space_solutions' => 'Si tiene acceso root al servidor de la base de datos, pruebe vaciando /tmp. Si eso no funciona, revise el uso del espacio del disco duro en su servidor de base de datos, y trate de liberar un poco de espacio del disco duro.',
   'error:page_does_not_exist' => 'La página a la que estaba tratando de acceder no existe.',
   'invoices:see_payment_schedule_below' => 'Ver Programa de Pagos debajo',
+  'error:xcache_extension_broken_explanation' => 'Algo salió mal mientras su servidor estaba tratando de cargar la extensión XCache. Esto no está relacionado con Pancake en absoluto, pero está impidiendo que se ejecute Pancake.',
 );
 /** End of file: pancake_lang.php **/
