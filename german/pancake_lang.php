@@ -7,8 +7,8 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Florian Simeth 
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Florian Simeth 
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
@@ -1305,5 +1305,6 @@ Die Fehlermeldung war:
   'error:click_here_for_instructions' => 'Klicken Sie hier für mehr Inforamtionen darüber.',
   'error:and_x_others' => '... und :1 andere.',
   'invoices:invoices_archived' => NULL,
+  'proposals:restored' => 'Sie haben Vorschlag #% 1 erfolgreich wiederhergestellt.',
 );
 /** End of file: pancake_lang.php **/
