@@ -1258,5 +1258,6 @@ $lang = array (
   'projects:rate_type' => 'Satstype',
   'global:bcc_was_sent_to' => 'Denne e-posten ble sendt til :1 på :2.',
   'tickets:active_tickets' => 'Aktive billetter',
+  'error:fixed_in_version' => 'Dette problemet ble løst i Pancake {version}. Oppdater Pancake hvis du ikke har gjort det enda.',
 );
 /** End of file: pancake_lang.php **/
