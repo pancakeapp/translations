@@ -1312,5 +1312,6 @@ Die Fehlermeldung war:
   'estimates:restored' => 'Sie haben Schätzung #% 1 erfolgreich wiederhergestellt.',
   'proposals:list_all' => 'Alle Vorschläge',
   'credit_notes:archived' => 'Sie haben Gutschrift #% 1 erfolgreich archiviert.',
+  'credit_notes:restored' => 'Sie haben Gutschrift #% 1 erfolgreich wiederhergestellt.',
 );
 /** End of file: pancake_lang.php **/
