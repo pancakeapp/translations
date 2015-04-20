@@ -1134,5 +1134,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:report_error' => 'Informe del error',
   'error:logged_in_extra' => 'Haga clic aquí para enviar un ticket de soporte gratuito con los detalles del error al Equipo de Soporte de Pancake.',
   'global:occurred_times' => 'Ocurrió 1%',
+  'error:reporting' => 'Reportando...',
 );
 /** End of file: pancake_lang.php **/
