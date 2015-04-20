@@ -1304,5 +1304,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
 ',
   'proposals:archived' => 'U heeft voorstel 1 [proposal #:1] succesvol gearchiveerd.
 ',
+  'proposals:restored' => 'U heeft voorstel 1 [proposal #:1] met succes hersteld.
+',
 );
 /** End of file: pancake_lang.php **/
