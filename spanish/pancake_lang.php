@@ -1026,5 +1026,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:remittance_slip' => 'Cobro',
   'invoices:discount_explain' => 'Añadir % para los porcentajes.',
   'credit_notes:edit_credit_note' => 'Editar Nota de Crédito #1%',
+  'credit_notes:create_credit_note' => 'Crear una Nota de Crédito',
 );
 /** End of file: pancake_lang.php **/
