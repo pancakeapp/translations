@@ -1311,5 +1311,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
 ',
   'invoices:archived' => 'U heeft factuur 1 [invoice #:1] succesvol gearchiveerd.
 ',
+  'estimates:archived' => 'U heeft schatting 1 [estimate #:1] succesvol gearchiveerd.
+',
 );
 /** End of file: pancake_lang.php **/
