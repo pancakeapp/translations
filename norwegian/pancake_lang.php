@@ -1231,5 +1231,6 @@ $lang = array (
   'search:one_matching_result' => '1 samsvarende resultat',
   'global:ticket' => 'Billett',
   'search:x_matching_results' => ':1 samsvarende resultater',
+  'tickets:added' => 'Billetten ble opprettet.',
 );
 /** End of file: pancake_lang.php **/
