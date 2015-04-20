@@ -1217,5 +1217,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'kitchen:no_tickets_created' => 'No hay tickets creados.',
   'projects:add_new_task' => 'Añadir nueva tarea',
   'kitchen:x_responses' => '1% Respuestas',
+  'settings:test_email_error_header' => 'Error al enviar mensaje de prueba',
 );
 /** End of file: pancake_lang.php **/
