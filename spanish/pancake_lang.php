@@ -1269,5 +1269,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tasks:task_notes' => 'Notas de tarea',
   'error:already_being_dealt_with' => 'El problema ya ha sido reportado por otra persona, y está siendo tramitado. Estamos trabajando para resolverlo lo antes posible.',
   'error:no_user_found' => 'Su clave de licencia no está asociada a ningún usuario de pancakeapp.com, por lo que su error no pudo ser enviado automáticamente. Si esto es inesperado, envíe un correo electrónico a support@pancakeapp.com y le ayudaremos.',
+  'error:fixed_in_version' => 'Este problema se arregló en Pancake {versión}. Si todavía no la tienes, actualiza tu Pancake.',
 );
 /** End of file: pancake_lang.php **/
