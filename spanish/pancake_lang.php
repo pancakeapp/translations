@@ -1256,5 +1256,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tasks:add_notes' => 'Añadir notas',
   'users:edit_user' => 'Editar usuario',
   'invoices:not_associated_with_a_project' => '- Sin asociar a un proyecto -',
+  'global:by_x_with_time' => 'Por% 1,% 2.',
 );
 /** End of file: pancake_lang.php **/
