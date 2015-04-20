@@ -1320,5 +1320,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'invoices:credit_notes_archived' => 'Gearchiveerde Creditnota\'s',
   'tickets:user_updated_ticket' => ':1 ticketstatus geüpdatet naar :2 op:3',
   'tasks:task_notes' => 'Taaknotities ',
+  'global:server_default' => 'Server Standaardwaarden (niet aanbevolen)',
 );
 /** End of file: pancake_lang.php **/
