@@ -1218,5 +1218,6 @@ $lang = array (
   'kitchen:responses' => 'Tilbakemeldinger',
   'invoices:all_unpaid' => 'Alle ubetalte',
   'items:select_flat_rate' => 'Fast pris',
+  'kitchen:x_responses' => ':1 Tilbakemeldinger',
 );
 /** End of file: pancake_lang.php **/
