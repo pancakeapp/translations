@@ -1052,5 +1052,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:x_invoices' => 'el 1% de las facturas',
   'invoices:amount_to_pay' => 'Cantidad para marcar como pagada',
   'credit_notes:addedconf' => 'Ha añadido la nota de crédito # <strong>:1</strong>, por un total de <strong>:2</strong> (:3 con impuestos) para % 4% 5.',
+  'invoices:send_bulk_payment_notification' => '¿Enviar notificaciones de correos electrónicos de los pagos al cliente?',
 );
 /** End of file: pancake_lang.php **/
