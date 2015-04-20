@@ -1238,5 +1238,6 @@ $lang = array (
   'global:attach_file' => 'Legg ved fil (Maksimal størrelse: :1)',
   'global:download_csv' => 'Last ned CSV',
   'global:project_task' => 'Oppgave',
+  'reports:collected' => 'Hentede',
 );
 /** End of file: pancake_lang.php **/
