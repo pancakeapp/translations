@@ -1138,5 +1138,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects:role_delete' => 'Eliminar',
   'error:response_will_be_sent_to_email' => 'Se le notificarán las respuestas en {correo electrónico}.',
   'projects:role_view' => 'Ver',
+  'settings:error_reported' => 'Error reportado',
 );
 /** End of file: pancake_lang.php **/
