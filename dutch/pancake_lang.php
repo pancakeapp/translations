@@ -1273,5 +1273,6 @@ $lang = array (
   'error:why_update' => 'Door het blijven gebruiken van deze versie van PHP, mist u een aantal verbeteringen in de prestatie en beveiliging, evenals een ontelbaar aantal bugfixes.',
   'error:scanning' => 'bezig met scannen, even geduld...',
   'error:using_php_54' => 'U maakt gebruik van PHP 5.4, die al meer dan 2 jaar verouderd is en het einde van zijn levensduur [end-of-life status] heeft bereikt. (wat betekent dat het niet meer wordt ondersteund door de PHP Group) In september 2015.',
+  'error:scan_result_success' => 'Uw Pancake is in perfecte staat en is op geen enkele manier gewijzigd. Alles is OK.',
 );
 /** End of file: pancake_lang.php **/
