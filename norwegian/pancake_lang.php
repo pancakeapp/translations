@@ -1232,5 +1232,6 @@ $lang = array (
   'global:ticket' => 'Billett',
   'search:x_matching_results' => ':1 samsvarende resultater',
   'tickets:added' => 'Billetten ble opprettet.',
+  'tickets:user_updated_ticket' => ':1 oppdaterte billettstatusen til :2 på :3',
 );
 /** End of file: pancake_lang.php **/
