@@ -1069,5 +1069,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:hide_tax_column' => '¿Ocultar columna de impuestos?',
   'global:error_submitting_ajax' => 'Se produjo un error desconocido tratando de enviar este formulario. Por favor, intente de nuevo más tarde. Si el error persiste, por favor, inicie un ticket de soporte gratuito en pancakeapp.com.',
   'invoices:send_to_client' => 'Enviar Factura vía correo electrónico al cliente',
+  'invoices:sub_total_after_discounts' => 'Subtotal (después de los descuentos)',
 );
 /** End of file: pancake_lang.php **/
