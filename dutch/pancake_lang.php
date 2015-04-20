@@ -1302,5 +1302,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
  Gebruik dit om Pancake to controleren op dergelijke problemen.',
   'error:scan_result_failure_how_to_fix' => 'Om deze problemen op te lossen, moet u handmatig  uw Pancake bestanden updaten. 
 ',
+  'proposals:archived' => 'U heeft voorstel 1 [proposal #:1] succesvol gearchiveerd.
+',
 );
 /** End of file: pancake_lang.php **/
