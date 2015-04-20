@@ -1136,5 +1136,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:occurred_times' => 'Ocurrió 1%',
   'error:reporting' => 'Reportando...',
   'projects:role_delete' => 'Eliminar',
+  'error:response_will_be_sent_to_email' => 'Se le notificarán las respuestas en {correo electrónico}.',
 );
 /** End of file: pancake_lang.php **/
