@@ -1221,5 +1221,6 @@ $lang = array (
   'kitchen:x_responses' => ':1 Tilbakemeldinger',
   'projects:delete_project_template' => 'Slett prosjektmal',
   'expenses:supplier_name' => 'Leverandørnavn',
+  'global:show_hide_deleted' => 'Vis/skjul slettet',
 );
 /** End of file: pancake_lang.php **/
