@@ -1277,5 +1277,6 @@ $lang = array (
   'error:scan_result_failure_deleted_other' => ':1 bestanden bestaan ​​niet',
   'error:scan_result_failure_modified_one' => ':1 bestand is aangepast',
   'error:scan' => 'Scannen',
+  'error:scan_result_failure_heading' => 'Er zijn problemen met uw bestanden op Pancake.',
 );
 /** End of file: pancake_lang.php **/
