@@ -1253,5 +1253,6 @@ $lang = array (
   'global:by_x_with_time' => 'Av :1, :2.',
   'tasks:add_notes' => 'Legg til notater',
   'tasks:complete_this_task' => 'Fullfør denne oppgaven',
+  'tasks:task_notes' => 'Oppgavenotater',
 );
 /** End of file: pancake_lang.php **/
