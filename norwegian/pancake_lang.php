@@ -1235,5 +1235,6 @@ $lang = array (
   'tickets:user_updated_ticket' => ':1 oppdaterte billettstatusen til :2 på :3',
   'global:reply' => 'Svar',
   'tickets:replied' => 'Din tilbakemelding på billetten ble lagret.',
+  'global:attach_file' => 'Legg ved fil (Maksimal størrelse: :1)',
 );
 /** End of file: pancake_lang.php **/
