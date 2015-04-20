@@ -1177,5 +1177,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:cant_send_email' => 'No se puede enviar el correo electrónico',
   'invoices:estimates_unsent' => 'Estimaciones no enviadas',
   'error:not_enough_disk_space_explanation' => 'Su servidor de base de datos (% 1) no tiene suficiente espacio en disco.',
+  'times.create.succeeded' => '¡El tiempo ha sido introducido con éxito!',
 );
 /** End of file: pancake_lang.php **/
