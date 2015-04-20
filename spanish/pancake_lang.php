@@ -1102,5 +1102,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tickets:invoice_will_be_generated' => 'Un 1% de la factura para éste ticket se generará cuando el estado del ticket cambie a "2%".',
   'emailtemplates:content' => 'Contenido del correo electrónico',
   'reports:verb_created' => 'Creado',
+  'reports:verb_paid' => 'Pagado',
 );
 /** End of file: pancake_lang.php **/
