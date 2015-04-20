@@ -1017,5 +1017,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:notify_email_explanation' => 'Esta es la dirección "Desde" utilizada para las notificaciones de comentarios y para tickets de soporte.',
   'invoices:days_before_invoice_is_due' => 'días antes de factura es debido a',
   'settings:always_https_explanation' => 'Esto va a hacer que Pancake cargue siempre a través de HTTPS. Utilice esto sólo si tiene un certificado SSL instalado y puede acceder a Pancake a través de HTTPS.',
+  'invoices:mail_to' => 'Enviar a',
 );
 /** End of file: pancake_lang.php **/
