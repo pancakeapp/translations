@@ -1161,5 +1161,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:logged_in_intro' => 'Estos errores se almacenan en el panel de administración, en \'Ajustes > Errores & Diagnósticos\'.',
   'projects.label.description' => 'Descripción:',
   'projects.label.name' => 'Nombre:',
+  'projects.update.succeeded' => '¡El proyecto se ha actualizado!',
 );
 /** End of file: pancake_lang.php **/
