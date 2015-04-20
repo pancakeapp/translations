@@ -1167,5 +1167,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.label.due_date' => 'Fecha de vencimiento:',
   'projects.create.succeeded' => '¡El proyecto ha sido creado!',
   'times.label.end_time' => 'Hora de finalización:',
+  'times.label.start_time' => 'Hora de inicio:',
 );
 /** End of file: pancake_lang.php **/
