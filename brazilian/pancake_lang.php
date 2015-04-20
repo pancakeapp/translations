@@ -1288,7 +1288,7 @@ Faturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de e
   'estimates:archived' => 'Você arquivou uma estimativa de  #:1 com êxito.',
   'global:restore' => 'Restaurar',
   'proposals:list_accepted' => 'Propostas aceitas',
-  'error:scan_result_failure_modified_other' => ':1 arquivos foram modificados',
+  'error:scan_result_failure_modified_other' => '% 1 dos arquivos foram modificados',
   'invoices:restored' => 'Você restaurou a fatura #:1 com êxito.',
   'error:and_x_others' => '... e :1 outros.',
   'error:scan_result_failure_deleted_one' => ':1 arquivo não existe',
