@@ -1264,5 +1264,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:server_default' => 'Servidor por defecto (no recomendado)',
   'tickets:active_tickets' => 'Tickets activos',
   'tasks:discuss_task' => 'Discutir la tarea',
+  'projects:rate_type' => 'Tipo de tarifa',
 );
 /** End of file: pancake_lang.php **/
