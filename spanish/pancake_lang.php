@@ -1188,5 +1188,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:email_settings_not_valid' => 'La configuración de su correo electrónico no es válida.',
   'error:cant_send_email_explanation' => 'Ha especificado que desea utilizar Sendmail (:1) para enviar correos electrónicos, pero no fue posible hacerlo. O la ruta a Sendmail es incorrecta, o algo más ha ido mal.',
   'error:server_error' => 'Error en el servidor',
+  'error:permissions_not_valid' => 'Hay un problema con los permisos del archivo en su servidor.',
 );
 /** End of file: pancake_lang.php **/
