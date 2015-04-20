@@ -1239,5 +1239,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'search:one_matching_result' => '1 resultado coincidente',
   'tickets:added' => 'El ticket ha sido creado con éxito.',
   'tickets:replied' => 'Tu respuesta al ticket fue guardada correctamente.',
+  'reminders:x_days_past_due' => '% 1 de días vencidos',
 );
 /** End of file: pancake_lang.php **/
