@@ -1009,5 +1009,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'dashboard:snapshot' => 'Instantánea',
   'invoices:frequency' => 'Frecuencia',
   'settings:business_name_explanation' => 'Este es el nombre legal de su negocio. Se mostrará en sus facturas.',
+  'dashboard:your_projects' => 'Tus proyectos',
 );
 /** End of file: pancake_lang.php **/
