@@ -1213,5 +1213,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:sending' => 'Enviando correo electrónico...',
   'kitchen:responses' => 'Respuestas',
   'settings:test_email_sent' => 'Enviado al 1% correctamente!',
+  'expenses:supplier_added' => '¡Éxito! El proveedor fue creado con éxito.',
 );
 /** End of file: pancake_lang.php **/
