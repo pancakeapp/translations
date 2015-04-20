@@ -1311,5 +1311,6 @@ Die Fehlermeldung war:
   'invoices:restored' => 'Sie haben Rechnung #% 1 erfolgreich wiederhergestellt.',
   'estimates:restored' => 'Sie haben Schätzung #% 1 erfolgreich wiederhergestellt.',
   'proposals:list_all' => 'Alle Vorschläge',
+  'credit_notes:archived' => 'Sie haben Gutschrift #% 1 erfolgreich archiviert.',
 );
 /** End of file: pancake_lang.php **/
