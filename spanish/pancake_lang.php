@@ -1019,5 +1019,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:always_https_explanation' => 'Esto va a hacer que Pancake cargue siempre a través de HTTPS. Utilice esto sólo si tiene un certificado SSL instalado y puede acceder a Pancake a través de HTTPS.',
   'invoices:mail_to' => 'Enviar a',
   'invoices:cannot_change_recurrences' => 'No puedes cambiar los ajustes de repetición de una factura que a su vez es la repetición de otra factura.',
+  'clients:you_cannot_send' => 'No puedes enviarle a este cliente sus detalles del área de clientes por correo electrónico porque este cliente no tiene una dirección de correo electrónico.',
 );
 /** End of file: pancake_lang.php **/
