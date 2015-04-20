@@ -1079,5 +1079,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:never_send_ticket_invoices_automatically' => '- Nunca envíe facturas automáticamente',
   'clients:update_balance' => 'Actualizar balance de crédito',
   'estimates:unanswered' => 'Estimaciones sin respuesta',
+  'global:appendtoproject' => 'Convertir en tareas para ":1"',
 );
 /** End of file: pancake_lang.php **/
