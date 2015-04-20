@@ -1152,5 +1152,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.title' => 'Proyectos',
   'projects:role_add_task' => 'Añadir tarea',
   'projects.edit.title' => 'Actualizar proyecto',
+  'projects.create.title' => 'Crear proyecto',
 );
 /** End of file: pancake_lang.php **/
