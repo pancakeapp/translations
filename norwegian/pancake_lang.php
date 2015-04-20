@@ -1225,5 +1225,6 @@ $lang = array (
   'expenses:category_edited' => 'Suksess! Kategorien ble redigert.',
   'expenses:category_name' => 'Kategorinavn',
   'projects:add_new_task' => 'Legg til ny oppgave',
+  'search:results_for_x' => 'Søkeresultater for «:1»',
 );
 /** End of file: pancake_lang.php **/
