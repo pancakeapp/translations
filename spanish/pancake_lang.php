@@ -988,5 +988,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'timesheets:rounded_time' => 'Redondeado al 1% más próximo',
   'timesheets:there_are_no_time_entries' => 'No hay entradas de tiempo para mostrar para este intervalo.',
   'expenses:sort_or_filter' => 'Ordenar/Filtrar Gastos',
+  'global:there_is_no_activity' => 'No hay actividad de equipo para mostrar.',
 );
 /** End of file: pancake_lang.php **/
