@@ -989,5 +989,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'timesheets:there_are_no_time_entries' => 'No hay entradas de tiempo para mostrar para este intervalo.',
   'expenses:sort_or_filter' => 'Ordenar/Filtrar Gastos',
   'global:there_is_no_activity' => 'No hay actividad de equipo para mostrar.',
+  'global:there_are_no_tasks_assigned_to_you' => 'No hay tienes tareas asignadas.',
 );
 /** End of file: pancake_lang.php **/
