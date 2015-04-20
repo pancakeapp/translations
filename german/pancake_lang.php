@@ -1307,5 +1307,6 @@ Die Fehlermeldung war:
   'invoices:invoices_archived' => NULL,
   'proposals:restored' => 'Sie haben Vorschlag #% 1 erfolgreich wiederhergestellt.',
   'proposals:archived' => 'Sie haben Vorschlag #% 1 erfolgreich archiviert.',
+  'estimates:archived' => 'Sie haben Schätzung #% 1 erfolgreich archiviert.',
 );
 /** End of file: pancake_lang.php **/
