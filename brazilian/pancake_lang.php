@@ -1167,7 +1167,7 @@ Faturas não pagas ou pagas parcialmente são exibidas baseadas em sua data de e
   'times.label.note' => 'Nota:',
   'times.label.start_time' => 'Hora de início:',
   'global:estimates_unsent' => 'Não enviado',
-  'projects:role_track_time' => 'Adicionar Tempo',
+  'projects:role_track_time' => 'Controlar Tempo',
   'invoices:estimates_unsent' => 'Estimativas não enviadas',
   'projects.label.is_viewable' => 'Visível na área do cliente?',
   'error:not_enough_disk_space_explanation' => 'O seu servidor de banco de dados (:1) não tem espaço em disco suficiente.',
