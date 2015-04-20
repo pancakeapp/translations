@@ -1286,5 +1286,6 @@ $lang = array (
   'error:click_here_for_instructions' => 'Klik hier voor instructies',
   'credit_notes:restored' => 'U heeft \'credit note 1\' met succes hersteld.',
   'proposals:list_unanswered' => 'Onbeantwoorde Voorstellen',
+  'error:unknown_error_scanning' => 'Er is een onbekende fout opgetreden tijdens het scannen.',
 );
 /** End of file: pancake_lang.php **/
