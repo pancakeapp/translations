@@ -1074,5 +1074,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:unanswered' => 'Sin respuesta',
   'global:accepted' => 'Aceptado',
   'tickets:not_yet_generated' => 'Factura no generada todavía',
+  'estimates:accepted' => 'Aceptaciones estimadas',
 );
 /** End of file: pancake_lang.php **/
