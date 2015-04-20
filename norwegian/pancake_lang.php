@@ -1245,5 +1245,6 @@ $lang = array (
   'users:activate' => 'Aktiver',
   'global:group' => 'Gruppe',
   'users:edit_user' => 'Endre bruker',
+  'invoices:not_associated_with_a_project' => '- Ikke tilknyttet et prosjekt -',
 );
 /** End of file: pancake_lang.php **/
