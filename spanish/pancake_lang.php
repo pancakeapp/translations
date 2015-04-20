@@ -1267,5 +1267,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects:rate_type' => 'Tipo de tarifa',
   'tickets:leave_a_response' => 'Dejar una respuesta',
   'tasks:task_notes' => 'Notas de tarea',
+  'error:already_being_dealt_with' => 'El problema ya ha sido reportado por otra persona, y está siendo tramitado. Estamos trabajando para resolverlo lo antes posible.',
 );
 /** End of file: pancake_lang.php **/
