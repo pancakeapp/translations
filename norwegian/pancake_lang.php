@@ -1230,5 +1230,6 @@ $lang = array (
   'reminders:x_days_past_due' => ':1 dager etter forfall',
   'search:one_matching_result' => '1 samsvarende resultat',
   'global:ticket' => 'Billett',
+  'search:x_matching_results' => ':1 samsvarende resultater',
 );
 /** End of file: pancake_lang.php **/
