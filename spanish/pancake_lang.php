@@ -1205,5 +1205,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:page_does_not_exist_explanation' => 'Estaba intentando acceder a % 1, pero no existe. Si éste error es inesperado, puede informar del error al Equipo de Soporte de Pancake. Lo encontrarás en \'Ajustes &gt; Errores &amp; Diagnosticos.',
   'projects:no_data_provided' => 'Usted no ingresó ninguna información para crear un proyecto a partir de una plantilla.',
   'error:you_cannot_report_this_error' => 'No puede informar de este problema al soporte de Pancake, ya que es un problema con su servidor. Por favor, póngase en contacto con el administrador de su servidor acerca de este problema. Cuando lo discuta con ellos, dígales:',
+  'reports:per_payment_method' => 'por la forma de pago',
 );
 /** End of file: pancake_lang.php **/
