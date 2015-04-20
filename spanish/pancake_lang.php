@@ -1230,5 +1230,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:test_email_subject' => 'Este es un email de prueba.',
   'expenses:supplier_edited' => '¡Correcto! El proveedor fue editado correctamente.',
   'error:cant_php_mail_explanation' => 'Ha especificado que quiere usar PHP mail () para enviar correos electrónicos, pero este método de envío de correo electrónico no está funcionando correctamente en su servidor. Este método de envío de correo electrónico no requiere configuración, pero no se recomienda porque los servidores de correo electrónico no pueden verificar quién está enviando el correo. Algunos de ellos incluso marcarán automáticamente sus correos electrónicos como spam. Cambie las opciones de su servidor de correo electrónico en el apartado de administrador, en "Configuración > Correos eléctronicos", para usar una de las opciones SMTP, y si no puede, utilice la opción Sendmail como último recurso. Si ninguna de estas opciones funciona, tendrá que contactar con su administrador de servidor.',
+  'reminders:no_due_date' => 'Sin fecha de vencimiento',
 );
 /** End of file: pancake_lang.php **/
