@@ -1030,5 +1030,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:credit_notes' => 'Notas de Crédito',
   'global:credit_note' => 'Nota de crédito',
   'credit_notes:alltitle' => 'Todas las Notas de Crédito',
+  'credit_notes:edit' => 'Editar la nota de crédito',
 );
 /** End of file: pancake_lang.php **/
