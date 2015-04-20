@@ -1275,5 +1275,6 @@ $lang = array (
   'error:using_php_54' => 'U maakt gebruik van PHP 5.4, die al meer dan 2 jaar verouderd is en het einde van zijn levensduur [end-of-life status] heeft bereikt. (wat betekent dat het niet meer wordt ondersteund door de PHP Group) In september 2015.',
   'error:scan_result_success' => 'Uw Pancake is in perfecte staat en is op geen enkele manier gewijzigd. Alles is OK.',
   'error:scan_result_failure_deleted_other' => ':1 bestanden bestaan ​​niet',
+  'error:scan_result_failure_modified_one' => ':1 bestand is aangepast',
 );
 /** End of file: pancake_lang.php **/
