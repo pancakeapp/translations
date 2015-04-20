@@ -1101,5 +1101,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'estimates:appended' => 'Conversión estimada #1% en tareas de "2%".',
   'tickets:invoice_will_be_generated' => 'Un 1% de la factura para éste ticket se generará cuando el estado del ticket cambie a "2%".',
   'emailtemplates:content' => 'Contenido del correo electrónico',
+  'reports:verb_created' => 'Creado',
 );
 /** End of file: pancake_lang.php **/
