@@ -1251,5 +1251,6 @@ $lang = array (
   'users:confirm_password' => 'Bekreft passord',
   'reminders:no_due_date' => 'Ingen forfallsdato',
   'global:by_x_with_time' => 'Av :1, :2.',
+  'tasks:add_notes' => 'Legg til notater',
 );
 /** End of file: pancake_lang.php **/
