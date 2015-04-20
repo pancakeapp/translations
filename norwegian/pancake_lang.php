@@ -1237,5 +1237,6 @@ $lang = array (
   'tickets:replied' => 'Din tilbakemelding på billetten ble lagret.',
   'global:attach_file' => 'Legg ved fil (Maksimal størrelse: :1)',
   'global:download_csv' => 'Last ned CSV',
+  'global:project_task' => 'Oppgave',
 );
 /** End of file: pancake_lang.php **/
