@@ -1081,5 +1081,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'estimates:unanswered' => 'Estimaciones sin respuesta',
   'global:appendtoproject' => 'Convertir en tareas para ":1"',
   'items:percentage_discount' => 'Descuento (%)',
+  'global:rejected' => 'Rechazado',
 );
 /** End of file: pancake_lang.php **/
