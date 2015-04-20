@@ -1084,5 +1084,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:rejected' => 'Rechazado',
   'estimates:rejected' => 'Rechazos estimados',
   'items:fixed_discount' => 'Descuento (:1)',
+  'clients:add_custom_field' => 'Añadir otro campo personalizado',
 );
 /** End of file: pancake_lang.php **/
