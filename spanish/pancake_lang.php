@@ -1190,5 +1190,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:server_error' => 'Error en el servidor',
   'error:permissions_not_valid' => 'Hay un problema con los permisos del archivo en su servidor.',
   'global:estimates_unsent' => 'No enviado',
+  'times.edit.succeeded' => '¡La hora ha sido editada con éxito!',
 );
 /** End of file: pancake_lang.php **/
