@@ -1219,5 +1219,6 @@ $lang = array (
   'invoices:all_unpaid' => 'Alle ubetalte',
   'items:select_flat_rate' => 'Fast pris',
   'kitchen:x_responses' => ':1 Tilbakemeldinger',
+  'projects:delete_project_template' => 'Slett prosjektmal',
 );
 /** End of file: pancake_lang.php **/
