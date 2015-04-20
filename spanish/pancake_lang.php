@@ -1080,5 +1080,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:update_balance' => 'Actualizar balance de crédito',
   'estimates:unanswered' => 'Estimaciones sin respuesta',
   'global:appendtoproject' => 'Convertir en tareas para ":1"',
+  'items:percentage_discount' => 'Descuento (%)',
 );
 /** End of file: pancake_lang.php **/
