@@ -1050,5 +1050,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:make_bulk_payment' => 'Hacer Pago a Granel',
   'credit_notes:send_now_body' => 'Rellene el siguiente formulario y le entregaremos esta nota de crédito.',
   'invoices:x_invoices' => 'el 1% de las facturas',
+  'invoices:amount_to_pay' => 'Cantidad para marcar como pagada',
 );
 /** End of file: pancake_lang.php **/
