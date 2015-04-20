@@ -1114,5 +1114,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:expense_receipts' => 'Recibos de gastos',
   'expenses:no_project_business_expense' => 'Gastos del negocio (No del proyecto)',
   'clients:tax_numbers' => 'Número de identificación fiscal de los clientes / documentos de identidad',
+  'dashboard:there_are_no_upcoming_invoices' => 'No hay nuevas facturas para mostrar.',
 );
 /** End of file: pancake_lang.php **/
