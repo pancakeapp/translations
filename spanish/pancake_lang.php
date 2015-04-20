@@ -1122,5 +1122,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:not_logged_in_intro' => 'Estos errores se registran automáticamente.',
   'error:not_logged_in_extra' => 'Si el problema persiste, por favor póngase en contacto con :1.',
   'expenses:expense_date' => 'Fecha',
+  'clients:custom_fields' => 'Campos personalizados',
 );
 /** End of file: pancake_lang.php **/
