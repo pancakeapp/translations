@@ -1249,5 +1249,6 @@ $lang = array (
   'global:project_expense' => 'Kostnader',
   'users:please_enter_information' => 'Skriv inn brukerens informasjon nedenfor.',
   'users:confirm_password' => 'Bekreft passord',
+  'reminders:no_due_date' => 'Ingen forfallsdato',
 );
 /** End of file: pancake_lang.php **/
