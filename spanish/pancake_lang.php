@@ -1106,5 +1106,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'reports:verb_from_to' => ':1 desde :2 a :3',
   'reports:payments' => 'Pagos',
   'expenses:edited' => '¡Éxito! El gasto fue editado satisfactoriamente.',
+  'dashboard:upcoming_invoices' => 'Próximas facturas',
 );
 /** End of file: pancake_lang.php **/
