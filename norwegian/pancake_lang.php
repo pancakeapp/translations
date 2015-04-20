@@ -1215,5 +1215,6 @@ $lang = array (
   'settings:test_email_connection_error' => 'Your server can\'t connect to :1 on port :2. You will need to get in touch with your system administrator and allow this port in your server\'s firewall.<br /><br />The error message was:<br /><br />:3',
   'invoices:estimate_help' => 'Estimater er detaljerte fakturaer som ikke er fakturerbare.',
   'kitchen:no_tickets_created' => 'Ingen billetter opprettet.',
+  'kitchen:responses' => 'Tilbakemeldinger',
 );
 /** End of file: pancake_lang.php **/
