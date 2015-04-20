@@ -1110,5 +1110,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:unknown_error_reporting' => 'Ocurrió un error desconocido. Por favor, informe de este error manualmente.',
   'error:sending_details' => 'Enviando los detalles...',
   'clients:save_balance_alteration' => 'Guardar la alteración del balance',
+  'settings:errors_and_diagnostics' => 'Errores y Diagnósticos',
 );
 /** End of file: pancake_lang.php **/
