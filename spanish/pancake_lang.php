@@ -1021,5 +1021,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:cannot_change_recurrences' => 'No puedes cambiar los ajustes de repetición de una factura que a su vez es la repetición de otra factura.',
   'clients:you_cannot_send' => 'No puedes enviarle a este cliente sus detalles del área de clientes por correo electrónico porque este cliente no tiene una dirección de correo electrónico.',
   'email_templates:client_area_details' => 'Detalles del Área de Clientes',
+  'invoices:discount' => 'Descuento',
 );
 /** End of file: pancake_lang.php **/
