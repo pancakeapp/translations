@@ -1291,5 +1291,6 @@ $lang = array (
   'invoices:estimates_archived' => 'Gearchiveerde Schattingen',
   'global:restore' => 'Herstellen',
   'error:scan_result_failure_deleted_one' => ':1 bestand bestaat niet',
+  'proposals:list_all' => 'Alle Voorstellen',
 );
 /** End of file: pancake_lang.php **/
