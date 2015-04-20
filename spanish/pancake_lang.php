@@ -1158,5 +1158,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.button.create' => 'Crear proyecto →',
   'projects:role_delete_milestone' => 'Eliminar Milestone',
   'projects.label.client' => 'Cliente:',
+  'error:logged_in_intro' => 'Estos errores se almacenan en el panel de administración, en \'Ajustes > Errores & Diagnósticos\'.',
 );
 /** End of file: pancake_lang.php **/
