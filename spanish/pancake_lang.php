@@ -1024,5 +1024,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:discount' => 'Descuento',
   'clients:send_client_area_email' => 'Enviar detalles del área de clientes',
   'settings:remittance_slip' => 'Cobro',
+  'invoices:discount_explain' => 'Añadir % para los porcentajes.',
 );
 /** End of file: pancake_lang.php **/
