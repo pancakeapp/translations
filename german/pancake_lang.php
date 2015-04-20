@@ -1313,5 +1313,6 @@ Die Fehlermeldung war:
   'proposals:list_all' => 'Alle Vorschläge',
   'credit_notes:archived' => 'Sie haben Gutschrift #% 1 erfolgreich archiviert.',
   'credit_notes:restored' => 'Sie haben Gutschrift #% 1 erfolgreich wiederhergestellt.',
+  'proposals:list_accepted' => 'Akzeptierte Vorschläge',
 );
 /** End of file: pancake_lang.php **/
