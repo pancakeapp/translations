@@ -1029,5 +1029,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'credit_notes:create_credit_note' => 'Crear una Nota de Crédito',
   'global:credit_notes' => 'Notas de Crédito',
   'global:credit_note' => 'Nota de crédito',
+  'credit_notes:alltitle' => 'Todas las Notas de Crédito',
 );
 /** End of file: pancake_lang.php **/
