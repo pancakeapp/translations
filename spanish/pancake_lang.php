@@ -1251,5 +1251,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'reports:uncollected' => 'No cobradas',
   'global:attach_file' => 'Adjuntar un fichero (Tamaño máximo:% 1)',
   'users:activate' => 'Activar',
+  'global:group' => 'Grupo',
 );
 /** End of file: pancake_lang.php **/
