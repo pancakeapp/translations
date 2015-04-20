@@ -999,5 +999,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:default_taxes' => 'Impuestos por defecto',
   'global:tax' => 'Impuesto',
   'global:youarenotallowed' => 'No tiene permitido acceder a esta página.',
+  'settings:tax_compound' => '¿Compuesto?',
 );
 /** End of file: pancake_lang.php **/
