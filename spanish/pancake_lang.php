@@ -986,5 +986,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'timesheets:all_users' => 'Todos los usuarios',
   'timesheets:todays' => 'De hoy',
   'timesheets:rounded_time' => 'Redondeado al 1% más próximo',
+  'timesheets:there_are_no_time_entries' => 'No hay entradas de tiempo para mostrar para este intervalo.',
 );
 /** End of file: pancake_lang.php **/
