@@ -1288,5 +1288,6 @@ $lang = array (
   'proposals:list_unanswered' => 'Onbeantwoorde Voorstellen',
   'error:unknown_error_scanning' => 'Er is een onbekende fout opgetreden tijdens het scannen.',
   'proposals:list_archived' => 'Gearchiveerde Voorstellen',
+  'invoices:estimates_archived' => 'Gearchiveerde Schattingen',
 );
 /** End of file: pancake_lang.php **/
