@@ -1121,5 +1121,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:already_reported' => 'Este error ya se ha reportado al soporte de Pancake.',
   'error:not_logged_in_intro' => 'Estos errores se registran automáticamente.',
   'error:not_logged_in_extra' => 'Si el problema persiste, por favor póngase en contacto con :1.',
+  'expenses:expense_date' => 'Fecha',
 );
 /** End of file: pancake_lang.php **/
