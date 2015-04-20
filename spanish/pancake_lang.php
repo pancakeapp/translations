@@ -1245,5 +1245,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:before_you_can_add_expenses' => 'Antes de poder añadir cualquier gasto, es necesario crear algunos :1 y :2.',
   'users:deactivate' => 'Desactivar',
   'global:download_csv' => 'Descargar CSV',
+  'tickets:user_updated_ticket' => ':1 actualizó el estado del ticket a :2 sobre :3',
 );
 /** End of file: pancake_lang.php **/
