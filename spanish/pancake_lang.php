@@ -1247,5 +1247,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:download_csv' => 'Descargar CSV',
   'tickets:user_updated_ticket' => ':1 actualizó el estado del ticket a :2 sobre :3',
   'reports:collected' => 'Recogido',
+  'clients:filter_clients' => 'Filtrar clientes',
 );
 /** End of file: pancake_lang.php **/
