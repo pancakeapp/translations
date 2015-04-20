@@ -996,5 +996,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:desc' => 'Descendiendo (A-Z)',
   'settings:no_tax' => 'Sin impuestos',
   'global:asc' => 'Orden ascendente (A-Z)',
+  'settings:default_taxes' => 'Impuestos por defecto',
 );
 /** End of file: pancake_lang.php **/
