@@ -1033,5 +1033,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'credit_notes:edit' => 'Editar la nota de crédito',
   'credit_notes:delete_message' => '¿Está seguro de que quiere eliminar esta nota de crédito?',
   'credit_notes:no_credit_notes' => 'Usted no tiene Notas de Crédito.',
+  'credit_notes:create' => 'Crear Nota de Crédito',
 );
 /** End of file: pancake_lang.php **/
