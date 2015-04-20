@@ -1259,5 +1259,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:by_x_with_time' => 'Por% 1,% 2.',
   'projects:hourly_rate' => 'Tarifa por hora',
   'tasks:complete_this_task' => 'Completar esta tarea',
+  'users:please_enter_information' => 'Por favor, introduzca la información del usuario a continuación.',
 );
 /** End of file: pancake_lang.php **/
