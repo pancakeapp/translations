@@ -984,5 +984,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:default_task_due_date_explain' => 'días después de que la tarea se crea. Si no quieres una fecha predeterminada, dejar el campo vacío.',
   'global:timesheets' => 'Hojas',
   'timesheets:all_users' => 'Todos los usuarios',
+  'timesheets:todays' => 'De hoy',
 );
 /** End of file: pancake_lang.php **/
