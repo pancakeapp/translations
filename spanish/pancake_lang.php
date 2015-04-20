@@ -7,6 +7,7 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -981,5 +982,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:biweekly' => 'Cada dos semanas',
   'settings:default_task_due_date' => 'Fecha de vencimiento de tareas por defecto',
   'settings:default_task_due_date_explain' => 'días después de que la tarea se crea. Si no quieres una fecha predeterminada, dejar el campo vacío.',
+  'global:timesheets' => 'Hojas',
 );
 /** End of file: pancake_lang.php **/
