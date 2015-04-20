@@ -1055,5 +1055,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:send_bulk_payment_notification' => '¿Enviar notificaciones de correos electrónicos de los pagos al cliente?',
   'global:credit_balance' => 'Balance de crédito',
   'credit_notes:client_viewed' => '% 1 <a href=":2">nota de crédito vista # 3%</a> en 4%',
+  'invoices:bulk_payment_added' => 'El pago masivo ha sido añadido con éxito.',
 );
 /** End of file: pancake_lang.php **/
