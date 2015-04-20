@@ -1220,5 +1220,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:test_email_error_header' => 'Error al enviar mensaje de prueba',
   'projects:delete_project_template' => 'Eliminar la plantilla del proyecto',
   'expenses:category_name' => 'Nombre de la categoría',
+  'expenses:supplier_name' => 'Nombre del proveedor',
 );
 /** End of file: pancake_lang.php **/
