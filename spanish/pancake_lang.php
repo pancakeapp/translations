@@ -1242,5 +1242,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'reminders:x_days_past_due' => '% 1 de días vencidos',
   'global:project_expense' => 'Gasto',
   'global:reply' => 'Respuesta',
+  'expenses:before_you_can_add_expenses' => 'Antes de poder añadir cualquier gasto, es necesario crear algunos :1 y :2.',
 );
 /** End of file: pancake_lang.php **/
