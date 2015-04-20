@@ -1173,5 +1173,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'times.button.create' => 'Añadir Tiempo→',
   'projects.label.rate' => 'Tarifa por hora:',
   'times.create.title' => 'Añadir tiempo',
+  'projects:role_delete_task' => 'Borrar tarea',
 );
 /** End of file: pancake_lang.php **/
