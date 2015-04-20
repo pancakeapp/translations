@@ -1247,5 +1247,6 @@ $lang = array (
   'users:edit_user' => 'Endre bruker',
   'invoices:not_associated_with_a_project' => '- Ikke tilknyttet et prosjekt -',
   'global:project_expense' => 'Kostnader',
+  'users:please_enter_information' => 'Skriv inn brukerens informasjon nedenfor.',
 );
 /** End of file: pancake_lang.php **/
