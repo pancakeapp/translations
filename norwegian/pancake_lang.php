@@ -1241,5 +1241,6 @@ $lang = array (
   'reports:collected' => 'Hentede',
   'users:deactivate' => 'Deaktiver',
   'reports:uncollected' => 'Uavhentede',
+  'clients:filter_clients' => 'Filtrer klienter',
 );
 /** End of file: pancake_lang.php **/
