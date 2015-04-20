@@ -1228,5 +1228,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:show_hide_deleted' => 'Mostrar / ocultar borrados',
   'settings:test_email_connection_error' => 'Su servidor no puede conectarse a :1 en el puerto :2. Tendrá que ponerse en contacto con el administrador del sistema y permitir este puerto en el cortafuegos de su servidor.<br/><br/>El mensaje de error fue:<br/><br/>3%',
   'settings:test_email_subject' => 'Este es un email de prueba.',
+  'expenses:supplier_edited' => '¡Correcto! El proveedor fue editado correctamente.',
 );
 /** End of file: pancake_lang.php **/
