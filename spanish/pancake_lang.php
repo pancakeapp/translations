@@ -1192,5 +1192,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'global:estimates_unsent' => 'No enviado',
   'times.edit.succeeded' => '¡La hora ha sido editada con éxito!',
   'error:xcache_extension_broken' => 'Su servidor tiene un problema con la extensión XCache.',
+  'error:no_tmp_dir_permissions_explanation' => 'Su servidor está configurado de tal manera que no permite a Pancake crear archivos temporales en <code>1%</code>.',
 );
 /** End of file: pancake_lang.php **/
