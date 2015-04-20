@@ -1294,5 +1294,8 @@ $lang = array (
   'proposals:list_all' => 'Alle Voorstellen',
   'proposals:list_rejected' => 'Verworpen Voorstellen',
   'invoices:invoices_archived' => 'Gearchiveerde Facturen',
+  'error:scan_pancake' => 'Scan uw Pancake voor bestand-gerelateerde problemen.
+
+Scan uw Pancake voor file-gerelateerde zaken',
 );
 /** End of file: pancake_lang.php **/
