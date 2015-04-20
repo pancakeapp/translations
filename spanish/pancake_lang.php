@@ -1145,5 +1145,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:view_error_details' => 'Ver detalles del error',
   'clients:noclientbodyfiltered' => 'Ninguno de los nombres de sus clientes comienza con ":1".',
   'error:deleting' => 'Borrando...',
+  'projects:role_track_time' => 'Tiempo de seguimiento',
 );
 /** End of file: pancake_lang.php **/
