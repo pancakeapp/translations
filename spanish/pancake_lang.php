@@ -1250,5 +1250,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'clients:filter_clients' => 'Filtrar clientes',
   'reports:uncollected' => 'No cobradas',
   'global:attach_file' => 'Adjuntar un fichero (Tamaño máximo:% 1)',
+  'users:activate' => 'Activar',
 );
 /** End of file: pancake_lang.php **/
