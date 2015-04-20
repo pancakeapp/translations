@@ -1175,5 +1175,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'times.create.title' => 'Añadir tiempo',
   'projects:role_delete_task' => 'Borrar tarea',
   'error:cant_send_email' => 'No se puede enviar el correo electrónico',
+  'invoices:estimates_unsent' => 'Estimaciones no enviadas',
 );
 /** End of file: pancake_lang.php **/
