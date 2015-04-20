@@ -1098,5 +1098,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:category_added' => '¡Éxito! La categoría de gastos fue creada satisfactoriamente.',
   'clients:what_do_you_want_to_do' => '¿Qué quiere hacer?',
   'expenses:no_receipt' => 'Sin recibo',
+  'estimates:appended' => 'Conversión estimada #1% en tareas de "2%".',
 );
 /** End of file: pancake_lang.php **/
