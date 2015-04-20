@@ -1224,5 +1224,6 @@ $lang = array (
   'global:show_hide_deleted' => 'Vis/skjul slettet',
   'expenses:category_edited' => 'Suksess! Kategorien ble redigert.',
   'expenses:category_name' => 'Kategorinavn',
+  'projects:add_new_task' => 'Legg til ny oppgave',
 );
 /** End of file: pancake_lang.php **/
