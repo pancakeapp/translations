@@ -1154,5 +1154,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.edit.title' => 'Actualizar proyecto',
   'projects.create.title' => 'Crear proyecto',
   'tickets:unarchive' => 'Restaurar',
+  'global:errors' => 'Errores',
 );
 /** End of file: pancake_lang.php **/
