@@ -1224,5 +1224,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:send_test_email' => 'Enviar un correo electrónico de prueba',
   'items:select_flat_rate' => 'Tarifa Plana',
   'invoices:all_unpaid' => 'Todos sin pagar',
+  'settings:test_email_error' => 'Se produjo un error al tratar de enviar el correo electrónico de prueba:<br/><br/>1%<br/><br/>Por favor, asegúrese de que los datos introducidos son correctos. Si está utilizando SMTP, asegúrese de que el puerto que está intentando usar está abierto en el cortafuegos de su servidor.',
 );
 /** End of file: pancake_lang.php **/
