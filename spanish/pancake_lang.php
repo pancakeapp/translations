@@ -1111,5 +1111,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:sending_details' => 'Enviando los detalles...',
   'clients:save_balance_alteration' => 'Guardar la alteración del balance',
   'settings:errors_and_diagnostics' => 'Errores y Diagnósticos',
+  'expenses:expense_receipts' => 'Recibos de gastos',
 );
 /** End of file: pancake_lang.php **/
