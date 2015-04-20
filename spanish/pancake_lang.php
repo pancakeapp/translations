@@ -1162,5 +1162,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects.label.description' => 'Descripción:',
   'projects.label.name' => 'Nombre:',
   'projects.update.succeeded' => '¡El proyecto se ha actualizado!',
+  'projects.label.is_viewable' => '¿Visible en el área de clientes?',
 );
 /** End of file: pancake_lang.php **/
