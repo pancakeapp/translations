@@ -1005,5 +1005,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'settings:brand_name_explanation' => 'Este es el nombre que quieres que tus clientes vean. Se mostrará en todas partes, excepto en las facturas.',
   'settings:show_name_along_with_logo' => '¿Mostrar el nombre de su marca junto a su logotipo?',
   'settings:admin_name_explanation' => 'Por defecto, este aparece al final de los correos electrónicos que envias a los clientes.',
+  'settings:billing_email_explanation' => 'Esta es la dirección utilizada como "remitente" para los correos electrónicos de Facturas, Estimaciones y Propuestas.',
 );
 /** End of file: pancake_lang.php **/
