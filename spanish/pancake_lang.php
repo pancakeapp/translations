@@ -1119,5 +1119,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:subtitle' => 'Se ha producido un error desconocido.',
   'error:title' => 'Error desconocido',
   'error:already_reported' => 'Este error ya se ha reportado al soporte de Pancake.',
+  'error:not_logged_in_intro' => 'Estos errores se registran automáticamente.',
 );
 /** End of file: pancake_lang.php **/
