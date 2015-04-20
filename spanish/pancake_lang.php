@@ -1149,5 +1149,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'error:no_logged_errors' => 'No tiene errores registrados.',
   'projects:role_add_milestone' => 'Añadir hito',
   'projects:role_create' => 'Crear',
+  'projects.title' => 'Proyectos',
 );
 /** End of file: pancake_lang.php **/
