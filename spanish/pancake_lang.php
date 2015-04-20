@@ -1140,5 +1140,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'projects:role_view' => 'Ver',
   'settings:error_reported' => 'Error reportado',
   'error:cannot_send_error_details' => 'No puedes enviar los detalles del error al equipo de soporte de Pancake porque no estás conectado.',
+  'projects:role_edit' => 'Editar',
 );
 /** End of file: pancake_lang.php **/
