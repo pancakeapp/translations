@@ -1196,5 +1196,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'invoices:see_payment_schedule' => 'Ver Programa de Pagos',
   'times.label.task_id' => 'Tarea:',
   'error:page_not_found' => 'Página no encontrada',
+  'error:cant_send_email_solutions' => 'Si tiene acceso de administrador (root) al servidor, asegúrese de tener sendmail instalado y trate de encontrarlo con <code>sendmail</code>.',
 );
 /** End of file: pancake_lang.php **/
