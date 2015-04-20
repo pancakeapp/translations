@@ -1170,5 +1170,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'times.label.start_time' => 'Hora de inicio:',
   'projects.button.delete' => 'Eliminar proyecto →',
   'projects:role_edit_milestone' => 'Editar hito',
+  'times.button.create' => 'Añadir Tiempo→',
 );
 /** End of file: pancake_lang.php **/
