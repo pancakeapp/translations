@@ -1067,5 +1067,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'tickets:ticket_number' => 'Ticket #% 1',
   'global:incorrect_login' => 'La combinación de nombre de usuario/contraseña que ha introducido no es válida.',
   'settings:hide_tax_column' => '¿Ocultar columna de impuestos?',
+  'global:error_submitting_ajax' => 'Se produjo un error desconocido tratando de enviar este formulario. Por favor, intente de nuevo más tarde. Si el error persiste, por favor, inicie un ticket de soporte gratuito en pancakeapp.com.',
 );
 /** End of file: pancake_lang.php **/
