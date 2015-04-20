@@ -1222,5 +1222,6 @@ Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de
   'expenses:category_name' => 'Nombre de la categoría',
   'expenses:supplier_name' => 'Nombre del proveedor',
   'settings:send_test_email' => 'Enviar un correo electrónico de prueba',
+  'items:select_flat_rate' => 'Tarifa Plana',
 );
 /** End of file: pancake_lang.php **/
