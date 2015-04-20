@@ -1297,5 +1297,8 @@ $lang = array (
   'error:scan_pancake' => 'Scan uw Pancake voor bestand-gerelateerde problemen.
 
 Scan uw Pancake voor file-gerelateerde zaken',
+  'error:scan_pancake_explanation' => 'Soms kunnen er problemen voorkomen vanwege een mislukte update, of omdat er problemen ontstaan door permissie. Deze kan er voor zorgen dat uw Pancake bestanden corrupt raken tijdens een update.
+
+ Gebruik dit om Pancake to controleren op dergelijke problemen.',
 );
 /** End of file: pancake_lang.php **/
