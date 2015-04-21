@@ -1263,5 +1263,6 @@ $lang = array (
   'global:server_default' => 'Serverstandard (anbefales ikke)',
   'tickets:leave_a_response' => 'Legg igjen en tilbakemelding',
   'error:no_user_found' => 'Lisensnøkkelen er ikke forbundet med en bruker i pancakeapp.com, så feilen kan ikke sendes inn automatisk. Hvis dette er uventet, send en e-post til support@pancakeapp.com og vi vil hjelpe deg.',
+  'expenses:supplier_edited' => 'Suksess! Leverandøren ble redigert.',
 );
 /** End of file: pancake_lang.php **/
