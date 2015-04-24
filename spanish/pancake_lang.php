@@ -1282,5 +1282,6 @@ $lang = array (
   'invoices:archived' => 'Has archivado la factura #:1 con éxito.',
   'proposals:restored' => 'Has restaurado la propuesta #:1 con éxito.',
   'invoices:restored' => 'Has restaurado la cuenta en un #:1 con éxito.',
+  'global:archive' => 'Archivar',
 );
 /** End of file: pancake_lang.php **/
