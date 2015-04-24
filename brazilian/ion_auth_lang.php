@@ -7,6 +7,7 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -40,5 +41,6 @@ $lang = array (
   'delete_successful' => 'Usuário apagado',
   'delete_unsuccessful' => 'Incapaz de apagar usuário',
   'email_forgotten_password_subject' => 'Verificação de Senha Esquecida',
+  'email_new_password_subject' => 'Nova Senha',
 );
 /** End of file: ion_auth_lang.php **/
