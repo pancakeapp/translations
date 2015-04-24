@@ -109,4 +109,18 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
         }
     }
 
+    /**
+     * @dataProvider provider
+     * @depends      testFilesDoNotProduceOutput
+     */
+    public function testFilesDontHaveExtraKeys($file, $short_file, $english_file) {
+        require $english_file;
+        $english_lang = $lang;
+        require $file;
+
+        foreach ($lang as $key => $value) {
+            $this->assertTrue(isset($english_lang[$key]), "The \$lang variable should NOT have a '$key' key (in $short_file).");
+        }
+    }
+
 }
