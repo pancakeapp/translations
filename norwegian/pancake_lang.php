@@ -1270,5 +1270,6 @@ $lang = array (
   'error:unknown_error_scanning' => 'Det oppstod en ukjent feil under skanning.',
   'error:scan_result_failure_deleted_one' => '% 1 fil eksisterer ikke',
   'error:scan_result_failure_modified_one' => '% 1 fil har blitt endret',
+  'error:scan_result_failure_modified_other' => '% 1 filer har blitt endret',
 );
 /** End of file: pancake_lang.php **/
