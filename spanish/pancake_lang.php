@@ -1264,5 +1264,6 @@ $lang = array (
   'error:upgrade_php' => 'Usted debe actualizar su versión de PHP a la versión 5,5 como mínimo (la idónea es 5.6). Para hacerlo, por favor hable con su administrador del servidor y pídale que actualice PHP.',
   'error:scan_result_success' => 'Tu Pancake está en perfecto estado y no ha sido alterado de ninguna manera. Todo está correcto.',
   'error:unknown_error_scanning' => 'Se produjo un error desconocido mientras se escaneaba.',
+  'error:scan' => 'Escanear',
 );
 /** End of file: pancake_lang.php **/
