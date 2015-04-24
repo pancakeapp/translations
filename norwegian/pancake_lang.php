@@ -1274,5 +1274,6 @@ $lang = array (
   'error:scan_result_failure_deleted_other' => '% 1 filer eksisterer ikke',
   'error:scan_result_failure_heading' => 'Det er problemer med filer i din Pancake.',
   'error:click_here_for_instructions' => 'Klikk her for instruksjoner',
+  'error:scan_result_failure_how_to_fix' => 'For å løse disse problemene, må du manuelt oppdatere filene til din Pancake.',
 );
 /** End of file: pancake_lang.php **/
