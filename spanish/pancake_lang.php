@@ -1259,5 +1259,6 @@ $lang = array (
   'global:and' => 'Y',
   'error:php_outdated' => 'La versión de PHP que estás utilizando está desactualizada.',
   'error:pancake_will_stop_supporting_it' => 'Pancake dejará de ofrecer soporte para esto en unas pocas semanas.',
+  'error:scanning' => 'Escaneando, por favor espere...',
 );
 /** End of file: pancake_lang.php **/
