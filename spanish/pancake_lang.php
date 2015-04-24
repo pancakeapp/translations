@@ -1292,5 +1292,6 @@ $lang = array (
   'error:scan_pancake_explanation' => 'A veces podrían surgir problemas a causa de una actualización fallida o debido a los problemas de permisos que causan que tus archivos de Pancake se corrompan durante una actualización. Usa esto para comprobar tu Pancake ante cualquier tipo de problemas.',
   'proposals:list_archived' => 'Propuestas Archivadas',
   'proposals:list_unanswered' => 'Propuestas sin respuesta. ',
+  'proposals:list_rejected' => 'Propuestas Rechazadas',
 );
 /** End of file: pancake_lang.php **/
