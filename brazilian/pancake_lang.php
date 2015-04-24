@@ -1030,7 +1030,7 @@ $lang = array (
   'credit_notes:client_viewed' => ':1 <a href=":2">nota de crédito visualizada #:3</a> em :4',
   'clients:view' => 'Ver Cliente',
   'invoices:x_invoices' => ':1 faturas',
-  'invoices:store_bulk_payment' => 'Salvar Múltiplos Pagamentos',
+  'invoices:store_bulk_payment' => 'Salvar Vários Pagamentos',
   'invoices:amount_to_pay' => 'Montante para marcar como pago',
   'credit_notes:create_credit_note' => 'Criar Nota de Crédito',
   'credit_notes:no_credit_notes' => 'Você não tem notas de crédito.',
