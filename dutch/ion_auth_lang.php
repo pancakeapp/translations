@@ -1,49 +1,45 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
-* Name:  Ion Auth Lang - Dutch
-*
-* Author: Ben Edmunds
-* 		  ben.edmunds@gmail.com
-*         @benedmunds
-* 
-* Location: http://github.com/benedmunds/ion_auth/
-* 
-* Translated by: Peter Ruiter, connectedconcepts.nl, based on first translation of Yvonne Emmerig, Dymago.nl
-* 
-* Created:  	 14.12.2012 
-* 
-* Description:  Dutch language file for Ion Auth messages and errors - Nederlandse vertaling voor Ion Auth berichten en foutmeldingen
-*/
+ * Pancake
+ *
+ * A simple, fast, self-hosted invoicing application.
+ *
+ * This is the Dutch translation for Pancake.
+ *
+ * @package     Pancake
+ * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
+ * @author      1Martin 
+ * @copyright   Copyright (c) 2015, Pancake Payments
+ * @license     https://www.pancakeapp.com/license
+ * @link        https://www.pancakeapp.com
+ * @since       Version 4.8.10
+ */
 
-// Account Creation
-$lang['account_creation_successful'] 	  	 = 'Account aanmaken is gelukt';
-$lang['account_creation_unsuccessful'] 	 	 = 'Niet mogelijk een account aan te maken';
-$lang['account_creation_duplicate_email'] 	 = 'Email is al in gebruik of ongeldig';
-$lang['account_creation_duplicate_username'] 	 = 'Gebruikersnaam is al in gebruik of ongeldig';
+// ------------------------------------------------------------------------
 
-
-// Password
-$lang['password_change_successful'] 	 	 = 'Wachtwoord is aangepast';
-$lang['password_change_unsuccessful'] 	  	 = 'Niet mogelijk wachtwoord aan te passen';
-$lang['forgot_password_successful'] 	 	 = 'Wachtwoord is gereset, email is verzonden';
-$lang['forgot_password_unsuccessful'] 	 	 = 'Niet mogelijk wachtwoord te resetten';
-$lang['cant_send_email'] = "Er is een probleem opgetreden bij het verzenden van een email.";
-
-// Activation
-$lang['activate_successful'] 		  	 = 'Account is geactiveerd';
-$lang['activate_unsuccessful'] 		 	 = 'Niet mogelijk account te activeren';
-$lang['deactivate_successful'] 		  	 = 'Account is gedeactiveerd';
-$lang['deactivate_unsuccessful'] 	  	 = 'Niet mogelijk account te deactiveren';
-$lang['activation_email_successful'] 	  	 = 'Activatie email is verzonden';
-$lang['activation_email_unsuccessful']   	 = 'Niet mogelijk activatie email te versturen';
-
-// Login / Logout
-$lang['login_successful'] 		  	 = 'Met succes ingelogd';
-$lang['login_unsuccessful'] 		  	 = 'Onjuiste Login';
-$lang['logout_successful'] 		 	 = 'Met succes uitgelogd';
-  
-// Account Changes
-$lang['update_successful'] 		 	 = 'Account informatie is bijgewerkt';
-$lang['update_unsuccessful'] 		 	 = 'Kan accountinformatie niet bijwerken';
-$lang['delete_successful'] 		 	 = 'Gebruiker is verwijderd';
-$lang['delete_unsuccessful'] 		 	 = 'Kan gebruiker niet verwijderen';
+$lang = array (
+  'account_creation_successful' => 'Account aanmaken is gelukt',
+  'account_creation_unsuccessful' => 'Niet mogelijk een account aan te maken',
+  'account_creation_duplicate_email' => 'Email is al in gebruik of ongeldig',
+  'account_creation_duplicate_username' => 'Gebruikersnaam is al in gebruik of ongeldig',
+  'password_change_successful' => 'Wachtwoord is aangepast',
+  'password_change_unsuccessful' => 'Niet mogelijk wachtwoord aan te passen',
+  'forgot_password_successful' => 'Wachtwoord is gereset, email is verzonden',
+  'forgot_password_unsuccessful' => 'Niet mogelijk wachtwoord te resetten',
+  'cant_send_email' => 'Er is een probleem opgetreden bij het verzenden van een email.',
+  'activate_successful' => 'Account is geactiveerd',
+  'activate_unsuccessful' => 'Niet mogelijk account te activeren',
+  'deactivate_successful' => 'Account is gedeactiveerd',
+  'deactivate_unsuccessful' => 'Niet mogelijk account te deactiveren',
+  'activation_email_successful' => 'Activatie email is verzonden',
+  'activation_email_unsuccessful' => 'Niet mogelijk activatie email te versturen',
+  'login_successful' => 'Met succes ingelogd',
+  'login_unsuccessful' => 'Onjuiste Login',
+  'logout_successful' => 'Met succes uitgelogd',
+  'update_successful' => 'Account informatie is bijgewerkt',
+  'update_unsuccessful' => 'Kan accountinformatie niet bijwerken',
+  'delete_successful' => 'Gebruiker is verwijderd',
+  'delete_unsuccessful' => 'Kan gebruiker niet verwijderen',
+  'email_forgotten_password_subject' => 'Vergeten Wachtwoord Verificatie',
+);
+/** End of file: ion_auth_lang.php **/
