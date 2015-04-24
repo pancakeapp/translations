@@ -40,5 +40,6 @@ $lang = array (
   'delete_successful' => 'Usuario borrado',
   'delete_unsuccessful' => 'No es posible eliminar al usuario',
   'email_forgotten_password_subject' => 'Verificación de contraseña olvidada',
+  'email_new_password_subject' => 'Nueva contraseña',
 );
 /** End of file: ion_auth_lang.php **/
