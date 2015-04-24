@@ -1277,5 +1277,6 @@ $lang = array (
   'error:scan_result_failure_how_to_fix' => 'For å løse disse problemene, må du manuelt oppdatere filene til din Pancake.',
   'error:and_x_others' => '... og % 1 andre.',
   'proposals:archived' => 'Du har arkivert forslag #:1.',
+  'global:archive' => 'Arkiv',
 );
 /** End of file: pancake_lang.php **/
