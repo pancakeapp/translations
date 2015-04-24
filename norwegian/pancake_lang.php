@@ -7,8 +7,8 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1017,7 +1017,7 @@ $lang = array (
   'invoices:make_bulk_payment' => 'Flere betalinger',
   'global:success' => 'Suksess!',
   'clients:view' => 'Se Kunde',
-  'invoices:store_bulk_payment' => 'Lagre flere Betaling',
+  'invoices:store_bulk_payment' => 'Lagre flere betalinger',
   'invoices:x_invoices' => ':1 fakturaer',
   'invoices:amount_to_pay' => 'Marker sum som betalt',
   'invoices:bulk_payment_added' => 'The bulk payment was added successfully.',
