@@ -1283,5 +1283,6 @@ $lang = array (
   'global:archived' => 'Arkivert',
   'estimates:archived' => 'Du har arkivert vurdering #%.',
   'credit_notes:archived' => 'Du har arkivert kreditnota #:1.',
+  'error:scan_result_success' => 'Din Pancake er i perfekt tilstand og har ikke blitt endret på noen måte. Alt er OK.',
 );
 /** End of file: pancake_lang.php **/
