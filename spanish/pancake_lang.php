@@ -1269,5 +1269,6 @@ $lang = array (
   'error:scan_result_failure_deleted_other' => 'Archivos tipo :1 no existen.',
   'error:scan_result_failure_modified_one' => 'Un :1 del archivo ha sido modificado.',
   'error:why_update' => 'Siguiendo con esta versión de PHP, te estás perdiendo una serie de mejoras de rendimiento y seguridad, así como muchas correcciones de errores.',
+  'error:click_here_for_instructions' => 'Haga clic aquí para ver las instrucciones',
 );
 /** End of file: pancake_lang.php **/
