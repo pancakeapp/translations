@@ -7,6 +7,7 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Philip - https://github.com/therephil
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -41,7 +42,7 @@ $lang = array (
   'delete_successful' => 'Das Benutzerkonto wurde gelöscht',
   'delete_unsuccessful' => 'Das Benutzerkonto konnte nicht gelöscht werden',
   'email_forgotten_password_subject' => 'Vergessenes Kennwort Verifikation',
-  'email_new_password_subject' => 'Neues Password',
+  'email_new_password_subject' => 'Neues Passwort',
   'email_activation_subject' => 'Kontoaktivierung',
 );
 /** End of file: ion_auth_lang.php **/
