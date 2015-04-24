@@ -1289,5 +1289,6 @@ $lang = array (
   'estimates:restored' => 'Du har gjenopprettet estimat #:1 uten problemer.',
   'credit_notes:restored' => 'Du har gjenopprettet kreditnota #:1 uten problemer.',
   'proposals:list_rejected' => 'Avviste Forslag',
+  'proposals:list_accepted' => 'Godkjente Forslag',
 );
 /** End of file: pancake_lang.php **/
