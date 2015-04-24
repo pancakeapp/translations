@@ -45,7 +45,7 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
         foreach ($buffer as $file) {
             $lang_file = explode("/", $file, 2);
             $english_lang_file = "english/" . $lang_file[1];
-            $return[] = array($base . $file, $base, $base . $english_lang_file);
+            $return[] = array($base . $file, $file, $base . $english_lang_file);
         }
         return $return;
     }
@@ -53,33 +53,60 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
     /**
      * @dataProvider provider
      */
-    public function testFilesCanBeParsedAndHaveLangArray($file, $base, $english_file) {
-        require $english_file;
-        $english_lang = $lang;
+    public function testFilesCanBeParsedAndHaveLangArray($file, $short_file) {
+        ob_start();
+        require $file;
+        ob_end_clean();
+        $this->assertTrue(isset($lang), "A \$lang variable should be set (in $short_file).");
+        $this->assertTrue(is_array($lang), "The \$lang variable should be an array (in $short_file).");
+    }
 
+    /**
+     * @dataProvider provider
+     * @depends      testFilesCanBeParsedAndHaveLangArray
+     */
+    public function testFilesDoNotProduceOutput($file, $short_file) {
         ob_start();
         require $file;
         $contents = ob_get_contents();
         ob_end_clean();
-        $short_file = str_ireplace($base, '', $file);
-        $this->assertTrue(isset($lang), "A \$lang variable should be set (in $short_file).");
-        $this->assertTrue(is_array($lang), "The \$lang variable should be an array (in $short_file).");
-        $this->assertTrue(empty($contents), "Loading a language file should not produce any output whatsoever.");
+        $this->assertTrue(empty($contents), "Loading $short_file should not produce any output whatsoever.");
+    }
+
+    /**
+     * @dataProvider provider
+     * @depends      testFilesDoNotProduceOutput
+     */
+    public function testFileKeysHaveTheRightVariables($file, $short_file, $english_file) {
+        require $english_file;
+        $english_lang = $lang;
+        require $file;
+
+        foreach ($english_lang as $key => $value) {
+            # We only check for cases where $lang[$key] is set because another test makes sure all keys exist.
+            if (isset($lang[$key])) {
+                $variables_in_english = [];
+                $variables_in_new_language = [];
+                $regex = "/(?<!00)((?::[0-9]+)|(?:{[^}]+}))/ui";
+                preg_match_all($regex, $value, $variables_in_english);
+                preg_match_all($regex, $lang[$key], $variables_in_new_language);
+                $this->assertEquals($variables_in_english[1], $variables_in_new_language[1], "One of the variables in '$key' key (in $short_file) doesn't match what's expected.");
+            }
+        }
+    }
+
+    /**
+     * @dataProvider provider
+     * @depends      testFilesDoNotProduceOutput
+     */
+    public function testFilesHaveTheRightKeys($file, $short_file, $english_file) {
+        require $english_file;
+        $english_lang = $lang;
+        require $file;
 
         foreach ($english_lang as $key => $value) {
             $this->assertTrue(isset($lang[$key]), "The \$lang variable should have a '$key' key (in $short_file).");
-            $variables_in_english = [];
-            $variables_in_new_language = [];
-            $count_matches_in_english = preg_match_all("/((?::[0-9]+)|(?:{[^}]+}))/u", $value, $variables_in_english);
-            $count_matches_in_new_language = preg_match_all("/((?::[0-9]+)|(?:{[^}]+}))/u", $lang[$key], $variables_in_new_language);
-
-            $this->assertEquals($count_matches_in_new_language, $count_matches_in_english, "The number of variables in '$key' key (in $short_file) don't match what's expected.");
-
-            foreach ($variables_in_english as $i => $variable) {
-                $this->assertEquals($variables_in_new_language[$i], $variable, "One of the variables in '$key' key (in $short_file) doesn't match what's expected.");
-            }
         }
-
     }
 
 }
