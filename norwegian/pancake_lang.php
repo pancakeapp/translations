@@ -1272,5 +1272,6 @@ $lang = array (
   'error:scan_result_failure_modified_one' => '% 1 fil har blitt endret',
   'error:scan_result_failure_modified_other' => '% 1 filer har blitt endret',
   'error:scan_result_failure_deleted_other' => '% 1 filer eksisterer ikke',
+  'error:scan_result_failure_heading' => 'Det er problemer med filer i din Pancake.',
 );
 /** End of file: pancake_lang.php **/
