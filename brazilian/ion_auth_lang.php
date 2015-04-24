@@ -42,5 +42,6 @@ $lang = array (
   'delete_unsuccessful' => 'Incapaz de apagar usuário',
   'email_forgotten_password_subject' => 'Verificação de Senha Esquecida',
   'email_new_password_subject' => 'Nova Senha',
+  'email_activation_subject' => 'Ativação da Conta',
 );
 /** End of file: ion_auth_lang.php **/
