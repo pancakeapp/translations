@@ -7,8 +7,8 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1033,7 +1033,7 @@ $lang = array (
   'credit_notes:duplicated' => 'La nota de crédito está duplicada #:1. El número de la nueva nota de crédito es #:2.',
   'global:success' => '¡Éxito!',
   'clients:credit_balance_currently' => 'Balance de crédito (actualmente :1)',
-  'invoices:make_bulk_payment' => 'Hacer Pago a Granel',
+  'invoices:make_bulk_payment' => 'Haz pagos múltiples',
   'credit_notes:send_now_body' => 'Rellene el siguiente formulario y le entregaremos esta nota de crédito.',
   'invoices:x_invoices' => ':1 facturas',
   'invoices:amount_to_pay' => 'Cantidad para marcar como pagada',
