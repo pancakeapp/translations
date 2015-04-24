@@ -1290,5 +1290,6 @@ $lang = array (
   'credit_notes:restored' => 'Du har gjenopprettet kreditnota #:1 uten problemer.',
   'proposals:list_rejected' => 'Avviste Forslag',
   'proposals:list_accepted' => 'Godkjente Forslag',
+  'invoices:estimates_archived' => 'Arkiverte Anslag',
 );
 /** End of file: pancake_lang.php **/
