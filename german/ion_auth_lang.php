@@ -1,58 +1,47 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
- * Name:         Ion Auth Lang - German
+ * Pancake
  *
- * Author:       Ben Edmunds
- * 		        ben.edmunds@gmail.com
- *               @benedmunds
- * Translation:  Bernd Hückstädt
- * 		        akademie@joytopia.net
+ * A simple, fast, self-hosted invoicing application.
  *
+ * This is the German translation for Pancake.
  *
- * Location:     http://github.com/benedmunds/CodeIgniter-Ion-Auth/tree/2/language/german/
- *
- * Created:  04.02.2010
- * Last-Edit: 18.04.2014
- *
- * Description:      German language file for Ion Auth messages and errors
- * Beschreibung:     Deutsche Sprach-Datei für Ion Auth System- und Fehlermeldungen
- *
+ * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Philip - https://github.com/therephil
+ * @copyright   Copyright (c) 2015, Pancake Payments
+ * @license     https://www.pancakeapp.com/license
+ * @link        https://www.pancakeapp.com
+ * @since       Version 4.8.10
  */
 
-// Account Creation
-$lang['account_creation_successful'] 	  	     = 'Das Benutzerkonto wurde erfolgreich erstellt';
-$lang['account_creation_unsuccessful'] 	         = 'Das Benutzerkonto konnte nicht erstellt werden';
-$lang['account_creation_duplicate_email']        = 'Die E-Mail-Adresse ist ungültig oder wird bereits verwendet';
-$lang['account_creation_duplicate_username'] 	 = 'Der Benutzername ist ungültig oder wird bereits verwendet';
+// ------------------------------------------------------------------------
 
-
-// Password
-$lang['password_change_successful'] 	 	 = 'Das Passwort wurde erfolgreich geändert';
-$lang['password_change_unsuccessful'] 	  	 = 'Das Passwort konnte nicht geändert werden';
-$lang['forgot_password_successful'] 	 	 = 'Es wurde eine E-Mail zum Zurücksetzen des Passwortes versandt';
-$lang['forgot_password_unsuccessful'] 	 	 = 'Das Passwort konnte nicht zurückgesetzt werden';
-$lang['cant_send_email'] = "Während dem versenden einer E-Mail ist ein Problem aufgetreten.";
-
-// Activation
-$lang['activate_successful'] 		  	     = 'Das Benutzerkonto wurde aktiviert';
-$lang['activate_unsuccessful'] 		 	     = 'Das Benutzerkonto konnte nicht aktiviert werden';
-$lang['deactivate_successful'] 		  	     = 'Das Benutzerkonto wurde deaktiviert';
-$lang['deactivate_unsuccessful'] 	  	     = 'Das Benutzerkonto konnte nicht deaktiviert werden';
-$lang['activation_email_successful'] 	  	 = 'Es wurde eine E-Mail zum Aktivieren des Benutzerkontos versandt';
-$lang['activation_email_unsuccessful']   	 = 'Die Aktivierungs-E-Mail konnte nicht versandt werden';
-
-// Login / Logout
-$lang['login_successful'] 		  	 = 'Login erfolgreich';
-$lang['login_unsuccessful'] 		 = 'Login fehlgeschlagen';
-$lang['logout_successful'] 		 	 = 'Logout erfolgreich';
-
-// Account Changes
-$lang['update_successful'] 		 	 = 'Die Konto-Informationen wurden erfolgreich geändert';
-$lang['update_unsuccessful'] 		 = 'Die Konto-Informationen konnten nicht geändert werden';
-$lang['delete_successful'] 		 	 = 'Das Benutzerkonto wurde gelöscht';
-$lang['delete_unsuccessful'] 		 = 'Das Benutzerkonto konnte nicht gelöscht werden';
-
-// Email Subjects
-$lang['email_forgotten_password_subject']    = 'Vergessenes Kennwort Verifikation';
-$lang['email_new_password_subject']          = 'Neues Password';
-$lang['email_activation_subject']            = 'Aktivierung des Kontos';
+$lang = array (
+  'account_creation_successful' => 'Das Benutzerkonto wurde erfolgreich erstellt',
+  'account_creation_unsuccessful' => 'Das Benutzerkonto konnte nicht erstellt werden',
+  'account_creation_duplicate_email' => 'Die E-Mail-Adresse ist ungültig oder wird bereits verwendet',
+  'account_creation_duplicate_username' => 'Der Benutzername ist ungültig oder wird bereits verwendet',
+  'password_change_successful' => 'Das Passwort wurde erfolgreich geändert',
+  'password_change_unsuccessful' => 'Das Passwort konnte nicht geändert werden',
+  'forgot_password_successful' => 'Es wurde eine E-Mail zum Zurücksetzen des Passwortes versandt',
+  'forgot_password_unsuccessful' => 'Das Passwort konnte nicht zurückgesetzt werden',
+  'cant_send_email' => 'Während dem versenden einer E-Mail ist ein Problem aufgetreten.',
+  'activate_successful' => 'Das Benutzerkonto wurde aktiviert',
+  'activate_unsuccessful' => 'Das Benutzerkonto konnte nicht aktiviert werden',
+  'deactivate_successful' => 'Das Benutzerkonto wurde deaktiviert',
+  'deactivate_unsuccessful' => 'Das Benutzerkonto konnte nicht deaktiviert werden',
+  'activation_email_successful' => 'Es wurde eine E-Mail zum Aktivieren des Benutzerkontos versandt',
+  'activation_email_unsuccessful' => 'Die Aktivierungs-E-Mail konnte nicht versandt werden',
+  'login_successful' => 'Login erfolgreich',
+  'login_unsuccessful' => 'Login fehlgeschlagen',
+  'logout_successful' => 'Logout erfolgreich',
+  'update_successful' => 'Die Konto-Informationen wurden erfolgreich geändert',
+  'update_unsuccessful' => 'Die Konto-Informationen konnten nicht geändert werden',
+  'delete_successful' => 'Das Benutzerkonto wurde gelöscht',
+  'delete_unsuccessful' => 'Das Benutzerkonto konnte nicht gelöscht werden',
+  'email_forgotten_password_subject' => 'Vergessenes Kennwort Verifikation',
+  'email_new_password_subject' => 'Neues Password',
+  'email_activation_subject' => 'Kontoaktivierung',
+);
+/** End of file: ion_auth_lang.php **/
