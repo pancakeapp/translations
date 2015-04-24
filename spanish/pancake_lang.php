@@ -1260,5 +1260,6 @@ $lang = array (
   'error:php_outdated' => 'La versión de PHP que estás utilizando está desactualizada.',
   'error:pancake_will_stop_supporting_it' => 'Pancake dejará de ofrecer soporte para esto en unas pocas semanas.',
   'error:scanning' => 'Escaneando, por favor espere...',
+  'error:using_php_53' => 'Estás utilizando PHP 5.3, que lleva sin actualizarse más de 3 años y ha llegado al final de su vida (esto significa que ya no está respaldada por el Grupo PHP).',
 );
 /** End of file: pancake_lang.php **/
