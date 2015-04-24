@@ -7,6 +7,7 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -41,5 +42,6 @@ $lang = array (
   'delete_unsuccessful' => 'No es posible eliminar al usuario',
   'email_forgotten_password_subject' => 'Verificación de contraseña olvidada',
   'email_new_password_subject' => 'Nueva contraseña',
+  'email_activation_subject' => 'Activación de la Cuenta',
 );
 /** End of file: ion_auth_lang.php **/
