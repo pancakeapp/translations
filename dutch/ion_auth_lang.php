@@ -43,5 +43,6 @@ $lang = array (
   'delete_unsuccessful' => 'Kan gebruiker niet verwijderen',
   'email_forgotten_password_subject' => 'Vergeten Wachtwoord Verificatie',
   'email_new_password_subject' => 'Nieuw Wachtwoord',
+  'email_activation_subject' => 'Account Activatie',
 );
 /** End of file: ion_auth_lang.php **/
