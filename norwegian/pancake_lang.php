@@ -1287,5 +1287,6 @@ $lang = array (
   'invoices:archived' => 'Du har arkivert faktura #:1 uten problemer.',
   'invoices:restored' => 'Du har gjenopprettet faktura #:1 uten problemer.',
   'estimates:restored' => 'Du har gjenopprettet estimat #:1 uten problemer.',
+  'credit_notes:restored' => 'Du har gjenopprettet kreditnota #:1 uten problemer.',
 );
 /** End of file: pancake_lang.php **/
