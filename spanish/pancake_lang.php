@@ -1294,5 +1294,6 @@ $lang = array (
   'proposals:list_unanswered' => 'Propuestas sin respuesta. ',
   'proposals:list_rejected' => 'Propuestas Rechazadas',
   'invoices:credit_notes_archived' => 'Notas de Abono Archivadas',
+  'invoices:invoices_archived' => 'Facturas Archivadas',
 );
 /** End of file: pancake_lang.php **/
