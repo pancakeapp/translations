@@ -7,8 +7,8 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
@@ -1026,7 +1026,7 @@ $lang = array (
   'invoices:make_bulk_payment' => 'Doe Meerdere Betalingen',
   'global:success' => 'Gelukt!',
   'clients:view' => 'Bekijk klant',
-  'invoices:store_bulk_payment' => 'Opslaan batchbetaling',
+  'invoices:store_bulk_payment' => 'Bewaar Meerdere Betalingen ',
   'invoices:x_invoices' => ':1 facturen',
   'invoices:amount_to_pay' => 'Bedrag om als betaald te markeren',
   'invoices:bulk_payment_added' => 'De batchbetaling is toegevoegd.',
