@@ -7,6 +7,7 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -1045,7 +1046,7 @@ $lang = array (
   'invoices:specify_bulk_payment_details' => 'Especifique los detalles del pago de su cliente, y seleccione las facturas a las que se aplica el pago.',
   'clients:has_no_unpaid_invoices' => ':1 no tiene facturas sin pagar.',
   'credit_notes:view' => 'Ver nota de abono.',
-  'invoices:store_bulk_payment' => 'Guardar Pago a Granel',
+  'invoices:store_bulk_payment' => 'Guardar Varios Pagos',
   'settings:ticket_status_for_sending_invoice' => 'Estado de los tickets para la facturación.',
   'expenses:added' => 'El gasto fue añadido con éxito.',
   'settings:ticket_status_for_sending_invoice_description' => 'Cuando un ticket pagado se actualiza a éste estado, una factura se generará automáticamente y será enviada al cliente.',
