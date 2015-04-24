@@ -1303,5 +1303,6 @@ Die Fehlermeldung war:
   'proposals:list_rejected' => 'Abgelehnte Vorschläge',
   'global:archive' => 'Archiv',
   'invoices:archived' => 'Sie haben Abrechnung #:1 erfolgreich archiviert.',
+  'global:archived' => 'Archiviert',
 );
 /** End of file: pancake_lang.php **/
