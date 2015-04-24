@@ -7,13 +7,12 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
- * @author      Jan Castermans - https://github.com/pprazzi
+ * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author      davidh071 - https://github.com/davidh071
- * @author      1Martin 
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
@@ -1024,7 +1023,7 @@ $lang = array (
   'credit_notes:preview' => 'Voorvertoning creditnota',
   'credit_notes:duplicated' => 'Creditnota #:1 gedupliceerd. Het nieuwe creditnota nummer is #:2.',
   'credit_notes:client_viewed' => ':1 bekeek <a href=\':2\'>creditnota #:3</a> on :4',
-  'invoices:make_bulk_payment' => 'Doe een batchbetaling',
+  'invoices:make_bulk_payment' => 'Doe Meerdere Betalingen',
   'global:success' => 'Gelukt!',
   'clients:view' => 'Bekijk klant',
   'invoices:store_bulk_payment' => 'Opslaan batchbetaling',
