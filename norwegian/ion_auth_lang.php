@@ -42,5 +42,6 @@ $lang = array (
   'delete_unsuccessful' => 'Klarer ikke slette bruker',
   'email_forgotten_password_subject' => 'Verifisering for glemt passord',
   'email_new_password_subject' => 'Nytt passord',
+  'email_activation_subject' => 'Aktivering av konto',
 );
 /** End of file: ion_auth_lang.php **/
