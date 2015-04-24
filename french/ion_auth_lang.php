@@ -7,6 +7,7 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      ahouin - https://github.com/ahouin
  * @author      Anas AIT ALI - http://aitali.co
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -41,5 +42,6 @@ $lang = array (
   'delete_successful' => 'Utilisateur supprimé',
   'delete_unsuccessful' => 'Impossible de supprimer l\'utilisateur',
   'email_forgotten_password_subject' => 'Vérification du Mot de Passe Oublié',
+  'email_new_password_subject' => 'Nouveau Mot de Passe',
 );
 /** End of file: ion_auth_lang.php **/
