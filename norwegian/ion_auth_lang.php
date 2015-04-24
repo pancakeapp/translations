@@ -7,6 +7,7 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -40,5 +41,6 @@ $lang = array (
   'delete_successful' => 'Bruker slettet',
   'delete_unsuccessful' => 'Klarer ikke slette bruker',
   'email_forgotten_password_subject' => 'Verifisering for glemt passord',
+  'email_new_password_subject' => 'Nytt passord',
 );
 /** End of file: ion_auth_lang.php **/
