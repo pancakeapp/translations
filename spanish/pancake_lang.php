@@ -1277,5 +1277,6 @@ $lang = array (
   'error:scan_result_failure_modified_other' => 'Se han modificado :1 archivos',
   'error:and_x_others' => '... y los demás 1%.',
   'global:archived' => 'Archivado',
+  'proposals:archived' => 'Has archivado la propuesta #:1 con éxito.',
 );
 /** End of file: pancake_lang.php **/
