@@ -1267,5 +1267,6 @@ $lang = array (
   'error:scan_pancake_explanation' => 'Noen ganger kan problemer oppstå på grunn av mislykkede oppdateringer, eller på grunn av rettighetsproblemer som fører til at Pancake-filer blir korrupte under oppdatering. Bruk dette for å sjekke om din versjon av Pancake har blitt utsatt for et slikt problem.',
   'error:scanning' => 'Skanner, vennligst vent...',
   'error:scan' => 'Scan',
+  'error:unknown_error_scanning' => 'Det oppstod en ukjent feil under skanning.',
 );
 /** End of file: pancake_lang.php **/
