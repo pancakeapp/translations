@@ -1305,5 +1305,6 @@ Die Fehlermeldung war:
   'invoices:archived' => 'Sie haben Abrechnung #:1 erfolgreich archiviert.',
   'global:archived' => 'Archiviert',
   'global:restore' => 'Wiederherstellen',
+  'proposals:list_archived' => 'Archivierte Vorschläge',
 );
 /** End of file: pancake_lang.php **/
