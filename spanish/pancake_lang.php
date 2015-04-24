@@ -1041,7 +1041,7 @@ $lang = array (
   'invoices:send_bulk_payment_notification' => '¿Enviar notificaciones de correos electrónicos de los pagos al cliente?',
   'global:credit_balance' => 'Balance de crédito',
   'credit_notes:client_viewed' => ':1 vio <a href=":2">nota de crédito #:3</a> el :4',
-  'invoices:bulk_payment_added' => 'El pago masivo ha sido añadido con éxito.',
+  'invoices:bulk_payment_added' => 'Los pagos se han añadido con éxito.',
   'invoices:send_payment_notification' => '¿Enviar una notificación del pago mediante correo electrónico al cliente?',
   'invoices:specify_bulk_payment_details' => 'Especifique los detalles del pago de su cliente, y seleccione las facturas a las que se aplica el pago.',
   'clients:has_no_unpaid_invoices' => ':1 no tiene facturas sin pagar.',
