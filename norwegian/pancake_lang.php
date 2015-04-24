@@ -1259,5 +1259,6 @@ $lang = array (
   'error:already_being_dealt_with' => 'Dette problemet har allerede blitt rapportert av noen andre, og er under behandling. Vi arbeider med å løse det så raskt som mulig.',
   'error:php_outdated' => 'PHP-versjonen du bruker er utdatert.',
   'error:using_php_53' => 'Du bruker PHP 5.3, som har vært utdatert mer enn 3 år og har nådd "end-of-life"-status (dvs, den støttes ikke lenger av PHP Group).',
+  'error:pancake_will_stop_supporting_it' => 'Pancake vil slutte å støtte denne versjonen om et par uker.',
 );
 /** End of file: pancake_lang.php **/
