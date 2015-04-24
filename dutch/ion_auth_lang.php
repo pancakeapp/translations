@@ -7,6 +7,7 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author      1Martin 
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -41,5 +42,6 @@ $lang = array (
   'delete_successful' => 'Gebruiker is verwijderd',
   'delete_unsuccessful' => 'Kan gebruiker niet verwijderen',
   'email_forgotten_password_subject' => 'Vergeten Wachtwoord Verificatie',
+  'email_new_password_subject' => 'Nieuw Wachtwoord',
 );
 /** End of file: ion_auth_lang.php **/
