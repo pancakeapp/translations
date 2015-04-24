@@ -1289,5 +1289,6 @@ $lang = array (
   'proposals:list_all' => 'Todas las Propuestas',
   'credit_notes:restored' => 'Has restaurado la nota de crédito #:1 con éxito.',
   'proposals:list_accepted' => 'Propuestas Aceptadas',
+  'error:scan_pancake_explanation' => 'A veces podrían surgir problemas a causa de una actualización fallida o debido a los problemas de permisos que causan que tus archivos de Pancake se corrompan durante una actualización. Usa esto para comprobar tu Pancake ante cualquier tipo de problemas.',
 );
 /** End of file: pancake_lang.php **/
