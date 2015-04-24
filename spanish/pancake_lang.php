@@ -1043,7 +1043,7 @@ $lang = array (
   'credit_notes:client_viewed' => ':1 vio <a href=":2">nota de crédito #:3</a> el :4',
   'invoices:bulk_payment_added' => 'Los pagos se han añadido con éxito.',
   'invoices:send_payment_notification' => '¿Enviar una notificación del pago mediante correo electrónico al cliente?',
-  'invoices:specify_bulk_payment_details' => 'Especifique los detalles del pago de su cliente, y seleccione las facturas a las que se aplica el pago.',
+  'invoices:specify_bulk_payment_details' => 'Especifique los detalles de los pagos de su cliente, y seleccione las facturas a las cuales se aplican los pagos.',
   'clients:has_no_unpaid_invoices' => ':1 no tiene facturas sin pagar.',
   'credit_notes:view' => 'Ver nota de abono.',
   'invoices:store_bulk_payment' => 'Guardar Varios Pagos',
