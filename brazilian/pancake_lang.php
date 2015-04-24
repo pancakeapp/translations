@@ -7,8 +7,8 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1101,7 +1101,7 @@ $lang = array (
   'error:sending_details' => 'Enviando dados...',
   'expenses:receipt' => 'Recibo',
   'error:title' => 'Erro Desconhecido',
-  'invoices:bulk_payment_added' => 'O pagamento em massa foi adicionado com êxito.',
+  'invoices:bulk_payment_added' => 'Os pagamentos foram adicionados com sucesso.',
   'reports:verb_created' => 'Criado',
   'dashboard:view_all_upcoming_invoices' => 'Ver Todas as Próximas Faturas',
   'error:not_logged_in_intro' => 'Esses erros são registrados automaticamente.',
