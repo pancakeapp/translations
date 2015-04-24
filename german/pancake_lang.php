@@ -7,9 +7,9 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Florian Simeth 
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -1035,7 +1035,7 @@ Die Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.',
   'invoices:make_bulk_payment' => 'Massenzahlung vornehmen',
   'global:success' => 'Erfolg!',
   'clients:view' => 'Kunde anstehen',
-  'invoices:store_bulk_payment' => 'Massenzahlung speichern',
+  'invoices:store_bulk_payment' => 'Speichere Mehrere Zahlungen',
   'invoices:x_invoices' => ':1 Rechnungen',
   'invoices:amount_to_pay' => 'Betrag, der als bezahlt markiert werden soll',
   'invoices:bulk_payment_added' => 'Die Massenzahlung wurde erfolgreich hinzugefügt.',
