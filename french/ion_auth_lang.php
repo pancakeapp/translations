@@ -43,5 +43,6 @@ $lang = array (
   'delete_unsuccessful' => 'Impossible de supprimer l\'utilisateur',
   'email_forgotten_password_subject' => 'Vérification du Mot de Passe Oublié',
   'email_new_password_subject' => 'Nouveau Mot de Passe',
+  'email_activation_subject' => 'Activation du Compte',
 );
 /** End of file: ion_auth_lang.php **/
