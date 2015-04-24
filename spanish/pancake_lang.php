@@ -1258,5 +1258,6 @@ $lang = array (
   'error:fixed_in_version' => 'Este problema se arregló en Pancake {version}. Si todavía no la tienes, actualiza tu Pancake.',
   'global:and' => 'Y',
   'error:php_outdated' => 'La versión de PHP que estás utilizando está desactualizada.',
+  'error:pancake_will_stop_supporting_it' => 'Pancake dejará de ofrecer soporte para esto en unas pocas semanas.',
 );
 /** End of file: pancake_lang.php **/
