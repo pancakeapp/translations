@@ -1304,5 +1304,6 @@ Die Fehlermeldung war:
   'global:archive' => 'Archiv',
   'invoices:archived' => 'Sie haben Abrechnung #:1 erfolgreich archiviert.',
   'global:archived' => 'Archiviert',
+  'global:restore' => 'Wiederherstellen',
 );
 /** End of file: pancake_lang.php **/
