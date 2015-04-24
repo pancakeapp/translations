@@ -1264,5 +1264,6 @@ $lang = array (
   'error:why_update' => 'Ved å fortsette å bruke denne versjonen av PHP går du glipp av en rekke ytelse- og sikkerhetsforbedringer, samt en mengde feilrettinger.',
   'error:scan_pancake' => 'Scan Pancake for filrelaterte problemer',
   'error:upgrade_php' => 'Du bør oppgradere din PHP-versjon til minst 5.5 (helst 5.6). For å gjøre dette, vennligst kontakt dine serveradministratorer og be dem om å oppdatere PHP--versjon.',
+  'error:scan_pancake_explanation' => 'Noen ganger kan problemer oppstå på grunn av mislykkede oppdateringer, eller på grunn av rettighetsproblemer som fører til at Pancake-filer blir korrupte under oppdatering. Bruk dette for å sjekke om din versjon av Pancake har blitt utsatt for et slikt problem.',
 );
 /** End of file: pancake_lang.php **/
