@@ -1306,5 +1306,6 @@ Die Fehlermeldung war:
   'global:archived' => 'Archiviert',
   'global:restore' => 'Wiederherstellen',
   'proposals:list_archived' => 'Archivierte Vorschläge',
+  'invoices:credit_notes_archived' => 'Archivierte Gutschriften',
 );
 /** End of file: pancake_lang.php **/
