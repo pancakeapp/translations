@@ -1285,5 +1285,6 @@ $lang = array (
   'credit_notes:archived' => 'Du har arkivert kreditnota #:1.',
   'error:scan_result_success' => 'Din Pancake er i perfekt tilstand og har ikke blitt endret på noen måte. Alt er OK.',
   'invoices:archived' => 'Du har arkivert faktura #:1 uten problemer.',
+  'invoices:restored' => 'Du har gjenopprettet faktura #:1 uten problemer.',
 );
 /** End of file: pancake_lang.php **/
