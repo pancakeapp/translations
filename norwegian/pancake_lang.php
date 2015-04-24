@@ -1014,7 +1014,7 @@ $lang = array (
   'credit_notes:preview' => 'Forhåndsvis Kreditnota',
   'credit_notes:duplicated' => 'Duplicated credit note #:1. The new credit note\'s number is #:2.',
   'credit_notes:client_viewed' => ':1 så <a href=\':2\'>kreditnota #:3</a> den :4',
-  'invoices:make_bulk_payment' => 'Gjøre Flere Betalinger',
+  'invoices:make_bulk_payment' => 'Gjør Flere Betalinger',
   'global:success' => 'Suksess!',
   'clients:view' => 'Se Kunde',
   'invoices:store_bulk_payment' => 'Lagre Flere Betalinger',
