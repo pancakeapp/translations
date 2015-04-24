@@ -1282,5 +1282,6 @@ $lang = array (
   'proposals:restored' => 'Du har gjenopprettet forslag #:1.',
   'global:archived' => 'Arkivert',
   'estimates:archived' => 'Du har arkivert vurdering #%.',
+  'credit_notes:archived' => 'Du har arkivert kreditnota #:1.',
 );
 /** End of file: pancake_lang.php **/
