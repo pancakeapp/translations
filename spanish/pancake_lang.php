@@ -1257,5 +1257,6 @@ $lang = array (
   'error:no_user_found' => 'Su clave de licencia no está asociada a ningún usuario de pancakeapp.com, por lo que su error no pudo ser enviado automáticamente. Si esto es inesperado, envíe un correo electrónico a support@pancakeapp.com y le ayudaremos.',
   'error:fixed_in_version' => 'Este problema se arregló en Pancake {version}. Si todavía no la tienes, actualiza tu Pancake.',
   'global:and' => 'Y',
+  'error:php_outdated' => 'La versión de PHP que estás utilizando está desactualizada.',
 );
 /** End of file: pancake_lang.php **/
