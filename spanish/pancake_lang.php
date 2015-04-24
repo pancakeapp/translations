@@ -1287,5 +1287,6 @@ $lang = array (
   'estimates:restored' => 'Has restaurado aproximadamente un #:1 con éxito.',
   'credit_notes:archived' => 'Has archivado la nota de crédito #:1 con éxito.',
   'proposals:list_all' => 'Todas las Propuestas',
+  'credit_notes:restored' => 'Has restaurado la nota de crédito #:1 con éxito.',
 );
 /** End of file: pancake_lang.php **/
