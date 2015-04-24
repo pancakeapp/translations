@@ -7,10 +7,10 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      ahouin - https://github.com/ahouin
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Anas AIT ALI - http://aitali.co
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1022,7 +1022,7 @@ $lang = array (
   'credit_notes:preview' => 'Prévisualiser la note de crédit',
   'credit_notes:duplicated' => 'Dupliquer la note de crédit #:1. Le numéro de la nouvelle cote de crédit est #:2.',
   'credit_notes:client_viewed' => ':1 à visualisé <a href=\':2\'>la note de crédit #:3</a> sur :4',
-  'invoices:make_bulk_payment' => 'Faire un paiement en lot',
+  'invoices:make_bulk_payment' => 'Effectuer des Paiements Multiples',
   'global:success' => 'C\'est réussi ! ',
   'clients:view' => 'Voir le client',
   'invoices:store_bulk_payment' => 'Enregistrer le paiement en lot',
