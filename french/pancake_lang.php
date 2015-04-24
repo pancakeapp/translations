@@ -7,8 +7,8 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      ahouin - https://github.com/ahouin
  * @author      Anas AIT ALI - http://aitali.co
@@ -1025,7 +1025,7 @@ $lang = array (
   'invoices:make_bulk_payment' => 'Effectuer des Paiements Multiples',
   'global:success' => 'C\'est réussi ! ',
   'clients:view' => 'Voir le client',
-  'invoices:store_bulk_payment' => 'Enregistrer le paiement en lot',
+  'invoices:store_bulk_payment' => 'Sauvegarder des Paiements Multiples',
   'invoices:x_invoices' => ':1 factures',
   'invoices:amount_to_pay' => 'Montant à afficher comme étant payé',
   'invoices:bulk_payment_added' => 'Le paiement en lot a été ajouté avec succès.',
