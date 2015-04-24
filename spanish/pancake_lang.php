@@ -1272,5 +1272,6 @@ $lang = array (
   'error:click_here_for_instructions' => 'Haga clic aquí para ver las instrucciones',
   'error:using_php_54' => 'Estás utilizando PHP 5.4, que lleva desactualizado 2 años y alcanzará el estatus de final de vida (lo cual significa que ya no será compatible con PHP Group) en septiembre de 2015.',
   'error:scan_pancake' => 'Escanee su Pancake por incidencias relacionadas con los archivos.',
+  'error:scan_result_failure_heading' => 'Hay problemas con tus archivos de Pancake.',
 );
 /** End of file: pancake_lang.php **/
