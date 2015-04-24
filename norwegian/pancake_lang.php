@@ -1281,5 +1281,6 @@ $lang = array (
   'global:restore' => 'Gjenopprett',
   'proposals:restored' => 'Du har gjenopprettet forslag #:1.',
   'global:archived' => 'Arkivert',
+  'estimates:archived' => 'Du har arkivert vurdering #%.',
 );
 /** End of file: pancake_lang.php **/
