@@ -7,8 +7,8 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1025,7 +1025,7 @@ $lang = array (
   'email_templates:new_credit_note' => 'Nova Nota de Crédito',
   'credit_notes:send_now_body' => 'Preencha o formulário abaixo e nós entregaremos esta nota de crédito por você.',
   'credit_notes:preview' => 'Pré-visualizar Nota de Crédito',
-  'invoices:make_bulk_payment' => 'Faça Multiplos Pagamentos',
+  'invoices:make_bulk_payment' => 'Realizar Vários Pagamentos',
   'credit_notes:duplicated' => 'Nota de crédito duplicada #:1. O novo número da nota de crédito é #:2.',
   'credit_notes:client_viewed' => ':1 <a href=":2">nota de crédito visualizada #:3</a> em :4',
   'clients:view' => 'Ver Cliente',
