@@ -1293,5 +1293,6 @@ $lang = array (
   'invoices:estimates_archived' => 'Arkiverte Anslag',
   'invoices:credit_notes_archived' => 'Arkiverte Kreditnota',
   'proposals:list_all' => 'Alle Forslag',
+  'invoices:invoices_archived' => 'Arkiverte Fakturaer',
 );
 /** End of file: pancake_lang.php **/
