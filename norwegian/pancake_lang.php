@@ -1291,5 +1291,6 @@ $lang = array (
   'proposals:list_rejected' => 'Avviste Forslag',
   'proposals:list_accepted' => 'Godkjente Forslag',
   'invoices:estimates_archived' => 'Arkiverte Anslag',
+  'invoices:credit_notes_archived' => 'Arkiverte Kreditnota',
 );
 /** End of file: pancake_lang.php **/
