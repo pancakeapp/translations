@@ -791,13 +791,6 @@ $lang = array(
     "settings:use_utf8_font_explanation" => "Use this if characters are broken in your PDFs.",
     "settings:pdf_attachments" => "PDF Attachments",
     "settings:pdf_attachments_explanation" => "If checked, Pancake will attach the corresponding PDF to invoice, estimate or proposal emails.",
-    "" => "",
-    "" => "",
-    "" => "",
-    "" => "",
-    "" => "",
-
-
 
     'settings:site_name'			=> 'Site name',
     'settings:language'				=> 'Language',
