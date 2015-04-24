@@ -1278,5 +1278,6 @@ $lang = array (
   'error:and_x_others' => '... y los demás 1%.',
   'global:archived' => 'Archivado',
   'proposals:archived' => 'Has archivado la propuesta #:1 con éxito.',
+  'global:restore' => 'Restaurar',
 );
 /** End of file: pancake_lang.php **/
