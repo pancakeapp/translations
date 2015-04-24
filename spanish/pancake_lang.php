@@ -164,13 +164,6 @@ $lang = array (
   'login:sup' => 'kipa shushetumare?',
   'global:actions' => 'Acciones',
   'global:select' => '--- Seleccionar ---',
-  'global:greetings' => 
-  array (
-    0 => 'Hola!',
-    1 => 'Buen día,',
-    2 => 'Hey,',
-    3 => 'Ki pah,',
-  ),
   'global:mark_as_unanswered' => 'Marcar sin respuesta',
   'global:mark_as_accepted' => 'Marcar como aceptado',
   'global:mark_as_rejected' => 'Marcar como rechazado',
@@ -811,7 +804,6 @@ $lang = array (
   'gateways:refunded' => 'Reintegrado',
   'gateways:unpaid' => 'Sin pagar',
   'gateways:paymentrejected' => 'Pago :1 rechazado',
-  'gateways:rejectedemail' => 'Pancake fue notificado sobre el pago :1 del cliente (:2), pero fue  rechazado por :1.',
   'gateways:pending' => 'Pendiente',
   'gateways:returntowebsite' => 'Retornar a :1',
   'gateways:cc_type' => 'Tipo de tarjeta de crédito',
@@ -942,13 +934,6 @@ $lang = array (
   'transactions:paymentfailed' => 'El pago ha fallado ',
   'transactions:extrapaymentfailed' => 'Ocurrido un problema inesperado al intentar procesar su pago. Por favor, póngase en contacto con :1 en :2 para asistencia.',
   'projects:tracked' => 'Agregado al historial',
-  'settings:accounting_type' => 'Tipo de reporte',
-  'settings:accrual' => 'Mostrar facturas basadas en cuando fueron creadas',
-  'settings:cash' => 'Mostrar facturas basadas en cuando fueron pagadas',
-  'reports:selection_explanation_accrual' => 'Facturas son mostradas de acuerdo a como fueron creadas.',
-  'reports:selection_explanation_cash' => 'Facturas pagadas son mostradas de acuerdo a las fechas de pago. 
-
-Facturas sin pagar o pagadas parcialmente son mostradas de acuerdo a la fecha de creación.',
   'invoices:partially_paid' => 'Parcialmente',
   'global:projects_ommitted' => ':1 proyectos no mostrados',
   'global:tasks_ommitted' => ':1 tareas no mostradas',
