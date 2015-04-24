@@ -1266,5 +1266,6 @@ $lang = array (
   'error:unknown_error_scanning' => 'Se produjo un error desconocido mientras se escaneaba.',
   'error:scan' => 'Escanear',
   'error:scan_result_failure_deleted_one' => 'El archivo "1%" no existe',
+  'error:scan_result_failure_deleted_other' => 'Archivos tipo :1 no existen.',
 );
 /** End of file: pancake_lang.php **/
