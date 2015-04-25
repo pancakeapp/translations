@@ -23,6 +23,7 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
         $ignore[] = 'vendor';
         $ignore[] = 'tests';
         $ignore[] = 'README.txt';
+        $ignore[] = 'README.md';
         $ignore[] = 'phpunit.xml';
 
         foreach (scandir($folder) as $file) {
