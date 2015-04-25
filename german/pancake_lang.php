@@ -1307,5 +1307,6 @@ Die Fehlermeldung war:
   'global:restore' => 'Wiederherstellen',
   'proposals:list_archived' => 'Archivierte Vorschläge',
   'invoices:credit_notes_archived' => 'Archivierte Gutschriften',
+  'invoices:estimates_archived' => 'Archivierte Schätzungen',
 );
 /** End of file: pancake_lang.php **/
