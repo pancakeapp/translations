@@ -310,6 +310,7 @@ $lang = array (
   'invoices:addedsuccess' => 'Você tem uma fatura para',
   'invoices:invoice' => 'fatura',
   'invoices:addedconf' => 'Você adicionou a fatura # <strong>:1</strong>, totalizando <strong>:2</strong> (:3 com impostos) para :4:5.',
+  'estimates:added' => 'Pronto! O orçamento foi adicionado.',
   'invoices:preview' => 'Conferir fatura',
   'invoices:editinvoice' => 'Editar fatura #:1',
   'invoices:messageupdated' => 'A fatura foi atualizada!',
