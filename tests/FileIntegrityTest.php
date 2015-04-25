@@ -85,8 +85,8 @@ class FileIntegrityTest extends PHPUnit_Framework_TestCase {
         foreach ($english_lang as $key => $value) {
             # We only check for cases where $lang[$key] is set because another test makes sure all keys exist.
             if (isset($lang[$key])) {
-                $variables_in_english = [];
-                $variables_in_new_language = [];
+                $variables_in_english = array();
+                $variables_in_new_language = array();
                 $regex = "/(?<!00)((?::[0-9]+)|(?:{[^}]+}))/ui";
                 preg_match_all($regex, $value, $variables_in_english);
                 preg_match_all($regex, $lang[$key], $variables_in_new_language);
