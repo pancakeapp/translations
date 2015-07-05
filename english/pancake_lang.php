@@ -1438,7 +1438,6 @@ $lang = array(
 
     # Begin v4.7.1 changes
     "global:estimates_unsent" => "Unsent",
-    "invoices:estimates_unsent" => "Unsent Estimates",
     # End v4.7.1 changes
 
     # Begin v4.7.3 changes
@@ -1611,6 +1610,10 @@ $lang = array(
     "invoices:estimates_archived" => "Archived Estimates",
     "invoices:invoices_archived" => "Archived Invoices",
     # End v4.8.11 changes
+
+    # Begin v4.8.19 changes
+    "estimates:estimates_unsent" => "Unsent Estimates",
+    # Edn v4.8.19 changes
 
 );
 
