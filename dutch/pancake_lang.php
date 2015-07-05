@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.10
+ * @since       Version 4.8.18
  */
 
 // ------------------------------------------------------------------------
@@ -1312,5 +1312,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'tickets:user_updated_ticket' => ':1 ticketstatus geüpdatet naar :2 op:3',
   'tasks:task_notes' => 'Taaknotities ',
   'global:server_default' => 'Server Standaardwaarden (niet aanbevolen)',
+  'estimates:estimates_unsent' => 'Niet-verzonden ramingen',
 );
 /** End of file: pancake_lang.php **/
