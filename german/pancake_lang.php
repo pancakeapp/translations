@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.10
+ * @since       Version 4.8.18
  */
 
 // ------------------------------------------------------------------------
@@ -1308,5 +1308,6 @@ Die Fehlermeldung war:
   'proposals:list_archived' => 'Archivierte Vorschläge',
   'invoices:credit_notes_archived' => 'Archivierte Gutschriften',
   'invoices:estimates_archived' => 'Archivierte Schätzungen',
+  'estimates:estimates_unsent' => 'Nicht gesendete Schätzungen',
 );
 /** End of file: pancake_lang.php **/
