@@ -7,13 +7,13 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.10
+ * @since       Version 4.8.18
  */
 
 // ------------------------------------------------------------------------
@@ -1300,5 +1300,6 @@ A mensagem de erro foi:
   'settings:test_email_error' => 'Ocorreu um erro ao tentar enviar o e-mail de teste:<br/><br/>:1<br/><br/>Por favor, verifique se os detalhes inseridos estão corretos. Se estiver usando SMTP, verifique se a porta que está tentando usar está aberta no firewall do servidor.',
   'invoices:all_unpaid' => 'Tudo não pago',
   'kitchen:x_responses' => ':1 Respostas',
+  'estimates:estimates_unsent' => 'Estimativas Não Enviadas',
 );
 /** End of file: pancake_lang.php **/
