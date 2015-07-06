@@ -7,8 +7,8 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1301,5 +1301,6 @@ A mensagem de erro foi:
   'invoices:all_unpaid' => 'Tudo não pago',
   'kitchen:x_responses' => ':1 Respostas',
   'estimates:estimates_unsent' => 'Estimativas Não Enviadas',
+  'tickets:invoice_for_ticket' => 'Ticket #:1 - :2',
 );
 /** End of file: pancake_lang.php **/
