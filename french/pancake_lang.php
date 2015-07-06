@@ -1300,5 +1300,6 @@ $lang = array (
   'invoices:willreoccurin' => 'Cette facture se reproduira au  :1.',
   'estimates:estimates_unsent' => 'Les estimations non envoyées',
   'tickets:invoice_for_ticket' => 'Ticket # :1 - :2',
+  'tickets:link_to_ticket' => 'Lien vers le ticket : :1',
 );
 /** End of file: pancake_lang.php **/
