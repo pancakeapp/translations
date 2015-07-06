@@ -1309,5 +1309,6 @@ Die Fehlermeldung war:
   'invoices:credit_notes_archived' => 'Archivierte Gutschriften',
   'invoices:estimates_archived' => 'Archivierte Schätzungen',
   'estimates:estimates_unsent' => 'Nicht gesendete Schätzungen',
+  'tickets:link_to_ticket' => 'Link zum Ticket: :1',
 );
 /** End of file: pancake_lang.php **/
