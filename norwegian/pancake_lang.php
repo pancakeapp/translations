@@ -1298,5 +1298,6 @@ $lang = array (
   'proposals:list_unanswered' => 'Ubesvarte Forslag',
   'estimates:estimates_unsent' => 'Usendte Beregninger',
   'tickets:invoice_for_ticket' => 'Billett #:1 - :2',
+  'tickets:link_to_ticket' => 'Lenke til Billett: :1',
 );
 /** End of file: pancake_lang.php **/
