@@ -1298,5 +1298,6 @@ $lang = array (
   'invoices:estimates_archived' => 'Estimaciones Archivadas',
   'estimates:estimates_unsent' => 'Estimaciones no enviadas',
   'tickets:link_to_ticket' => 'Enlace al boleto: :1',
+  'tickets:invoice_for_ticket' => 'Boleto #% 1 -% 2',
 );
 /** End of file: pancake_lang.php **/
