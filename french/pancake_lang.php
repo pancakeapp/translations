@@ -7,9 +7,9 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      ahouin - https://github.com/ahouin
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI - http://aitali.co
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -1299,5 +1299,6 @@ $lang = array (
   'proposals:list_accepted' => 'Propositions acceptées',
   'invoices:willreoccurin' => 'Cette facture se reproduira au  :1.',
   'estimates:estimates_unsent' => 'Les estimations non envoyées',
+  'tickets:invoice_for_ticket' => 'Ticket # :1 - :2',
 );
 /** End of file: pancake_lang.php **/
