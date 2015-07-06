@@ -1613,6 +1613,8 @@ $lang = array(
 
     # Begin v4.8.19 changes
     "estimates:estimates_unsent" => "Unsent Estimates",
+    "tickets:invoice_for_ticket" => "Ticket #:1 - :2",
+    "tickets:link_to_ticket" => "Link to Ticket: :1",
     # Edn v4.8.19 changes
 
 );
