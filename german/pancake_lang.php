@@ -1310,5 +1310,6 @@ Die Fehlermeldung war:
   'invoices:estimates_archived' => 'Archivierte Schätzungen',
   'estimates:estimates_unsent' => 'Nicht gesendete Schätzungen',
   'tickets:link_to_ticket' => 'Link zum Ticket: :1',
+  'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
 );
 /** End of file: pancake_lang.php **/
