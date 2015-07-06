@@ -1313,5 +1313,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'tasks:task_notes' => 'Taaknotities ',
   'global:server_default' => 'Server Standaardwaarden (niet aanbevolen)',
   'estimates:estimates_unsent' => 'Niet-verzonden ramingen',
+  'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
 );
 /** End of file: pancake_lang.php **/
