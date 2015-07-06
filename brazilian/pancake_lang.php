@@ -1302,5 +1302,6 @@ A mensagem de erro foi:
   'kitchen:x_responses' => ':1 Respostas',
   'estimates:estimates_unsent' => 'Estimativas Não Enviadas',
   'tickets:invoice_for_ticket' => 'Ticket #:1 - :2',
+  'tickets:link_to_ticket' => 'Link para o Ticket: :1',
 );
 /** End of file: pancake_lang.php **/
