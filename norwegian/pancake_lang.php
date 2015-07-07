@@ -7,8 +7,8 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1298,5 +1298,6 @@ $lang = array (
   'estimates:estimates_unsent' => 'Usendte Beregninger',
   'tickets:invoice_for_ticket' => 'Billett #:1 - :2',
   'tickets:link_to_ticket' => 'Lenke til Billett: :1',
+  'dashboard:outstanding_invoices' => 'Utestående fakturaer',
 );
 /** End of file: pancake_lang.php **/
