@@ -1161,7 +1161,6 @@ $lang = array (
   'times.create.succeeded' => 'Le temps a été ajouté !',
   'times.edit.succeeded' => 'Le temps a été modifié avec succès !',
   'global:estimates_unsent' => 'Non envoyé',
-  'invoices:estimates_unsent' => 'Soumissions non envoyées',
   'error:not_enough_disk_space' => 'Espace disque insuffisant',
   'error:cant_send_email' => 'Impossible d\'envoyer un courriel',
   'error:not_enough_disk_space_explanation' => 'Votre serveur de base de données (:1) ne possède pas d\'espace disque suffisant.',
@@ -1298,7 +1297,7 @@ $lang = array (
   'invoices:archived' => 'Vous avez archivé la facture #:1 avec succès.',
   'proposals:list_accepted' => 'Propositions acceptées',
   'invoices:willreoccurin' => 'Cette facture se reproduira au  :1.',
-  'estimates:estimates_unsent' => 'Les estimations non envoyées',
+  'estimates:estimates_unsent' => 'Soumissions non envoyées',
   'tickets:invoice_for_ticket' => 'Ticket # :1 - :2',
   'tickets:link_to_ticket' => 'Lien vers le ticket : :1',
 );

@@ -10,7 +10,7 @@
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
- * @author      Jan Castermans 
+ * @author      Jan Castermans
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author      davidh071 - https://github.com/davidh071
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -1163,7 +1163,6 @@ $lang = array (
   'times.create.succeeded' => 'De tijd is succesvol ingevuld!',
   'times.edit.succeeded' => 'De tijd is succesvol bijgewerkt!',
   'global:estimates_unsent' => 'Onverstuurd',
-  'invoices:estimates_unsent' => 'Onverstuurde Offertes',
   'error:not_enough_disk_space' => 'Niet genoeg schijfruimte',
   'error:cant_send_email' => 'Kan email niet versturen',
   'error:not_enough_disk_space_explanation' => 'Uw database server (:1) heeft niet genoeg schijfruimte.',
@@ -1291,7 +1290,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'error:scan_pancake_explanation' => 'Soms kunnen er problemen voorkomen vanwege een mislukte update, of omdat er problemen ontstaan door permissie. Deze kan er voor zorgen dat uw Pancake bestanden corrupt raken tijdens een update.
 
  Gebruik dit om Pancake to controleren op dergelijke problemen.',
-  'error:scan_result_failure_how_to_fix' => 'Om deze problemen op te lossen, moet u handmatig  uw Pancake bestanden updaten. 
+  'error:scan_result_failure_how_to_fix' => 'Om deze problemen op te lossen, moet u handmatig  uw Pancake bestanden updaten.
 ',
   'proposals:archived' => 'U heeft voorstel 1 [proposal #:1] succesvol gearchiveerd.
 ',
@@ -1312,7 +1311,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'tickets:user_updated_ticket' => ':1 ticketstatus geüpdatet naar :2 op:3',
   'tasks:task_notes' => 'Taaknotities ',
   'global:server_default' => 'Server Standaardwaarden (niet aanbevolen)',
-  'estimates:estimates_unsent' => 'Niet-verzonden ramingen',
+    'estimates:estimates_unsent' => 'Onverstuurde Offertes',
   'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
   'tickets:link_to_ticket' => 'Link naar Ticket: :1',
 );

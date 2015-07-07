@@ -1159,7 +1159,6 @@ $lang = array (
   'times.create.succeeded' => 'The time has been entered successfully!',
   'times.edit.succeeded' => 'The time has been edited successfully!',
   'global:estimates_unsent' => 'Unsent',
-  'invoices:estimates_unsent' => 'Unsent Estimates',
   'error:not_enough_disk_space' => 'Not Enough Disk Space',
   'error:cant_send_email' => 'Can\'t Send Email',
   'error:not_enough_disk_space_explanation' => 'Your database server (:1) does not have enough disk space.',
