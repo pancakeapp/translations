@@ -7,8 +7,8 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      ahouin - https://github.com/ahouin
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI - http://aitali.co
@@ -1300,5 +1300,6 @@ $lang = array (
   'estimates:estimates_unsent' => 'Soumissions non envoyées',
   'tickets:invoice_for_ticket' => 'Ticket # :1 - :2',
   'tickets:link_to_ticket' => 'Lien vers le ticket : :1',
+  'dashboard:outstanding_invoices' => 'Factures impayées',
 );
 /** End of file: pancake_lang.php **/

@@ -7,10 +7,10 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
- * @author      Jan Castermans
+ * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author      davidh071 - https://github.com/davidh071
  * @copyright   Copyright (c) 2015, Pancake Payments
@@ -1311,8 +1311,9 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'tickets:user_updated_ticket' => ':1 ticketstatus geüpdatet naar :2 op:3',
   'tasks:task_notes' => 'Taaknotities ',
   'global:server_default' => 'Server Standaardwaarden (niet aanbevolen)',
-    'estimates:estimates_unsent' => 'Onverstuurde Offertes',
+  'estimates:estimates_unsent' => 'Onverstuurde Offertes',
   'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
   'tickets:link_to_ticket' => 'Link naar Ticket: :1',
+  'dashboard:outstanding_invoices' => 'Openstaande facturen',
 );
 /** End of file: pancake_lang.php **/

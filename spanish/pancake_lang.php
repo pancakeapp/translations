@@ -7,8 +7,8 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1298,5 +1298,6 @@ $lang = array (
   'estimates:estimates_unsent' => 'Estimaciones no enviadas',
   'tickets:link_to_ticket' => 'Enlace al boleto: :1',
   'tickets:invoice_for_ticket' => 'Boleto #:1 - :2',
+  'dashboard:outstanding_invoices' => 'Facturas Pendientes',
 );
 /** End of file: pancake_lang.php **/
