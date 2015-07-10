@@ -1358,7 +1358,6 @@ $lang = array(
     # Begin v4.6.9 changes
     'dashboard:upcoming_invoices' => 'Upcoming Invoices',
     'dashboard:there_are_no_upcoming_invoices' => "There are no upcoming invoices to display.",
-    "dashboard:view_all_upcoming_invoices" => "View All Upcoming Invoices",
     # End v4.6.9 changes
 
     # Begin v4.7.0 changes
@@ -1616,6 +1615,7 @@ $lang = array(
     "tickets:invoice_for_ticket" => "Ticket #:1 - :2",
     "tickets:link_to_ticket" => "Link to Ticket: :1",
     "dashboard:outstanding_invoices" => 'Outstanding Invoices',
+	"dashboard:view_all_outstanding_invoices" => "View All Outstanding Invoices",
     # Edn v4.8.19 changes
 
 );
