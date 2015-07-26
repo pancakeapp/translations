@@ -1101,7 +1101,6 @@ $lang = array (
   'expenses:no_project_business_expense' => 'Gastos del negocio (No del proyecto)',
   'clients:tax_numbers' => 'Número de identificación fiscal de los clientes / documentos de identidad',
   'dashboard:there_are_no_upcoming_invoices' => 'No hay nuevas facturas para mostrar.',
-  'dashboard:view_all_upcoming_invoices' => 'Ver todas las facturas pendientes',
   'error:subtitle' => 'Se ha producido un error desconocido.',
   'error:title' => 'Error desconocido',
   'error:already_reported' => 'Este error ya se ha reportado al soporte de Pancake.',
@@ -1299,6 +1298,6 @@ $lang = array (
   'tickets:link_to_ticket' => 'Enlace al boleto: :1',
   'tickets:invoice_for_ticket' => 'Boleto #:1 - :2',
   'dashboard:outstanding_invoices' => 'Facturas Pendientes',
-  'dashboard:view_all_outstanding_invoices' => 'Ver Todos los Mensajes de Voz Destacados.',
+  'dashboard:view_all_outstanding_invoices' => 'Ver todas las facturas pendientes',
 );
 /** End of file: pancake_lang.php **/

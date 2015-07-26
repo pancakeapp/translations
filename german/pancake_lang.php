@@ -1105,7 +1105,6 @@ Die Seite wird neu geladen sobald die Aktualisierung abgeschlossen ist.',
   'reports:amount_paid' => 'Gezahlter Betrag',
   'dashboard:upcoming_invoices' => 'Anstehende Rechnungen',
   'dashboard:there_are_no_upcoming_invoices' => 'Es gibt anstehende Rechnungen anzuzeigen.',
-  'dashboard:view_all_upcoming_invoices' => 'Alle anstehenden Rechnungen ansehen',
   'invoices:partially_paid' => 'Teilweise',
   'error:cannot_send_error_details' => 'Sie können keine Fehlerdetails an den Pancake Support schicken, da Sie nicht eingeloggt sind.',
   'error:unknown_error_reporting' => 'Ein unbekannter Fehler ist aufgetreten. Bitte melden Sie diesen Fehler manuell.',
@@ -1310,7 +1309,7 @@ Die Fehlermeldung war:
   'estimates:estimates_unsent' => 'Nicht gesendete Voranschläge',
   'tickets:link_to_ticket' => 'Link zum Ticket: :1',
   'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
-  'dashboard:outstanding_invoices' => 'Die ausstehenden Abrechnungen',
+  'dashboard:outstanding_invoices' => 'Die ausstehenden Rechnungen',
   'dashboard:view_all_outstanding_invoices' => 'Alle ausstehende Rechnungen ansehen',
 );
 /** End of file: pancake_lang.php **/

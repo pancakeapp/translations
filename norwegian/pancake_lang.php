@@ -1087,7 +1087,6 @@ $lang = array (
   'reports:amount_paid' => 'Payment Amount',
   'dashboard:upcoming_invoices' => 'Kommende Fakturaer',
   'dashboard:there_are_no_upcoming_invoices' => 'Det er ikke noen kommende fakturaer å vise deg nå.',
-  'dashboard:view_all_upcoming_invoices' => 'Se alle kommende fakturaer',
   'error:cannot_send_error_details' => 'You cannot send error details to Pancake Support because you are not logged in.',
   'error:unknown_error_reporting' => 'An unknown error occurred. Please report this error manually.',
   'error:sending_details' => 'Sending details...',

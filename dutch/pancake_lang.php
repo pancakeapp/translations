@@ -1091,7 +1091,6 @@ $lang = array (
   'reports:amount_paid' => 'Betaald Bedrag',
   'dashboard:upcoming_invoices' => 'Opkomende Facturen',
   'dashboard:there_are_no_upcoming_invoices' => 'Er zijn geen opkomende facturen om te tonen.',
-  'dashboard:view_all_upcoming_invoices' => 'Bekijk Alle Opkomende Facturen',
   'error:cannot_send_error_details' => 'U kan geen foutmelding details sturen naar Pancake Support omdat u niet bent ingelogd.',
   'error:unknown_error_reporting' => 'Er heeft een onbekende foutmelding plaats gevonden. Rapporteer dit alstublieft handmatig.',
   'error:sending_details' => 'Bezig met het versturen van de details...',

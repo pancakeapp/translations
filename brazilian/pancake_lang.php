@@ -1104,7 +1104,6 @@ $lang = array (
   'error:title' => 'Erro Desconhecido',
   'invoices:bulk_payment_added' => 'Os pagamentos foram adicionados com sucesso.',
   'reports:verb_created' => 'Criado',
-  'dashboard:view_all_upcoming_invoices' => 'Ver Todas as Próximas Faturas',
   'error:not_logged_in_intro' => 'Esses erros são registrados automaticamente.',
   'error:unknown_error_reporting' => 'Ocorreu um erro desconhecido. Por favor, reporte este erro manualmente.',
   'error:no_logged_errors' => 'Você não tem erros registrados.',

@@ -1090,7 +1090,6 @@ $lang = array (
   'reports:amount_paid' => 'Montant du paiement',
   'dashboard:upcoming_invoices' => 'Facture(s) échue(s)',
   'dashboard:there_are_no_upcoming_invoices' => 'Aucune facture à échéance à afficher.',
-  'dashboard:view_all_upcoming_invoices' => 'Voir toutes les factures à échéance',
   'error:cannot_send_error_details' => 'Vous ne pouvez pas envoyer le détails des erreurs au support de Pancake parce que vous n\'êtes pas connecté.',
   'error:unknown_error_reporting' => 'Une erreur est survenue, veuillez soumettre cette erreur manuellement.',
   'error:sending_details' => 'Envoie des détails en cours...',
@@ -1300,7 +1299,7 @@ $lang = array (
   'estimates:estimates_unsent' => 'Soumissions non envoyées',
   'tickets:invoice_for_ticket' => 'Ticket # :1 - :2',
   'tickets:link_to_ticket' => 'Lien vers le ticket : :1',
-  'dashboard:outstanding_invoices' => 'Factures impayées',
+  'dashboard:outstanding_invoices' => 'Factures non payées',
   'dashboard:view_all_outstanding_invoices' => 'Voir toutes les factures non payées',
 );
 /** End of file: pancake_lang.php **/
