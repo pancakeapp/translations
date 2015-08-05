@@ -1300,5 +1300,6 @@ $lang = array (
   'dashboard:outstanding_invoices' => 'Utestående fakturaer',
   'dashboard:view_all_outstanding_invoices' => 'Se alle utestående fakturaer',
   'expenses:missing_supplier' => 'Du har ikke valgt en leverandør.',
+  'expenses:missing_category' => 'Du har ikke valgt en kategori.',
 );
 /** End of file: pancake_lang.php **/
