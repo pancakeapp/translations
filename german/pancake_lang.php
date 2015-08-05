@@ -7,15 +7,15 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Florian Simeth 
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.19
+ * @since       Version 4.8.23
  */
 
 // ------------------------------------------------------------------------
@@ -1311,5 +1311,6 @@ Die Fehlermeldung war:
   'tickets:invoice_for_ticket' => 'Ticket # :1  - :2',
   'dashboard:outstanding_invoices' => 'Die ausstehenden Rechnungen',
   'dashboard:view_all_outstanding_invoices' => 'Alle ausstehende Rechnungen ansehen',
+  'expenses:missing_supplier' => 'Sie haben keinen Anbieter gewählt.',
 );
 /** End of file: pancake_lang.php **/
