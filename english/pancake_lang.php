@@ -1616,7 +1616,12 @@ $lang = array(
     "tickets:link_to_ticket" => "Link to Ticket: :1",
     "dashboard:outstanding_invoices" => 'Outstanding Invoices',
 	"dashboard:view_all_outstanding_invoices" => "View All Outstanding Invoices",
-    # Edn v4.8.19 changes
+    # End v4.8.19 changes
+
+	# Begin v4.8.24 changes
+	"expenses:missing_supplier" => "You didn't select a supplier.",
+	"expenses:missing_category" => "You didn't select a category.",
+	# End v4.8.24 changes
 
 );
 
