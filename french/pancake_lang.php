@@ -7,15 +7,15 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      ahouin - https://github.com/ahouin
  * @author      Damien Dupré - https://github.com/damiendd
- * @author      Anas AIT ALI - http://aitali.co
+ * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.19
+ * @since       Version 4.8.23
  */
 
 // ------------------------------------------------------------------------
@@ -1301,5 +1301,7 @@ $lang = array (
   'tickets:link_to_ticket' => 'Lien vers le ticket : :1',
   'dashboard:outstanding_invoices' => 'Factures non payées',
   'dashboard:view_all_outstanding_invoices' => 'Voir toutes les factures non payées',
+  'expenses:missing_category' => 'Vous n\'avez pas sélectionné de catégorie.',
+  'expenses:missing_supplier' => 'Vous n\'avez pas sélectionné de fournisseur.',
 );
 /** End of file: pancake_lang.php **/

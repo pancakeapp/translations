@@ -7,13 +7,13 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.19
+ * @since       Version 4.8.23
  */
 
 // ------------------------------------------------------------------------
@@ -1303,5 +1303,7 @@ A mensagem de erro foi:
   'tickets:link_to_ticket' => 'Link para o Ticket: :1',
   'dashboard:outstanding_invoices' => 'Faturas pendentes',
   'dashboard:view_all_outstanding_invoices' => 'Ver todas as faturas pendentes',
+  'expenses:missing_category' => 'Você não selecionou uma categoria.',
+  'expenses:missing_supplier' => 'Você não selecionou um fornecedor.',
 );
 /** End of file: pancake_lang.php **/
