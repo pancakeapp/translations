@@ -7,8 +7,8 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Florian Simeth 
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
@@ -1312,5 +1312,6 @@ Die Fehlermeldung war:
   'dashboard:outstanding_invoices' => 'Die ausstehenden Rechnungen',
   'dashboard:view_all_outstanding_invoices' => 'Alle ausstehende Rechnungen ansehen',
   'expenses:missing_supplier' => 'Sie haben keinen Anbieter gewählt.',
+  'expenses:missing_category' => 'Sie haben keine Kategorie ausgewählt.',
 );
 /** End of file: pancake_lang.php **/
