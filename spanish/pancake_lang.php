@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.19
+ * @since       Version 4.8.23
  */
 
 // ------------------------------------------------------------------------
@@ -1299,5 +1299,6 @@ $lang = array (
   'tickets:invoice_for_ticket' => 'Boleto #:1 - :2',
   'dashboard:outstanding_invoices' => 'Facturas Pendientes',
   'dashboard:view_all_outstanding_invoices' => 'Ver todas las facturas pendientes',
+  'expenses:missing_category' => 'No seleccionó una categoría.',
 );
 /** End of file: pancake_lang.php **/
