@@ -1300,5 +1300,6 @@ $lang = array (
   'dashboard:outstanding_invoices' => 'Facturas Pendientes',
   'dashboard:view_all_outstanding_invoices' => 'Ver todas las facturas pendientes',
   'expenses:missing_category' => 'No seleccionó una categoría.',
+  'expenses:missing_supplier' => 'Usted no ha seleccionado un proveedor.',
 );
 /** End of file: pancake_lang.php **/
