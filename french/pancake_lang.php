@@ -1302,5 +1302,6 @@ $lang = array (
   'dashboard:outstanding_invoices' => 'Factures non payées',
   'dashboard:view_all_outstanding_invoices' => 'Voir toutes les factures non payées',
   'expenses:missing_category' => 'Vous n\'avez pas sélectionné de catégorie.',
+  'expenses:missing_supplier' => 'Vous n\'avez pas sélectionné de fournisseur.',
 );
 /** End of file: pancake_lang.php **/
