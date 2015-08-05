@@ -1304,5 +1304,6 @@ A mensagem de erro foi:
   'dashboard:outstanding_invoices' => 'Faturas pendentes',
   'dashboard:view_all_outstanding_invoices' => 'Ver todas as faturas pendentes',
   'expenses:missing_category' => 'Você não selecionou uma categoria.',
+  'expenses:missing_supplier' => 'Você não selecionou um fornecedor.',
 );
 /** End of file: pancake_lang.php **/
