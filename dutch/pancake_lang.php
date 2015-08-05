@@ -7,8 +7,8 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.19
+ * @since       Version 4.8.23
  */
 
 // ------------------------------------------------------------------------
@@ -1315,5 +1315,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'tickets:link_to_ticket' => 'Link naar Ticket: :1',
   'dashboard:outstanding_invoices' => 'Openstaande facturen',
   'dashboard:view_all_outstanding_invoices' => 'Bekijk alle openstaande facturen',
+  'expenses:missing_category' => 'U heeft geen categorie geselecteerd.',
 );
 /** End of file: pancake_lang.php **/
