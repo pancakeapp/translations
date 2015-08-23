@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.23
+ * @since       Version 4.8.28
  */
 
 // ------------------------------------------------------------------------
@@ -1313,5 +1313,6 @@ Die Fehlermeldung war:
   'dashboard:view_all_outstanding_invoices' => 'Alle ausstehende Rechnungen ansehen',
   'expenses:missing_supplier' => 'Sie haben keinen Anbieter gewählt.',
   'expenses:missing_category' => 'Sie haben keine Kategorie ausgewählt.',
+  'error:update_system_cannot_update_file' => 'Pancake war nicht imstande, während der Aktualisierung eine oder mehrere Dateien zu modifizieren.',
 );
 /** End of file: pancake_lang.php **/
