@@ -1303,5 +1303,6 @@ $lang = array (
   'expenses:missing_supplier' => 'Usted no ha seleccionado un proveedor.',
   'error:update_system' => 'Error de actualización',
   'error:update_system_cannot_update_file' => 'Pancake fue incapaz de modificar uno o más de sus archivos durante la actualización.',
+  'error:update_system_cannot_update' => 'Pancake fue incapaz de descargar la actualización correctamente.',
 );
 /** End of file: pancake_lang.php **/
