@@ -1306,5 +1306,6 @@ A mensagem de erro foi:
   'expenses:missing_category' => 'Você não selecionou uma categoria.',
   'expenses:missing_supplier' => 'Você não selecionou um fornecedor.',
   'error:update_system' => 'Erro de atualização',
+  'error:update_system_cannot_update_file' => 'Pancake não foi capaz de modificar um ou mais de seus arquivos durante a atualização.',
 );
 /** End of file: pancake_lang.php **/
