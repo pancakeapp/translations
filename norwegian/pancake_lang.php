@@ -1303,5 +1303,6 @@ $lang = array (
   'expenses:missing_category' => 'Du har ikke valgt en kategori.',
   'error:update_system' => 'Oppdateringsfeil',
   'error:update_system_cannot_update_file' => 'Pancake kunne ikke modifisere én eller flere av filene sine under oppdateringen.',
+  'error:update_system_cannot_update' => 'Pancake klarte ikke å laste ned oppdateringen riktig.',
 );
 /** End of file: pancake_lang.php **/
