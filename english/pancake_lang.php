@@ -1623,6 +1623,15 @@ $lang = array(
 	"expenses:missing_category" => "You didn't select a category.",
 	# End v4.8.24 changes
 
+
+	# Begin v4.8.29 changes
+	"error:update_system" => "Update Error",
+	"error:update_system_cannot_update_file" => "Pancake was unable to modify one or more of its files during the update.",
+	"error:update_system_cannot_update" => "Pancake was unable to download the update correctly.",
+	"error:update_system_solutions" => "The update was unable to complete, and your Pancake may now be in a partially-updated state, which will cause you errors. You will need to manually update your Pancake's files to resolve the problem. <br /><br /> :1 <br /><br /> These errors can occur because of a problem with file permissions. If Pancake does not have write-access to all of its files, it is unable to update itself correctly. In most servers, this is handled automatically, but a very small number of servers might require manual intervention. You can <a href='https://www.pancakeapp.com/account/support/ticket/new'>start a free Pancake Support Ticket</a> if you need help figuring out what's wrong.",
+
+	# End v4.8.29 changes
+
 );
 
 /** End of file: pancake_lang.php **/
