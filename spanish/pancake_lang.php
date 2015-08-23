@@ -7,13 +7,13 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.23
+ * @since       Version 4.8.28
  */
 
 // ------------------------------------------------------------------------
@@ -1301,5 +1301,6 @@ $lang = array (
   'dashboard:view_all_outstanding_invoices' => 'Ver todas las facturas pendientes',
   'expenses:missing_category' => 'No seleccionó una categoría.',
   'expenses:missing_supplier' => 'Usted no ha seleccionado un proveedor.',
+  'error:update_system' => 'Error de actualización',
 );
 /** End of file: pancake_lang.php **/
