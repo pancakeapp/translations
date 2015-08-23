@@ -1308,5 +1308,6 @@ A mensagem de erro foi:
   'error:update_system' => 'Erro de atualização',
   'error:update_system_cannot_update_file' => 'Pancake não foi capaz de modificar um ou mais de seus arquivos durante a atualização.',
   'error:update_system_cannot_update' => 'Pancake não foi capaz de baixar a atualização corretamente.',
+  'error:update_system_solutions' => 'A atualização não pôde ser concluída, e seu Pancake pode estar em um estado parcialmente atualizado, o que pode lhe causar erros. Você precisará atualizar manualmente seus arquivos Pancake para resolver o problema. <br/><br/> :1 <br/><br/> Esses erros podem ocorrer devido a um problema com permissões de arquivo. Se Pancake não tem acesso de registro ou atualização para todos os seus arquivos, ele é incapaz de se atualizar corretamente. Na maioria dos servidores, isso é feito automaticamente, mas um número muito pequeno de servidores podem requerer intervenção manual. Você pode <a href="https://www.pancakeapp.com/account/support/ticket/new">iniciar um Ticket de Suporte do Pancake gratuito</a> se precisa de ajuda para descobrir o que está errado.',
 );
 /** End of file: pancake_lang.php **/
