@@ -1318,5 +1318,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'expenses:missing_category' => 'U heeft geen categorie geselecteerd.',
   'expenses:missing_supplier' => 'U heeft geen leverancier geselecteerd.',
   'error:update_system_cannot_update_file' => 'Pancake kon een of meer van de bestanden niet wijzigen tijdens de update.',
+  'error:update_system_cannot_update' => 'Pancake was niet in staat om de update correct te downloaden.',
 );
 /** End of file: pancake_lang.php **/
