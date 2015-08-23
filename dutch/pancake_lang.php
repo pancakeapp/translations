@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.26
+ * @since       Version 4.8.28
  */
 
 // ------------------------------------------------------------------------
@@ -1317,5 +1317,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'dashboard:view_all_outstanding_invoices' => 'Bekijk alle openstaande facturen',
   'expenses:missing_category' => 'U heeft geen categorie geselecteerd.',
   'expenses:missing_supplier' => 'U heeft geen leverancier geselecteerd.',
+  'error:update_system_cannot_update_file' => 'Pancake kon een of meer van de bestanden niet wijzigen tijdens de update.',
 );
 /** End of file: pancake_lang.php **/
