@@ -1319,5 +1319,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'expenses:missing_supplier' => 'U heeft geen leverancier geselecteerd.',
   'error:update_system_cannot_update_file' => 'Pancake kon een of meer van de bestanden niet wijzigen tijdens de update.',
   'error:update_system_cannot_update' => 'Pancake was niet in staat om de update correct te downloaden.',
+  'error:update_system_solutions' => 'De update was niet in staat om af te ronden en uw Pancake zou zich nu in een gedeeltelijk afgeronde staat kunnen bevinden, hetgeen fouten kan veroorzaken. U zult uw Pancake bestanden handmatig moeten updaten om het probleem op te kunnen lossen. <br/><br/> :1 <br/><br/> Deze fouten kunnen optreden als gevolg van een probleem met de bestand-vergunningen. Als Pancake niet over schriftelijk vastgelegde toegangen voor al zijn bestanden beschikt, is het niet in staat om op de juiste manier te functioneren. Bij de meeste servers wordt dit automatisch opgelost, maar bij een zeer gering aantal servers zou handmatige interventie nodig kunnen zijn. Je kan <a href="https://www.pancakeapp.com/account/support/ticket/new">Schakel een gratis Pancake Ondersteuning kaart in</a> als u hulp nodig hebt om uit te zoeken wat er aan de hand is.',
 );
 /** End of file: pancake_lang.php **/
