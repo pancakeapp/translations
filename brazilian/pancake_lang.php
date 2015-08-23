@@ -1307,5 +1307,6 @@ A mensagem de erro foi:
   'expenses:missing_supplier' => 'Você não selecionou um fornecedor.',
   'error:update_system' => 'Erro de atualização',
   'error:update_system_cannot_update_file' => 'Pancake não foi capaz de modificar um ou mais de seus arquivos durante a atualização.',
+  'error:update_system_cannot_update' => 'Pancake não foi capaz de baixar a atualização corretamente.',
 );
 /** End of file: pancake_lang.php **/
