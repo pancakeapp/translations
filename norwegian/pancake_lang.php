@@ -7,13 +7,13 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.23
+ * @since       Version 4.8.28
  */
 
 // ------------------------------------------------------------------------
@@ -1301,5 +1301,6 @@ $lang = array (
   'dashboard:view_all_outstanding_invoices' => 'Se alle utestående fakturaer',
   'expenses:missing_supplier' => 'Du har ikke valgt en leverandør.',
   'expenses:missing_category' => 'Du har ikke valgt en kategori.',
+  'error:update_system' => 'Oppdateringsfeil',
 );
 /** End of file: pancake_lang.php **/
