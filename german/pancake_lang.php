@@ -1314,5 +1314,6 @@ Die Fehlermeldung war:
   'expenses:missing_supplier' => 'Sie haben keinen Anbieter gewählt.',
   'expenses:missing_category' => 'Sie haben keine Kategorie ausgewählt.',
   'error:update_system_cannot_update_file' => 'Pancake war nicht imstande, während der Aktualisierung eine oder mehrere Dateien zu modifizieren.',
+  'error:update_system' => 'Updatefehler',
 );
 /** End of file: pancake_lang.php **/
