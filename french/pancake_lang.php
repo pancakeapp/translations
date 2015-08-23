@@ -1306,5 +1306,6 @@ $lang = array (
   'error:update_system' => 'Erreur lors de la mise à jour',
   'error:update_system_solutions' => 'La mise à jour n\'a pas été terminée et votre Pancake pourrait n\'être maintenant que partiellement à jour, ce qui risque de provoquer des erreurs. Vous allez devoir mettre à jour manuellement les fichiers de Pancake afin de résoudre ce problème. <br/><br/> :1 <br/><br/> Ces erreurs peuvent être dues à un problème de permissions de fichiers. Si Pancake n\'a pas accès en écriture à tous ses fichiers, il ne peut pas se mettre à jour correctement. Sur la plupart des serveurs, cela est géré automatiquement, mais un très petit nombre de serveurs pourrait nécessiter une intervention manuelle. Vous pouvez <a href="https://www.pancakeapp.com/account/support/ticket/new">ouvrir gratuitement un ticket d\'assistance auprès de Pancake</a> si vous avez besoin d\'aide pour déterminer l\'origine du problème.',
   'error:update_system_cannot_update_file' => 'Pancake n\'a pu modifier un ou plusieurs de ses fichiers lors de la mise à jour.',
+  'error:update_system_cannot_update' => 'Pancake n\'a pas pu télécharger la mise à jour correctement.',
 );
 /** End of file: pancake_lang.php **/
