@@ -1304,5 +1304,6 @@ $lang = array (
   'error:update_system' => 'Error de actualización',
   'error:update_system_cannot_update_file' => 'Pancake fue incapaz de modificar uno o más de sus archivos durante la actualización.',
   'error:update_system_cannot_update' => 'Pancake fue incapaz de descargar la actualización correctamente.',
+  'error:update_system_solutions' => 'La actualización no se pudo completar, y su Pancake puede estar ahora en un estado parcialmente actualizado, lo que le causará errores. Tendrá que actualizar manualmente los archivos de su Pancake para resolver el problema. <br/><br/> :1 <br/><br/> Estos errores pueden ocurrir debido a un problema con los permisos de los archivos. Si Pancake no tiene acceso de escritura a todos sus archivos, es incapaz de actualizarse a sí mismo correctamente. En la mayoría de los servidores, esto se gestiona de forma automática, pero un pequeño número de servidores podría requerir intervención manual. Puede <a href="https://www.pancakeapp.com/account/support/ticket/new">iniciar un Ticket de ayuda de Pancake</a> si necesita ayuda averiguando lo que está mal.',
 );
 /** End of file: pancake_lang.php **/
