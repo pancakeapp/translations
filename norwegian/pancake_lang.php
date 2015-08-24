@@ -1304,5 +1304,6 @@ $lang = array (
   'error:update_system' => 'Oppdateringsfeil',
   'error:update_system_cannot_update_file' => 'Pancake kunne ikke modifisere én eller flere av filene sine under oppdateringen.',
   'error:update_system_cannot_update' => 'Pancake klarte ikke å laste ned oppdateringen riktig.',
+  'error:update_system_solutions' => 'Kunne ikke fullføre oppdateringen, og din Pancake kan nå være i en delvis oppdatert tilstand, noe som vil føre til at du opplever feil. Du må manuelt oppdatere Pancakes filer for å løse problemet. <br/><br/> :1 <br/><br/> Disse feilene kan oppstå på grunn av et problem med filrettigheter. Om Pancake ikke har skrivetilgang til alle sine filer, klarer den ikke å oppdatere seg selv riktig. På de fleste servere håndteres dette automatisk, men et svært lite antall servere kan kreve manuell inngripen. Du kan <a href="https://www.pancakeapp.com/account/support/ticket/new">starte en gratis Pancake Support Ticket</a> hvis du trenger hjelp til å finne ut hva som er galt.',
 );
 /** End of file: pancake_lang.php **/
