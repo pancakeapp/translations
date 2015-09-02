@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.28
+ * @since       Version 4.8.30
  */
 
 // ------------------------------------------------------------------------
@@ -1308,5 +1308,6 @@ $lang = array (
   'error:update_system_cannot_update_file' => 'Pancake n\'a pu modifier un ou plusieurs de ses fichiers lors de la mise à jour.',
   'error:update_system_cannot_update' => 'Pancake n\'a pas pu télécharger la mise à jour correctement.',
   'error:update_without_ftp' => 'Si vous n\'avez pas d\'accès  FTP (ou ne voulez pas utiliser FTP), mais avec un accès SSH à votre Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">cliquez ici</a> pour apprendre comment mettre à jour sans FTP.',
+  'proposals:missing_client' => 'Vous n\'avez pas sélectionné un client.',
 );
 /** End of file: pancake_lang.php **/
