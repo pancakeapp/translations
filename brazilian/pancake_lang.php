@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.28
+ * @since       Version 4.8.29
  */
 
 // ------------------------------------------------------------------------
@@ -1310,5 +1310,6 @@ A mensagem de erro foi:
   'error:update_system_cannot_update' => 'Pancake não foi capaz de baixar a atualização corretamente.',
   'error:update_system_solutions' => 'A atualização não pôde ser concluída, e seu Pancake pode estar em um estado parcialmente atualizado, o que pode lhe causar erros. Você precisará atualizar manualmente seus arquivos Pancake para resolver o problema. <br/><br/> :1 <br/><br/> Esses erros podem ocorrer devido a um problema com permissões de arquivo. Se Pancake não tem acesso de registro ou atualização para todos os seus arquivos, ele é incapaz de se atualizar corretamente. Na maioria dos servidores, isso é feito automaticamente, mas um número muito pequeno de servidores podem requerer intervenção manual. Você pode <a href="https://www.pancakeapp.com/account/support/ticket/new">iniciar um Ticket de Suporte do Pancake gratuito</a> se precisa de ajuda para descobrir o que está errado.',
   'error:update_without_ftp' => 'Se você não tem acesso FTP (ou não quer usar o FTP), mas tem acesso SSH ao seu Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">Clique aqui</a> para aprender a atualizar sem o uso de FTP.',
+  'proposals:missing_client' => 'Você não selecionou um cliente.',
 );
 /** End of file: pancake_lang.php **/
