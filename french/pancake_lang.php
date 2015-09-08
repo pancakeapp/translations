@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.30
+ * @since       Version 4.8.36
  */
 
 // ------------------------------------------------------------------------
@@ -1304,7 +1304,7 @@ $lang = array (
   'expenses:missing_category' => 'Vous n\'avez pas sélectionné de catégorie.',
   'expenses:missing_supplier' => 'Vous n\'avez pas sélectionné de fournisseur.',
   'error:update_system' => 'Erreur lors de la mise à jour',
-  'error:update_system_solutions' => 'La mise à jour n\'a pas été terminée et votre Pancake pourrait n\'être maintenant que partiellement à jour, ce qui risque de provoquer des erreurs. Vous allez devoir mettre à jour manuellement les fichiers de Pancake afin de résoudre ce problème. <br/><br/> :1 <br/><br/> Ces erreurs peuvent être dues à un problème de permissions de fichiers. Si Pancake n\'a pas accès en écriture à tous ses fichiers, il ne peut pas se mettre à jour correctement. Sur la plupart des serveurs, cela est géré automatiquement, mais un très petit nombre de serveurs pourrait nécessiter une intervention manuelle. Vous pouvez <a href="https://www.pancakeapp.com/account/support/ticket/new">ouvrir gratuitement un ticket d\'assistance auprès de Pancake</a> si vous avez besoin d\'aide pour déterminer l\'origine du problème.',
+  'error:update_system_solutions' => 'La mise à jour n\'a pas pu se terminer, et il se peut que votre Pancake soit maintenant dans un état de mise à jour partielle, ce qui peut causer des erreurs. Vous aurez besoin de mettre à jour manuellement vos fichiers Pancake pour résoudre le problème. <br/><br/> :1 <br/><br/> Ces erreurs peuvent se produire en raison d\'un problème avec les permissions de fichiers. Si Pancake n\'a pas accès en écriture à tous ses fichiers, il est incapable de se mettre à jour correctement. Dans la plupart des serveurs, cela est géré automatiquement, mais un très petit nombre de serveurs pourrait nécessiter une intervention manuelle.',
   'error:update_system_cannot_update_file' => 'Pancake n\'a pu modifier un ou plusieurs de ses fichiers lors de la mise à jour.',
   'error:update_system_cannot_update' => 'Pancake n\'a pas pu télécharger la mise à jour correctement.',
   'error:update_without_ftp' => 'Si vous n\'avez pas d\'accès  FTP (ou ne voulez pas utiliser FTP), mais avec un accès SSH à votre Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">cliquez ici</a> pour apprendre comment mettre à jour sans FTP.',
