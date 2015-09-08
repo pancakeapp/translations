@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.30
+ * @since       Version 4.8.36
  */
 
 // ------------------------------------------------------------------------
@@ -1319,7 +1319,7 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'expenses:missing_supplier' => 'U heeft geen leverancier geselecteerd.',
   'error:update_system_cannot_update_file' => 'Pancake kon een of meer van de bestanden niet wijzigen tijdens de update.',
   'error:update_system_cannot_update' => 'Pancake was niet in staat om de update correct te downloaden.',
-  'error:update_system_solutions' => 'De update was niet in staat om af te ronden en uw Pancake zou zich nu in een gedeeltelijk afgeronde staat kunnen bevinden, hetgeen fouten kan veroorzaken. U zult uw Pancake bestanden handmatig moeten updaten om het probleem op te kunnen lossen. <br/><br/> :1 <br/><br/> Deze fouten kunnen optreden als gevolg van een probleem met de bestand-vergunningen. Als Pancake niet over schriftelijk vastgelegde toegangen voor al zijn bestanden beschikt, is het niet in staat om op de juiste manier te functioneren. Bij de meeste servers wordt dit automatisch opgelost, maar bij een zeer gering aantal servers zou handmatige interventie nodig kunnen zijn. Je kan <a href="https://www.pancakeapp.com/account/support/ticket/new">Schakel een gratis Pancake Ondersteuning kaart in</a> als u hulp nodig hebt om uit te zoeken wat er aan de hand is.',
+  'error:update_system_solutions' => 'De update was niet in staat om voltooid te worden en uw Pancake kan zich nu in een gedeeltelijk bijgewerkte toestand bevinden, die voor u vergissingen kan veroorzaken. U moet uw Pancake-bestanden handmatig bijwerken om het probleem op te kunnen lossen. <br/><br/> :1 <br/><br/> Deze fouten kunnen optreden als gevolg van een probleem met de bestand vergunningen. Als Pancake geen op schrift vastgelegde toegang tot al zijn bestanden heeft, is het niet in staat om zichzelf op de juiste manier te actualiseren. In de meeste servers, is dit automatisch ingebouwd, maar voor een zeer klein aantal servers kan handmatige interventie nodig zijn.',
   'error:update_system' => 'Fout bij het bijwerken',
   'error:update_without_ftp' => 'Als u geen FTP-toegang heeft (of geen FTP wilt gebruiken), maar wel SSH-toegang heeft tot uw Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">klik dan hier</a> om te zien hoe u kunt updaten zonder FTP.',
   'proposals:missing_client' => 'U heeft geen klant geselecteerd.',
