@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.29
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1246,7 +1246,7 @@ A mensagem de erro foi:
   'global:bcc_was_sent_to' => 'Este e-mail foi enviado para :1 em :2.',
   'tasks:task_notes' => 'Notas de tarefas',
   'error:php_outdated' => 'A versão do PHP que você está usando está desatualizada.',
-  'error:pancake_will_stop_supporting_it' => 'O Pancake vai deixar de prestar suporte a ele em algumas semanas.',
+  'error:pancake_will_stop_supporting_it' => 'A Pancake pode parar de oferecer suporte para ele a qualquer momento.',
   'users:confirm_password' => 'Confirme Senha',
   'global:server_default' => 'Servidor Padrão (Não Recomendado)',
   'error:upgrade_php' => 'Você deve atualizar sua versão do PHP, no mínimo para 5,5 (o ideal é 5,6). Para fazê-lo, por favor, fale com seus administradores de servidor e peça-lhes para atualizar o PHP.',
