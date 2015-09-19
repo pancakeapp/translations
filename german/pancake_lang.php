@@ -1269,7 +1269,7 @@ Die Fehlermeldung war:
   'error:already_being_dealt_with' => 'Dieser Fehler wurde bereits von jemand anderem gemeldet. Aktuell arbeiten wir an einer Fehlerbehebung.',
   'error:php_outdated' => 'Die von Ihnen verwendete PHP-Version ist veraltet.',
   'error:using_php_53' => 'Sie verwenden PHP 5.3, das seit Juli 2013 nicht mehr aktuell ist und nicht mehr von der PHP Group unterstützt wird.',
-  'error:pancake_will_stop_supporting_it' => 'Pancake wird in ein paar Wochen den Support dafür einstellen.',
+  'error:pancake_will_stop_supporting_it' => 'Pancake könnte jederzeit aufhören, dies zu unterstützen.',
   'error:using_php_54' => 'Sie nutzen PHP in der Version 5.4. Diese Version ist seint mehr als 2 Jahren veraltet. Es wird den End-Of-Life Status im September 2015 erreichen. Das bedeutet, dass es ab diesem Zeitpunkt keine Updates von der PHP Group mehr geben wird.',
   'error:why_update' => 'Wenn Sie diese Version von PHP weiter verwenden, erhalten Sie keine Performance- und Sicherheitsupdtes mehr.',
   'error:upgrade_php' => 'Sie sollten Ihre PHP-Version mindestens auf die Verion 5.5 (besser 5.6) aktualisieren. Wie das geht, kann ihnen Ihr Server Administrator mitteilen.',
