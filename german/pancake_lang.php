@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.36
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1268,7 +1268,7 @@ Die Fehlermeldung war:
   'error:no_user_found' => 'Ihr Lizenzschlüssel konnte nicht mit einem bestehenden Benutzer auf pancakeapp verknüpft werden. Aus diesem Grund konnte der Fehler nicht automatisch abgeschick werden. Falls dieser Fehler unerwartet aufgetreten ist, sende eine E-Mail an support@pancakeapp.com (englisch). Wir helfen gerne weiter.',
   'error:already_being_dealt_with' => 'Dieser Fehler wurde bereits von jemand anderem gemeldet. Aktuell arbeiten wir an einer Fehlerbehebung.',
   'error:php_outdated' => 'Die von Ihnen verwendete PHP-Version ist veraltet.',
-  'error:using_php_53' => 'Sie nutzen PHP in der Version 5.3 welche seit mehr als 3 Jahren als veraltet gilt. Es hat den End-Of-Life Status erreicht. Das bedeutet, dass es keine Updates von der PHP Group geben wird.',
+  'error:using_php_53' => 'Sie verwenden PHP 5.3, das seit Juli 2013 nicht mehr aktuell ist und nicht mehr von der PHP Group unterstützt wird.',
   'error:pancake_will_stop_supporting_it' => 'Pancake wird in ein paar Wochen den Support dafür einstellen.',
   'error:using_php_54' => 'Sie nutzen PHP in der Version 5.4. Diese Version ist seint mehr als 2 Jahren veraltet. Es wird den End-Of-Life Status im September 2015 erreichen. Das bedeutet, dass es ab diesem Zeitpunkt keine Updates von der PHP Group mehr geben wird.',
   'error:why_update' => 'Wenn Sie diese Version von PHP weiter verwenden, erhalten Sie keine Performance- und Sicherheitsupdtes mehr.',
