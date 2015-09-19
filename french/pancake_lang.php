@@ -7,15 +7,15 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
+ * @author      ahouin - https://github.com/ahouin
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
- * @author      ahouin - https://github.com/ahouin
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.36
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1257,7 +1257,7 @@ $lang = array (
   'error:no_user_found' => 'Votre licence n\'est pas associée avec aucun utilisateur sur pancakeapp.com donc votre erreur n\'a pu être envoyé. Envoyez un courriel à support@pancakeapp.com si vous éprouvez des problèmes.',
   'error:already_being_dealt_with' => 'Ce problème a déjà été reporté par quelqu\'un. Nous travaillons à résoudre ce problème le plus rapidement possible.',
   'error:php_outdated' => 'La version de PHP que vous utilisez est périmée.',
-  'error:using_php_53' => 'Vous utilisez la version 5.3 de PHP qui n\'est plus supporté depuis plus de 3 ans.',
+  'error:using_php_53' => 'Vous utilisez PHP 5.3, qui n\'est plus à jour depuis juillet 2013 et n\'est plus pris en charge par le groupe PHP.',
   'error:pancake_will_stop_supporting_it' => 'Pancake ne supportera plus cette version très prochainement.',
   'error:using_php_54' => 'Vous utilisez la version 5.4 de PHP qui n\'est plus supporté depuis plus de 2 ans.',
   'error:why_update' => 'Si vous désirez conserver cette version de PHP, certaines fonctionalités ne seront pas disponibles.',
