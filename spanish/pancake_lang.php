@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.36
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1258,7 +1258,7 @@ $lang = array (
   'error:php_outdated' => 'La versión de PHP que estás utilizando está desactualizada.',
   'error:pancake_will_stop_supporting_it' => 'Pancake dejará de ofrecer soporte para esto en unas pocas semanas.',
   'error:scanning' => 'Escaneando, por favor espere...',
-  'error:using_php_53' => 'Estás utilizando PHP 5.3, que lleva sin actualizarse más de 3 años y ha llegado al final de su vida (esto significa que ya no está respaldada por el Grupo PHP).',
+  'error:using_php_53' => 'Estás utilizando PHP 5.3, que ha estado desactualizado desde julio de 2013 y ya no está soportado por el Grupo PHP.',
   'error:upgrade_php' => 'Usted debe actualizar su versión de PHP a la versión 5,5 como mínimo (la idónea es 5.6). Para hacerlo, por favor hable con su administrador del servidor y pídale que actualice PHP.',
   'error:scan_result_success' => 'Tu Pancake está en perfecto estado y no ha sido alterado de ninguna manera. Todo está correcto.',
   'error:unknown_error_scanning' => 'Se produjo un error desconocido mientras se escaneaba.',
