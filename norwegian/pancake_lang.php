@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.35
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1256,7 +1256,7 @@ $lang = array (
   'expenses:supplier_edited' => 'Suksess! Leverandøren ble redigert.',
   'error:already_being_dealt_with' => 'Dette problemet har allerede blitt rapportert av noen andre, og er under behandling. Vi arbeider med å løse det så raskt som mulig.',
   'error:php_outdated' => 'PHP-versjonen du bruker er utdatert.',
-  'error:using_php_53' => 'Du bruker PHP 5.3, som har vært utdatert mer enn 3 år og har nådd "end-of-life"-status (dvs, den støttes ikke lenger av PHP Group).',
+  'error:using_php_53' => 'Du bruker PHP 5.3, som har vært utdatert siden juli 2013, og er ikke lenger støttet av PHP Group.',
   'error:pancake_will_stop_supporting_it' => 'Pancake vil slutte å støtte denne versjonen om et par uker.',
   'error:using_php_54' => 'Du bruker PHP 5.4, som har vært utdatert i 2 år og vil nå end-of-life status (mao den støttes ikke lenger av PHP Group) i september 2015.',
   'error:why_update' => 'Ved å fortsette å bruke denne versjonen av PHP går du glipp av en rekke ytelse- og sikkerhetsforbedringer, samt en mengde feilrettinger.',
