@@ -1564,9 +1564,9 @@ $lang = array(
 
     # Begin v4.8.8 changes
     "error:php_outdated" => "The version of PHP that you are using is out of date.",
-    "error:using_php_53" => "You are using PHP 5.3, which has been out of date for well over 3 years and has reached end-of-life status (meaning it's no longer supported by the PHP Group).",
-    "error:pancake_will_stop_supporting_it" => "Pancake will stop supporting it in a few weeks.",
-    "error:using_php_54" => "You are using PHP 5.4, which has been out of date for 2 years and will reach end-of-life status (meaning it's no longer supported by the PHP Group) in September 2015.",
+    "error:using_php_53" => "You are using PHP 5.3, which has been out of date since July 2013 and is no longer supported by the PHP Group.",
+    "error:pancake_will_stop_supporting_it" => "Pancake might stop supporting it at any time.",
+    "error:using_php_54" => "You are using PHP 5.4, which has been out of date since September 2014 and is no longer supported by the PHP Group.",
     "error:why_update" => "By staying with this version of PHP, you're missing out on a number of performance and security improvements, as well as a countless number of bugfixes.",
     "error:upgrade_php" => "You should upgrade your PHP version to at least 5.5 (ideally 5.6). To do so, please talk to your server administrators and ask them to update PHP.",
     "error:scan_pancake" => "Scan your Pancake for file-related issues",
