@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.36
+ * @since       Version 4.8.40
  */
 
 // ------------------------------------------------------------------------
@@ -1256,7 +1256,7 @@ $lang = array (
   'error:no_user_found' => 'Uw licentiesleutel wordt niet geassocieerd met een gebruiker op de pancakeapp.com, dus uw fout kan niet automatische ingediend worden. Als dit onverwacht is, stuur dan een email naar support@pancakeapp.com en dan helpen wij u verder.',
   'error:fixed_in_version' => 'Dit probleem werd opgelost in Pancake {version}. Update uw Pancake als u dat not niet heeft gedaan.',
   'error:php_outdated' => 'De versie van PHP die u gebruikt is verouderd.',
-  'error:using_php_53' => 'U maakt gebruik van PHP 5.3, die al meer dan 3 jaar verouderd is en heeft zijn end-of-life status bereikt. (dit betekent dat het niet meer wordt ondersteund door de PHP Group)',
+  'error:using_php_53' => 'U maakt gebruik van PHP 5.3, dat verouderd is sinds juli 2013 en niet langer wordt ondersteund door de PHP Group.',
   'error:pancake_will_stop_supporting_it' => 'Pancake zal de ondersteuning binnen een paar weken beëindigen.',
   'error:upgrade_php' => 'U moet uw PHP-versie upgraden naar ten minste 5,5 (idealiter 5.6). Om dit te doen, neem contact op met uw server beheerders en vraag hen om PHP te updaten.',
   'error:why_update' => 'Door het blijven gebruiken van deze versie van PHP, mist u een aantal verbeteringen in de prestatie en beveiliging, evenals een ontelbaar aantal bugfixes.',
