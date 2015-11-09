@@ -7,13 +7,13 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.40
+ * @since       Version 4.8.47
  */
 
 // ------------------------------------------------------------------------
@@ -1311,5 +1311,6 @@ A mensagem de erro foi:
   'error:update_system_solutions' => 'A atualização não pôde concluir, e seu Pancake pode agora estar num estado parcialmente atualizado, o que irá causar erros. Você precisará atualizar manualmente os seus arquivos do Pancake para resolver o problema. <br/><br/> :1 <br/><br/> Estes erros podem ocorrer devido a um problema com as permissões de arquivo. Se o Pancake não tiver acesso para alterar todos os seus arquivos, ele será incapaz de atualizar corretamente. Na maioria dos servidores, isso é feito automaticamente, mas um número muito reduzido de servidores pode requerer intervenção manual.',
   'error:update_without_ftp' => 'Se você não tem acesso FTP (ou não quer usar o FTP), mas tem acesso SSH ao seu Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">Clique aqui</a> para aprender a atualizar sem o uso de FTP.',
   'proposals:missing_client' => 'Você não selecionou um cliente.',
+  'gateways:direct_debit' => 'Débito direto',
 );
 /** End of file: pancake_lang.php **/
