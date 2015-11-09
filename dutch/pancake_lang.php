@@ -8,7 +8,7 @@
  *
  * @package     Pancake
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.40
+ * @since       Version 4.8.47
  */
 
 // ------------------------------------------------------------------------
@@ -1323,5 +1323,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'error:update_system' => 'Fout bij het bijwerken',
   'error:update_without_ftp' => 'Als u geen FTP-toegang heeft (of geen FTP wilt gebruiken), maar wel SSH-toegang heeft tot uw Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">klik dan hier</a> om te zien hoe u kunt updaten zonder FTP.',
   'proposals:missing_client' => 'U heeft geen klant geselecteerd.',
+  'gateways:direct_debit' => 'Automatische incasso',
 );
 /** End of file: pancake_lang.php **/
