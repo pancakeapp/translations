@@ -1635,6 +1635,10 @@ $lang = array(
     "proposals:missing_client" => "You didn't select a client.",
     # End v4.8.30 changes
 
+    # Begin v4.8.48 changes
+    "gateways:direct_debit" => "Direct Debit",
+    # End v4.8.48 changes
+
 );
 
 /** End of file: pancake_lang.php **/
