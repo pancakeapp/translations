@@ -8,14 +8,14 @@
  *
  * @package     Pancake
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Florian Simeth 
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.40
+ * @since       Version 4.8.47
  */
 
 // ------------------------------------------------------------------------
@@ -1319,5 +1319,6 @@ Die Fehlermeldung war:
   'error:update_system_solutions' => 'Das Update konnte nicht vollständig durchgeführt werden und Ihr Pancake könnte sich nun in einem nur teilweise aktualisierten Zustand befinden, was Fehler verursachen wird. Sie werden Ihre Pancake-Dateien manuell aktualisieren müssen, um das Problem zu lösen. <br/><br/> :1 <br/><br/> Diese Fehler können aufgrund eines Problems mit den Dateiberechtigungen auftreten. Wenn Pancake keinen Schreibzugriff auf all seine Dateien hat, ist es nicht in der Lage, sich selbst korrekt zu aktualisieren. Bei den meisten Servern wird dies automatisch gehandhabt, bei einer sehr kleinen Anzahl von Servern jedoch, kann ein manueller Eingriff notwendig sein.',
   'error:update_without_ftp' => 'Wenn Sie keinen FTP-Zugang haben (oder FTP nicht verwenden wollen), aber SSH Zugang zu Ihrem Pancake haben, dann <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">klicken Sie hier,</a> um zu lernen, wie man ohne FTP aktualisiert.',
   'proposals:missing_client' => 'Sie haben keinen Client ausgewählt.',
+  'gateways:direct_debit' => 'Lastschrift',
 );
 /** End of file: pancake_lang.php **/
