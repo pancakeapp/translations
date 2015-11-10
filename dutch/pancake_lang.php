@@ -1324,5 +1324,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'error:update_without_ftp' => 'Als u geen FTP-toegang heeft (of geen FTP wilt gebruiken), maar wel SSH-toegang heeft tot uw Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">klik dan hier</a> om te zien hoe u kunt updaten zonder FTP.',
   'proposals:missing_client' => 'U heeft geen klant geselecteerd.',
   'gateways:direct_debit' => 'Automatische incasso',
+  'error:no_permissions_explanation' => 'Pancake heeft geen toestemming om bestanden te creëren in <code>:1</code>.',
 );
 /** End of file: pancake_lang.php **/
