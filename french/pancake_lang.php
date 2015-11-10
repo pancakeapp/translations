@@ -7,8 +7,8 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      ahouin - https://github.com/ahouin
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
@@ -1310,5 +1310,6 @@ $lang = array (
   'error:update_without_ftp' => 'Si vous n\'avez pas d\'accès  FTP (ou ne voulez pas utiliser FTP), mais avec un accès SSH à votre Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">cliquez ici</a> pour apprendre comment mettre à jour sans FTP.',
   'proposals:missing_client' => 'Vous n\'avez pas sélectionné de client.',
   'gateways:direct_debit' => 'Débit direct',
+  'error:no_permissions_explanation' => 'Pancake n\'a pas l\'autorisation de créer des fichiers dans <code>:1</code>.',
 );
 /** End of file: pancake_lang.php **/
