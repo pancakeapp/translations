@@ -1325,5 +1325,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'proposals:missing_client' => 'U heeft geen klant geselecteerd.',
   'gateways:direct_debit' => 'Automatische incasso',
   'error:no_permissions_explanation' => 'Pancake heeft geen toestemming om bestanden te creëren in <code>:1</code>.',
+  'error:no_permissions_solutions' => 'U kunt dit oplossen door de map beschrijfbaar te maken. Meestal wordt dit gedaan met CHMOD 0777, maar er kunnen andere manieren zijn om dit te doen (bijvoorbeeld via uw web hosting bedieningspaneel).',
 );
 /** End of file: pancake_lang.php **/
