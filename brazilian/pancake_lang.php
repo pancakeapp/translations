@@ -1314,5 +1314,6 @@ A mensagem de erro foi:
   'gateways:direct_debit' => 'Débito direto',
   'error:no_permissions_explanation' => 'Pancake não tem permissão para criar arquivos com <code>:1</code>.',
   'error:no_permissions_solutions' => 'Você pode resolver isso tornando a pasta gravável. Normalmente isso é feito com o comando CHMOD 0777 mas pode haver outras maneiras de fazê-lo (por exemplo, através do painel de controle do seu web hosting).',
+  'error:you_cannot_report_this_non_server_error' => 'Você não pode relatar esse problema para o Suporte da Pancake porque este não é um problema com a Pancake.',
 );
 /** End of file: pancake_lang.php **/
