@@ -1313,5 +1313,6 @@ A mensagem de erro foi:
   'proposals:missing_client' => 'Você não selecionou um cliente.',
   'gateways:direct_debit' => 'Débito direto',
   'error:no_permissions_explanation' => 'Pancake não tem permissão para criar arquivos com <code>:1</code>.',
+  'error:no_permissions_solutions' => 'Você pode resolver isso tornando a pasta gravável. Normalmente isso é feito com o comando CHMOD 0777 mas pode haver outras maneiras de fazê-lo (por exemplo, através do painel de controle do seu web hosting).',
 );
 /** End of file: pancake_lang.php **/
