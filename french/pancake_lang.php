@@ -7,8 +7,8 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      ahouin - https://github.com/ahouin
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      ahouin - https://github.com/ahouin
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
@@ -1311,5 +1311,6 @@ $lang = array (
   'proposals:missing_client' => 'Vous n\'avez pas sélectionné de client.',
   'gateways:direct_debit' => 'Débit direct',
   'error:no_permissions_explanation' => 'Pancake n\'a pas l\'autorisation de créer des fichiers dans <code>:1</code>.',
+  'error:no_permissions_solutions' => 'Vous pouvez résoudre ce problème en rendant le dossier accessible en écriture. Généralement, cela se fait à l\'aide de CHMOD 0777, mais il peut y avoir d\'autres façons pour vous de le faire (par exemple via le panneau de contrôle de votre hébergeur web).',
 );
 /** End of file: pancake_lang.php **/
