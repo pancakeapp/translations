@@ -1310,5 +1310,6 @@ $lang = array (
   'gateways:direct_debit' => 'Débito directo',
   'error:no_permissions_solutions' => 'Puedes resolver esto permitiendo que la carpeta sea editable. Por lo general, esto se hace con CHMOD 0777, pero puede haber otras maneras (por ejemplo, a través del panel de control del tu hosting web).',
   'error:you_cannot_report_this_non_server_error' => 'No puedes reportar este problema al Soporte de Pancake porque este no es un problema con Pancake.',
+  'error:no_permissions_explanation' => 'Pancake no tiene permiso para crear archivos en <code>:1</code>.',
 );
 /** End of file: pancake_lang.php **/
