@@ -7,8 +7,8 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
@@ -1312,5 +1312,6 @@ A mensagem de erro foi:
   'error:update_without_ftp' => 'Se você não tem acesso FTP (ou não quer usar o FTP), mas tem acesso SSH ao seu Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">Clique aqui</a> para aprender a atualizar sem o uso de FTP.',
   'proposals:missing_client' => 'Você não selecionou um cliente.',
   'gateways:direct_debit' => 'Débito direto',
+  'error:no_permissions_explanation' => 'Pancake não tem permissão para criar arquivos com <code>:1</code>.',
 );
 /** End of file: pancake_lang.php **/
