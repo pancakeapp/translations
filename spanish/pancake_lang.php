@@ -1308,5 +1308,6 @@ $lang = array (
   'error:update_without_ftp' => 'Si usted no tiene acceso al FTP (o no desea utilizar el FTP), pero tienes acceso al SSH de tu Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">has click aquí</a> para aprender cómo actualizar sin FTP.',
   'proposals:missing_client' => 'No has seleccionado un cliente.',
   'gateways:direct_debit' => 'Débito directo',
+  'error:no_permissions_solutions' => 'Puedes resolver esto permitiendo que la carpeta sea editable. Por lo general, esto se hace con CHMOD 0777, pero puede haber otras maneras (por ejemplo, a través del panel de control del tu hosting web).',
 );
 /** End of file: pancake_lang.php **/
