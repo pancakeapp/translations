@@ -1320,5 +1320,6 @@ Die Fehlermeldung war:
   'error:update_without_ftp' => 'Wenn Sie keinen FTP-Zugang haben (oder FTP nicht verwenden wollen), aber SSH Zugang zu Ihrem Pancake haben, dann <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">klicken Sie hier,</a> um zu lernen, wie man ohne FTP aktualisiert.',
   'proposals:missing_client' => 'Sie haben keinen Client ausgewählt.',
   'gateways:direct_debit' => 'Lastschrift',
+  'error:no_permissions_explanation' => 'Pancake verfügt nicht über die Berechtigung, um Dateien in <code>:1</code>zu erstellen.',
 );
 /** End of file: pancake_lang.php **/
