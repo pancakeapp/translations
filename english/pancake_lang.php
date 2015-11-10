@@ -1637,6 +1637,9 @@ $lang = array(
 
     # Begin v4.8.48 changes
     "gateways:direct_debit" => "Direct Debit",
+    "error:no_permissions_explanation" => "Pancake does not have permission to create files in <code>:1</code>.",
+    "error:no_permissions_solutions" => "You can resolve this by making the folder writable. Typically, this is done with CHMOD 0777, but there may be other ways for you to do it (e.g. via your web hosting's control panel).",
+    "error:you_cannot_report_this_non_server_error" => "You cannot report this issue to Pancake Support because this is not a problem with Pancake.",
     # End v4.8.48 changes
 
 );
