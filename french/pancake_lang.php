@@ -1312,5 +1312,6 @@ $lang = array (
   'gateways:direct_debit' => 'Débit direct',
   'error:no_permissions_explanation' => 'Pancake n\'a pas l\'autorisation de créer des fichiers dans <code>:1</code>.',
   'error:no_permissions_solutions' => 'Vous pouvez résoudre ce problème en rendant le dossier accessible en écriture. Généralement, cela se fait à l\'aide de CHMOD 0777, mais il peut y avoir d\'autres façons pour vous de le faire (par exemple via le panneau de contrôle de votre hébergeur web).',
+  'error:you_cannot_report_this_non_server_error' => 'Vous ne pouvez pas signaler ce problème au Support Pancake car ce n\'est pas un problème lié à Pancake.',
 );
 /** End of file: pancake_lang.php **/
