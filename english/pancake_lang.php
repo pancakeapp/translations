@@ -1,7 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Pancake
- *
  * A simple, fast, self-hosted invoicing application
  *
  * @package     Pancake
@@ -203,7 +202,6 @@ $lang = array(
 
     // ==============================
     'login:forgotinstructions' => 'Please enter your email address so we can send you an email to reset your password.',
-    'login:reset' => 'Reset &raquo;',
     'login:reset' => 'Reset Password',
     'login:username' => 'Username',
     'login:password' => 'Password',
@@ -250,7 +248,6 @@ $lang = array(
 
 
     /** Contact Log **/
-    'contact:method' => 'Contact Method',
     'contact:contact' => 'Contact',
     'contact:subject' => 'Subject',
     'contact:content' => 'Content',
@@ -363,7 +360,6 @@ $lang = array(
     'estimates:addedsuccess' => 'You have added an estimate for',
     'estimates:estimate' => 'estimate',
     'estimates:added' => 'Success! The estimate has been added.',
-    'estimates:addedconf' => 'You have added estimate # <strong>:1</strong>, totalling <strong>:2</strong> for :3:4.',
     'estimates:send_now_title' => 'Send estimate now?',
     'estimates:send_now_body' => 'Fill out the form below and we\'ll deliver this estimate for you.',
     'estimates:send_now' => 'Send Estimate',
@@ -424,7 +420,6 @@ $lang = array(
     'milestones:edit' => 'Edit Milestone',
     'milestones:delete' => 'Delete Milestone',
     'milestones:milestone' => 'Milestone',
-    'milestones:target_date' => 'Target Date',
     'milestones:assigned_user' => 'Assigned User',
     'milestones:select_default' => '-- No milestone --',
     'milestones:no_milestone' => 'Tasks without Milestone',
@@ -1018,7 +1013,6 @@ $lang = array(
     "dashboard:written_by" => "Written by :1 on :2",
     "dashboard:client_activity" => "Client Activity",
     "dashboard:view_all_client_activity" => "View All Client Activity",
-    "dashboard:team_activity" => "Team Activity",
     "dashboard:view_all_team_activity" => "View All Team Activity",
     "dashboard:my_tasks" => "My Tasks",
     "dashboard:view_all_my_tasks" => "View All My Tasks",
@@ -1118,7 +1112,6 @@ $lang = array(
     "settings:dont_install_just_notify_me" => "Don't install, just notify me",
     "settings:install_automatically" => "Install automatically",
     "settings:loading_update_details" => "Loading update details... This may take a minute or two. Feel free to refresh at any time.",
-    "settings:updating_please_wait" => "Updating, please wait. This page will refresh once the update has finished.",
     "settings:will_have_to_overwrite_single_file" => "Pancake will have to overwrite 1 file that you have modified manually!",
     "settings:will_have_to_overwrite_multiple_files" => "Pancake will have to overwrite :1 files that you have modified manually!",
     "settings:checking_for_updates" => "Checking for updates, please wait. This page will refresh automatically.",
