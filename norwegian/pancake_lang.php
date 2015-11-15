@@ -7,13 +7,13 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - http://terraduo.com
  * @author      Marius - http://www.kildedal.no
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.40
+ * @since       Version 4.8.49
  */
 
 // ------------------------------------------------------------------------
@@ -1307,5 +1307,6 @@ $lang = array (
   'error:update_system_solutions' => 'Oppdateringen kunne ikke fullføres, og din Pancake kan nå være i en delvis oppdatert tilstand, noe som vil føre til at du får feil. Du må manuelt oppdatere din Pancakes filer for å løse problemet. <br/><br/> :1 <br/><br/> Disse feilene kan oppstå på grunn av et problem med filrettigheter. Om Pancake ikke har skrivetilgang til alle sine filer, er det ikke i stand til å oppdatere seg selv riktig. I de fleste servere, håndteres dette automatisk, men et svært lite antall servere kan kreve manuell inngripen.',
   'error:update_without_ftp' => 'Hvis du ikke har FTP-tilgang (eller ikke vil bruke FTP), men har SSH tilgang til din Pancake, <a class="blue-btn" href="https://www.pancakeapp.com/faq/update-without-ftp" target="_blank">så klikk her</a> for å lære å oppdatere uten FTP.',
   'proposals:missing_client' => 'Du har ikke valgt en klient.',
+  'gateways:direct_debit' => 'AvtaleGiro',
 );
 /** End of file: pancake_lang.php **/
