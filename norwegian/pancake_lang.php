@@ -1309,5 +1309,6 @@ $lang = array (
   'proposals:missing_client' => 'Du har ikke valgt en klient.',
   'gateways:direct_debit' => 'AvtaleGiro',
   'error:no_permissions_solutions' => 'Du kan løse dette ved å gjøre mappen skrivbar. Vanligvis er dette gjort med CHMOD 0777, men det kan være andre måter å gjøre det på (f.eks via web hostingen din sitt kontrollpanel).',
+  'error:you_cannot_report_this_non_server_error' => 'Du kan ikke rapportere dette problemet til Pancake Support fordi dette er ikke et problem med Pancake.',
 );
 /** End of file: pancake_lang.php **/
