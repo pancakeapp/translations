@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.47
+ * @since       Version 4.8.49
  */
 
 // ------------------------------------------------------------------------
@@ -1313,5 +1313,6 @@ $lang = array (
   'error:no_permissions_explanation' => 'Pancake n\'a pas l\'autorisation de créer des fichiers dans <code>:1</code>.',
   'error:no_permissions_solutions' => 'Vous pouvez résoudre ce problème en rendant le dossier accessible en écriture. Généralement, cela se fait à l\'aide de CHMOD 0777, mais il peut y avoir d\'autres façons pour vous de le faire (par exemple via le panneau de contrôle de votre hébergeur web).',
   'error:you_cannot_report_this_non_server_error' => 'Vous ne pouvez pas signaler ce problème au Support Pancake car ce n\'est pas un problème lié à Pancake.',
+  'settings:currency_format' => 'Format monétaire',
 );
 /** End of file: pancake_lang.php **/
