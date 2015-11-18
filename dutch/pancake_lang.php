@@ -1328,5 +1328,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'error:no_permissions_solutions' => 'U kunt dit oplossen door de map beschrijfbaar te maken. Meestal wordt dit gedaan met CHMOD 0777, maar er kunnen andere manieren zijn om dit te doen (bijvoorbeeld via uw web hosting bedieningspaneel).',
   'error:you_cannot_report_this_non_server_error' => 'U kunt deze kwestie niet melden bij Pancake Ondersteuning, want dit is geen probleem met Pancake.',
   'settings:decimal_places' => ':1 decimalen',
+  'settings:currency_format' => 'Valuta Formaat',
 );
 /** End of file: pancake_lang.php **/
