@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.47
+ * @since       Version 4.8.49
  */
 
 // ------------------------------------------------------------------------
@@ -1323,5 +1323,6 @@ Die Fehlermeldung war:
   'error:no_permissions_explanation' => 'Pancake verfügt nicht über die Berechtigung, um Dateien in <code>:1</code>zu erstellen.',
   'error:no_permissions_solutions' => 'Sie können das Problem lösen, indem Sie den Schreibschutz des Ordners aufheben. Normalerweise wird dies mit CHMOD 0777 durchgeführt, aber es gibt auch andere Möglichkeiten dies zu tun (z.B. über das Bedienfeld Ihres Web-Hosters).',
   'error:you_cannot_report_this_non_server_error' => 'Sie können dieses Problem nicht bei dem Pancake-Support melden, da es kein Problem mit Pancake ist.',
+  'settings:currency_format' => 'Währungsformat',
 );
 /** End of file: pancake_lang.php **/
