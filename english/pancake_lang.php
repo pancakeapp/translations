@@ -1635,6 +1635,11 @@ $lang = array(
     "error:you_cannot_report_this_non_server_error" => "You cannot report this issue to Pancake Support because this is not a problem with Pancake.",
     # End v4.8.48 changes
 
+    # Begin v4.8.50 changes
+    "settings:currency_format" => "Currency Format",
+    "settings:decimal_places" => ":1 decimal places",
+    # End v4.8.50 changes
+
 );
 
 /** End of file: pancake_lang.php **/
