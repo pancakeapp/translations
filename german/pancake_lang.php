@@ -1324,5 +1324,6 @@ Die Fehlermeldung war:
   'error:no_permissions_solutions' => 'Sie können das Problem lösen, indem Sie den Schreibschutz des Ordners aufheben. Normalerweise wird dies mit CHMOD 0777 durchgeführt, aber es gibt auch andere Möglichkeiten dies zu tun (z.B. über das Bedienfeld Ihres Web-Hosters).',
   'error:you_cannot_report_this_non_server_error' => 'Sie können dieses Problem nicht bei dem Pancake-Support melden, da es kein Problem mit Pancake ist.',
   'settings:currency_format' => 'Währungsformat',
+  'settings:decimal_places' => ':1 Dezimalstellen',
 );
 /** End of file: pancake_lang.php **/
