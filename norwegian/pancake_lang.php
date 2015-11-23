@@ -1312,5 +1312,6 @@ $lang = array (
   'error:you_cannot_report_this_non_server_error' => 'Du kan ikke rapportere dette problemet til Pancake Support fordi dette er ikke et problem med Pancake.',
   'error:no_permissions_explanation' => 'Pancake har ikke tillatelse til å opprette filer i <code>:1</code>.',
   'settings:currency_format' => 'Valutaformat',
+  'settings:decimal_places' => ':1 desimalplasser',
 );
 /** End of file: pancake_lang.php **/
