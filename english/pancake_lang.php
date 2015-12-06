@@ -1640,6 +1640,10 @@ $lang = array(
     "settings:decimal_places" => ":1 decimal places",
     # End v4.8.50 changes
 
+    # Begin v4.8.53 changes
+    "settings:no_notify_email" => "You don't have an email address set for your <a href=':1'>business identity</a>.<br />Pancake is not able to send email.",
+    # End v4.8.53 changes
+
 );
 
 /** End of file: pancake_lang.php **/
