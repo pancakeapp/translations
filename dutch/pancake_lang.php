@@ -16,7 +16,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.49
+ * @since       Version 4.8.52
  */
 
 // ------------------------------------------------------------------------
@@ -1329,5 +1329,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'error:you_cannot_report_this_non_server_error' => 'U kunt deze kwestie niet melden bij Pancake Ondersteuning, want dit is geen probleem met Pancake.',
   'settings:decimal_places' => ':1 decimalen',
   'settings:currency_format' => 'Valuta Formaat',
+  'settings:no_notify_email' => 'U heeft geen e-mailadres ingesteld voor uw <a href=":1">zakelijke identiteit</a>.<br/>Pancake kan geen e-mails sturen.',
 );
 /** End of file: pancake_lang.php **/
