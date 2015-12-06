@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.49
+ * @since       Version 4.8.52
  */
 
 // ------------------------------------------------------------------------
@@ -1325,5 +1325,6 @@ Die Fehlermeldung war:
   'error:you_cannot_report_this_non_server_error' => 'Sie können dieses Problem nicht bei dem Pancake-Support melden, da es kein Problem mit Pancake ist.',
   'settings:currency_format' => 'Währungsformat',
   'settings:decimal_places' => ':1 Dezimalstellen',
+  'settings:no_notify_email' => 'Sie haben keine E-Mail-Adresse für Ihr <a href=":1">Geschäftsidentität</a>.<br/>Pancake ist nicht in der Lage, Ihnen eine E-Mail zu senden.',
 );
 /** End of file: pancake_lang.php **/
