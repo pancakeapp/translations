@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2015, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.49
+ * @since       Version 4.8.52
  */
 
 // ------------------------------------------------------------------------
@@ -1313,5 +1313,6 @@ $lang = array (
   'error:no_permissions_explanation' => 'Pancake no tiene permiso para crear archivos en <code>:1</code>.',
   'settings:decimal_places' => ':1 posiciones decimales',
   'settings:currency_format' => 'Formato de moneda',
+  'settings:no_notify_email' => 'Usted no tiene una dirección de correo electrónico establecida para la <a href=":1">identidad de su empresa</a>.<br/>Pancake no puede enviar correo electrónico.',
 );
 /** End of file: pancake_lang.php **/
