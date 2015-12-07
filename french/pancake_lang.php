@@ -1315,6 +1315,6 @@ $lang = array (
   'error:you_cannot_report_this_non_server_error' => 'Vous ne pouvez pas signaler ce problème au Support Pancake car ce n\'est pas un problème lié à Pancake.',
   'settings:currency_format' => 'Format monétaire',
   'settings:decimal_places' => ':1  décimales',
-  'settings:no_notify_email' => 'Vous ne possédez pas d\'adresse émail pour l\' <a href=":1">identité de votre entreprise</a>.<br/>Pancake n\'est pas en mesure d\'envoyer un email.',
+  'settings:no_notify_email' => 'Vous ne possédez pas d\'adresse courriel pour l\' <a href=":1">identité de votre entreprise</a>.<br/>Pancake n\'est pas en mesure d\'envoyer un courriel.',
 );
 /** End of file: pancake_lang.php **/
