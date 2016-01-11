@@ -7,16 +7,16 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
  * @author      davidh071 - https://github.com/davidh071
- * @copyright   Copyright (c) 2015, Pancake Payments
+ * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.52
+ * @since       Version 4.10.1
  */
 
 // ------------------------------------------------------------------------
@@ -1328,5 +1328,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'settings:decimal_places' => ':1 decimalen',
   'settings:currency_format' => 'Valuta Formaat',
   'settings:no_notify_email' => 'U heeft geen e-mailadres ingesteld voor uw <a href=":1">zakelijke identiteit</a>.<br/>Pancake kan geen e-mails sturen.',
+  'settings:add_another_business' => 'Voeg een ander bedrijf toe',
 );
 /** End of file: pancake_lang.php **/
