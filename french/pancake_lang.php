@@ -7,15 +7,15 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      ahouin - https://github.com/ahouin
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
- * @copyright   Copyright (c) 2015, Pancake Payments
+ * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.52
+ * @since       Version 4.10.1
  */
 
 // ------------------------------------------------------------------------
@@ -1314,5 +1314,6 @@ $lang = array (
   'settings:currency_format' => 'Format monétaire',
   'settings:decimal_places' => ':1  décimales',
   'settings:no_notify_email' => 'Vous ne possédez pas d\'adresse courriel pour l\' <a href=":1">identité de votre entreprise</a>.<br/>Pancake n\'est pas en mesure d\'envoyer un courriel.',
+  'settings:add_another_business' => 'Ajouter une autre entreprise',
 );
 /** End of file: pancake_lang.php **/
