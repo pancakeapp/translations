@@ -7,15 +7,15 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Florian Simeth 
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
- * @copyright   Copyright (c) 2015, Pancake Payments
+ * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.52
+ * @since       Version 4.10.1
  */
 
 // ------------------------------------------------------------------------
@@ -1324,5 +1324,6 @@ Die Fehlermeldung war:
   'settings:currency_format' => 'Währungsformat',
   'settings:decimal_places' => ':1 Dezimalstellen',
   'settings:no_notify_email' => 'Sie haben keine E-Mail-Adresse für Ihr <a href=":1">Geschäftsidentität</a>.<br/>Pancake ist nicht in der Lage, Ihnen eine E-Mail zu senden.',
+  'settings:add_another_business' => 'Fügen Sie ein weiteres Unternehmen hinzu',
 );
 /** End of file: pancake_lang.php **/
