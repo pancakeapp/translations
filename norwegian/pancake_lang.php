@@ -7,13 +7,13 @@
  * This is the Norwegian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Marius - http://www.kildedal.no
- * @copyright   Copyright (c) 2015, Pancake Payments
+ * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.52
+ * @since       Version 4.10.1
  */
 
 // ------------------------------------------------------------------------
@@ -1312,5 +1312,6 @@ $lang = array (
   'settings:currency_format' => 'Valutaformat',
   'settings:decimal_places' => ':1 desimalplasser',
   'settings:no_notify_email' => 'Du har ikke en e-postadresse angitt for <a href=":1">din virksomhetsidentitet</a>.<br/>Pancake er ikke i stand til å sende e-post.',
+  'settings:add_another_business' => 'Legg til en annen virksomhet',
 );
 /** End of file: pancake_lang.php **/
