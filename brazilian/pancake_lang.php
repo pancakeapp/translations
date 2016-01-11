@@ -7,13 +7,13 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Robson Sobral - https://github.com/robsonsobral
- * @copyright   Copyright (c) 2015, Pancake Payments
+ * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.8.52
+ * @since       Version 4.10.1
  */
 
 // ------------------------------------------------------------------------
@@ -1316,5 +1316,6 @@ A mensagem de erro foi:
   'settings:currency_format' => 'Formato de moeda',
   'settings:decimal_places' => ':1 casas decimais',
   'settings:no_notify_email' => 'Você não tem um endereço de e-mail estabelecido para a <a href=":1">identidade do seu negócio</a>.<br/>Pancake não é capaz de enviar e-mail.',
+  'settings:add_another_business' => 'Adicionar outra empresa',
 );
 /** End of file: pancake_lang.php **/
