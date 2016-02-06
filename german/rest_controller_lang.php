@@ -19,5 +19,6 @@
 $lang = array (
   'text_rest_unauthorized' => 'Unbefugt',
   'text_rest_invalid_api_key' => 'Ungültiger API-Schlüssel %s',
+  'text_rest_invalid_credentials' => 'Ungültige Anmeldedaten',
 );
 /** End of file: rest_controller_lang.php **/
