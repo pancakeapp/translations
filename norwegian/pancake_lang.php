@@ -1313,5 +1313,6 @@ $lang = array (
   'settings:no_notify_email' => 'Du har ikke en e-postadresse angitt for <a href=":1">din virksomhetsidentitet</a>.<br/>Pancake er ikke i stand til å sende e-post.',
   'settings:add_another_business' => 'Legg til en annen virksomhet',
   'global:auto_send_needs_pancake_cron_job' => 'For å automatisk sende fakturaer, må du sette opp <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
+  'settings:always_autosend' => 'Autosend fakturaer som standard',
 );
 /** End of file: pancake_lang.php **/
