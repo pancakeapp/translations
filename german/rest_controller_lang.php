@@ -24,5 +24,6 @@ $lang = array (
   'text_rest_ip_unauthorized' => 'IP unberechtigt',
   'text_rest_api_key_unauthorized' => 'Dieser API-Schlüssel hat keinen Zugriff auf den gewünschten Controller',
   'text_rest_api_key_permissions' => 'Dieser API-Schlüssel verfügt nicht über die benötigten Berechtigungen',
+  'text_rest_api_key_time_limit' => 'Dieser API-Schlüssel hat das Zeitlimit für diese Methode überschritten.',
 );
 /** End of file: rest_controller_lang.php **/
