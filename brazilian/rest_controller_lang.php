@@ -19,5 +19,6 @@
 $lang = array (
   'text_rest_invalid_credentials' => 'Credenciais inválidas',
   'text_rest_invalid_api_key' => 'Chave de API %s inválida',
+  'text_rest_ip_denied' => 'IP negado',
 );
 /** End of file: rest_controller_lang.php **/
