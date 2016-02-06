@@ -1315,5 +1315,6 @@ $lang = array (
   'settings:no_notify_email' => 'Usted no tiene una dirección de correo electrónico establecida para la <a href=":1">identidad de su empresa</a>.<br/>Pancake no puede enviar correo electrónico.',
   'settings:add_another_business' => 'Añadir otro negocio',
   'global:auto_send_needs_pancake_cron_job' => 'Para enviar automáticamente las facturas, se debe configurar el <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
+  'settings:always_autosend' => 'Envío automático de facturas de forma predeterminada',
 );
 /** End of file: pancake_lang.php **/
