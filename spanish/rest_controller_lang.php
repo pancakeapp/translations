@@ -23,5 +23,6 @@ $lang = array (
   'text_rest_unsupported' => 'Protocolo no admitido',
   'text_rest_invalid_credentials' => 'Credenciales no válidas',
   'text_rest_ip_unauthorized' => 'IP no autorizada',
+  'text_rest_api_key_time_limit' => 'Esta clave de API ha alcanzado el límite de tiempo para este método',
 );
 /** End of file: rest_controller_lang.php **/
