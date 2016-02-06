@@ -25,5 +25,6 @@ $lang = array (
   'text_rest_api_key_time_limit' => 'Denne API-nøkkelen har nådd tidsfristen for denne metoden',
   'text_rest_unknown_method' => 'Ukjent metode',
   'text_rest_unsupported' => 'Protokollen støttes ikke',
+  'text_rest_invalid_credentials' => 'Ugyldig legitimasjon',
 );
 /** End of file: rest_controller_lang.php **/
