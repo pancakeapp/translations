@@ -24,5 +24,6 @@ $lang = array (
   'text_rest_ajax_only' => 'Somente solicitações AJAX são permitidas',
   'text_rest_api_key_permissions' => 'Esta chave de API não tem permissões suficientes',
   'text_rest_api_key_time_limit' => 'Esta chave de API atingiu o limite de tempo para este método',
+  'text_rest_unknown_method' => 'Método desconhecido',
 );
 /** End of file: rest_controller_lang.php **/
