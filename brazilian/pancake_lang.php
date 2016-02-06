@@ -152,7 +152,7 @@ $lang = array (
   'global:duplicate' => 'Duplicar',
   'global:urltosend' => 'Aqui está a url para enviar:',
   'global:copytoclipboard' => 'Copiar para área de transf.',
-  'global:you_need_pancake_cron_job' => 'Para usar faturas recorrentes, você deve configurar a Tarefa Cron do <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake</a>.',
+  'global:you_need_pancake_cron_job' => 'Para usar faturas recorrentes, você deve configurar a <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Tarefa Cron do Pancake</a>.',
   'global:quick_links' => 'Links rápidos',
   'global:view_all' => 'Ver tudo',
   'global:deleted' => 'Apagado',
@@ -1316,6 +1316,6 @@ A mensagem de erro foi:
   'settings:decimal_places' => ':1 casas decimais',
   'settings:no_notify_email' => 'Você não tem um endereço de e-mail estabelecido para a <a href=":1">identidade do seu negócio</a>.<br/>Pancake não é capaz de enviar e-mail.',
   'settings:add_another_business' => 'Adicionar outra empresa',
-  'global:auto_send_needs_pancake_cron_job' => 'Para enviar faturas automaticamente, você deve configurar a Tarefa Cron do <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake</a>.',
+  'global:auto_send_needs_pancake_cron_job' => 'Para enviar faturas automaticamente, você deve configurar a <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Tarefa Cron do Pancake</a>.',
 );
 /** End of file: pancake_lang.php **/

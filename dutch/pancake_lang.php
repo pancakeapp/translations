@@ -155,7 +155,7 @@ $lang = array (
   'global:duplicate' => 'Kopieer',
   'global:urltosend' => 'Hier is de URL die u kunt verzenden:',
   'global:copytoclipboard' => 'Kopieer naar plakbord',
-  'global:you_need_pancake_cron_job' => 'Om terugkerende facturen te gebruiken, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>instellen.',
+  'global:you_need_pancake_cron_job' => 'Om terugkerende facturen te gebruiken, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a> instellen.',
   'global:quick_links' => 'Snelle Links',
   'global:view_all' => 'Bekijk alles',
   'global:deleted' => 'Verwijderd',
@@ -1328,6 +1328,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'settings:currency_format' => 'Valuta Formaat',
   'settings:no_notify_email' => 'U heeft geen e-mailadres ingesteld voor uw <a href=":1">zakelijke identiteit</a>.<br/>Pancake kan geen e-mails sturen.',
   'settings:add_another_business' => 'Voeg een ander bedrijf toe',
-  'global:auto_send_needs_pancake_cron_job' => 'Om automatisch facturen te verzenden, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job instellen</a>.',
+  'global:auto_send_needs_pancake_cron_job' => 'Om automatisch facturen te verzenden, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a> instellen.',
 );
 /** End of file: pancake_lang.php **/
