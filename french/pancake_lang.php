@@ -8,14 +8,14 @@
  *
  * @package     Pancake
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
- * @author      ahouin - https://github.com/ahouin
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      ahouin - https://github.com/ahouin
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.10.1
+ * @since       Version 4.11.5
  */
 
 // ------------------------------------------------------------------------
@@ -152,7 +152,7 @@ $lang = array (
   'global:duplicate' => 'Dupliquer',
   'global:urltosend' => 'Voici l\'URL à envoyer : ',
   'global:copytoclipboard' => 'Copier le lien',
-  'global:you_need_pancake_cron_job' => 'Pour utiliser les factures récurrentes, vous devez exécuter la tâche cron de Pancake.',
+  'global:you_need_pancake_cron_job' => 'Pour utiliser des factures récurrentes, vous devez configurer les Tâches Cron de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake</a>.',
   'global:quick_links' => 'Liens rapides',
   'global:view_all' => 'Voir tous',
   'global:deleted' => 'Supprimer',

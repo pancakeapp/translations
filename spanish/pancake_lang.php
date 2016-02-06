@@ -7,8 +7,8 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Albert Calvet <sefirot22@gmail.com> - https://github.com/AlbertCalvet
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2016, Pancake Payments
@@ -635,7 +635,7 @@ $lang = array (
   'settings:items_per_page' => 'Ítems por página',
   'settings:items_per_page_explain' => 'Número de ítems (facturas/presupuestos/propuestas/proyectos/tareas) a mostrar por página.',
   'settings:send_x_days_before' => '"enviar X días antes" por defecto',
-  'settings:send_x_days_before_explain' => 'Número predeterminado de días antes de una factura recurrente se debe enviar a un cliente.',
+  'settings:send_x_days_before_explain' => 'Número predeterminado de días antes de una factura sea auto-enviada a un cliente.',
   'settings:file_to_import' => 'Archivo a importar',
   'settings:file_should_be_csv' => 'Pancake procesará automáticamente su archivo e importará todo lo que contiene. Si Pancake es incapaz de procesar su archivo, éste se lo hará saber, y se le dará la opción de enviarnos alguna información para ayudarte a importar el archivo.',
   'settings:importnow' => 'Importar ahora!',
