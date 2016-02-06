@@ -21,5 +21,6 @@ $lang = array (
   'text_rest_ajax_only' => 'Alleen AJAX verzoeken zijn toegestaan',
   'text_rest_api_key_unauthorized' => 'Deze API sleutel geeft geen toegang tot de gevraagde controller',
   'text_rest_api_key_permissions' => 'Deze API sleutel heeft onvoldoende rechten',
+  'text_rest_unknown_method' => 'onbekende methode',
 );
 /** End of file: rest_controller_lang.php **/
