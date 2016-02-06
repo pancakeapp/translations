@@ -22,5 +22,6 @@ $lang = array (
   'text_rest_ip_denied' => 'IP negada',
   'text_rest_unsupported' => 'Protocolo no admitido',
   'text_rest_invalid_credentials' => 'Credenciales no válidas',
+  'text_rest_ip_unauthorized' => 'IP no autorizada',
 );
 /** End of file: rest_controller_lang.php **/
