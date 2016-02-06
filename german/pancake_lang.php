@@ -15,7 +15,7 @@
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.10.1
+ * @since       Version 4.11.5
  */
 
 // ------------------------------------------------------------------------
@@ -1324,5 +1324,6 @@ Die Fehlermeldung war:
   'settings:decimal_places' => ':1 Dezimalstellen',
   'settings:no_notify_email' => 'Sie haben keine E-Mail-Adresse für Ihr <a href=":1">Geschäftsidentität</a>.<br/>Pancake ist nicht in der Lage, Ihnen eine E-Mail zu senden.',
   'settings:add_another_business' => 'Fügen Sie ein weiteres Unternehmen hinzu',
+  'global:auto_send_needs_pancake_cron_job' => 'Um Rechnungen automatisch zu senden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">"Pancake Cron-Job"</a> einrichten.',
 );
 /** End of file: pancake_lang.php **/

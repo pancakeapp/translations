@@ -7,8 +7,8 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
@@ -639,7 +639,7 @@ $lang = array (
   'settings:items_per_page' => 'Items per pagina',
   'settings:items_per_page_explain' => 'Aantal items (facturen/voorstellen/offertes/projecten/taken) om per pagina te tonen.',
   'settings:send_x_days_before' => 'Standaard "verzend dagen van te voren"',
-  'settings:send_x_days_before_explain' => 'Standaard aantal dagen voordat een periodieke factuur vervalt verzenden naar de klant.',
+  'settings:send_x_days_before_explain' => 'Standaard aantal dagen voordat een factuur automatisch wordt verstuurd naar de client.',
   'settings:file_to_import' => 'Bestand om te importeren',
   'settings:file_should_be_csv' => 'Alleen CSV en XML bestanden worden ondersteund.',
   'settings:importnow' => 'Importeer nu!',
