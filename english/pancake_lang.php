@@ -147,8 +147,6 @@ $lang = array(
     'global:duplicate' => 'Duplicate',
     'global:urltosend' => 'Here is the url to send:',
     'global:copytoclipboard' => 'Copy to clipboard',
-    'global:you_need_pancake_cron_job' => 'To use recurring invoices, you must be running the Pancake cron job.',
-    'global:if_you_dont_know_how_to_set_it_up' => 'If you don\'t know how to set it up, <a href="https://www.pancakeapp.com/documentation/cron">click here</a>.',
     'global:quick_links' => 'Quick Links',
     'global:view_all' => 'View All',
     'global:deleted' => 'Deleted',
@@ -1645,6 +1643,11 @@ $lang = array(
     # Begin v4.10.2 changes
     "settings:add_another_business" => "Add another business",
     # End v4.10.2 changes
+
+    # Begin v4.11.6 changes
+    'global:auto_send_needs_pancake_cron_job' => 'To automatically send invoices, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
+    'global:you_need_pancake_cron_job' => 'To use recurring invoices, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
+    # End v4.11.6 changes
 
 );
 
