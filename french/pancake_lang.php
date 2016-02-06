@@ -7,8 +7,8 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      ahouin - https://github.com/ahouin
  * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
@@ -1314,5 +1314,6 @@ $lang = array (
   'settings:decimal_places' => ':1  décimales',
   'settings:no_notify_email' => 'Vous ne possédez pas d\'adresse courriel pour l\' <a href=":1">identité de votre entreprise</a>.<br/>Pancake n\'est pas en mesure d\'envoyer un courriel.',
   'settings:add_another_business' => 'Ajouter une autre entreprise',
+  'global:auto_send_needs_pancake_cron_job' => 'Pour envoyer automatiquement les factures, vous devez configurer le <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron</a>.',
 );
 /** End of file: pancake_lang.php **/
