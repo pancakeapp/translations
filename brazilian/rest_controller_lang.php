@@ -22,5 +22,6 @@ $lang = array (
   'text_rest_ip_denied' => 'IP negado',
   'text_rest_ip_unauthorized' => 'IP não autorizado',
   'text_rest_ajax_only' => 'Somente solicitações AJAX são permitidas',
+  'text_rest_api_key_permissions' => 'Esta chave de API não tem permissões suficientes',
 );
 /** End of file: rest_controller_lang.php **/
