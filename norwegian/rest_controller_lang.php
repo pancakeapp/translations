@@ -21,5 +21,6 @@ $lang = array (
   'text_rest_ip_denied' => 'IP benektet',
   'text_rest_unauthorized' => 'Uautorisert',
   'text_rest_ajax_only' => 'Kun AJAX forespørsler er tillatt',
+  'text_rest_api_key_permissions' => 'Denne API-nøkkelen har ikke nok rettigheter',
 );
 /** End of file: rest_controller_lang.php **/
