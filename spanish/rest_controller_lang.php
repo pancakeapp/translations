@@ -26,5 +26,6 @@ $lang = array (
   'text_rest_api_key_time_limit' => 'Esta clave de API ha alcanzado el límite de tiempo para este método',
   'text_rest_ajax_only' => 'Solamente son permitidas solicitudes AJAX ',
   'text_rest_invalid_api_key' => 'Clave API inválida %s',
+  'text_rest_unknown_method' => 'Método desconocido',
 );
 /** End of file: rest_controller_lang.php **/
