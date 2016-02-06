@@ -727,7 +727,6 @@ $lang = array(
     'settings:items_per_page' => 'Items Per Page',
     'settings:items_per_page_explain' => 'Number of items (invoices/estimates/proposals/projects/tasks) to show per page.',
     'settings:send_x_days_before' => 'Default "send days before"',
-    'settings:send_x_days_before_explain' => "Default number of days before a recurring invoice is due to send it to a client.",
     'settings:file_to_import' => 'File To Import',
     'settings:file_should_be_csv' => 'Pancake will automatically process your file and import everything in it. If Pancake is unable to process your file, it will let you know, and it will give you the option to send us some information to help us make Pancake work with your file.',
     'settings:importnow' => 'Import now!',
@@ -1647,6 +1646,8 @@ $lang = array(
     # Begin v4.11.6 changes
     'global:auto_send_needs_pancake_cron_job' => 'To automatically send invoices, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
     'global:you_need_pancake_cron_job' => 'To use recurring invoices, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
+    'settings:always_autosend' => "Auto Send invoices by default",
+    'settings:send_x_days_before_explain' => "Default number of days before an invoice is due to auto send it to a client.",
     # End v4.11.6 changes
 
 );
