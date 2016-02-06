@@ -24,5 +24,6 @@ $lang = array (
   'text_rest_unauthorized' => 'Non autorisé',
   'text_rest_ajax_only' => 'Seules les requêtes AJAX sont autorisées',
   'text_rest_api_key_permissions' => 'Cette clé API n\'a pas suffisamment d\'autorisations',
+  'text_rest_api_key_unauthorized' => 'Cette clé API n\'a pas accès à la commande demandée',
 );
 /** End of file: rest_controller_lang.php **/
