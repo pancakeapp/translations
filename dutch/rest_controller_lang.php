@@ -26,5 +26,6 @@ $lang = array (
   'text_rest_unsupported' => 'Niet ondersteund protocol',
   'text_rest_invalid_api_key' => 'Ongeldige API-sleutel% s',
   'text_rest_invalid_credentials' => 'Ongeldige inloggegevens',
+  'text_rest_ip_denied' => 'IP geweigerd',
 );
 /** End of file: rest_controller_lang.php **/
