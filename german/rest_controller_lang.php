@@ -26,5 +26,6 @@ $lang = array (
   'text_rest_api_key_permissions' => 'Dieser API-Schlüssel verfügt nicht über die benötigten Berechtigungen',
   'text_rest_api_key_time_limit' => 'Dieser API-Schlüssel hat das Zeitlimit für diese Methode überschritten.',
   'text_rest_ajax_only' => 'Nur AJAX-Anfragen sind erlaubt',
+  'text_rest_unsupported' => 'Nicht unterstütztes Protokoll',
 );
 /** End of file: rest_controller_lang.php **/
