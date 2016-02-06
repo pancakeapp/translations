@@ -7,13 +7,13 @@
  * This is the Brazilian translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Robson Sobral - https://github.com/robsonsobral
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.10.1
+ * @since       Version 4.11.5
  */
 
 // ------------------------------------------------------------------------
@@ -152,7 +152,7 @@ $lang = array (
   'global:duplicate' => 'Duplicar',
   'global:urltosend' => 'Aqui está a url para enviar:',
   'global:copytoclipboard' => 'Copiar para área de transf.',
-  'global:you_need_pancake_cron_job' => 'Para usar faturas recorrentes, você precisa rodar o Pancake cron job.',
+  'global:you_need_pancake_cron_job' => 'Para usar faturas recorrentes, você deve configurar a Tarefa Cron do <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake</a>.',
   'global:if_you_dont_know_how_to_set_it_up' => 'Se você não sabe como configurar, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">clique aqui</a>.',
   'global:quick_links' => 'Links rápidos',
   'global:view_all' => 'Ver tudo',
