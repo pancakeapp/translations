@@ -24,5 +24,6 @@ $lang = array (
   'text_rest_api_key_permissions' => 'Denne API-nøkkelen har ikke nok rettigheter',
   'text_rest_api_key_time_limit' => 'Denne API-nøkkelen har nådd tidsfristen for denne metoden',
   'text_rest_unknown_method' => 'Ukjent metode',
+  'text_rest_unsupported' => 'Protokollen støttes ikke',
 );
 /** End of file: rest_controller_lang.php **/
