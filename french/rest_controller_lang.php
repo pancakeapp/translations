@@ -23,5 +23,6 @@ $lang = array (
   'text_rest_ip_unauthorized' => 'IP non autorisée',
   'text_rest_unauthorized' => 'Non autorisé',
   'text_rest_ajax_only' => 'Seules les requêtes AJAX sont autorisées',
+  'text_rest_api_key_permissions' => 'Cette clé API n\'a pas suffisamment d\'autorisations',
 );
 /** End of file: rest_controller_lang.php **/
