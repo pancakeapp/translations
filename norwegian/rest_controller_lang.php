@@ -23,5 +23,6 @@ $lang = array (
   'text_rest_ajax_only' => 'Kun AJAX forespørsler er tillatt',
   'text_rest_api_key_permissions' => 'Denne API-nøkkelen har ikke nok rettigheter',
   'text_rest_api_key_time_limit' => 'Denne API-nøkkelen har nådd tidsfristen for denne metoden',
+  'text_rest_unknown_method' => 'Ukjent metode',
 );
 /** End of file: rest_controller_lang.php **/
