@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.11.5
+ * @since       Version 4.11.6
  */
 
 // ------------------------------------------------------------------------
@@ -150,7 +150,7 @@ $lang = array (
   'global:duplicate' => 'Dupliser/Kopier',
   'global:urltosend' => 'Her er adressen du skal sende:',
   'global:copytoclipboard' => 'Kopiert til clipboard',
-  'global:you_need_pancake_cron_job' => 'To use recurring invoices, you must be running the Pancake cron job.',
+  'global:you_need_pancake_cron_job' => 'For å bruke gjentakende fakturaer må du sette opp <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>b.',
   'global:quick_links' => 'Quick Links',
   'global:view_all' => 'View All',
   'global:deleted' => 'Deleted',
