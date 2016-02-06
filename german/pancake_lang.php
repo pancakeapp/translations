@@ -7,8 +7,8 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Florian Simeth 
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
@@ -152,7 +152,7 @@ $lang = array (
   'global:duplicate' => 'Duplizieren',
   'global:urltosend' => 'Diese URL versenden:',
   'global:copytoclipboard' => 'kopieren',
-  'global:you_need_pancake_cron_job' => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
+  'global:you_need_pancake_cron_job' => 'Um wiederkehrende Rechnungen zu verwenden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron-Job einstellen</a>.',
   'global:quick_links' => 'Quicklinks',
   'global:view_all' => 'Alle ansehen',
   'global:deleted' => 'Gelöscht',
