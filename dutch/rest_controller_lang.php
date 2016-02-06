@@ -24,5 +24,6 @@ $lang = array (
   'text_rest_unknown_method' => 'onbekende methode',
   'text_rest_api_key_time_limit' => 'Deze API-sleutel heeft het tijdslimiet voor deze methode bereikt',
   'text_rest_unsupported' => 'Niet ondersteund protocol',
+  'text_rest_invalid_api_key' => 'Ongeldige API-sleutel% s',
 );
 /** End of file: rest_controller_lang.php **/
