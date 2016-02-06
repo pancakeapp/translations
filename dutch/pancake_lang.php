@@ -7,8 +7,8 @@
  * This is the Dutch translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      jeffreybertoen - https://github.com/jeffreybertoen
  * @author      Jan Castermans 
  * @author      Peter Ruiter <peter@peterruiter.com> - http://www.peterruiter.com
@@ -1329,5 +1329,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'settings:no_notify_email' => 'U heeft geen e-mailadres ingesteld voor uw <a href=":1">zakelijke identiteit</a>.<br/>Pancake kan geen e-mails sturen.',
   'settings:add_another_business' => 'Voeg een ander bedrijf toe',
   'global:auto_send_needs_pancake_cron_job' => 'Om automatisch facturen te verzenden, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a> instellen.',
+  'settings:always_autosend' => 'Verstuur Automatisch Facturen',
 );
 /** End of file: pancake_lang.php **/
