@@ -19,5 +19,6 @@
 $lang = array (
   'text_rest_api_key_unauthorized' => 'Esta clave de API no tiene acceso al controlador solicitado.',
   'text_rest_api_key_permissions' => 'Esta clave API no tiene los permisos suficientes.',
+  'text_rest_ip_denied' => 'IP negada',
 );
 /** End of file: rest_controller_lang.php **/
