@@ -7,14 +7,14 @@
  * This is the Spanish translation for Pancake.
  *
  * @package     Pancake
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Albert Calvet <sefirot22@gmail.com> - https://github.com/AlbertCalvet
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Francisco arenas <francisco.arenas@dospuntocero.cl> - dospuntocero.cl
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.10.1
+ * @since       Version 4.11.5
  */
 
 // ------------------------------------------------------------------------
@@ -1314,5 +1314,6 @@ $lang = array (
   'settings:currency_format' => 'Formato de moneda',
   'settings:no_notify_email' => 'Usted no tiene una dirección de correo electrónico establecida para la <a href=":1">identidad de su empresa</a>.<br/>Pancake no puede enviar correo electrónico.',
   'settings:add_another_business' => 'Añadir otro negocio',
+  'global:auto_send_needs_pancake_cron_job' => 'Para enviar automáticamente las facturas, se debe configurar el <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
 );
 /** End of file: pancake_lang.php **/
