@@ -153,7 +153,6 @@ $lang = array (
   'global:urltosend' => 'Aquí està la url per enviar:',
   'global:copytoclipboard' => 'Copiar al portapapers',
   'global:you_need_pancake_cron_job' => 'Per a utilitzar factures recurrents, has d\'estar executant treballs CRON amb Pancake.',
-  'global:if_you_dont_know_how_to_set_it_up' => 'Si no saps com configurar-los, <a href="http://pancakeapp.com/documentation/cron"> clic aquí </a>.',
   'global:quick_links' => 'Enllaços ràpids',
   'global:view_all' => 'Veure tot',
   'global:deleted' => 'Esborrats',

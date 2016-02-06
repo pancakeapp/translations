@@ -151,7 +151,6 @@ $lang = array (
   'global:urltosend' => 'Her er adressen du skal sende:',
   'global:copytoclipboard' => 'Kopiert til clipboard',
   'global:you_need_pancake_cron_job' => 'To use recurring invoices, you must be running the Pancake cron job.',
-  'global:if_you_dont_know_how_to_set_it_up' => 'If you don\'t know how to set it up, <a href="https://www.pancakeapp.com/documentation/cron">click here</a>.',
   'global:quick_links' => 'Quick Links',
   'global:view_all' => 'View All',
   'global:deleted' => 'Deleted',

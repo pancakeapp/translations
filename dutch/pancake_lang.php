@@ -156,7 +156,6 @@ $lang = array (
   'global:urltosend' => 'Hier is de URL die u kunt verzenden:',
   'global:copytoclipboard' => 'Kopieer naar plakbord',
   'global:you_need_pancake_cron_job' => 'Om terugkerende facturen te gebruiken, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>instellen.',
-  'global:if_you_dont_know_how_to_set_it_up' => 'Indien u niet weet hoe u dit gebruikt kijkt u, <a href="http://www.pancakeapp.com/documentation/cron">hier</a>.',
   'global:quick_links' => 'Snelle Links',
   'global:view_all' => 'Bekijk alles',
   'global:deleted' => 'Verwijderd',

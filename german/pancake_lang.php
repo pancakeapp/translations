@@ -153,7 +153,6 @@ $lang = array (
   'global:urltosend' => 'Diese URL versenden:',
   'global:copytoclipboard' => 'kopieren',
   'global:you_need_pancake_cron_job' => 'Um wiederkehrende Rechnungen zu verwenden musst du einen Pancake cronjob verwenden.',
-  'global:if_you_dont_know_how_to_set_it_up' => 'Wenn du nicht weißt, wie du diesen einrichtest, <a href="http://pancakeapp.com/documentation/cron">hier klicken</a>.',
   'global:quick_links' => 'Quicklinks',
   'global:view_all' => 'Alle ansehen',
   'global:deleted' => 'Gelöscht',

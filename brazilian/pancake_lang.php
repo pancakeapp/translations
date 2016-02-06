@@ -153,7 +153,6 @@ $lang = array (
   'global:urltosend' => 'Aqui está a url para enviar:',
   'global:copytoclipboard' => 'Copiar para área de transf.',
   'global:you_need_pancake_cron_job' => 'Para usar faturas recorrentes, você deve configurar a Tarefa Cron do <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake</a>.',
-  'global:if_you_dont_know_how_to_set_it_up' => 'Se você não sabe como configurar, <a href="http://help.pancakeapp.com/customer/portal/articles/605703">clique aqui</a>.',
   'global:quick_links' => 'Links rápidos',
   'global:view_all' => 'Ver tudo',
   'global:deleted' => 'Apagado',
