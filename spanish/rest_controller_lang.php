@@ -27,5 +27,6 @@ $lang = array (
   'text_rest_ajax_only' => 'Solamente son permitidas solicitudes AJAX ',
   'text_rest_invalid_api_key' => 'Clave API inválida %s',
   'text_rest_unknown_method' => 'Método desconocido',
+  'text_rest_unauthorized' => 'No autorizado',
 );
 /** End of file: rest_controller_lang.php **/
