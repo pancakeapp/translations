@@ -27,5 +27,6 @@ $lang = array (
   'text_rest_unsupported' => 'Protokollen støttes ikke',
   'text_rest_invalid_credentials' => 'Ugyldig legitimasjon',
   'text_rest_ip_unauthorized' => 'IP uautorisert',
+  'text_rest_api_key_unauthorized' => 'Denne API-nøkkelen har ikke tilgang til den forespurte kontrolløren',
 );
 /** End of file: rest_controller_lang.php **/
