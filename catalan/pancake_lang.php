@@ -1311,5 +1311,10 @@ $lang = array (
   'settings:decimal_places' => ':1 posicions decimals',
   'settings:currency_format' => 'Format de moneda',
   'settings:no_notify_email' => 'Vosté no té una adreça de correu electrònic establerta per a la <a href=":1">identitat de la seva empresa</a>.<br/>Pancake no pot enviar correu electrònic.',
+  'settings:add_another_business' => 'Afegir un altre negoci',
+  'global:auto_send_needs_pancake_cron_job' => 'Per a enviar factures automàticament, cal que configuri una <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Tasca de Cron de Pancake</a>.',
+  'global:you_need_pancake_cron_job' => 'Per a utilitzar factures recorrents, cal que configure la <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Tasca de Cron de Pancake</a>.',
+  'settings:always_autosend' => 'Auto enviar factures per defecte',
+  'settings:send_x_days_before_explain' => "Nombre de dies per defecte fins que una factura venç per a enviar-la al client.",  
 );
 /** End of file: pancake_lang.php **/
