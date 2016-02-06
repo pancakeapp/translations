@@ -27,5 +27,6 @@ $lang = array (
   'text_rest_unknown_method' => 'Método desconhecido',
   'text_rest_unsupported' => 'Protocolo não suportado',
   'text_rest_unauthorized' => 'Não autorizado',
+  'text_rest_api_key_unauthorized' => 'Esta chave de API não tem acesso ao controlador solicitado',
 );
 /** End of file: rest_controller_lang.php **/
