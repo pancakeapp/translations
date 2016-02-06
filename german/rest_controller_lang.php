@@ -21,5 +21,6 @@ $lang = array (
   'text_rest_invalid_api_key' => 'Ungültiger API-Schlüssel %s',
   'text_rest_invalid_credentials' => 'Ungültige Anmeldedaten',
   'text_rest_ip_denied' => 'IP verweigert',
+  'text_rest_ip_unauthorized' => 'IP unberechtigt',
 );
 /** End of file: rest_controller_lang.php **/
