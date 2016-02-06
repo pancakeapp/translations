@@ -26,5 +26,6 @@ $lang = array (
   'text_rest_api_key_permissions' => 'Cette clé API n\'a pas suffisamment d\'autorisations',
   'text_rest_api_key_unauthorized' => 'Cette clé API n\'a pas accès à la commande demandée',
   'text_rest_api_key_time_limit' => 'Cette clé API a atteint la limite de temps pour cette méthode',
+  'text_rest_unknown_method' => 'Méthode inconnue',
 );
 /** End of file: rest_controller_lang.php **/
