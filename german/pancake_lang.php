@@ -152,7 +152,7 @@ $lang = array (
   'global:duplicate' => 'Duplizieren',
   'global:urltosend' => 'Diese URL versenden:',
   'global:copytoclipboard' => 'kopieren',
-  'global:you_need_pancake_cron_job' => 'Um wiederkehrende Rechnungen zu verwenden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron-Job einstellen</a>.',
+  'global:you_need_pancake_cron_job' => 'Um wiederkehrende Rechnungen zu verwenden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron-Job</a> einstellen.',
   'global:quick_links' => 'Quicklinks',
   'global:view_all' => 'Alle ansehen',
   'global:deleted' => 'Gelöscht',
