@@ -26,5 +26,6 @@ $lang = array (
   'text_rest_api_key_time_limit' => 'Esta chave de API atingiu o limite de tempo para este método',
   'text_rest_unknown_method' => 'Método desconhecido',
   'text_rest_unsupported' => 'Protocolo não suportado',
+  'text_rest_unauthorized' => 'Não autorizado',
 );
 /** End of file: rest_controller_lang.php **/
