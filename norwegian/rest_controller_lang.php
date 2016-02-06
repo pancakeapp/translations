@@ -19,5 +19,6 @@
 $lang = array (
   'text_rest_invalid_api_key' => 'Ugyldig API nøkkel %s',
   'text_rest_ip_denied' => 'IP benektet',
+  'text_rest_unauthorized' => 'Uautorisert',
 );
 /** End of file: rest_controller_lang.php **/
