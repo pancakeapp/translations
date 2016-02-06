@@ -8,12 +8,12 @@
  *
  * @package     Pancake
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Marius - http://www.kildedal.no
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.10.1
+ * @since       Version 4.11.5
  */
 
 // ------------------------------------------------------------------------
@@ -1312,5 +1312,6 @@ $lang = array (
   'settings:decimal_places' => ':1 desimalplasser',
   'settings:no_notify_email' => 'Du har ikke en e-postadresse angitt for <a href=":1">din virksomhetsidentitet</a>.<br/>Pancake er ikke i stand til å sende e-post.',
   'settings:add_another_business' => 'Legg til en annen virksomhet',
+  'global:auto_send_needs_pancake_cron_job' => 'For å automatisk sende fakturaer, må du sette opp <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
 );
 /** End of file: pancake_lang.php **/
