@@ -22,5 +22,6 @@ $lang = array (
   'text_rest_api_key_unauthorized' => 'Deze API sleutel geeft geen toegang tot de gevraagde controller',
   'text_rest_api_key_permissions' => 'Deze API sleutel heeft onvoldoende rechten',
   'text_rest_unknown_method' => 'onbekende methode',
+  'text_rest_api_key_time_limit' => 'Deze API-sleutel heeft het tijdslimiet voor deze methode bereikt',
 );
 /** End of file: rest_controller_lang.php **/
