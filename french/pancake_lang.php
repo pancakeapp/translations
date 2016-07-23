@@ -1318,5 +1318,6 @@ $lang = array (
   'settings:always_autosend' => 'Envoi automatique de factures par défaut',
   'invoice:description' => 'Description',
   'invoices:auto_charge' => 'Facturer le Client Automatiquement',
+  'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake débitera automatiquement ce client lorsque la facture sera due, en utilisant ses informations de paiement enregistrées.',
 );
 /** End of file: pancake_lang.php **/
