@@ -1328,5 +1328,6 @@ Die Fehlermeldung war:
   'settings:always_autosend' => 'standardmäßiges Automatisches Verschicken der Rechnungen ',
   'invoice:description' => 'Beschreibung',
   'invoices:charge_when_due' => 'Belastung wenn fällig',
+  'global:or' => 'oder',
 );
 /** End of file: pancake_lang.php **/
