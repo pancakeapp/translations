@@ -1332,5 +1332,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'global:auto_send_needs_pancake_cron_job' => 'Om automatisch facturen te verzenden, moet u de <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a> instellen.',
   'settings:always_autosend' => 'Verstuur Automatisch Facturen',
   'invoice:description' => 'Beschrijving',
+  'invoices:charge_when_due' => 'Berekenen Op De Vervaldag',
 );
 /** End of file: pancake_lang.php **/
