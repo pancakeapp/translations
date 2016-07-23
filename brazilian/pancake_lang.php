@@ -1319,5 +1319,7 @@ A mensagem de erro foi:
   'global:auto_send_needs_pancake_cron_job' => 'Para enviar faturas automaticamente, você deve configurar a <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Tarefa Cron do Pancake</a>.',
   'settings:always_autosend' => 'Enviar faturas Automaticamente por padrão',
   'invoice:description' => 'Descrição',
+  'invoices:charge_when_due' => 'Carregue quando for conveniente 
+',
 );
 /** End of file: pancake_lang.php **/
