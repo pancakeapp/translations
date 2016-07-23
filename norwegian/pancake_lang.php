@@ -1315,5 +1315,6 @@ $lang = array (
   'global:auto_send_needs_pancake_cron_job' => 'For å automatisk sende fakturaer, må du sette opp <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
   'settings:always_autosend' => 'Autosend fakturaer som standard',
   'invoice:description' => 'Beskrivelse',
+  'invoices:charge_when_due' => 'Belast Ved Forfall',
 );
 /** End of file: pancake_lang.php **/
