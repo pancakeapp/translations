@@ -283,7 +283,6 @@ $lang = array(
     'invoices:send_now_title' => 'Send invoice now?',
     'invoices:send_now_body' => 'Fill out the form below and we\'ll deliver this invoice for you.',
     'invoices:newinvoice' => 'Create Invoice',
-    'invoices:send_now' => 'Send invoice',
     'invoices:timequantity' => 'Time/Quantity',
     'invoices:ratewithcurrency' => 'Rate (:1)',
     'invoices:taxable' => 'Taxable',
@@ -1649,6 +1648,25 @@ $lang = array(
     'settings:always_autosend' => "Auto Send invoices by default",
     'settings:send_x_days_before_explain' => "Default number of days before an invoice is due to auto send it to a client.",
     # End v4.11.6 changes
+
+    # Begin v4.12.0 changes
+    "invoice:description" => "Description",
+    "invoices:charge_when_due" => "Charge When Due",
+    "invoices:auto_charge" => "Charge Client Automatically",
+    "invoices:pancake_will_charge_when_invoice_is_due" => "Pancake will automatically charge this client when the invoice is due, using their saved payment details.",
+    "invoices:pancake_cannot_auto_charge" => "There are no saved payment details for this client, so Pancake cannot auto-charge. The client has to pay you through Stripe at least once in order to save their payment details.",
+    "invoices:auto_charge_needs_pancake_cron_job" => 'To automatically charge clients, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
+    "global:or" => "or",
+    "invoices:could_not_auto_charge" => "Pancake was not able to charge your client automatically. Your client will have to pay for Invoice #:1 manually.",
+    "invoices:auto_charged" => "Your client was charged for Invoice #:1. The invoice is now paid.",
+    "settings:gmail_setup_successfully" => "You've connected your Pancake with your Gmail account successfully!",
+    "settings:pancake_uses_our_servers" => "Note: Pancake uses Pancake servers to make sure the permission to use Gmail doesn't expire.<br />No information of any kind is stored. If you have your own Google Developer Account, you can <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>use your own server</a>.",
+    "settings:you_are_signed_in" => "You are signed in as :1.<br />Click the button below if you need to update your details or use a different account.",
+    "settings:you_are_using_old_auth" => "Pancake is currently sending email as :1 using your email and password.<br />Click the button below to upgrade to a more secure way of using Gmail.",
+    "invoices:send_now" => "Send Invoice",
+    "credit_notes:messageupdated" => "The credit note has been updated!",
+    'credit_notes:resend' => 'Resend Credit Note',
+    # End v4.12.0 changes
 
 );
 
