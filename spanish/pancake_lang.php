@@ -1316,5 +1316,6 @@ $lang = array (
   'global:auto_send_needs_pancake_cron_job' => 'Para enviar automáticamente las facturas, se debe configurar el <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
   'settings:always_autosend' => 'Envío automático de facturas de forma predeterminada',
   'invoice:description' => 'Descripción',
+  'invoices:auto_charge' => 'Cargar al cliente automáticamente',
 );
 /** End of file: pancake_lang.php **/
