@@ -1321,5 +1321,6 @@ A mensagem de erro foi:
   'invoice:description' => 'Descrição',
   'invoices:charge_when_due' => 'Carregue quando for conveniente 
 ',
+  'invoices:auto_charge' => 'Carregar cliente automaticamente',
 );
 /** End of file: pancake_lang.php **/
