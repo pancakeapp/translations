@@ -1330,5 +1330,6 @@ Die Fehlermeldung war:
   'invoices:charge_when_due' => 'Belastung wenn fällig',
   'global:or' => 'oder',
   'invoices:auto_charge' => 'Rechung automatisch stellen',
+  'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake wird diesen Kunden automatisch - unter Verwendung ihrer gespeicherten Zahlungsdaten - belasten, wenn die Rechnung fällig ist.',
 );
 /** End of file: pancake_lang.php **/
