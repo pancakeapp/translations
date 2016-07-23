@@ -1316,5 +1316,6 @@ $lang = array (
   'settings:always_autosend' => 'Autosend fakturaer som standard',
   'invoice:description' => 'Beskrivelse',
   'invoices:charge_when_due' => 'Belast Ved Forfall',
+  'invoices:auto_charge' => 'Belast Klienten Automatisk',
 );
 /** End of file: pancake_lang.php **/
