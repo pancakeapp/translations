@@ -1333,5 +1333,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'settings:always_autosend' => 'Verstuur Automatisch Facturen',
   'invoice:description' => 'Beschrijving',
   'invoices:charge_when_due' => 'Berekenen Op De Vervaldag',
+  'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake zal deze klant automatisch aanrekenen op de vervaldatum van de factuur, en gebruikt daarbij hun opgeslagen betalingsgegevens.',
 );
 /** End of file: pancake_lang.php **/
