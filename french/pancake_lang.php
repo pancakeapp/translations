@@ -7,7 +7,7 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      ahouin - https://github.com/ahouin
+ * @author      Marc-André Vaillancourt <info@webmarksolutions.ca> - http://webmarksolutions.ca
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Damien Dupré - https://github.com/kennedyabitbol
@@ -1317,7 +1317,7 @@ $lang = array (
   'global:auto_send_needs_pancake_cron_job' => 'Pour envoyer automatiquement les factures, vous devez configurer le <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron</a>.',
   'settings:always_autosend' => 'Envoi automatique de factures par défaut',
   'invoice:description' => 'Description',
-  'invoices:auto_charge' => 'Facturer le Client Automatiquement',
+  'invoices:auto_charge' => 'Facturer le client automatiquement',
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake débitera automatiquement ce client lorsque la facture sera due, en utilisant ses informations de paiement enregistrées.',
   'global:or' => 'ou',
   'invoices:charge_when_due' => 'Facturer selon le dû',
