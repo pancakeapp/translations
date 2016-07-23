@@ -1317,5 +1317,6 @@ $lang = array (
   'settings:always_autosend' => 'Envío automático de facturas de forma predeterminada',
   'invoice:description' => 'Descripción',
   'invoices:auto_charge' => 'Cargar al cliente automáticamente',
+  'global:or' => 'o',
 );
 /** End of file: pancake_lang.php **/
