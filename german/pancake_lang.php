@@ -7,15 +7,15 @@
  * This is the German translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Florian Simeth 
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.11.5
+ * @since       Version 4.11.22
  */
 
 // ------------------------------------------------------------------------
@@ -1326,5 +1326,6 @@ Die Fehlermeldung war:
   'settings:add_another_business' => 'Fügen Sie ein weiteres Unternehmen hinzu',
   'global:auto_send_needs_pancake_cron_job' => 'Um Rechnungen automatisch zu senden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">"Pancake Cron-Job"</a> einrichten.',
   'settings:always_autosend' => 'standardmäßiges Automatisches Verschicken der Rechnungen ',
+  'invoice:description' => 'Beschreibung',
 );
 /** End of file: pancake_lang.php **/
