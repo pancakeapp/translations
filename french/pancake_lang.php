@@ -7,15 +7,15 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
- * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      ahouin - https://github.com/ahouin
- * @author      Damien Dupré - https://github.com/damiendd
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
+ * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
+ * @author      Damien Dupré - https://github.com/kennedyabitbol
+ * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.11.5
+ * @since       Version 4.11.22
  */
 
 // ------------------------------------------------------------------------
@@ -1316,5 +1316,6 @@ $lang = array (
   'settings:add_another_business' => 'Ajouter une autre entreprise',
   'global:auto_send_needs_pancake_cron_job' => 'Pour envoyer automatiquement les factures, vous devez configurer le <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron</a>.',
   'settings:always_autosend' => 'Envoi automatique de factures par défaut',
+  'invoice:description' => 'Description',
 );
 /** End of file: pancake_lang.php **/
