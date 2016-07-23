@@ -1327,5 +1327,6 @@ Die Fehlermeldung war:
   'global:auto_send_needs_pancake_cron_job' => 'Um Rechnungen automatisch zu senden, müssen Sie den <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">"Pancake Cron-Job"</a> einrichten.',
   'settings:always_autosend' => 'standardmäßiges Automatisches Verschicken der Rechnungen ',
   'invoice:description' => 'Beschreibung',
+  'invoices:charge_when_due' => 'Belastung wenn fällig',
 );
 /** End of file: pancake_lang.php **/
