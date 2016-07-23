@@ -1318,5 +1318,6 @@ $lang = array (
   'invoice:description' => 'Descripción',
   'invoices:auto_charge' => 'Cargar al cliente automáticamente',
   'global:or' => 'o',
+  'invoices:charge_when_due' => 'Cobrar Cuando Sea Debido',
 );
 /** End of file: pancake_lang.php **/
