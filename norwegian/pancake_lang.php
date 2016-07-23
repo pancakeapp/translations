@@ -13,7 +13,7 @@
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.11.6
+ * @since       Version 4.11.22
  */
 
 // ------------------------------------------------------------------------
@@ -1314,5 +1314,6 @@ $lang = array (
   'settings:add_another_business' => 'Legg til en annen virksomhet',
   'global:auto_send_needs_pancake_cron_job' => 'For å automatisk sende fakturaer, må du sette opp <a href="https://www.pancakeapp.com/documentation/cron" target="_blank">Pancake Cron Job</a>.',
   'settings:always_autosend' => 'Autosend fakturaer som standard',
+  'invoice:description' => 'Beskrivelse',
 );
 /** End of file: pancake_lang.php **/
