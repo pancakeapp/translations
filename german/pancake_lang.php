@@ -1329,5 +1329,6 @@ Die Fehlermeldung war:
   'invoice:description' => 'Beschreibung',
   'invoices:charge_when_due' => 'Belastung wenn fällig',
   'global:or' => 'oder',
+  'invoices:auto_charge' => 'Rechung automatisch stellen',
 );
 /** End of file: pancake_lang.php **/
