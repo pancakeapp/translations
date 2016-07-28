@@ -1322,5 +1322,6 @@ A mensagem de erro foi:
   'invoices:charge_when_due' => 'Carregue quando for conveniente 
 ',
   'invoices:auto_charge' => 'Carregar cliente automaticamente',
+  'global:or' => 'ou',
 );
 /** End of file: pancake_lang.php **/
