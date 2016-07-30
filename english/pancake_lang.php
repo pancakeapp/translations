@@ -1666,6 +1666,7 @@ $lang = array(
     "invoices:send_now" => "Send Invoice",
     "credit_notes:messageupdated" => "The credit note has been updated!",
     'credit_notes:resend' => 'Resend Credit Note',
+    "global:support" => "Help / Support",
     # End v4.12.0 changes
 
 );
