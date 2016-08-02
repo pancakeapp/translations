@@ -1325,5 +1325,26 @@ $lang = array (
   'invoices:auto_charged' => 'Votre client a été débité pour la facture #:1. La facture est maintenant payée.',
   'settings:gmail_setup_successfully' => 'Vous avez connecté avec succès votre Pancake avec votre compte Gmail !',
   'credit_notes:messageupdated' => 'La note de crédit a été mise à jour !',
+
+  # Begin v4.12.0 changes
+  "invoices:pancake_cannot_auto_charge" => "There are no saved payment details for this client, so Pancake cannot auto-charge. The client has to pay you through Stripe at least once in order to save their payment details.",
+  "invoices:auto_charge_needs_pancake_cron_job" => 'To automatically charge clients, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
+
+  "settings:pancake_uses_our_servers" => "Note : Pancake utilise les serveurs de Pancake afin que la permission de connexion ne s'expire pas.<br />Nous n'enregistrons pas d'information. Si vous avez votre propre compte développeur de Google, vous pouvez <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>utiliser votre propre serveur</a>.",
+  "settings:you_are_signed_in" => "Vous êtes connecté comme :1.<br />Cliquez sur le bouton plus bas si vous voulez mettre à jour vos détails ou pour utiliser un autre compte.",
+  "settings:you_are_using_old_auth" => "Pancake envoie des courriels grâce à la méthode :1 votre courriel et mot de passe.<br />Cliquez sur le bouton plus bas pour sécuriser votre méthode d'envoie courriel avec Gmail.",
+  "invoices:send_now" => "Envoyer la facture",
+  'credit_notes:resend' => 'Réenvoyer la note de crédit',
+  "global:support" => "Aide / Assistance",
+  "settings:filesystem" => "Où voulez-vous enregistrer les fichiers",
+  "settings:filesystem_local" => "Dossier de téléversement",
+  "filesystem:s3_access_key" => "Clé d'accès",
+  "filesystem:s3_secret_key" => "Clé secret",
+  "filesystem:s3_prefix" => "Dossier (optionel)",
+  "filesystem:s3_bucket" => "S3 Bucket",
+  "invoices:amount_due" => "Montant dû",
+  "invoices:due_date" => "Dû pour le",
+
+  # End v4.12.0 changes
 );
 /** End of file: pancake_lang.php **/
