@@ -1331,5 +1331,6 @@ Die Fehlermeldung war:
   'global:or' => 'oder',
   'invoices:auto_charge' => 'Rechung automatisch stellen',
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake wird diesen Kunden automatisch - unter Verwendung ihrer gespeicherten Zahlungsdaten - belasten, wenn die Rechnung fällig ist.',
+  'settings:gmail_setup_successfully' => 'Sie haben Ihr Pancake erfolgreich mit Ihrem Gmail-Konto verbunden!',
 );
 /** End of file: pancake_lang.php **/
