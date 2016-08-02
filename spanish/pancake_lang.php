@@ -1323,5 +1323,6 @@ $lang = array (
   'invoices:could_not_auto_charge' => 'Pancake no ha podido cobrar automáticamente a su cliente. Su cliente tendrá que pagar la factura #:1 de forma manual.',
   'invoices:auto_charged' => 'A su cliente se le ha cobrado la factura #:1. La factura ya está pagada.',
   'settings:gmail_setup_successfully' => '¡Has conectado con éxito tu Pancake con tu cuenta de Gmail!',
+  'credit_notes:messageupdated' => '¡La nota de crédito se ha actualizado!',
 );
 /** End of file: pancake_lang.php **/
