@@ -1336,5 +1336,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake zal deze klant automatisch aanrekenen op de vervaldatum van de factuur, en gebruikt daarbij hun opgeslagen betalingsgegevens.',
   'global:or' => 'of',
   'invoices:auto_charge' => 'Reken Cliënt Automatisch Aan',
+  'invoices:could_not_auto_charge' => 'Pancake kon uw klant niet automatisch een rekening sturen. Uw klant zal handmatig moeten betalen voor de factuur #:1.',
 );
 /** End of file: pancake_lang.php **/
