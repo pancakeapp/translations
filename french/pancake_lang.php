@@ -1323,5 +1323,6 @@ $lang = array (
   'invoices:charge_when_due' => 'Facturer selon le dû',
   'invoices:could_not_auto_charge' => 'Pancake n\'a pas réussi à facturer automatiquement votre client. Votre client devra payer la facture #:1 manuellement.',
   'invoices:auto_charged' => 'Votre client a été débité pour la facture #:1. La facture est maintenant payée.',
+  'settings:gmail_setup_successfully' => 'Vous avez connecté avec succès votre Pancake avec votre compte Gmail !',
 );
 /** End of file: pancake_lang.php **/
