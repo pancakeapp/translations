@@ -1320,5 +1320,6 @@ $lang = array (
   'global:or' => 'o',
   'invoices:charge_when_due' => 'Cobrar Cuando Sea Debido',
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake le cobrará automáticamente a este cliente cuando esté la factura, utilizando sus datos de pago guardados.',
+  'invoices:could_not_auto_charge' => 'Pancake no ha podido cobrar automáticamente a su cliente. Su cliente tendrá que pagar la factura #:1 de forma manual.',
 );
 /** End of file: pancake_lang.php **/
