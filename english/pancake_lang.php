@@ -1667,6 +1667,15 @@ $lang = array(
     "credit_notes:messageupdated" => "The credit note has been updated!",
     'credit_notes:resend' => 'Resend Credit Note',
     "global:support" => "Help / Support",
+    "settings:filesystem" => "Where to store uploads",
+    "settings:filesystem_local" => "Uploads Folder",
+    "filesystem:s3_access_key" => "Access Key",
+    "filesystem:s3_secret_key" => "Secret Key",
+    "filesystem:s3_prefix" => "Folder (optional)",
+    "filesystem:s3_bucket" => "S3 Bucket",
+    "invoices:amount_due" => "Amount Due",
+    "invoices:due_date" => "Due Date",
+
     # End v4.12.0 changes
 
 );
