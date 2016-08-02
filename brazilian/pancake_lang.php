@@ -1324,5 +1324,7 @@ A mensagem de erro foi:
   'invoices:auto_charge' => 'Carregar cliente automaticamente',
   'global:or' => 'ou',
   'invoices:auto_charged' => 'Seu cliente foi cobrado por Invoice #:1. A fatura foi paga.',
+  'settings:gmail_setup_successfully' => 'Você se conectou ao Pancake através de sua conta do Gmail com sucesso!',
+  'invoices:could_not_auto_charge' => 'Pancake não foi capaz de carregar o seu cliente automaticamente. Seu cliente terá de pagar a conta #:1 manualmente.',
 );
 /** End of file: pancake_lang.php **/
