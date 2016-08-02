@@ -1337,5 +1337,6 @@ Scan uw Pancake voor file-gerelateerde zaken',
   'global:or' => 'of',
   'invoices:auto_charge' => 'Reken Cliënt Automatisch Aan',
   'invoices:could_not_auto_charge' => 'Pancake kon uw klant niet automatisch een rekening sturen. Uw klant zal handmatig moeten betalen voor de factuur #:1.',
+  'invoices:auto_charged' => 'Uw klant was factuur #:1 in rekening gebracht. De factuur is nu betaald.',
 );
 /** End of file: pancake_lang.php **/
