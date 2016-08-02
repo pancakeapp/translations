@@ -263,7 +263,6 @@ $lang = array (
   'invoices:send_now_title' => 'Envoyer la facture maintenant?',
   'invoices:send_now_body' => 'Remplissez le formulaire ci-dessous et nous enverrons cette facture pour vous.',
   'invoices:newinvoice' => 'Créer une facture',
-  'invoices:send_now' => 'Envoyer la facture',
   'invoices:timequantity' => 'Qté/Hres',
   'invoices:ratewithcurrency' => 'Tarif (:1)',
   'invoices:taxable' => 'Taxable',
@@ -1327,9 +1326,6 @@ $lang = array (
   'credit_notes:messageupdated' => 'La note de crédit a été mise à jour !',
 
   # Begin v4.12.0 changes
-  "invoices:pancake_cannot_auto_charge" => "There are no saved payment details for this client, so Pancake cannot auto-charge. The client has to pay you through Stripe at least once in order to save their payment details.",
-  "invoices:auto_charge_needs_pancake_cron_job" => 'To automatically charge clients, you must setup the <a target="_blank" href="https://www.pancakeapp.com/documentation/cron">Pancake Cron Job</a>.',
-
   "settings:pancake_uses_our_servers" => "Note : Pancake utilise les serveurs de Pancake afin que la permission de connexion ne s'expire pas.<br />Nous n'enregistrons pas d'information. Si vous avez votre propre compte développeur de Google, vous pouvez <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>utiliser votre propre serveur</a>.",
   "settings:you_are_signed_in" => "Vous êtes connecté comme :1.<br />Cliquez sur le bouton plus bas si vous voulez mettre à jour vos détails ou pour utiliser un autre compte.",
   "settings:you_are_using_old_auth" => "Pancake envoie des courriels grâce à la méthode :1 votre courriel et mot de passe.<br />Cliquez sur le bouton plus bas pour sécuriser votre méthode d'envoie courriel avec Gmail.",
