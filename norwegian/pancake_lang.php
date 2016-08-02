@@ -1318,5 +1318,6 @@ $lang = array (
   'invoices:charge_when_due' => 'Belast Ved Forfall',
   'invoices:auto_charge' => 'Belast Klienten Automatisk',
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake vil automatisk belaste denne klienten når fakturaen forfaller, ved å benytte deres lagrede betalingsinformasjon.',
+  'global:or' => 'eller',
 );
 /** End of file: pancake_lang.php **/
