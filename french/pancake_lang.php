@@ -7,7 +7,7 @@
  * This is the French translation for Pancake.
  *
  * @package     Pancake
- * @author      Marc-André Vaillancourt <info@webmarksolutions.ca> - http://webmarksolutions.ca
+ * @author      ahouin - https://webmarksolutions.ca
  * @author      Anas AIT ALI <contact@aitali.co> - http://aitali.co
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
  * @author      Damien Dupré - https://github.com/kennedyabitbol
@@ -1321,5 +1321,6 @@ $lang = array (
   'invoices:pancake_will_charge_when_invoice_is_due' => 'Pancake débitera automatiquement ce client lorsque la facture sera due, en utilisant ses informations de paiement enregistrées.',
   'global:or' => 'ou',
   'invoices:charge_when_due' => 'Facturer selon le dû',
+  'invoices:could_not_auto_charge' => 'Pancake n\'a pas réussi à facturer automatiquement votre client. Votre client devra payer la facture #:1 manuellement.',
 );
 /** End of file: pancake_lang.php **/
