@@ -1323,5 +1323,6 @@ A mensagem de erro foi:
 ',
   'invoices:auto_charge' => 'Carregar cliente automaticamente',
   'global:or' => 'ou',
+  'invoices:auto_charged' => 'Seu cliente foi cobrado por Invoice #:1. A fatura foi paga.',
 );
 /** End of file: pancake_lang.php **/
