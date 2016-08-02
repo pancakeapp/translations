@@ -1326,6 +1326,9 @@ $lang = array (
   'credit_notes:messageupdated' => 'La note de crédit a été mise à jour !',
 
   # Begin v4.12.0 changes
+  "invoices:pancake_will_charge_when_invoice_is_due" => "Pancake chargera automatiquement ce client lorsque la facture sera dûe grâce à leurs détails de paiement enregistrés.",
+  "invoices:pancake_cannot_auto_charge" => "Il n'y pas de détails de paiement pour ce client. Le client devra payer au minimum une fois avec Stripe afin que les détails de paiement s'enregistrent.",
+
   "settings:pancake_uses_our_servers" => "Note : Pancake utilise les serveurs de Pancake afin que la permission de connexion ne s'expire pas.<br />Nous n'enregistrons pas d'information. Si vous avez votre propre compte développeur de Google, vous pouvez <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>utiliser votre propre serveur</a>.",
   "settings:you_are_signed_in" => "Vous êtes connecté comme :1.<br />Cliquez sur le bouton plus bas si vous voulez mettre à jour vos détails ou pour utiliser un autre compte.",
   "settings:you_are_using_old_auth" => "Pancake envoie des courriels grâce à la méthode :1 votre courriel et mot de passe.<br />Cliquez sur le bouton plus bas pour sécuriser votre méthode d'envoie courriel avec Gmail.",
