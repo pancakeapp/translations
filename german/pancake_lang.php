@@ -1334,5 +1334,6 @@ Die Fehlermeldung war:
   'settings:gmail_setup_successfully' => 'Sie haben Ihr Pancake erfolgreich mit Ihrem Gmail-Konto verbunden!',
   'settings:pancake_uses_our_servers' => 'Hinweis: Pancake benutzt die Pancake-Server um sicher zu gehen, dass die Genehmigung zur Verwendung von Google-Mail nicht abläuft.<br/>Keine Informationen jeglicher Art werden gespeichert. Falls Sie ein eigenes Google-Entwickler-Konto haben, können Sie <a href="https://www.pancakeapp.com/faq/google-oauth" target="_blank">Ihren eigenen Server benutzen</a>.',
   'credit_notes:messageupdated' => 'Die Gutschrift wurde aktualisiert!',
+  'invoices:could_not_auto_charge' => 'Pancake war nicht in der Lage, die Rechnung für Ihren Kunden automatisch durchzuführen. Ihr Kunde muss die Rechnung #:1 manuell bezahlen.',
 );
 /** End of file: pancake_lang.php **/
