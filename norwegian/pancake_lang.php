@@ -1321,5 +1321,6 @@ $lang = array (
   'global:or' => 'eller',
   'invoices:could_not_auto_charge' => 'Pancake var ikke i stand til å belaste din klient automatisk. Din klient vil måtte betale for faktura #:1 manuelt.',
   'invoices:auto_charged' => 'Din klient ble belastet for Faktura #:1. Fakturaen er nå betalt.',
+  'settings:gmail_setup_successfully' => 'Tilkoblingen mellom din Pancake og Gmail-konto var vellykket!',
 );
 /** End of file: pancake_lang.php **/
