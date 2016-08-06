@@ -1555,7 +1555,7 @@ $lang = array(
     "error:pancake_will_stop_supporting_it" => "Pancake might stop supporting it at any time.",
     "error:using_php_54" => "You are using PHP 5.4, which has been out of date since September 2014 and is no longer supported by the PHP Group.",
     "error:why_update" => "By staying with this version of PHP, you're missing out on a number of performance and security improvements, as well as a countless number of bugfixes.",
-    "error:upgrade_php" => "You should upgrade your PHP version to at least 5.5 (ideally 5.6). To do so, please talk to your server administrators and ask them to update PHP.",
+    "error:upgrade_php" => "You should upgrade your PHP version to at least :1 (ideally :2). To do so, please talk to your server administrators and ask them to update PHP.",
     "error:scan_pancake" => "Scan your Pancake for file-related issues",
     "error:scan_pancake_explanation" => "Sometimes issues might happen because of a failed update, or because of permissions problems that cause your Pancake files to become corrupted during an update. Use this to check your Pancake for any such problems.",
     "error:scanning" => "Scanning, please wait...",
@@ -1677,6 +1677,10 @@ $lang = array(
     "invoices:due_date" => "Due Date",
     "settings:filesystem_explain" => "Note: If you change this setting, Pancake will copy all the files to the new storage place for you. You will not need to do anything else.",
     # End v4.12.0 changes
+
+    # Begin v4.12.1 changes
+    "error:using_old_php" => "You are using PHP :1, which has been out of date since :2 and is no longer supported by the PHP Group.",
+    # End v4.12.1 changes
 
 );
 
