@@ -1343,7 +1343,7 @@ $lang = array (
   "filesystem:s3_bucket" => "S3 Bucket",
   "invoices:amount_due" => "Montant dû",
   "invoices:due_date" => "Dû pour le",
-
+  "settings:filesystem_explain" => "Attention: Si vous changez ces paramètres, Pancake copiera tous les fichiers dans le nouvel emplacement de stockage pour vous. Vous n'avez aucune manipulation supplémentaire à effectuer.",
   # End v4.12.0 changes
 );
 /** End of file: pancake_lang.php **/
