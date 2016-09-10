@@ -1345,5 +1345,13 @@ $lang = array (
   "invoices:due_date" => "Dû pour le",
   "settings:filesystem_explain" => "Attention: Si vous changez ces paramètres, Pancake copiera tous les fichiers dans le nouvel emplacement de stockage pour vous. Vous n'avez aucune manipulation supplémentaire à effectuer.",
   # End v4.12.0 changes
+  
+  # Begin v4.12.1 changes
+  "error:using_old_php" => "Vous utlisez PHP :1, qui est déprécié depuis :2 et n'est plus supporté par le groupe PHP.",
+  # End v4.12.1 changes
+  
+  # Begin v4.12.7 changes
+  "settings:last_cron_run_datetime" => "Dernière exécution: :1",
+  # End v4.12.7 changes
 );
 /** End of file: pancake_lang.php **/
