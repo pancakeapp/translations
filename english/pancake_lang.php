@@ -1682,6 +1682,10 @@ $lang = array(
     "error:using_old_php" => "You are using PHP :1, which has been out of date since :2 and is no longer supported by the PHP Group.",
     # End v4.12.1 changes
 
+    # Begin v4.12.7 changes
+    "settings:last_cron_run_datetime" => "Last time executed: :1",
+    # End v4.12.7 changes
+
 );
 
 /** End of file: pancake_lang.php **/
