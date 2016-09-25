@@ -1686,6 +1686,10 @@ $lang = array(
     "settings:last_cron_run_datetime" => "Last time executed: :1",
     # End v4.12.7 changes
 
+    # Begin v4.12.9 changes
+    "settings:hijacked_error" => '<div class="diagnostic-error"><h4>Your server is trying to trick you!</h4><p>You were trying to make a connection to :1, but your webserver hijacked it and instead connected to :2.<br /><br />This is an extremely serious security issue, because your username, password, and email contents are being sent to an email server different from the one you expected.<br /><br />Please contact your server administrator about this.</p></div>',
+    # End v4.12.9 changes
+
 );
 
 /** End of file: pancake_lang.php **/
