@@ -13,14 +13,14 @@
 // Account Creation
 $lang['account_creation_successful']        = 'Account Creato con Successo';
 $lang['account_creation_unsuccessful']       = 'Impossibile Creare Account';
-$lang['account_creation_duplicate_email']    = 'Email non Valida o gi‡ in uso';
-$lang['account_creation_duplicate_username']    = 'Nome Utente non Valido o gi‡ in Uso';
+$lang['account_creation_duplicate_email']    = 'Email non Valida o gi√† in uso';
+$lang['account_creation_duplicate_username']    = 'Nome Utente non Valido o gi√† in Uso';
 // Password
 $lang['password_change_successful']       = 'Password Modificata con Successo';
 $lang['password_change_unsuccessful']        = 'Impossibile Modificare Password';
 $lang['forgot_password_successful']       = 'Password Modificata eMail inviata';
 $lang['forgot_password_unsuccessful']       = 'Impossibile Reimpostare Password';
-$lang['cant_send_email'] = "Si Ë Verificato un Problema Durante Invio eMail.";
+$lang['cant_send_email'] = "Si √® Verificato un Problema Durante Invio eMail.";
 // Activation
 $lang['activate_successful']          = 'Account Attivato';
 $lang['activate_unsuccessful']         = 'Impossibile Attivare Account';
