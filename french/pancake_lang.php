@@ -1353,5 +1353,13 @@ $lang = array (
   # Begin v4.12.7 changes
   "settings:last_cron_run_datetime" => "Dernière exécution: :1",
   # End v4.12.7 changes
+  
+  # Begin v4.12.9 changes
+  "settings:hijacked_error" => '<div class="diagnostic-error"><h4>Votre serveur vous joue des tours!</h4><p>Vous tentiez de vous connecter à :1, mais votre serveur s\'est connecté à :2.<br /><br />Ceci est une brêche de sécurité importante car votre nom d\'utilisateur, votre mot de passe et votre adresse courriel ont été envoyés à un serveur de messagerie différent du vôtre.<br /><br />Veuillez contacter l\'administrateur de votre serveur à propos de cela.</p></div>',
+  # End v4.12.9 changes
+  
+  # Begin v4.12.13 changes
+  "invoices:edit_does_not_exist" => 'La facture que vous tentez de modifer est inexistante.',
+  # End v4.12.13 changes
 );
 /** End of file: pancake_lang.php **/
