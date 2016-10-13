@@ -1694,6 +1694,10 @@ $lang = array(
     "invoices:edit_does_not_exist" => 'The invoice you are trying to edit does not exist.',
     # End v4.12.13 changes
 
+    # Begin v4.12.14 changes
+    "settings:importedexpenses" => 'Imported :1 expenses successfully.',
+    # End v4.12.14 changes
+
 );
 
 /** End of file: pancake_lang.php **/
