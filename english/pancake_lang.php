@@ -1696,6 +1696,8 @@ $lang = array(
 
     # Begin v4.12.14 changes
     "settings:importedexpenses" => 'Imported :1 expenses successfully.',
+    "projects:is_timesheet_viewable" => "Show project timesheet in client area?",
+    "tasks:is_timesheet_viewable" => "Show task timesheet in client area?",
     # End v4.12.14 changes
 
 );
