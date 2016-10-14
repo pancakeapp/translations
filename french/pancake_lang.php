@@ -1361,5 +1361,11 @@ $lang = array (
   # Begin v4.12.13 changes
   "invoices:edit_does_not_exist" => 'La facture que vous tentez de modifer est inexistante.',
   # End v4.12.13 changes
+  
+  # Begin v4.12.14 changes
+  "settings:importedexpenses" => ':1 dépenses importées avec succès.',
+  "projects:is_timesheet_viewable" => "Afficher la feuille de temps dans la zone client?",
+  "tasks:is_timesheet_viewable" => "Afficher la liste des tâches dans la zone client?",
+  # End v4.12.14 changes
 );
 /** End of file: pancake_lang.php **/
