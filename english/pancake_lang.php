@@ -1700,6 +1700,11 @@ $lang = array(
     "tasks:is_timesheet_viewable" => "Show task timesheet in client area?",
     # End v4.12.14 changes
 
+    # Begin v4.12.15 changes
+    "notifications:mark_all_as_read" => "Mark All as Read",
+    'notifications:new_comment' => ':1 commented on <a href=":2">:3</a> on :4',
+    # End v4.12.15 changes
+
 );
 
 /** End of file: pancake_lang.php **/
