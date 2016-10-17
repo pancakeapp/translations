@@ -1705,6 +1705,11 @@ $lang = array(
     'notifications:new_comment' => ':1 commented on <a href=":2">:3</a> on :4',
     # End v4.12.15 changes
 
+    # Begin v4.12.16 changes
+    "invoices:unsent_recurrences" => "Unsent (Recurrences)",
+    "invoices:unsent_not_recurrences" => "Unsent (Non-Recurring Invoices)",
+    # End v4.12.16 changes
+
 );
 
 /** End of file: pancake_lang.php **/
