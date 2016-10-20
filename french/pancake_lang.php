@@ -1376,6 +1376,10 @@ $lang = array (
   # Begin v4.12.16 changes
   "invoices:unsent_recurrences" => "Non envoyées (factures récurrentes)",
   "invoices:unsent_not_recurrences" => "Non envoyées (factures non récurentes)",
+  "discussions:does_not_exist" => "L'item que vous tentez d'accéder n'existe pas.",
+  "discussions:private_commented_successfully" => "Votre commentaire privé a été publié avec succès. Le client ne pourra le voir.",
+  "discussions:public_commented_successfully" => "Votre commentaire a été publié avec succès. Une notification par courriel sera envoyé au client.",
+  "discussions:discussion_area" => "Zone de discussion",
   # End v4.12.16 changes
 
 );
