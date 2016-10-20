@@ -1708,6 +1708,10 @@ $lang = array(
     # Begin v4.12.16 changes
     "invoices:unsent_recurrences" => "Unsent (Recurrences)",
     "invoices:unsent_not_recurrences" => "Unsent (Non-Recurring Invoices)",
+    "discussions:does_not_exist" => "The item you were trying to access does not exist.",
+    "discussions:private_commented_successfully" => "Your private comment was posted successfully. The client won't see it.",
+    "discussions:public_commented_successfully" => "Your comment was posted successfully, and the client was emailed about it.",
+    "discussions:discussion_area" => "Discussion Area",
     # End v4.12.16 changes
 
 );
