@@ -142,7 +142,6 @@ $lang = array (
   'global:color' => 'Couleur',
   'global:save' => 'Enregistrer',
   'global:unknown' => 'Inconnu',
-  'global:upload_ini_size' => 'Le fichier téléversé dépasse la limite de poids imposée par votre installation de PHP.',
   'global:upload_error' => 'Un problème est survenu lors du téléversement du fichier. Veuillez réessayer.',
   'global:recurring' => 'Récurrent',
   'global:unsent' => 'Non envoyé',
@@ -1381,6 +1380,14 @@ $lang = array (
   "discussions:public_commented_successfully" => "Votre commentaire a été publié avec succès. Une notification par courriel sera envoyé au client.",
   "discussions:discussion_area" => "Zone de discussion",
   # End v4.12.16 changes
+  
+  # Begin v4.12.18 changes
+   "projects:project_invoices" => "Factures de projets",
+   "projects:project_estimates" => "Soumissions de projets",
+   'global:upload_ini_size' => 'Le fichier que vous téléversé excede la taille imposé par votre serveur web (:1).',
+   "discussions:message_cannot_be_empty" => "Votre commentaire ne peut être vide.",
+    # End v4.12.18 changes
+
 
 );
 /** End of file: pancake_lang.php **/
