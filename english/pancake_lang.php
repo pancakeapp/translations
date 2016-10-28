@@ -137,7 +137,6 @@ $lang = array(
     'global:color' => 'Color',
     'global:save' => 'Save',
     'global:unknown' => 'Unknown',
-    'global:upload_ini_size' => 'The file you uploaded exceeds the size limit imposed by your PHP installation.',
     'global:upload_error' => 'A problem occurred while uploading the file. Please try again.',
     'global:recurring' => 'Recurring',
     'global:unsent' => 'Unsent',
@@ -1717,6 +1716,8 @@ $lang = array(
     # Begin v4.12.18 changes
     "projects:project_invoices" => "Project Invoices",
     "projects:project_estimates" => "Project Estimates",
+    'global:upload_ini_size' => 'The file you uploaded exceeds the size limit imposed by your web server (:1).',
+    "discussions:message_cannot_be_empty" => "Your comment cannot be empty.",
     # End v4.12.18 changes
 
 );
