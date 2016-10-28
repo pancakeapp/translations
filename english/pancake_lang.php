@@ -1714,6 +1714,11 @@ $lang = array(
     "discussions:discussion_area" => "Discussion Area",
     # End v4.12.16 changes
 
+    # Begin v4.12.18 changes
+    "projects:project_invoices" => "Project Invoices",
+    "projects:project_estimates" => "Project Estimates",
+    # End v4.12.18 changes
+
 );
 
 /** End of file: pancake_lang.php **/
