@@ -1718,6 +1718,10 @@ $lang = array(
     "projects:project_estimates" => "Project Estimates",
     'global:upload_ini_size' => 'The file you uploaded exceeds the size limit imposed by your web server (:1).',
     "discussions:message_cannot_be_empty" => "Your comment cannot be empty.",
+    "global:change_date_range" => "Change Date Range",
+    "timesheet:rounded" => "Rounded",
+    "global:x_hours" => ":1 hours",
+    "global:one_hour" => ":1 hour",
     # End v4.12.18 changes
 
 );
