@@ -1386,6 +1386,8 @@ $lang = array (
    "projects:project_estimates" => "Soumissions de projets",
    'global:upload_ini_size' => 'Le fichier que vous téléversé excede la taille imposé par votre serveur web (:1).',
    "discussions:message_cannot_be_empty" => "Votre commentaire ne peut être vide.",
+   "global:change_date_range" => "Modifier la plage horaire",
+   "timesheet:rounded" => "Arrondi",
     # End v4.12.18 changes
 
 
