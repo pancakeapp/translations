@@ -1720,8 +1720,6 @@ $lang = array(
     "discussions:message_cannot_be_empty" => "Your comment cannot be empty.",
     "global:change_date_range" => "Change Date Range",
     "timesheet:rounded" => "Rounded",
-    "global:x_hours" => ":1 hours",
-    "global:one_hour" => ":1 hour",
     # End v4.12.18 changes
 
 );
