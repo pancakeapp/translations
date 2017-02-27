@@ -38,7 +38,6 @@ $lang = array(
     'global:access_denied' => "Access Denied",
     'global:users' => 'Users',
     'global:send_to_client' => 'Send to client',
-    'global:couldnotsendemail' => 'Could not send the email.  Please check your settings.',
     'global:emailsent' => 'Email has been sent!',
     'global:yes' => 'Yes',
     'global:no' => 'No',
@@ -1721,6 +1720,34 @@ $lang = array(
     "global:change_date_range" => "Change Date Range",
     "timesheet:rounded" => "Rounded",
     # End v4.12.18 changes
+
+    # Begin v4.12.19 changes
+    "projects:deleted" => "Project deleted successfully!",
+    'tickets:edited' => 'Ticket :1 edited successfully!',
+    # End v4.12.19 changes
+
+    # Begin v4.12.20 changes
+    "global:x_hours" => ":1 hours",
+    "global:one_hour" => ":1 hour",
+    # End v4.12.20 changes
+
+    # Begin v4.12.21 changes
+    "global:couldnotsendemail" => "Pancake could not send the email.<br />Go to Settings > Emails and review your email settings.",
+    "settings:gmail_access_denied" => "You denied your Pancake access to Gmail for sending emails.",
+    'notifications:new_ticket' => ':1 created <a href=":2">:3</a> on :4',
+    'notifications:responded_ticket' => ':1 responded to <a href=":2">:3</a> on :4',
+    'notifications:updated_status_ticket' => ':1 changed the status of <a href=":2">:3</a> to <strong>:5</strong> on :4',
+    'tickets:ticket_title' => "Ticket #:1 - :2",
+    # End v4.12.21 changes
+
+    # Begin v4.12.22 changes
+    "invoices:unpaid_recurrences" => "All Unpaid (Recurrences)",
+    "invoices:unpaid_not_recurrences" => "All Unpaid (Non-Recurring Invoices)",
+    # End v4.12.22 changes
+
+    # Begin v4.12.24 changes
+    "invoices:amount_including_surcharge" => ":1 including a :2 surcharge",
+    # End v4.12.24 changes
 
 );
 
