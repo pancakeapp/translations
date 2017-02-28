@@ -43,7 +43,6 @@ $lang = array (
   'global:access_denied' => 'Accès refusé',
   'global:users' => 'Utilisateurs',
   'global:send_to_client' => 'Envoyer au client',
-  'global:couldnotsendemail' => 'Impossible d\'envoyer l\'e-mail. S\'il vous plaît vérifier vos paramètres.',
   'global:emailsent' => 'Votre courriel a été envoyé!',
   'global:yes' => 'Oui',
   'global:no' => 'Non',
@@ -1382,14 +1381,41 @@ $lang = array (
   # End v4.12.16 changes
   
   # Begin v4.12.18 changes
-   "projects:project_invoices" => "Factures de projets",
-   "projects:project_estimates" => "Soumissions de projets",
-   'global:upload_ini_size' => 'Le fichier que vous téléversé excede la taille imposé par votre serveur web (:1).',
-   "discussions:message_cannot_be_empty" => "Votre commentaire ne peut être vide.",
-   "global:change_date_range" => "Modifier la plage horaire",
-   "timesheet:rounded" => "Arrondi",
-    # End v4.12.18 changes
-
+  "projects:project_invoices" => "Factures de projets",
+  "projects:project_estimates" => "Soumissions de projets",
+  'global:upload_ini_size' => 'Le fichier que vous téléversé excede la taille imposé par votre serveur web (:1).',
+  "discussions:message_cannot_be_empty" => "Votre commentaire ne peut être vide.",
+  "global:change_date_range" => "Modifier la plage horaire",
+  "timesheet:rounded" => "Arrondi",
+   # End v4.12.18 changes
+  
+   # Begin v4.12.19 changes
+   "projects:deleted" => "Projet supprimé avec succès!",
+   'tickets:edited' => 'Billet :1 modifié avec succès!',
+   # End v4.12.19 changes
+  
+   # Begin v4.12.20 changes
+   "global:x_hours" => ":1 heures",
+   "global:one_hour" => ":1 heure",
+   # End v4.12.20 changes
+  
+   # Begin v4.12.21 changes
+   "global:couldnotsendemail" => "Pancake n'a pu envoyer le courriel.<br />Allez dans les paramètres > Courriels et vérifiez vos paramètres courriels.",
+   "settings:gmail_access_denied" => "Vous avez bloqué l'accès Gmail à votre installation Pancake pour l'envoi de courriel.",
+   'notifications:new_ticket' => ':1 créé <a href=":2">:3</a> le :4',
+   'notifications:responded_ticket' => ':1 a répondu à <a href=":2">:3</a> on :4',
+   'notifications:updated_status_ticket' => ':1 a changé le statut de <a href=":2">:3</a> à <strong>:5</strong> le :4',
+   'tickets:ticket_title' => "Billet #:1 - :2",
+   # End v4.12.21 changes
+   
+   # Begin v4.12.22 changes
+   "invoices:unpaid_recurrences" => "Tous les impayés (facture récurente)",
+   "invoices:unpaid_not_recurrences" => "Tous les impayés (facture non récurente)",
+   # End v4.12.22 changes
+   
+   # Begin v4.12.24 changes
+   "invoices:amount_including_surcharge" => ":1 incluant une surcharge de :2",
+   # End v4.12.24 changes
 
 );
 /** End of file: pancake_lang.php **/
