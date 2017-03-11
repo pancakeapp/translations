@@ -1749,6 +1749,15 @@ $lang = array(
     "invoices:amount_including_surcharge" => ":1 including a :2 surcharge",
     # End v4.12.24 changes
 
+    # Begin v4.12.27 changes
+    "invoices:delete_does_not_exist" => 'The invoice you are trying to delete does not exist.',
+    "invoices:select_a_gateway" => "You need to specify a payment method for this payment.",
+    "discussions:are_you_sure_delete" => "Are you sure you want to delete this comment?",
+    "discussions:deleted" => "You've deleted the comment successfully.",
+    "discussions:edited" => "You've edited the comment successfully.",
+    "projects:back_to_project" => "Back to Project",
+    # End v4.12.27 changes
+
 );
 
 /** End of file: pancake_lang.php **/
