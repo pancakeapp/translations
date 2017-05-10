@@ -879,7 +879,6 @@ $lang = array(
     'authorize:transaction_key' => 'Transaction Key',
     'paypal:email' => 'PayPal Email',
     'paypal:fee' => 'PayPal Fee (%)',
-    'paypalpro:paypalpro' => 'PayPal Payments Pro (BETA)',
     'paypalpro:viacreditcard' => 'Pay via Credit Card',
     'cash:cash' => 'Cash',
     'check:check' => 'Check',
@@ -1757,6 +1756,16 @@ $lang = array(
     "discussions:edited" => "You've edited the comment successfully.",
     "projects:back_to_project" => "Back to Project",
     # End v4.12.27 changes
+
+    # Begin v4.13.0 changes
+    "reports:all_business_identities" => "All Business Identities",
+    "clients:default_currency" => "Default Currency",
+    "clients:default_currency_explanation" => "Will be used by default for all new invoices, projects and estimates for this client.",
+    "paypalpro:paypalpro" => "PayPal Payments Pro",
+    "gateways:surcharge_percentage" => "Transaction Fee (%)",
+    "gateways:surcharge_percentage_explanation" => "Will automatically be added to every payment made with this payment gateway.",
+    "gateways:surcharge_invoice" => ":1 Surcharge",
+    # End v4.13.0 changes
 
 );
 
