@@ -1416,6 +1416,26 @@ $lang = array (
    # Begin v4.12.24 changes
    "invoices:amount_including_surcharge" => ":1 incluant une surcharge de :2",
    # End v4.12.24 changes
+  
+  # Begin v4.12.27 changes
+    "invoices:delete_does_not_exist" => "La facture que vous tentez de supprimer n'est pas disponible.",
+    "invoices:select_a_gateway" => "Vous devez spécifier une méthode de paiement.",
+    "discussions:are_you_sure_delete" => "Voulez vous vraiment supprimer ce commentaire?",
+    "discussions:deleted" => "Le commentaire a été supprimé.",
+    "discussions:edited" => "Le commentaire a été modifié avec succès.",
+    "projects:back_to_project" => "Retour au projet",
+    # End v4.12.27 changes
+  
+    # Begin v4.13.0 changes
+    "reports:all_business_identities" => "Toutes les identitées d'entreprises",
+    "clients:default_currency" => "Devise par défaut",
+    "clients:default_currency_explanation" => "Sera utilisé par défaut pour toutes les nouvelles factures, projets et soumissions pour ce client.",
+    "paypalpro:paypalpro" => "Paiments PayPal Pro",
+    "gateways:surcharge_percentage" => "Frais de transaction (%)",
+    "gateways:surcharge_percentage_explanation" => "Sera ajouté automatiquement au paiement effectué avec cette plateforme de paiement.",
+    "gateways:surcharge_invoice" => ":1 Surcharge",
+    # End v4.13.0 changes
+
 
 );
 /** End of file: pancake_lang.php **/
