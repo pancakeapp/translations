@@ -1764,8 +1764,12 @@ $lang = array(
     "paypalpro:paypalpro" => "PayPal Payments Pro",
     "gateways:surcharge_percentage" => "Transaction Fee (%)",
     "gateways:surcharge_percentage_explanation" => "Will automatically be added to every payment made with this payment gateway.",
-    "gateways:surcharge_invoice" => ":1 Surcharge",
     # End v4.13.0 changes
+
+    # Begin v4.13.4 changes
+    "gateways:surcharge_invoice" => ":1 Surcharge for Invoice #:2",
+    "gateways:direct_deposit" => "Direct Deposit",
+    # End v4.13.4 changes
 
 );
 
