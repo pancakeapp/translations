@@ -1336,5 +1336,6 @@ Die Fehlermeldung war:
   'credit_notes:messageupdated' => 'Die Gutschrift wurde aktualisiert!',
   'invoices:could_not_auto_charge' => 'Pancake war nicht in der Lage, die Rechnung für Ihren Kunden automatisch durchzuführen. Ihr Kunde muss die Rechnung #:1 manuell bezahlen.',
   'invoices:auto_charged' => 'Ihrem Kunden wurde Rechnung #:1 ausgestellt. Die Rechnung wird jetzt bezahlt.',
+  "invoices:due_date" => "Fälligkeitsdatum",
 );
 /** End of file: pancake_lang.php **/
