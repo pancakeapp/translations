@@ -13,6 +13,7 @@
         </testsuite>
     </testsuites>
     <php>
+        <ini name="memory_limit" value="2048M"/>
         <const name="BASEPATH" value="UNKNOWN"/>
     </php>
 </phpunit>
