@@ -1435,6 +1435,11 @@ $lang = array (
     "gateways:surcharge_percentage_explanation" => "Sera ajouté automatiquement au paiement effectué avec cette plateforme de paiement.",
     "gateways:surcharge_invoice" => ":1 Surcharge",
     # End v4.13.0 changes
+  
+    # Begin v4.13.4 changes
+    "gateways:surcharge_invoice" => ":1 de surcharge pour la facture #:2",
+    "gateways:direct_deposit" => "Dépôt direct",
+    # End v4.13.4 changes
 
 
 );
