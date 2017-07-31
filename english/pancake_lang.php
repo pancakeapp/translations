@@ -1771,6 +1771,15 @@ $lang = array(
     "gateways:direct_deposit" => "Direct Deposit",
     # End v4.13.4 changes
 
+    # Begin v4.13.6 changes
+    "items:period" => "Period",
+    "items:period_day" => "Days",
+    "items:period_week" => "Weeks",
+    "items:period_month" => "Months",
+    "items:period_year" => "Years",
+    'credit_notes:added' => '<strong>Success!</strong> The credit note has been added.',
+    # End v4.13.6 changes
+
 );
 
 /** End of file: pancake_lang.php **/
