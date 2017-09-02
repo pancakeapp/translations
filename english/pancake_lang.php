@@ -30,7 +30,6 @@ $lang = array(
     'global:tickets' => 'Tickets',
     'global:project' => 'Project',
     'global:upload_failed' => 'There was a problem uploading your file. Please try again. If the problem persists, please contact support@pancakeapp.com.',
-    'global:upload_not_allowed' => 'The file type of the file you were trying to upload is not allowed. If you need to upload a file of that type, please compress it into a .zip or any other archive format you might find appropriate.',
     'global:copied' => 'Copied!',
     'global:sentbutunpaid' => 'Outstanding (Sent but unpaid)',
     'global:task' => 'Task',
@@ -1779,6 +1778,12 @@ $lang = array(
     "items:period_year" => "Years",
     'credit_notes:added' => '<strong>Success!</strong> The credit note has been added.',
     # End v4.13.6 changes
+
+    # Begin v4.13.7 changes
+    "global:upload_not_allowed" => "Uploading ':1' files is not allowed. If you need to upload a file of that type, please compress it into a .zip or any other archive format you might find appropriate.",
+    "settings:pdf_footer_contents" => "PDF Footer Contents",
+    "settings:pdf_footer_contents_explanation" => "This will appear on every page of the PDFs for invoices, estimates and credit notes.<br />You can use <strong>{{page}}</strong> and <strong>{{pages}}</strong> to display the current page and the page count, respectively.",
+    # End v4.13.7 changes
 
 );
 
