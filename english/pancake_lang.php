@@ -1785,6 +1785,10 @@ $lang = array(
     "settings:pdf_footer_contents_explanation" => "This will appear on every page of the PDFs for invoices, estimates and credit notes.<br />You can use <strong>{{page}}</strong> and <strong>{{pages}}</strong> to display the current page and the page count, respectively.",
     # End v4.13.7 changes
 
+    # Begin v4.13.8 changes
+    "settings:what_variables_can_i_use" => "What variables can I use?",
+    # End v4.13.8 changes
+
 );
 
 /** End of file: pancake_lang.php **/
