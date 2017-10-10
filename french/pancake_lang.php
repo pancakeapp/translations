@@ -1455,7 +1455,10 @@ $lang = array (
     "settings:pdf_footer_contents" => "Contenu du pied de page du PDF",
     "settings:pdf_footer_contents_explanation" => "Ceci s'affichera sur chaque page des fichiers PDF pour les factures, devis et notes de crédits.<br />Vous pouvez utiliser <strong>{{page}}</strong> et <strong>{{pages}}</strong> pour afficher la page utilisé et le nombre du total de pages.",
     # End v4.13.7 changes
-
+ 
+  # Begin v4.13.8 changes
+    "settings:what_variables_can_i_use" => "Quelles variables puis-je utiliser?",
+    # End v4.13.8 changes
 
 );
 /** End of file: pancake_lang.php **/
