@@ -1789,6 +1789,11 @@ $lang = array(
     "settings:what_variables_can_i_use" => "What variables can I use?",
     # End v4.13.8 changes
 
+    # Begin v4.13.18 changes
+    "settings:tax_transaction_fees" => "Are transaction fees taxable?",
+    "settings:tax_transaction_fees_explanation" => "If checked, any transaction fees charged to your clients will be marked as including tax for record-keeping purposes.<br />This does not change the amount your clients are charged, just whether that amount includes tax.",
+    # End v4.13.18 changes
+
 );
 
 /** End of file: pancake_lang.php **/
