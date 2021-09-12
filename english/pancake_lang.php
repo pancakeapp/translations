@@ -1794,6 +1794,10 @@ $lang = array(
     "settings:tax_transaction_fees_explanation" => "If checked, any transaction fees charged to your clients will be marked as including tax for record-keeping purposes.<br />This does not change the amount your clients are charged, just whether that amount includes tax.",
     # End v4.13.18 changes
 
+    # Begin v4.14.0 changes
+    "gateways:cc_permission" => 'I authorise :1 to send instructions to the financial institution that issued my card to take payments from my card in accordance with the terms of our agreement.'
+    # End v4.14.0 changes
+
 );
 
 /** End of file: pancake_lang.php **/
