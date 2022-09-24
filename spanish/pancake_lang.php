@@ -1324,5 +1324,145 @@ $lang = array (
   'invoices:auto_charged' => 'A su cliente se le ha cobrado la factura #:1. La factura ya está pagada.',
   'settings:gmail_setup_successfully' => '¡Has conectado con éxito tu Pancake con tu cuenta de Gmail!',
   'credit_notes:messageupdated' => '¡La nota de crédito se ha actualizado!',
+
+    # Begin v4.12.0 changes
+    "invoices:pancake_cannot_auto_charge" => "No hay detalles de pago guardados para este cliente, por lo que Pancake no puede cobrar automáticamente. El cliente tiene que pagarte a través de Stripe al menos una vez para guardar sus detalles de pago.",
+    "invoices:auto_charge_needs_pancake_cron_job" => 'Para cobrar automáticamente a los clientes, debes configurar el <a target='_blank' href='https://www.pancakeapp.com/documentation/cron'>Pancake Cron Job</a>.',
+    "settings:pancake_uses_our_servers" => "Nota: Pancake usa servidores Pancake para asegurarse de que el permiso para usar Gmail no expire.<br />No se almacena información de ningún tipo. Si tienes tu propia cuenta de desarrollador de Google, puedes <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>usar tu propio servidor</a>.",
+    "settings:you_are_signed_in" => "Has iniciado sesión como: 1.<br />Haz clic en el botón a continuación si necesitas actualizar tus datos o usar una cuenta diferente.",
+    "settings:you_are_using_old_auth" => "Actualmente, Pancake está enviando correos electrónicos como :1 usando tu correo electrónico y contraseña.<br />Haz clic en el botón a continuación para actualizar a una forma más segura de usar Gmail.",
+    'credit_notes:resend' => 'Reenviar nota de crédito',
+    "global:support" => "Ayuda/Soporte",
+    "settings:filesystem" => "Dónde almacenar cargas",
+    "settings:filesystem_local" => "Carpeta de cargas",
+    "filesystem:s3_access_key" => "Llave de acceso",
+    "filesystem:s3_secret_key" => "Llave secreta",
+    "filesystem:s3_prefix" => "Carpeta (opcional)",
+    "filesystem:s3_bucket" => "S3 Bucket",
+    "invoices:amount_due" => "Importe pendiente",
+    "invoices:due_date" => "Fecha de vencimiento",
+    "settings:filesystem_explain" => "Nota: Si cambias esta configuración, Pancake copiará todos los archivos en el nuevo lugar de almacenamiento. No necesitarás hacer nada más.",
+    # End v4.12.0 changes
+
+    # Begin v4.12.1 changes
+    "error:using_old_php" => "Estás utilizando PHP :1, que no está actualizado desde :2 y ya no es compatible con PHP Group.",
+    # End v4.12.1 changes
+
+    # Begin v4.12.7 changes
+    "settings:last_cron_run_datetime" => "Última vez ejecutado: :1",
+    # End v4.12.7 changes
+
+    # Begin v4.12.9 changes
+    "settings:hijacked_error" => '<div class='diagnostic-error'><h4>¡Tu servidor está tratando de engañarte!</h4><p>Estabas tratando de hacer una conexión a :1, pero tu servidor web lo secuestró y en su lugar se conectó a :2 .<br /><br />Este es un problema de seguridad extremadamente grave, porque tu nombre de usuario, contraseña y contenido de correo electrónico se envían a un servidor de correo electrónico diferente al que esperaba.<br /><br />Por favor, ponte en contacto con tu administrador del servidor.</p></div>',
+    # End v4.12.9 changes
+
+    # Begin v4.12.13 changes
+    "invoices:edit_does_not_exist" => 'La factura que intentas editar no existe.',
+    # End v4.12.13 changes
+
+    # Begin v4.12.14 changes
+    "settings:importedexpenses" => 'Importado :1 gastos con éxito.',
+    "projects:is_timesheet_viewable" => "¿Mostrar la hoja de tiempo del proyecto en el área del cliente?",
+    "tasks:is_timesheet_viewable" => "¿Mostrar la hoja de tiempo de la tarea en el área del cliente?",
+    # End v4.12.14 changes
+
+    # Begin v4.12.15 changes
+    "notifications:mark_all_as_read" => "Marcar todo como leido",
+    'notifications:new_comment' => ':1 comentó <a href=':2'>:3</a> en :4',
+    # End v4.12.15 changes
+
+    # Begin v4.12.16 changes
+    "invoices:unsent_recurrences" => "No enviadas (facturas recurrentes)",
+    "invoices:unsent_not_recurrences" => "No enviadas (facturas no recurrentes)",
+    "discussions:does_not_exist" => "El elemento al que estabas intentando acceder no existe.",
+    "discussions:private_commented_successfully" => "Tu comentario privado fue publicado con éxito. El cliente no lo verá.",
+    "discussions:public_commented_successfully" => "Tu comentario se publicó con éxito y el cliente recibió un correo electrónico al respecto.",
+    "discussions:discussion_area" => "Área de discusión",
+    # End v4.12.16 changes
+
+    # Begin v4.12.18 changes
+    "projects:project_invoices" => "Facturas de proyecto",
+    "projects:project_estimates" => "Estimaciones del proyecto",
+    "discussions:message_cannot_be_empty" => "Tu comentario no puede estar vacío.",
+    "global:change_date_range" => "Cambiar rango de fechas",
+    "timesheet:rounded" => "Redondeado",
+    # End v4.12.18 changes
+
+    # Begin v4.12.19 changes
+    "projects:deleted" => "¡Proyecto eliminado con éxito!",
+    'tickets:edited' => 'Ticket :1 editado con éxito!',
+    # End v4.12.19 changes
+
+    # Begin v4.12.20 changes
+    "global:x_hours" => ":1 horas",
+    "global:one_hour" => ":1 hora",
+    # End v4.12.20 changes
+
+    # Begin v4.12.21 changes
+    "settings:gmail_access_denied" => "Negaste el acceso de tu Pancake a Gmail para enviar correos electrónicos.",
+    'notifications:new_ticket' => ':1 creado <a href=':2'>:3</a> el :4',
+    'notifications:responded_ticket' => ':1 respondido a <a href=':2'>:3</a> el :4',
+    'notifications:updated_status_ticket' => ':1 cambió el estado de <a href=':2'>:3</a> a <strong>:5</strong> en :4',
+    'tickets:ticket_title' => "Ticket #:1 - :2",
+    # End v4.12.21 changes
+
+    # Begin v4.12.22 changes
+    "invoices:unpaid_recurrences" => "Total sin pagar (recurrencias)",
+    "invoices:unpaid_not_recurrences" => "Todo sin pagar (facturas no recurrentes)",
+    # End v4.12.22 changes
+
+    # Begin v4.12.24 changes
+    "invoices:amount_including_surcharge" => ":1 incluido un recargo de :2",
+    # End v4.12.24 changes
+
+    # Begin v4.12.27 changes
+    "invoices:delete_does_not_exist" => 'La factura que intenta eliminar no existe.',
+    "invoices:select_a_gateway" => "Debes especificar un método de pago para este pago.",
+    "discussions:are_you_sure_delete" => "¿Seguro que quieres eliminar este comentario?",
+    "discussions:deleted" => "Has eliminado el comentario con éxito.",
+    "discussions:edited" => "Has editado el comentario con éxito.",
+    "projects:back_to_project" => "Volver al proyecto",
+    # End v4.12.27 changes
+
+    # Begin v4.13.0 changes
+    "reports:all_business_identities" => "Todas las identidades comerciales",
+    "clients:default_currency" => "Moneda predeterminada",
+    "clients:default_currency_explanation" => "Se utilizará de forma predeterminada para todas las nuevas facturas, proyectos y presupuestos de este cliente.",
+    "gateways:surcharge_percentage" => "Tarifa de transacción (%)",
+    "gateways:surcharge_percentage_explanation" => "Se añadirá automáticamente a cada pago realizado con este método de pago.",
+    # End v4.13.0 changes
+
+    # Begin v4.13.4 changes
+    "gateways:surcharge_invoice" => "1 Recargo por Factura #:2",
+    "gateways:direct_deposit" => "Deposito directo",
+    # End v4.13.4 changes
+
+    # Begin v4.13.6 changes
+    "items:period" => "Período",
+    "items:period_day" => "Días",
+    "items:period_week" => "Semanas",
+    "items:period_month" => "Meses",
+    "items:period_year" => "Años",
+    'credit_notes:added' => '<strong>¡Éxito!</strong> Se ha agregado la nota de crédito.',
+    # End v4.13.6 changes
+
+    # Begin v4.13.7 changes
+    "settings:pdf_footer_contents" => "Contenido del pie de página de PDF",
+    "settings:pdf_footer_contents_explanation" => "Esto aparecerá en cada página de los PDF para facturas, presupuestos y notas de crédito.<br />Puedes usar <strong>{{page}}</strong> y <strong>{{pages}}</strong> para mostrar la página actual y el número de páginas, respectivamente.",
+    # End v4.13.7 changes
+
+    # Begin v4.13.8 changes
+    "settings:what_variables_can_i_use" => "¿Qué variables puedo usar?",
+    # End v4.13.8 changes
+
+    # Begin v4.13.18 changes
+    "settings:tax_transaction_fees" => "¿Las tarifas de transacción están sujetas a impuestos?",
+    "settings:tax_transaction_fees_explanation" => "Si se marca, cualquier tarifa de transacción cobrada a tus clientes se marcará como impuestos incluidos, para fines de mantenimiento de registros.<br />Esto no cambia el importe que se cobra a tus clientes.",
+    # End v4.13.18 changes
+
+    # Begin v4.14.0 changes
+    "gateways:cc_permission" => 'Autorizo :1 a enviar instrucciones a la institución financiera que emitió mi tarjeta para recibir pagos de mi tarjeta de acuerdo con los términos de nuestro acuerdo.'
+    # End v4.14.0 changes
+
 );
 /** End of file: pancake_lang.php **/
