@@ -1795,8 +1795,12 @@ $lang = array(
     # End v4.13.18 changes
 
     # Begin v4.14.0 changes
-    "gateways:cc_permission" => 'I authorise :1 to send instructions to the financial institution that issued my card to take payments from my card in accordance with the terms of our agreement.'
+    "gateways:cc_permission" => 'I authorise :1 to send instructions to the financial institution that issued my card to take payments from my card in accordance with the terms of our agreement.',
     # End v4.14.0 changes
+
+    # Begin v4.15.0 changes
+    "clients:can_view_invoices_without_passphrase" => "Allow client to view invoices without entering their passphrase?",
+    # End v4.15.0 changes
 
 );
 
