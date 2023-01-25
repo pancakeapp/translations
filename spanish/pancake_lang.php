@@ -1327,7 +1327,7 @@ $lang = array (
 
     # Begin v4.12.0 changes
     "invoices:pancake_cannot_auto_charge" => "No hay detalles de pago guardados para este cliente, por lo que Pancake no puede cobrar automáticamente. El cliente tiene que pagarte a través de Stripe al menos una vez para guardar sus detalles de pago.",
-    "invoices:auto_charge_needs_pancake_cron_job" => 'Para cobrar automáticamente a los clientes, debes configurar el <a target='_blank' href='https://www.pancakeapp.com/documentation/cron'>Pancake Cron Job</a>.',
+    "invoices:auto_charge_needs_pancake_cron_job" => "Para cobrar automáticamente a los clientes, debes configurar el <a target='_blank' href='https://www.pancakeapp.com/documentation/cron'>Pancake Cron Job</a>.",
     "settings:pancake_uses_our_servers" => "Nota: Pancake usa servidores Pancake para asegurarse de que el permiso para usar Gmail no expire.<br />No se almacena información de ningún tipo. Si tienes tu propia cuenta de desarrollador de Google, puedes <a target='_blank' href='https://www.pancakeapp.com/faq/google-oauth'>usar tu propio servidor</a>.",
     "settings:you_are_signed_in" => "Has iniciado sesión como: 1.<br />Haz clic en el botón a continuación si necesitas actualizar tus datos o usar una cuenta diferente.",
     "settings:you_are_using_old_auth" => "Actualmente, Pancake está enviando correos electrónicos como :1 usando tu correo electrónico y contraseña.<br />Haz clic en el botón a continuación para actualizar a una forma más segura de usar Gmail.",
@@ -1353,7 +1353,7 @@ $lang = array (
     # End v4.12.7 changes
 
     # Begin v4.12.9 changes
-    "settings:hijacked_error" => '<div class='diagnostic-error'><h4>¡Tu servidor está tratando de engañarte!</h4><p>Estabas tratando de hacer una conexión a :1, pero tu servidor web lo secuestró y en su lugar se conectó a :2 .<br /><br />Este es un problema de seguridad extremadamente grave, porque tu nombre de usuario, contraseña y contenido de correo electrónico se envían a un servidor de correo electrónico diferente al que esperaba.<br /><br />Por favor, ponte en contacto con tu administrador del servidor.</p></div>',
+    "settings:hijacked_error" => "<div class='diagnostic-error'><h4>¡Tu servidor está tratando de engañarte!</h4><p>Estabas tratando de hacer una conexión a :1, pero tu servidor web lo secuestró y en su lugar se conectó a :2 .<br /><br />Este es un problema de seguridad extremadamente grave, porque tu nombre de usuario, contraseña y contenido de correo electrónico se envían a un servidor de correo electrónico diferente al que esperaba.<br /><br />Por favor, ponte en contacto con tu administrador del servidor.</p></div>",
     # End v4.12.9 changes
 
     # Begin v4.12.13 changes
@@ -1368,7 +1368,7 @@ $lang = array (
 
     # Begin v4.12.15 changes
     "notifications:mark_all_as_read" => "Marcar todo como leido",
-    'notifications:new_comment' => ':1 comentó <a href=':2'>:3</a> en :4',
+    'notifications:new_comment' => ":1 comentó <a href=':2'>:3</a> en :4",
     # End v4.12.15 changes
 
     # Begin v4.12.16 changes
@@ -1400,9 +1400,9 @@ $lang = array (
 
     # Begin v4.12.21 changes
     "settings:gmail_access_denied" => "Negaste el acceso de tu Pancake a Gmail para enviar correos electrónicos.",
-    'notifications:new_ticket' => ':1 creado <a href=':2'>:3</a> el :4',
-    'notifications:responded_ticket' => ':1 respondido a <a href=':2'>:3</a> el :4',
-    'notifications:updated_status_ticket' => ':1 cambió el estado de <a href=':2'>:3</a> a <strong>:5</strong> en :4',
+    'notifications:new_ticket' => ":1 creado <a href=':2'>:3</a> el :4",
+    'notifications:responded_ticket' => ":1 respondido a <a href=':2'>:3</a> el :4",
+    'notifications:updated_status_ticket' => ":1 cambió el estado de <a href=':2'>:3</a> a <strong>:5</strong> en :4",
     'tickets:ticket_title' => "Ticket #:1 - :2",
     # End v4.12.21 changes
 
